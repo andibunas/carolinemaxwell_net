@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Breadcrumb from '../components/layout/Breadcrumb';
 import ContactForm from '../components/about/ContactForm';
 
-const EMAIL = 'caroline@carolinemaxwell.art';
+const EMAIL = 'mail@carolinemaxwell.net';
 
 export default function ContactPage() {
   useEffect(() => {

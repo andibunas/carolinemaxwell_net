@@ -136,7 +136,7 @@ What's inside the zip:
 Quick start once you unzip it:
 
 ```bash
-cd caroline-maxwell-portfolio
+cd caroline-maxwell-website
 npm install
 npm run dev
 ```

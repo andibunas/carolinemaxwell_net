@@ -25,7 +25,7 @@ npm -v
 ## 2. Install & run locally
 
 ```bash
-cd caroline-maxwell-portfolio
+cd caroline-maxwell-website
 npm install
 npm run dev
 ```
