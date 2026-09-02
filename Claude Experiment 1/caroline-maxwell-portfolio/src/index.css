@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Dark, warm gallery palette -- letting the artwork images carry the color. */
-  --color-paper: #121210;
-  --color-panel: #191815;
-  --color-ink: #EDEAE2;
-  --color-ink-soft: #A9A499;
-  --color-ink-faint: #726D62;
-  --color-line: #2C2A25;
-  --color-line-strong: #3C3931;
-  --color-gold: #C6A15B;
+  /* Light, warm gallery palette -- letting the artwork images carry the color. */
+  --color-paper: #FBFAF6;
+  --color-panel: #F3F1EA;
+  --color-ink: #1E1C18;
+  --color-ink-soft: #565146;
+  --color-ink-faint: #8C8778;
+  --color-line: #E4E0D6;
+  --color-line-strong: #D2CCBD;
+  --color-gold: #A47C2E;
 
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
