@@ -1,0 +1,248 @@
+{
+  "artworks": {
+    "categories": [
+      {
+        "id": "january-jones",
+        "name": "January Jones",
+        "layout_type": "featured",
+        "date": "2026-06-01",
+        "write_up": "A series of small interiors painted over one January, working from the same north-facing room as the light changed hour to hour. The paintings are about waiting more than they are about weather.",
+        "primary_artwork_id": "frost-line",
+        "artworks": [
+          {
+            "id": "frost-line",
+            "title": "Frost Line",
+            "medium": "Oil on panel",
+            "size": "24 x 30 in",
+            "images": [
+              { "src": "/images/artworks/frost-line-1.svg", "alt": "Frost Line, oil on panel", "is_primary": true },
+              { "src": "/images/artworks/frost-line-2.svg", "alt": "Frost Line, detail", "is_primary": false }
+            ]
+          },
+          {
+            "id": "low-water",
+            "title": "Low Water",
+            "medium": "Oil on panel",
+            "size": "18 x 24 in",
+            "images": [
+              { "src": "/images/artworks/low-water.svg", "alt": "Low Water, oil on panel", "is_primary": true }
+            ]
+          },
+          {
+            "id": "the-long-thaw",
+            "title": "The Long Thaw",
+            "medium": "Oil on canvas",
+            "size": "36 x 40 in",
+            "images": [
+              { "src": "/images/artworks/the-long-thaw.svg", "alt": "The Long Thaw, oil on canvas", "is_primary": true }
+            ]
+          },
+          {
+            "id": "still-january",
+            "title": "Still, January",
+            "medium": "Graphite and gouache",
+            "size": "11 x 14 in",
+            "images": [
+              { "src": "/images/artworks/still-january.svg", "alt": "Still, January, graphite and gouache", "is_primary": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interior-weather",
+        "name": "Interior Weather",
+        "layout_type": "grid",
+        "date": "2026-03-15",
+        "write_up": "Rooms as instruments for measuring light. This group returns to the same kitchen table across a full year, each canvas a reading taken at a different hour.",
+        "primary_artwork_id": "kitchen-window-morning",
+        "artworks": [
+          {
+            "id": "kitchen-window-morning",
+            "title": "Kitchen Window, Morning",
+            "medium": "Oil on canvas",
+            "size": "20 x 24 in",
+            "images": [
+              { "src": "/images/artworks/kitchen-window-morning.svg", "alt": "Kitchen Window, Morning", "is_primary": true }
+            ]
+          },
+          {
+            "id": "kitchen-window-evening",
+            "title": "Kitchen Window, Evening",
+            "medium": "Oil on canvas",
+            "size": "20 x 24 in",
+            "images": [
+              { "src": "/images/artworks/kitchen-window-evening.svg", "alt": "Kitchen Window, Evening", "is_primary": true }
+            ]
+          },
+          {
+            "id": "radiator-study",
+            "title": "Radiator Study",
+            "medium": "Gouache on paper",
+            "size": "9 x 12 in",
+            "images": [
+              { "src": "/images/artworks/radiator-study.svg", "alt": "Radiator Study, gouache on paper", "is_primary": true }
+            ]
+          },
+          {
+            "id": "the-visitor",
+            "title": "The Visitor",
+            "medium": "Oil on canvas",
+            "size": "30 x 34 in",
+            "images": [
+              { "src": "/images/artworks/the-visitor.svg", "alt": "The Visitor, oil on canvas", "is_primary": true }
+            ]
+          },
+          {
+            "id": "rain-on-glass",
+            "title": "Rain on Glass",
+            "medium": "Oil on panel",
+            "size": "16 x 20 in",
+            "images": [
+              { "src": "/images/artworks/rain-on-glass.svg", "alt": "Rain on Glass, oil on panel", "is_primary": true }
+            ]
+          },
+          {
+            "id": "interior-with-lamp",
+            "title": "Interior with Lamp",
+            "medium": "Oil on canvas",
+            "size": "26 x 32 in",
+            "images": [
+              { "src": "/images/artworks/interior-with-lamp.svg", "alt": "Interior with Lamp, oil on canvas", "is_primary": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marginalia",
+        "name": "Marginalia",
+        "layout_type": "subcategory_list",
+        "date": "2025-11-02",
+        "write_up": "Two sketchbooks kept alongside the studio paintings — faster, looser, and mostly unfinished on purpose.",
+        "primary_artwork_id": "sketchbook-i-01",
+        "child_categories": [
+          {
+            "id": "sketchbook-i",
+            "name": "Sketchbook I",
+            "layout_type": "grid",
+            "date": "2025-09-10",
+            "write_up": "Pages from the first sketchbook, kept over a wet spring.",
+            "primary_artwork_id": "sketchbook-i-01",
+            "artworks": [
+              {
+                "id": "sketchbook-i-01",
+                "title": "Sketchbook I, no. 1",
+                "medium": "Graphite",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-i-01.svg", "alt": "Sketchbook I, no. 1", "is_primary": true }]
+              },
+              {
+                "id": "sketchbook-i-02",
+                "title": "Sketchbook I, no. 2",
+                "medium": "Graphite",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-i-02.svg", "alt": "Sketchbook I, no. 2", "is_primary": true }]
+              },
+              {
+                "id": "sketchbook-i-03",
+                "title": "Sketchbook I, no. 3",
+                "medium": "Ink",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-i-03.svg", "alt": "Sketchbook I, no. 3", "is_primary": true }]
+              }
+            ]
+          },
+          {
+            "id": "sketchbook-ii",
+            "name": "Sketchbook II",
+            "layout_type": "grid",
+            "date": "2025-11-02",
+            "write_up": "The second sketchbook, started the week the first one filled up.",
+            "primary_artwork_id": "sketchbook-ii-01",
+            "artworks": [
+              {
+                "id": "sketchbook-ii-01",
+                "title": "Sketchbook II, no. 1",
+                "medium": "Ink wash",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-ii-01.svg", "alt": "Sketchbook II, no. 1", "is_primary": true }]
+              },
+              {
+                "id": "sketchbook-ii-02",
+                "title": "Sketchbook II, no. 2",
+                "medium": "Ink wash",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-ii-02.svg", "alt": "Sketchbook II, no. 2", "is_primary": true }]
+              },
+              {
+                "id": "sketchbook-ii-03",
+                "title": "Sketchbook II, no. 3",
+                "medium": "Graphite",
+                "size": "7 x 9 in",
+                "images": [{ "src": "/images/artworks/sketchbook-ii-03.svg", "alt": "Sketchbook II, no. 3", "is_primary": true }]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writings": {
+    "items": [
+      {
+        "id": "notebooks",
+        "type": "category",
+        "name": "Notebooks",
+        "write_up": "Short, dated entries written alongside the studio work.",
+        "children": [
+          {
+            "id": "on-slowness",
+            "type": "writing",
+            "name": "On Slowness",
+            "write_up": "A short entry on why the January Jones paintings took a full year to finish.",
+            "writing": "The paintings in this room took longer than any I have made. Not because the surfaces are complicated — most of them are just a table, a window, a fall of light — but because I kept waiting for the room to tell me it was finished, and it never quite did.\n\nI have started to think of slowness as a material, the way I think about oil or graphite. It has a texture. It resists you in a specific way. You can push against it, and sometimes it gives, and sometimes it pushes back harder, and either way you learn something about the painting you would not have learned by finishing it quickly.\n\nI don't think fast work is worse. I think I am just not very good at it, and I have decided to stop apologizing for that."
+          },
+          {
+            "id": "studio-notes-winter",
+            "type": "writing",
+            "name": "Studio Notes, Winter",
+            "write_up": "Notes kept during the coldest weeks of the January Jones series.",
+            "writing": "The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.\n\nSome days the light comes in flat and grey and every color on the palette looks like a compromise. Other days, for maybe twenty minutes around four in the afternoon, the whole room goes the color of a bruise healing, and I try to work fast enough to catch it before it changes. I rarely do. That failure is most of what this series is about."
+          }
+        ]
+      },
+      {
+        "id": "process",
+        "type": "category",
+        "name": "Process",
+        "write_up": "Studies, drawings, and working notes that sit alongside the finished paintings.",
+        "children": [
+          {
+            "id": "studies-for-frost-line",
+            "type": "artwork",
+            "title": "Studies for Frost Line",
+            "medium": "Graphite on paper",
+            "size": "11 x 14 in (each)",
+            "images": [
+              { "src": "/images/artworks/process-studies-1.svg", "alt": "Study for Frost Line", "is_primary": true },
+              { "src": "/images/artworks/process-studies-2.svg", "alt": "Study for Frost Line, second study", "is_primary": false }
+            ]
+          },
+          {
+            "id": "working-method",
+            "type": "writing",
+            "name": "Working Method",
+            "write_up": "How the studies for Frost Line led to the finished painting.",
+            "writing": "I usually draw a room four or five times before I let myself paint it. The drawings are not preparatory in the usual sense — I'm not solving composition problems, I already know where the table goes. I'm trying to memorize the room well enough that I can paint it later without needing to look at it, the way you might learn a piece of music well enough to play it with your eyes closed.\n\nBy the time I started Frost Line, I had drawn that corner of the studio often enough that I painted most of it from memory, checking the actual room only twice, both times to confirm something about the color of the frost on the glass rather than its shape."
+          }
+        ]
+      },
+      {
+        "id": "correspondence-with-a-painter-i-never-met",
+        "type": "writing",
+        "name": "Correspondence with a Painter I Never Met",
+        "write_up": "An essay written after finding a box of unsent letters at an estate sale.",
+        "writing": "I bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.\n\nI don't know the writer's name. I know she worked in a cold room, that she distrusted her own blues, and that she once spent three weeks on a single square foot of a canvas she eventually painted over entirely. I think about her more than I think about painters I actually know, possibly because there is nothing left to argue with. She only gets to be right."
+          }
+    ]
+  }
+}
