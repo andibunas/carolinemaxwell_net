@@ -3,8 +3,8 @@ Order: 3
 Name: Geomagnetic Travellogue
 Layout Type: subcategory_list
 Date: 2025-11-02
-Thumbnail: thumbnail.svg
-Header Image: header.svg
+Thumbnail: thumbnail.gif
+
 
 ## Synopsis
 
@@ -25,3 +25,10 @@ and micro-scopic vision, magnetic attraction and
 polarity, and the intersection of scientific, historical,
 and artistic narratives.
 
+On May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.
+
+I started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.
+
+*parallel worlds*
+*using the wrong map to get to the right places*
+*can I reach Peru through a looking glass?*
