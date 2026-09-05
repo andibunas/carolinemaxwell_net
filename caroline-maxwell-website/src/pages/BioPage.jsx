@@ -10,7 +10,7 @@ export default function BioPage() {
 
   return (
     <div>
-      <Breadcrumb trail={[{ label: 'About', to: '/about' }]} current="Bio" />
+      {/* <Breadcrumb trail={[{ label: 'About', to: '/about' }]} current="Bio" /> */}
       <div className="mt-6 max-w-2xl">
         <MarkdownContent source={bioSource} />
       </div>

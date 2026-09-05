@@ -10,7 +10,7 @@ export default function CVPage() {
 
   return (
     <div>
-      <Breadcrumb trail={[{ label: 'About', to: '/about' }]} current="CV" />
+      {/* <Breadcrumb trail={[{ label: 'About', to: '/about' }]} current="CV" /> */}
       <div className="mt-6 max-w-2xl">
         <MarkdownContent source={cvSource} />
       </div>
