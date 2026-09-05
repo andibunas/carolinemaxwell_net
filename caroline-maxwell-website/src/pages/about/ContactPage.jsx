@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import Breadcrumb from '../components/layout/Breadcrumb';
-import ContactForm from '../components/about/ContactForm';
+import Breadcrumb from '../../components/layout/Breadcrumb';
+import ContactForm from '../../components/about/ContactForm';
 
 const EMAIL = 'mail@carolinemaxwell.net';
 

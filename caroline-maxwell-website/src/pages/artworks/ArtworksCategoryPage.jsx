@@ -1,10 +1,10 @@
 import { Suspense, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Breadcrumb from '../components/layout/Breadcrumb';
-import ArtworkDetail from '../components/artworks/ArtworkDetail';
-import { resolveArtworkPath } from '../data/manifest';
-import { resolveArtworkLayout } from '../components/artworks/layoutRegistry';
-import NotFoundPage from './NotFoundPage';
+import Breadcrumb from '../../components/layout/Breadcrumb';
+import ArtworkDetail from '../../components/artworks/ArtworkDetail';
+import { resolveArtworkPath } from '../../data/manifest';
+import { resolveArtworkLayout } from '../../components/artworks/layoutRegistry';
+import NotFoundPage from '../NotFoundPage';
 
 function buildTrail(ancestors) {
   const trail = [{ label: 'Artworks', to: '/artworks' }];

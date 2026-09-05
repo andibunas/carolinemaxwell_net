@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Breadcrumb from '../components/layout/Breadcrumb';
-import ArtworkDetail from '../components/artworks/ArtworkDetail';
-import WritingCategoryLayout from '../components/writings/layouts/WritingCategoryLayout';
-import WritingDetailLayout from '../components/writings/layouts/WritingDetailLayout';
-import { resolveWritingPath, writingDisplayName } from '../data/manifest';
-import NotFoundPage from './NotFoundPage';
+import Breadcrumb from '../../components/layout/Breadcrumb';
+import ArtworkDetail from '../../components/artworks/ArtworkDetail';
+import WritingCategoryLayout from '../../components/writings/layouts/WritingCategoryLayout';
+import WritingDetailLayout from '../../components/writings/layouts/WritingDetailLayout';
+import { resolveWritingPath, writingDisplayName } from '../../data/manifest';
+import NotFoundPage from '../NotFoundPage';
 
 function buildTrail(ancestors) {
   const trail = [{ label: 'Writings', to: '/writings' }];

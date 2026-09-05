@@ -2,15 +2,15 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import SiteHeader from './components/layout/SiteHeader';
 import SiteFooter from './components/layout/SiteFooter';
 
-import HomePage from './pages/HomePage';
-import ArtworksIndexPage from './pages/ArtworksIndexPage';
-import ArtworksCategoryPage from './pages/ArtworksCategoryPage';
-import WritingsIndexPage from './pages/WritingsIndexPage';
-import WritingsNodePage from './pages/WritingsNodePage';
-import AboutLayout from './pages/AboutLayout';
-import BioPage from './pages/BioPage';
-import CVPage from './pages/CVPage';
-import ContactPage from './pages/ContactPage';
+import HomePage from './pages/home/HomePage';
+import ArtworksIndexPage from './pages/artworks/ArtworksIndexPage';
+import ArtworksCategoryPage from './pages/artworks/ArtworksCategoryPage';
+import WritingsIndexPage from './pages/writings/WritingsIndexPage';
+import WritingsNodePage from './pages/writings/WritingsNodePage';
+import AboutLayout from './pages/about/AboutLayout';
+import BioPage from './pages/about/BioPage';
+import CVPage from './pages/about/CVPage';
+import ContactPage from './pages/about/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {

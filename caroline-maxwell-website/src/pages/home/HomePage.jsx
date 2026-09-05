@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import BioTeaser from '../components/home/BioTeaser';
-import LatestWork from '../components/home/LatestWork';
+import BioTeaser from '../../components/home/BioTeaser';
+import LatestWork from '../../components/home/LatestWork';
 
 export default function HomePage() {
   useEffect(() => {

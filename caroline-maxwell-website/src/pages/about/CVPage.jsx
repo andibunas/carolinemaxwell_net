@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import Breadcrumb from '../components/layout/Breadcrumb';
-import MarkdownContent from '../components/about/MarkdownContent';
-import cvSource from '../content/cv.md?raw';
+import Breadcrumb from '../../components/layout/Breadcrumb';
+import MarkdownContent from '../../components/about/MarkdownContent';
+import cvSource from '../../content/cv.md?raw';
 
 export default function CVPage() {
   useEffect(() => {

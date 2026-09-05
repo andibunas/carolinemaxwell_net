@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import Breadcrumb from '../components/layout/Breadcrumb';
-import MarkdownContent from '../components/about/MarkdownContent';
-import bioSource from '../content/bio.md?raw';
+import Breadcrumb from '../../components/layout/Breadcrumb';
+import MarkdownContent from '../../components/about/MarkdownContent';
+import bioSource from '../../content/bio.md?raw';
 
 export default function BioPage() {
   useEffect(() => {

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getArtworkCategories, getCategoryCoverImage } from '../data/manifest';
+import { getArtworkCategories, getCategoryCoverImage } from '../../data/manifest';
 
 export default function ArtworksIndexPage() {
   useEffect(() => {

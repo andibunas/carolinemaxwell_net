@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getWritingItems, writingDisplayName } from '../data/manifest';
+import { getWritingItems, writingDisplayName } from '../../data/manifest';
 
 export default function WritingsIndexPage() {
   useEffect(() => {

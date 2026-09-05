@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import SubNav from '../components/about/SubNav';
+import SubNav from '../../components/about/SubNav';
 
 export default function AboutLayout() {
   return (
