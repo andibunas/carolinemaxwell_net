@@ -15,8 +15,16 @@
             "medium": "Oil on panel",
             "size": "24 x 30 in",
             "images": [
-              { "src": "/images/artworks/frost-line-1.svg", "alt": "Frost Line, oil on panel", "is_primary": true },
-              { "src": "/images/artworks/frost-line-2.svg", "alt": "Frost Line, detail", "is_primary": false }
+              {
+                "src": "/artworks/january-jones/frost-line/frost-line-1.svg",
+                "alt": "Frost Line, oil on panel",
+                "is_primary": true
+              },
+              {
+                "src": "/artworks/january-jones/frost-line/frost-line-2.svg",
+                "alt": "Frost Line, detail",
+                "is_primary": false
+              }
             ]
           },
           {
@@ -25,7 +33,11 @@
             "medium": "Oil on panel",
             "size": "18 x 24 in",
             "images": [
-              { "src": "/images/artworks/low-water.svg", "alt": "Low Water, oil on panel", "is_primary": true }
+              {
+                "src": "/artworks/january-jones/low-water/low-water.svg",
+                "alt": "Low Water, oil on panel",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -34,7 +46,11 @@
             "medium": "Oil on canvas",
             "size": "36 x 40 in",
             "images": [
-              { "src": "/images/artworks/the-long-thaw.svg", "alt": "The Long Thaw, oil on canvas", "is_primary": true }
+              {
+                "src": "/artworks/january-jones/the-long-thaw/the-long-thaw.svg",
+                "alt": "The Long Thaw, oil on canvas",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -43,7 +59,11 @@
             "medium": "Graphite and gouache",
             "size": "11 x 14 in",
             "images": [
-              { "src": "/images/artworks/still-january.svg", "alt": "Still, January, graphite and gouache", "is_primary": true }
+              {
+                "src": "/artworks/january-jones/still-january/still-january.svg",
+                "alt": "Still, January, graphite and gouache",
+                "is_primary": true
+              }
             ]
           }
         ]
@@ -62,7 +82,11 @@
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
             "images": [
-              { "src": "/images/artworks/kitchen-window-morning.svg", "alt": "Kitchen Window, Morning", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/kitchen-window-morning/kitchen-window-morning.svg",
+                "alt": "Kitchen Window, Morning",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -71,7 +95,11 @@
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
             "images": [
-              { "src": "/images/artworks/kitchen-window-evening.svg", "alt": "Kitchen Window, Evening", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/kitchen-window-evening/kitchen-window-evening.svg",
+                "alt": "Kitchen Window, Evening",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -80,7 +108,11 @@
             "medium": "Gouache on paper",
             "size": "9 x 12 in",
             "images": [
-              { "src": "/images/artworks/radiator-study.svg", "alt": "Radiator Study, gouache on paper", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/radiator-study/radiator-study.svg",
+                "alt": "Radiator Study, gouache on paper",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -89,7 +121,11 @@
             "medium": "Oil on canvas",
             "size": "30 x 34 in",
             "images": [
-              { "src": "/images/artworks/the-visitor.svg", "alt": "The Visitor, oil on canvas", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/the-visitor/the-visitor.svg",
+                "alt": "The Visitor, oil on canvas",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -98,7 +134,11 @@
             "medium": "Oil on panel",
             "size": "16 x 20 in",
             "images": [
-              { "src": "/images/artworks/rain-on-glass.svg", "alt": "Rain on Glass, oil on panel", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/rain-on-glass/rain-on-glass.svg",
+                "alt": "Rain on Glass, oil on panel",
+                "is_primary": true
+              }
             ]
           },
           {
@@ -107,7 +147,11 @@
             "medium": "Oil on canvas",
             "size": "26 x 32 in",
             "images": [
-              { "src": "/images/artworks/interior-with-lamp.svg", "alt": "Interior with Lamp, oil on canvas", "is_primary": true }
+              {
+                "src": "/artworks/interior-weather/interior-with-lamp/interior-with-lamp.svg",
+                "alt": "Interior with Lamp, oil on canvas",
+                "is_primary": true
+              }
             ]
           }
         ]
@@ -133,21 +177,39 @@
                 "title": "Sketchbook I, no. 1",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-i-01.svg", "alt": "Sketchbook I, no. 1", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-01/sketchbook-i-01.svg",
+                    "alt": "Sketchbook I, no. 1",
+                    "is_primary": true
+                  }
+                ]
               },
               {
                 "id": "sketchbook-i-02",
                 "title": "Sketchbook I, no. 2",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-i-02.svg", "alt": "Sketchbook I, no. 2", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-02/sketchbook-i-02.svg",
+                    "alt": "Sketchbook I, no. 2",
+                    "is_primary": true
+                  }
+                ]
               },
               {
                 "id": "sketchbook-i-03",
                 "title": "Sketchbook I, no. 3",
                 "medium": "Ink",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-i-03.svg", "alt": "Sketchbook I, no. 3", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-03/sketchbook-i-03.svg",
+                    "alt": "Sketchbook I, no. 3",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
@@ -164,21 +226,39 @@
                 "title": "Sketchbook II, no. 1",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-ii-01.svg", "alt": "Sketchbook II, no. 1", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-01/sketchbook-ii-01.svg",
+                    "alt": "Sketchbook II, no. 1",
+                    "is_primary": true
+                  }
+                ]
               },
               {
                 "id": "sketchbook-ii-02",
                 "title": "Sketchbook II, no. 2",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-ii-02.svg", "alt": "Sketchbook II, no. 2", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-02/sketchbook-ii-02.svg",
+                    "alt": "Sketchbook II, no. 2",
+                    "is_primary": true
+                  }
+                ]
               },
               {
                 "id": "sketchbook-ii-03",
                 "title": "Sketchbook II, no. 3",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
-                "images": [{ "src": "/images/artworks/sketchbook-ii-03.svg", "alt": "Sketchbook II, no. 3", "is_primary": true }]
+                "images": [
+                  {
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-03/sketchbook-ii-03.svg",
+                    "alt": "Sketchbook II, no. 3",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           }
@@ -218,14 +298,22 @@
         "children": [
           {
             "id": "studies-for-frost-line",
-            "type": "artwork",
             "title": "Studies for Frost Line",
             "medium": "Graphite on paper",
             "size": "11 x 14 in (each)",
             "images": [
-              { "src": "/images/artworks/process-studies-1.svg", "alt": "Study for Frost Line", "is_primary": true },
-              { "src": "/images/artworks/process-studies-2.svg", "alt": "Study for Frost Line, second study", "is_primary": false }
-            ]
+              {
+                "src": "/writings/process/studies-for-frost-line/process-studies-1.svg",
+                "alt": "Study for Frost Line",
+                "is_primary": true
+              },
+              {
+                "src": "/writings/process/studies-for-frost-line/process-studies-2.svg",
+                "alt": "Study for Frost Line, second study",
+                "is_primary": false
+              }
+            ],
+            "type": "artwork"
           },
           {
             "id": "working-method",
@@ -242,7 +330,7 @@
         "name": "Correspondence with a Painter I Never Met",
         "write_up": "An essay written after finding a box of unsent letters at an estate sale.",
         "writing": "I bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.\n\nI don't know the writer's name. I know she worked in a cold room, that she distrusted her own blues, and that she once spent three weeks on a single square foot of a canvas she eventually painted over entirely. I think about her more than I think about painters I actually know, possibly because there is nothing left to argue with. She only gets to be right."
-          }
+      }
     ]
   }
 }

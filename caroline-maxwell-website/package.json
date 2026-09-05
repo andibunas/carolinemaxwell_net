@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "build-manifest": "bash scripts/build-manifest.sh"
   },
   "dependencies": {
     "lucide-react": "^1.39.0",
