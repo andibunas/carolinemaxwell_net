@@ -157,6 +157,345 @@
         ]
       },
       {
+        "id": "GeomagTravel",
+        "name": "Geomagnetic Travellogue",
+        "layout_type": "subcategory_list",
+        "date": "2025-11-02",
+        "write_up": "This project follows the zero-degree line of the\nearth's magnetic field from the year 1590.\nIt is a work in progress.\n\nThe year 1590 is significant, as it coincides with the\ndevelopment of Galileo's first telescope, and with the\ncreation of the first compound microscope.\n\nTherefore, my project explores incidences of macro-\nand micro-scopic vision, magnetic attraction and\npolarity, and the intersection of scientific, historical,\nand artistic narratives.",
+        "primary_artwork_id": "if-light-can-bend",
+        "child_categories": [
+          {
+            "id": "Geomag_journey1",
+            "name": "Journey #1",
+            "layout_type": "grid",
+            "date": "2008-05-10",
+            "write_up": "On May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\n*using the wrong map to get to the right places*\n*can I reach Peru through a looking glass?*",
+            "primary_artwork_id": "south-africa",
+            "artworks": [
+              {
+                "id": "south-africa",
+                "title": "South Africa",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/south-africa/joburg_map.jpg",
+                    "alt": "Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California — abandoned mines, mine dumps, and a combined population of 253",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/south-africa/Joburg.jpg",
+                    "alt": "Joburg",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/south-africa/mine_split.jpg",
+                    "alt": "Mine, Split Two Ways",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/south-africa/watertanks.jpg",
+                    "alt": "Experiments With Water — Black, White, Two and Three",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "iceland",
+                "title": "Iceland",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/iceland/redhill.png",
+                    "alt": "Red Hill, a 10,000-year-old cinder cone in the Owens River Valley, California",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/iceland/Iceland_vulcanx2.jpg",
+                    "alt": "Cindercone",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/iceland/iceland_wool.jpg",
+                    "alt": "Iceland #1 (wool)",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/iceland/iceonIceland.jpg",
+                    "alt": "Iceland #2 (ice)",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "peru",
+                "title": "Peru",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/peru/PERUracetrack.jpg",
+                    "alt": "The Racetrack, Death Valley National Park, California",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/peru/peru_trailsx4.jpg",
+                    "alt": "Peru (Earth Drawings)",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/peru/peru_movedmtns.jpg",
+                    "alt": "Peru (To Move and to Hold a Mountain)",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/peru/peru_icelake.jpg",
+                    "alt": "Peru (ice lake)",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/peru/Peru_mirror.jpg",
+                    "alt": "Peru (mirror)",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "australia",
+                "title": "Australia",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/australia/teakettleMap.jpg",
+                    "alt": "Tea Kettle Junction, Death Valley National Park, California",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/australia/teakettle.jpg",
+                    "alt": "Tea Kettle Junction",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/australia/australia_wool.jpg",
+                    "alt": "Australia (wool)",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "flora-fauna",
+                "title": "Flora and Fauna",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/flora-fauna/datura_divide2.jpg",
+                    "alt": "Datura (divide)",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/flora-fauna/datura4.jpg",
+                    "alt": "Datura (lights)",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/flora-fauna/coyote.jpg",
+                    "alt": "Coyote",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "first-aid",
+                "title": "First Aid",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/first-aid/iceonJoburg.jpg",
+                    "alt": "Icepack — Johannesburg",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/first-aid/iceonPeru.jpg",
+                    "alt": "Icepack — Peru",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/first-aid/iceonIceland2.jpg",
+                    "alt": "Icepack — Iceland",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "tools",
+                "title": "Tools",
+                "medium": "Digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/tools/geomag_tools.jpg",
+                    "alt": "Field kit for the journey — lenses and mirrors of various shapes and sizes, copper plates, copper wire, lead weights, electrical tape, athletic tape, Icelandic wool, Peruvian Highland wool, eucalyptus-dyed Australian wool, a shovel, and a broom",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "studio",
+                "title": "Back in the Studio",
+                "medium": "Mixed media, digital inkjet prints (2008)",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/purse_bandg_hill.jpg",
+                    "alt": "Copper purse and Untitled (bandages) — digital inkjet print, bandages, copper purse, blue velvet, honeycomb",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/bandage_hills.jpg",
+                    "alt": "Untitled (bandages), detail — digital inkjet print, bandages",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/soil_samples.jpg",
+                    "alt": "Soil Samples — earth collected from Johannesburg mine dumps, Red Hill, and the Owens Lake flood plain",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/net.jpg",
+                    "alt": "Untitled (net) — handspun Peruvian Highland wool and eucalyptus-dyed wool, copper pipe, digital inkjet print",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/elektron.jpg",
+                    "alt": "Elektron — cello rosin, copper plate, copper wire, electrical tape, digital inkjet print",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/feet.jpg",
+                    "alt": "We're on the same page when we begin and when we end — composition book page (numbers 152 and 1), pencil and oil paint, copper plate, Doctor McLean's Volcanic Oil Liniment",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_journey1/studio/lostatsea.jpg",
+                    "alt": "Lost at Sea — composition book page (numbers 126 and 27), chalk, red pencil, and india ink, electrical tape",
+                    "is_primary": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Geomag_LosAngeles",
+            "name": "Los Angeles",
+            "layout_type": "grid",
+            "date": "2009-01-01",
+            "write_up": "I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for 36 years.\n\nCalifornia is known for its earthquakes, and Los Angeles sits upon the San Andreas Fault. This important faultline is where the Pacific tectonic plate slides past the North American tectonic plate. Half of Los Angeles is moving slowly towards Anchorage, Alaska. The other half is travelling south.\n\nLos Angeles is home to Caltech, one of the foremost institutions in the study of seismic and geomagnetic activity, as well as astronomy and physics. Los Angeles is also home to the historical Mount Wilson Observatory, which is situated directly above my childhood home in Pasadena. This is where Edwin Hubble made many of his notable observations with the now antiquated 100-inch Hooker Telescope.",
+            "primary_artwork_id": "if-light-can-bend",
+            "artworks": [
+              {
+                "id": "farallon",
+                "title": "farallon",
+                "medium": "Oil and charcoal on canvas",
+                "size": "12 x 13 in",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_LosAngeles/farallon/farallon_sm.jpg",
+                    "alt": "farallon (2007) — the Farallon Plate, the subducted tectonic slab responsible for the chain of extinct volcanoes along the San Andreas fault",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "if-light-can-bend",
+                "title": "If Light Can Bend",
+                "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_LosAngeles/if-light-can-bend/ifLightCanBend.jpg",
+                    "alt": "If Light Can Bend (2009) — installation for the exhibit \"The Studio as Laboratory\" at the California Institute of Technology",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_LosAngeles/if-light-can-bend/caroline1.jpg",
+                    "alt": "If Light Can Bend, detail",
+                    "is_primary": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Geomag_cyprus",
+            "name": "Cyprus",
+            "layout_type": "grid",
+            "date": "2007-01-01",
+            "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\nI felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
+            "primary_artwork_id": "double-cypriot",
+            "artworks": [
+              {
+                "id": "double-cypriot",
+                "title": "Double Cypriot",
+                "medium": "Oil and charcoal on canvas",
+                "size": "60 x 96 in",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/double-cypriot/double_cypriot_sm.jpg",
+                    "alt": "Double Cypriot (2007)",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/double-cypriot/cypriot1_det_sm.jpg",
+                    "alt": "Double Cypriot, detail",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/double-cypriot/cypriot2_det_sm.jpg",
+                    "alt": "Double Cypriot, detail",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/double-cypriot/map_cyprus.jpg",
+                    "alt": "Map of Cyprus",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "syrtos",
+                "title": "Syrtos",
+                "medium": "Plaster and graphite on wall",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/syrtos/syrtos1.jpg",
+                    "alt": "Syrtos (2006)",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "stereoscopic-love-goddess",
+                "title": "Stereoscopic Love Goddess",
+                "medium": "Stereoscope card, digital inkjet prints",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/Geomag_cyprus/stereoscopic-love-goddess/stereo_goddess.jpg",
+                    "alt": "Stereoscopic Love Goddess (2006) — Aphrodite of Cyprus merged with Artemis of Ephesus",
+                    "is_primary": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "marginalia",
         "name": "Marginalia",
         "layout_type": "subcategory_list",
