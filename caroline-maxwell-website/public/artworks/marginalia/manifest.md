@@ -1,7 +1,7 @@
 Type: Category
 Order: 3
 Name: Marginalia
-Layout Type: subcategory_list
+Layout Type: grid
 Date: 2025-11-02
 Thumbnail: thumbnail.svg
 Header Image: header.svg

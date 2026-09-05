@@ -127,6 +127,16 @@ build_artwork_node() {
   size="$(front_get "$pdir" Size)"
   rel="${dir#"$PUBLIC_DIR"/}"
 
+  local thumbnail_file thumbnail=""
+  thumbnail_file="$(front_get "$pdir" Thumbnail)"
+  if [ -n "$thumbnail_file" ]; then
+    if [ -f "$dir/$thumbnail_file" ]; then
+      thumbnail="/$rel/$thumbnail_file"
+    else
+      echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
+    fi
+  fi
+
   local names=() alts=() primaries=() have_primary=0
   local declared="$pdir/_section_images.md"
   if [ -f "$declared" ]; then
@@ -183,13 +193,15 @@ build_artwork_node() {
     images_json="$(json_push "$images_json" "$obj")"
   done
 
-  jq -n --arg id "$id" --arg title "$title" --arg medium "$medium" --arg size "$size" --argjson images "$images_json" \
-    '{id:$id, title:$title, medium:$medium, size:$size, images:$images}'
+  jq -n --arg id "$id" --arg title "$title" --arg medium "$medium" --arg size "$size" \
+        --arg thumbnail "$thumbnail" --argjson images "$images_json" \
+    '{id:$id, type:"artwork", title:$title, medium:$medium, size:$size, images:$images}
+    + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)'
 }
 
 # ---------------------------------------------------------------------------
-# Artworks tree: Category folders hold either further Category subfolders
-# (-> child_categories) or Artwork subfolders (-> artworks), never mixed.
+# Artworks tree: a Category holds a mix of Category / Artwork children under
+# one ordered `children` list (same shape as the writings tree below).
 # ---------------------------------------------------------------------------
 build_category_node() {
   local dir="$1"
@@ -223,7 +235,7 @@ build_category_node() {
     fi
   fi
 
-  local artworks_json="[]" children_json="[]"
+  local children_json="[]"
   local sub type node pdir_child
   while IFS= read -r sub; do
     pdir_child="$(parse_manifest_md "$sub/manifest.md")"; check_failed
@@ -231,28 +243,26 @@ build_category_node() {
     case "$type" in
       Artwork)
         node="$(build_artwork_node "$sub")"; check_failed
-        artworks_json="$(json_push "$artworks_json" "$node")"
         ;;
       Category)
         node="$(build_category_node "$sub")"; check_failed
-        children_json="$(json_push "$children_json" "$node")"
         ;;
       *)
         fail "$sub/manifest.md has Type '$type' (expected Category or Artwork)"
         ;;
     esac
+    children_json="$(json_push "$children_json" "$node")"
   done < <(ordered_children "$dir")
   check_failed
 
   jq -n --arg id "$id" --arg name "$name" --arg layout "$layout" --arg date "$date" \
         --arg write_up "$write_up" --arg synopsis "$synopsis" \
         --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
-        --argjson artworks "$artworks_json" --argjson children "$children_json" '
-    {id:$id, name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
+        --argjson children "$children_json" '
+    {id:$id, type:"category", name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
     + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
     + (if $header_image != "" then {header_image:$header_image} else {} end)
-    + (if ($artworks|length) > 0 then {artworks:$artworks} else {} end)
-    + (if ($children|length) > 0 then {child_categories:$children} else {} end)
+    + {children:$children}
   '
 }
 
@@ -287,8 +297,7 @@ build_writings_node() {
         '{id:$id, type:"writing", name:$name, write_up:$write_up, writing:$writing}'
       ;;
     Artwork)
-      local base; base="$(build_artwork_node "$dir")"; check_failed
-      jq -n --argjson base "$base" '$base + {type:"artwork"}'
+      build_artwork_node "$dir"; check_failed
       ;;
     *)
       fail "$dir/manifest.md has Type '$type' (expected Category, Writing or Artwork)"

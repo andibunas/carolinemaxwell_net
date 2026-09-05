@@ -3,6 +3,7 @@
     "categories": [
       {
         "id": "january-jones",
+        "type": "category",
         "name": "January Jones",
         "layout_type": "featured",
         "date": "2026-06-01",
@@ -10,9 +11,10 @@
         "synopsis": "Small interiors from one January, painted hour by hour in a single north-facing room.",
         "thumbnail": "/artworks/january-jones/thumbnail.svg",
         "header_image": "/artworks/january-jones/header.svg",
-        "artworks": [
+        "children": [
           {
             "id": "frost-line",
+            "type": "artwork",
             "title": "Frost Line",
             "medium": "Oil on panel",
             "size": "24 x 30 in",
@@ -31,6 +33,7 @@
           },
           {
             "id": "low-water",
+            "type": "artwork",
             "title": "Low Water",
             "medium": "Oil on panel",
             "size": "18 x 24 in",
@@ -44,6 +47,7 @@
           },
           {
             "id": "the-long-thaw",
+            "type": "artwork",
             "title": "The Long Thaw",
             "medium": "Oil on canvas",
             "size": "36 x 40 in",
@@ -57,6 +61,7 @@
           },
           {
             "id": "still-january",
+            "type": "artwork",
             "title": "Still, January",
             "medium": "Graphite and gouache",
             "size": "11 x 14 in",
@@ -72,6 +77,7 @@
       },
       {
         "id": "interior-weather",
+        "type": "category",
         "name": "Interior Weather",
         "layout_type": "grid",
         "date": "2026-03-15",
@@ -79,9 +85,10 @@
         "synopsis": "A kitchen table observed across a full year, one reading of light at a time.",
         "thumbnail": "/artworks/interior-weather/thumbnail.svg",
         "header_image": "/artworks/interior-weather/header.svg",
-        "artworks": [
+        "children": [
           {
             "id": "kitchen-window-morning",
+            "type": "artwork",
             "title": "Kitchen Window, Morning",
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
@@ -95,6 +102,7 @@
           },
           {
             "id": "kitchen-window-evening",
+            "type": "artwork",
             "title": "Kitchen Window, Evening",
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
@@ -108,6 +116,7 @@
           },
           {
             "id": "radiator-study",
+            "type": "artwork",
             "title": "Radiator Study",
             "medium": "Gouache on paper",
             "size": "9 x 12 in",
@@ -121,6 +130,7 @@
           },
           {
             "id": "the-visitor",
+            "type": "artwork",
             "title": "The Visitor",
             "medium": "Oil on canvas",
             "size": "30 x 34 in",
@@ -134,6 +144,7 @@
           },
           {
             "id": "rain-on-glass",
+            "type": "artwork",
             "title": "Rain on Glass",
             "medium": "Oil on panel",
             "size": "16 x 20 in",
@@ -147,6 +158,7 @@
           },
           {
             "id": "interior-with-lamp",
+            "type": "artwork",
             "title": "Interior with Lamp",
             "medium": "Oil on canvas",
             "size": "26 x 32 in",
@@ -162,15 +174,17 @@
       },
       {
         "id": "GeomagTravel",
+        "type": "category",
         "name": "Geomagnetic Travellogue",
-        "layout_type": "subcategory_list",
+        "layout_type": "grid",
         "date": "2025-11-02",
         "write_up": "This project follows the zero-degree line of the\nearth's magnetic field from the year 1590.\nIt is a work in progress.\n\nThe year 1590 is significant, as it coincides with the\ndevelopment of Galileo's first telescope, and with the\ncreation of the first compound microscope.\n\nTherefore, my project explores incidences of macro-\nand micro-scopic vision, magnetic attraction and\npolarity, and the intersection of scientific, historical,\nand artistic narratives.\n\nOn May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\n*using the wrong map to get to the right places*\n*can I reach Peru through a looking glass?*",
         "synopsis": "Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.",
         "thumbnail": "/artworks/GeomagTravel/thumbnail.gif",
-        "artworks": [
+        "children": [
           {
             "id": "south-africa",
+            "type": "artwork",
             "title": "South Africa",
             "medium": "Digital inkjet prints",
             "size": "",
@@ -199,6 +213,7 @@
           },
           {
             "id": "iceland",
+            "type": "artwork",
             "title": "Iceland",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -226,7 +241,124 @@
             ]
           },
           {
+            "id": "LosAngeles",
+            "type": "category",
+            "name": "Los Angeles",
+            "layout_type": "grid",
+            "date": "2009-01-01",
+            "write_up": "I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for 36 years.\n\nCalifornia is known for its earthquakes, and Los Angeles sits upon the San Andreas Fault. This important faultline is where the Pacific tectonic plate slides past the North American tectonic plate. Half of Los Angeles is moving slowly towards Anchorage, Alaska. The other half is travelling south.\n\nLos Angeles is home to Caltech, one of the foremost institutions in the study of seismic and geomagnetic activity, as well as astronomy and physics. Los Angeles is also home to the historical Mount Wilson Observatory, which is situated directly above my childhood home in Pasadena. This is where Edwin Hubble made many of his notable observations with the now antiquated 100-inch Hooker Telescope.",
+            "synopsis": "Birthplace and fault line — Los Angeles as the start and end of the journey.",
+            "thumbnail": "/artworks/GeomagTravel/LosAngeles/thumbnail.svg",
+            "header_image": "/artworks/GeomagTravel/LosAngeles/header.svg",
+            "children": [
+              {
+                "id": "farallon",
+                "type": "artwork",
+                "title": "farallon",
+                "medium": "Oil and charcoal on canvas",
+                "size": "12 x 13 in",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/LosAngeles/farallon/farallon_sm.jpg",
+                    "alt": "farallon (2007) — the Farallon Plate, the subducted tectonic slab responsible for the chain of extinct volcanoes along the San Andreas fault",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "if-light-can-bend",
+                "type": "artwork",
+                "title": "If Light Can Bend",
+                "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/ifLightCanBend.jpg",
+                    "alt": "If Light Can Bend (2009) — installation for the exhibit \"The Studio as Laboratory\" at the California Institute of Technology",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/caroline1.jpg",
+                    "alt": "If Light Can Bend, detail",
+                    "is_primary": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cyprus",
+            "type": "category",
+            "name": "Cyprus",
+            "layout_type": "grid",
+            "date": "2007-01-01",
+            "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\nI felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
+            "synopsis": "A birthday shared with a divided island's peace agreement, and the myths that followed.",
+            "thumbnail": "/artworks/GeomagTravel/cyprus/thumbnail.svg",
+            "header_image": "/artworks/GeomagTravel/cyprus/header.svg",
+            "children": [
+              {
+                "id": "double-cypriot",
+                "type": "artwork",
+                "title": "Double Cypriot",
+                "medium": "Oil and charcoal on canvas",
+                "size": "60 x 96 in",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/double_cypriot_sm.jpg",
+                    "alt": "Double Cypriot (2007)",
+                    "is_primary": true
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot1_det_sm.jpg",
+                    "alt": "Double Cypriot, detail",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot2_det_sm.jpg",
+                    "alt": "Double Cypriot, detail",
+                    "is_primary": false
+                  },
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/map_cyprus.jpg",
+                    "alt": "Map of Cyprus",
+                    "is_primary": false
+                  }
+                ]
+              },
+              {
+                "id": "syrtos",
+                "type": "artwork",
+                "title": "Syrtos",
+                "medium": "Plaster and graphite on wall",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/syrtos/syrtos1.jpg",
+                    "alt": "Syrtos (2006)",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "stereoscopic-love-goddess",
+                "type": "artwork",
+                "title": "Stereoscopic Love Goddess",
+                "medium": "Stereoscope card, digital inkjet prints",
+                "size": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/stereoscopic-love-goddess/stereo_goddess.jpg",
+                    "alt": "Stereoscopic Love Goddess (2006) — Aphrodite of Cyprus merged with Artemis of Ephesus",
+                    "is_primary": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "peru",
+            "type": "artwork",
             "title": "Peru",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -260,6 +392,7 @@
           },
           {
             "id": "australia",
+            "type": "artwork",
             "title": "Australia",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -283,6 +416,7 @@
           },
           {
             "id": "flora-fauna",
+            "type": "artwork",
             "title": "Flora and Fauna",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -306,6 +440,7 @@
           },
           {
             "id": "first-aid",
+            "type": "artwork",
             "title": "First Aid",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -329,6 +464,7 @@
           },
           {
             "id": "tools",
+            "type": "artwork",
             "title": "Tools",
             "medium": "Digital inkjet prints (2008)",
             "size": "",
@@ -342,6 +478,7 @@
           },
           {
             "id": "studio",
+            "type": "artwork",
             "title": "Back in the Studio",
             "medium": "Mixed media, digital inkjet prints (2008)",
             "size": "",
@@ -383,141 +520,22 @@
               }
             ]
           }
-        ],
-        "child_categories": [
-          {
-            "id": "journey1",
-            "name": "Journey",
-            "layout_type": "grid",
-            "date": "2008-05-10",
-            "write_up": "On May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\n*using the wrong map to get to the right places*\n*can I reach Peru through a looking glass?*",
-            "synopsis": "One 24-hour attempt to reach Peru, Iceland, South Africa, and Australia.",
-            "thumbnail": "/artworks/GeomagTravel/journey1/thumbnail.svg",
-            "header_image": "/artworks/GeomagTravel/journey1/header.svg"
-          },
-          {
-            "id": "LosAngeles",
-            "name": "Los Angeles",
-            "layout_type": "grid",
-            "date": "2009-01-01",
-            "write_up": "I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for 36 years.\n\nCalifornia is known for its earthquakes, and Los Angeles sits upon the San Andreas Fault. This important faultline is where the Pacific tectonic plate slides past the North American tectonic plate. Half of Los Angeles is moving slowly towards Anchorage, Alaska. The other half is travelling south.\n\nLos Angeles is home to Caltech, one of the foremost institutions in the study of seismic and geomagnetic activity, as well as astronomy and physics. Los Angeles is also home to the historical Mount Wilson Observatory, which is situated directly above my childhood home in Pasadena. This is where Edwin Hubble made many of his notable observations with the now antiquated 100-inch Hooker Telescope.",
-            "synopsis": "Birthplace and fault line — Los Angeles as the start and end of the journey.",
-            "thumbnail": "/artworks/GeomagTravel/LosAngeles/thumbnail.svg",
-            "header_image": "/artworks/GeomagTravel/LosAngeles/header.svg",
-            "artworks": [
-              {
-                "id": "farallon",
-                "title": "farallon",
-                "medium": "Oil and charcoal on canvas",
-                "size": "12 x 13 in",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/LosAngeles/farallon/farallon_sm.jpg",
-                    "alt": "farallon (2007) — the Farallon Plate, the subducted tectonic slab responsible for the chain of extinct volcanoes along the San Andreas fault",
-                    "is_primary": true
-                  }
-                ]
-              },
-              {
-                "id": "if-light-can-bend",
-                "title": "If Light Can Bend",
-                "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
-                "size": "",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/ifLightCanBend.jpg",
-                    "alt": "If Light Can Bend (2009) — installation for the exhibit \"The Studio as Laboratory\" at the California Institute of Technology",
-                    "is_primary": true
-                  },
-                  {
-                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/caroline1.jpg",
-                    "alt": "If Light Can Bend, detail",
-                    "is_primary": false
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "cyprus",
-            "name": "Cyprus",
-            "layout_type": "grid",
-            "date": "2007-01-01",
-            "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\nI felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
-            "synopsis": "A birthday shared with a divided island's peace agreement, and the myths that followed.",
-            "thumbnail": "/artworks/GeomagTravel/cyprus/thumbnail.svg",
-            "header_image": "/artworks/GeomagTravel/cyprus/header.svg",
-            "artworks": [
-              {
-                "id": "double-cypriot",
-                "title": "Double Cypriot",
-                "medium": "Oil and charcoal on canvas",
-                "size": "60 x 96 in",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/double_cypriot_sm.jpg",
-                    "alt": "Double Cypriot (2007)",
-                    "is_primary": true
-                  },
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot1_det_sm.jpg",
-                    "alt": "Double Cypriot, detail",
-                    "is_primary": false
-                  },
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot2_det_sm.jpg",
-                    "alt": "Double Cypriot, detail",
-                    "is_primary": false
-                  },
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/map_cyprus.jpg",
-                    "alt": "Map of Cyprus",
-                    "is_primary": false
-                  }
-                ]
-              },
-              {
-                "id": "syrtos",
-                "title": "Syrtos",
-                "medium": "Plaster and graphite on wall",
-                "size": "",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/syrtos/syrtos1.jpg",
-                    "alt": "Syrtos (2006)",
-                    "is_primary": true
-                  }
-                ]
-              },
-              {
-                "id": "stereoscopic-love-goddess",
-                "title": "Stereoscopic Love Goddess",
-                "medium": "Stereoscope card, digital inkjet prints",
-                "size": "",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/stereoscopic-love-goddess/stereo_goddess.jpg",
-                    "alt": "Stereoscopic Love Goddess (2006) — Aphrodite of Cyprus merged with Artemis of Ephesus",
-                    "is_primary": true
-                  }
-                ]
-              }
-            ]
-          }
         ]
       },
       {
         "id": "marginalia",
+        "type": "category",
         "name": "Marginalia",
-        "layout_type": "subcategory_list",
+        "layout_type": "grid",
         "date": "2025-11-02",
         "write_up": "Two sketchbooks kept alongside the studio paintings — faster, looser, and mostly unfinished on purpose.",
         "synopsis": "Faster, looser pages kept alongside the studio paintings.",
         "thumbnail": "/artworks/marginalia/thumbnail.svg",
         "header_image": "/artworks/marginalia/header.svg",
-        "child_categories": [
+        "children": [
           {
             "id": "sketchbook-i",
+            "type": "category",
             "name": "Sketchbook I",
             "layout_type": "grid",
             "date": "2025-09-10",
@@ -525,9 +543,10 @@
             "synopsis": "The first sketchbook, filled over a wet spring.",
             "thumbnail": "/artworks/marginalia/sketchbook-i/thumbnail.svg",
             "header_image": "/artworks/marginalia/sketchbook-i/header.svg",
-            "artworks": [
+            "children": [
               {
                 "id": "sketchbook-i-01",
+                "type": "artwork",
                 "title": "Sketchbook I, no. 1",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
@@ -541,6 +560,7 @@
               },
               {
                 "id": "sketchbook-i-02",
+                "type": "artwork",
                 "title": "Sketchbook I, no. 2",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
@@ -554,6 +574,7 @@
               },
               {
                 "id": "sketchbook-i-03",
+                "type": "artwork",
                 "title": "Sketchbook I, no. 3",
                 "medium": "Ink",
                 "size": "7 x 9 in",
@@ -569,6 +590,7 @@
           },
           {
             "id": "sketchbook-ii",
+            "type": "category",
             "name": "Sketchbook II",
             "layout_type": "grid",
             "date": "2025-11-02",
@@ -576,9 +598,10 @@
             "synopsis": "The second sketchbook, begun the week the first one ran out of pages.",
             "thumbnail": "/artworks/marginalia/sketchbook-ii/thumbnail.svg",
             "header_image": "/artworks/marginalia/sketchbook-ii/header.svg",
-            "artworks": [
+            "children": [
               {
                 "id": "sketchbook-ii-01",
+                "type": "artwork",
                 "title": "Sketchbook II, no. 1",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
@@ -592,6 +615,7 @@
               },
               {
                 "id": "sketchbook-ii-02",
+                "type": "artwork",
                 "title": "Sketchbook II, no. 2",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
@@ -605,6 +629,7 @@
               },
               {
                 "id": "sketchbook-ii-03",
+                "type": "artwork",
                 "title": "Sketchbook II, no. 3",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
@@ -654,6 +679,7 @@
         "children": [
           {
             "id": "studies-for-frost-line",
+            "type": "artwork",
             "title": "Studies for Frost Line",
             "medium": "Graphite on paper",
             "size": "11 x 14 in (each)",
@@ -668,8 +694,7 @@
                 "alt": "Study for Frost Line, second study",
                 "is_primary": false
               }
-            ],
-            "type": "artwork"
+            ]
           },
           {
             "id": "working-method",

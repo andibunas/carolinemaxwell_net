@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getLatestArtworkCategories, getCategoryThumbnail } from '../../data/manifest';
+import { getLatestArtworkCategories, getNodeThumbnail } from '../../data/manifest';
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' });
 
@@ -11,7 +11,7 @@ export default function LatestWork() {
       <h2 className="font-display text-2xl text-ink mb-8">Latest work</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         {categories.map((category) => {
-          const thumbnail = getCategoryThumbnail(category);
+          const thumbnail = getNodeThumbnail(category);
           return (
             <Link key={category.id} to={`/artworks/${category.id}`} className="group block">
               {thumbnail && (

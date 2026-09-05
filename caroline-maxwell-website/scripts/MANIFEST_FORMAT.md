@@ -55,10 +55,10 @@ A series of small interiors painted over one January...
 - `Synopsis` is the short teaser shown next to the thumbnail in listings;
   `Write Up` is the longer text shown on the category's own page. Both can
   be Markdown-free plain text or Markdown.
-- Subfolders are either all `Category` (-> nested `child_categories`, for a
-  category made of sub-categories like sketchbooks) or all `Artwork` (->
-  `artworks`, the paintings/drawings themselves) — don't mix the two under
-  one category.
+- Subfolders can be any mix of `Category` (a sub-category, like a sketchbook)
+  and `Artwork` (a painting/drawing) — both live together in one ordered
+  `children` list. A listing layout doesn't care which is which; it just
+  follows each child's own link.
 
 ## `public/artworks/` and `public/writings/` — Type: Artwork
 
@@ -68,6 +68,7 @@ Order: 1
 Title: Frost Line
 Medium: Oil on panel
 Size: 24 x 30 in
+Thumbnail: thumbnail.svg
 
 ## Images
 
@@ -77,6 +78,9 @@ Size: 24 x 30 in
 
 - Each line in `## Images` is `filename | alt text | primary` (the third
   field is the literal word `primary` on exactly one line, or omit it).
+- `Thumbnail` is an optional filename, sitting directly in this artwork's own
+  folder, used as its preview wherever it appears among siblings (an
+  Artworks listing page). Omit it and the primary image is used instead.
 - An artwork folder has no subfolders — only its manifest.md and image files.
 - The same Artwork type is used both for artworks under `public/artworks/`
   and for artwork embedded inside `public/writings/` (e.g. process studies

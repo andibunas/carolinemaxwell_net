@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getArtworkCategories, getCategoryThumbnail } from '../../data/manifest';
+import { getArtworkCategories, getNodeThumbnail } from '../../data/manifest';
 
 export default function ArtworksIndexPage() {
   useEffect(() => {
@@ -14,7 +14,7 @@ export default function ArtworksIndexPage() {
       <h1 className="font-display text-3xl text-ink mb-12">Artworks</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {categories.map((category) => {
-          const thumbnail = getCategoryThumbnail(category);
+          const thumbnail = getNodeThumbnail(category);
           return (
             <Link key={category.id} to={`/artworks/${category.id}`} className="group block">
               {thumbnail && (
