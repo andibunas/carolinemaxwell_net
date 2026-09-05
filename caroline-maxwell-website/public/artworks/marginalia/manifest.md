@@ -3,7 +3,12 @@ Order: 3
 Name: Marginalia
 Layout Type: subcategory_list
 Date: 2025-11-02
-Primary Artwork: sketchbook-i-01
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+Faster, looser pages kept alongside the studio paintings.
 
 ## Write Up
 

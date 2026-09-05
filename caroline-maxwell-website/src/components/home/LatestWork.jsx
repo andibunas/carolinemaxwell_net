@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getLatestArtworkCategories, getCategoryCoverImage } from '../../data/manifest';
+import { getLatestArtworkCategories, getCategoryThumbnail } from '../../data/manifest';
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric' });
 
@@ -11,14 +11,14 @@ export default function LatestWork() {
       <h2 className="font-display text-2xl text-ink mb-8">Latest work</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         {categories.map((category) => {
-          const cover = getCategoryCoverImage(category);
+          const thumbnail = getCategoryThumbnail(category);
           return (
             <Link key={category.id} to={`/artworks/${category.id}`} className="group block">
-              {cover && (
+              {thumbnail && (
                 <div className="overflow-hidden bg-panel">
                   <img
-                    src={cover.src}
-                    alt={cover.alt}
+                    src={thumbnail.src}
+                    alt={thumbnail.alt}
                     className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
@@ -31,6 +31,9 @@ export default function LatestWork() {
                   {dateFormatter.format(new Date(category.date))}
                 </p>
               </div>
+              {category.synopsis && (
+                <p className="text-ink-soft text-sm mt-1 max-w-md">{category.synopsis}</p>
+              )}
             </Link>
           );
         })}

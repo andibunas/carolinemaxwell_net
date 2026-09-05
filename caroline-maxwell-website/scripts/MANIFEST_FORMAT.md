@@ -31,15 +31,30 @@ Order: 1
 Name: January Jones
 Layout Type: featured
 Date: 2026-06-01
-Primary Artwork: frost-line
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+Small interiors from one January, painted hour by hour in a single
+north-facing room.
 
 ## Write Up
 
 A series of small interiors painted over one January...
 ```
 
-- `Layout Type`, `Date`, and `Primary Artwork` (the id of one of this
-  category's own or nested artworks) are passed through as-is.
+- `Layout Type` and `Date` are passed through as-is.
+- `Thumbnail` and `Header Image` are filenames of images sitting directly in
+  this category's own folder (not one of its artworks' images).
+  `Thumbnail` is the small preview shown wherever this category appears
+  among siblings (the Artworks index, a parent's subcategory list, Home's
+  "Latest work"). `Header Image` is the banner shown at the top of this
+  category's own page. Both are optional — omit either and nothing renders
+  in its place.
+- `Synopsis` is the short teaser shown next to the thumbnail in listings;
+  `Write Up` is the longer text shown on the category's own page. Both can
+  be Markdown-free plain text or Markdown.
 - Subfolders are either all `Category` (-> nested `child_categories`, for a
   category made of sub-categories like sketchbooks) or all `Artwork` (->
   `artworks`, the paintings/drawings themselves) — don't mix the two under

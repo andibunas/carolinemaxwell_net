@@ -3,7 +3,12 @@ Order: 3
 Name: Geomagnetic Travellogue
 Layout Type: subcategory_list
 Date: 2025-11-02
-Primary Artwork: if-light-can-bend
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.
 
 ## Write Up
 

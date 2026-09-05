@@ -3,7 +3,12 @@ Order: 2
 Name: Interior Weather
 Layout Type: grid
 Date: 2026-03-15
-Primary Artwork: kitchen-window-morning
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+A kitchen table observed across a full year, one reading of light at a time.
 
 ## Write Up
 

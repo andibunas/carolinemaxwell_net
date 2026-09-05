@@ -7,7 +7,9 @@
         "layout_type": "featured",
         "date": "2026-06-01",
         "write_up": "A series of small interiors painted over one January, working from the same north-facing room as the light changed hour to hour. The paintings are about waiting more than they are about weather.",
-        "primary_artwork_id": "frost-line",
+        "synopsis": "Small interiors from one January, painted hour by hour in a single north-facing room.",
+        "thumbnail": "/artworks/january-jones/thumbnail.svg",
+        "header_image": "/artworks/january-jones/header.svg",
         "artworks": [
           {
             "id": "frost-line",
@@ -74,7 +76,9 @@
         "layout_type": "grid",
         "date": "2026-03-15",
         "write_up": "Rooms as instruments for measuring light. This group returns to the same kitchen table across a full year, each canvas a reading taken at a different hour.",
-        "primary_artwork_id": "kitchen-window-morning",
+        "synopsis": "A kitchen table observed across a full year, one reading of light at a time.",
+        "thumbnail": "/artworks/interior-weather/thumbnail.svg",
+        "header_image": "/artworks/interior-weather/header.svg",
         "artworks": [
           {
             "id": "kitchen-window-morning",
@@ -162,15 +166,19 @@
         "layout_type": "subcategory_list",
         "date": "2025-11-02",
         "write_up": "This project follows the zero-degree line of the\nearth's magnetic field from the year 1590.\nIt is a work in progress.\n\nThe year 1590 is significant, as it coincides with the\ndevelopment of Galileo's first telescope, and with the\ncreation of the first compound microscope.\n\nTherefore, my project explores incidences of macro-\nand micro-scopic vision, magnetic attraction and\npolarity, and the intersection of scientific, historical,\nand artistic narratives.",
-        "primary_artwork_id": "if-light-can-bend",
+        "synopsis": "Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.",
+        "thumbnail": "/artworks/GeomagTravel/thumbnail.svg",
+        "header_image": "/artworks/GeomagTravel/header.svg",
         "child_categories": [
           {
             "id": "Geomag_journey1",
-            "name": "Journey #1",
+            "name": "Journey",
             "layout_type": "grid",
             "date": "2008-05-10",
             "write_up": "On May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\n*using the wrong map to get to the right places*\n*can I reach Peru through a looking glass?*",
-            "primary_artwork_id": "south-africa",
+            "synopsis": "One 24-hour attempt to reach Peru, Iceland, South Africa, and Australia.",
+            "thumbnail": "/artworks/GeomagTravel/Geomag_journey1/thumbnail.svg",
+            "header_image": "/artworks/GeomagTravel/Geomag_journey1/header.svg",
             "artworks": [
               {
                 "id": "south-africa",
@@ -394,7 +402,9 @@
             "layout_type": "grid",
             "date": "2009-01-01",
             "write_up": "I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for 36 years.\n\nCalifornia is known for its earthquakes, and Los Angeles sits upon the San Andreas Fault. This important faultline is where the Pacific tectonic plate slides past the North American tectonic plate. Half of Los Angeles is moving slowly towards Anchorage, Alaska. The other half is travelling south.\n\nLos Angeles is home to Caltech, one of the foremost institutions in the study of seismic and geomagnetic activity, as well as astronomy and physics. Los Angeles is also home to the historical Mount Wilson Observatory, which is situated directly above my childhood home in Pasadena. This is where Edwin Hubble made many of his notable observations with the now antiquated 100-inch Hooker Telescope.",
-            "primary_artwork_id": "if-light-can-bend",
+            "synopsis": "Birthplace and fault line — Los Angeles as the start and end of the journey.",
+            "thumbnail": "/artworks/GeomagTravel/Geomag_LosAngeles/thumbnail.svg",
+            "header_image": "/artworks/GeomagTravel/Geomag_LosAngeles/header.svg",
             "artworks": [
               {
                 "id": "farallon",
@@ -435,7 +445,9 @@
             "layout_type": "grid",
             "date": "2007-01-01",
             "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\nI felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
-            "primary_artwork_id": "double-cypriot",
+            "synopsis": "A birthday shared with a divided island's peace agreement, and the myths that followed.",
+            "thumbnail": "/artworks/GeomagTravel/Geomag_cyprus/thumbnail.svg",
+            "header_image": "/artworks/GeomagTravel/Geomag_cyprus/header.svg",
             "artworks": [
               {
                 "id": "double-cypriot",
@@ -501,7 +513,9 @@
         "layout_type": "subcategory_list",
         "date": "2025-11-02",
         "write_up": "Two sketchbooks kept alongside the studio paintings — faster, looser, and mostly unfinished on purpose.",
-        "primary_artwork_id": "sketchbook-i-01",
+        "synopsis": "Faster, looser pages kept alongside the studio paintings.",
+        "thumbnail": "/artworks/marginalia/thumbnail.svg",
+        "header_image": "/artworks/marginalia/header.svg",
         "child_categories": [
           {
             "id": "sketchbook-i",
@@ -509,7 +523,9 @@
             "layout_type": "grid",
             "date": "2025-09-10",
             "write_up": "Pages from the first sketchbook, kept over a wet spring.",
-            "primary_artwork_id": "sketchbook-i-01",
+            "synopsis": "The first sketchbook, filled over a wet spring.",
+            "thumbnail": "/artworks/marginalia/sketchbook-i/thumbnail.svg",
+            "header_image": "/artworks/marginalia/sketchbook-i/header.svg",
             "artworks": [
               {
                 "id": "sketchbook-i-01",
@@ -558,7 +574,9 @@
             "layout_type": "grid",
             "date": "2025-11-02",
             "write_up": "The second sketchbook, started the week the first one filled up.",
-            "primary_artwork_id": "sketchbook-ii-01",
+            "synopsis": "The second sketchbook, begun the week the first one ran out of pages.",
+            "thumbnail": "/artworks/marginalia/sketchbook-ii/thumbnail.svg",
+            "header_image": "/artworks/marginalia/sketchbook-ii/header.svg",
             "artworks": [
               {
                 "id": "sketchbook-ii-01",

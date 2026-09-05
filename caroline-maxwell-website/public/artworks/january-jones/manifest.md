@@ -3,7 +3,12 @@ Order: 1
 Name: January Jones
 Layout Type: featured
 Date: 2026-06-01
-Primary Artwork: frost-line
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+Small interiors from one January, painted hour by hour in a single north-facing room.
 
 ## Write Up
 

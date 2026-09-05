@@ -3,8 +3,7 @@ import ArtworkCard from '../ArtworkCard';
 
 export default function FeaturedLayout({ category, basePath }) {
   const artworks = category.artworks || [];
-  const featured =
-    artworks.find((a) => a.id === category.primary_artwork_id) || artworks[0];
+  const featured = artworks[0];
   const rest = artworks.filter((a) => a.id !== featured?.id);
   const featuredImage = featured?.images.find((i) => i.is_primary) || featured?.images[0];
 

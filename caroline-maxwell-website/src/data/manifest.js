@@ -6,21 +6,12 @@ export function getArtworkCategories() {
   return manifest.artworks.categories;
 }
 
-function findPrimaryImage(artwork) {
-  return artwork.images.find((img) => img.is_primary) || artwork.images[0];
+export function getCategoryThumbnail(category) {
+  return category.thumbnail ? { src: category.thumbnail, alt: category.name } : null;
 }
 
-function findPrimaryArtwork(category) {
-  const pool = [
-    ...(category.artworks || []),
-    ...(category.child_categories || []).flatMap((c) => c.artworks || []),
-  ];
-  return pool.find((a) => a.id === category.primary_artwork_id) || pool[0] || null;
-}
-
-export function getCategoryCoverImage(category) {
-  const artwork = findPrimaryArtwork(category);
-  return artwork ? findPrimaryImage(artwork) : null;
+export function getCategoryHeaderImage(category) {
+  return category.header_image ? { src: category.header_image, alt: category.name } : null;
 }
 
 /**

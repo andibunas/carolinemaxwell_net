@@ -1,9 +1,14 @@
 Type: Category
 Order: 1
-Name: Journey #1
+Name: Journey
 Layout Type: grid
 Date: 2008-05-10
-Primary Artwork: south-africa
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+One 24-hour attempt to reach Peru, Iceland, South Africa, and Australia.
 
 ## Write Up
 

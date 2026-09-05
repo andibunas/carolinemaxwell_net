@@ -3,7 +3,12 @@ Order: 3
 Name: Cyprus
 Layout Type: grid
 Date: 2007-01-01
-Primary Artwork: double-cypriot
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+A birthday shared with a divided island's peace agreement, and the myths that followed.
 
 ## Write Up
 

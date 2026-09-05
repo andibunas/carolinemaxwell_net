@@ -3,7 +3,12 @@ Order: 2
 Name: Los Angeles
 Layout Type: grid
 Date: 2009-01-01
-Primary Artwork: if-light-can-bend
+Thumbnail: thumbnail.svg
+Header Image: header.svg
+
+## Synopsis
+
+Birthplace and fault line — Los Angeles as the start and end of the journey.
 
 ## Write Up
 

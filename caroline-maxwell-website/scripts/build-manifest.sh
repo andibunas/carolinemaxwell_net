@@ -197,12 +197,31 @@ build_category_node() {
   local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
   local type; type="$(front_get "$pdir" Type)"
   [ "$type" = "Category" ] || fail "$dir/manifest.md has Type '$type' (expected Category)"
-  local name layout date primary write_up
+  local name layout date write_up synopsis
   name="$(front_get "$pdir" Name)"
   layout="$(front_get "$pdir" "Layout Type")"
   date="$(front_get "$pdir" Date)"
-  primary="$(front_get "$pdir" "Primary Artwork")"
   write_up="$(section_get "$pdir" "Write Up")"
+  synopsis="$(section_get "$pdir" "Synopsis")"
+
+  local rel thumbnail_file header_file thumbnail="" header_image=""
+  rel="${dir#"$PUBLIC_DIR"/}"
+  thumbnail_file="$(front_get "$pdir" Thumbnail)"
+  if [ -n "$thumbnail_file" ]; then
+    if [ -f "$dir/$thumbnail_file" ]; then
+      thumbnail="/$rel/$thumbnail_file"
+    else
+      echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
+    fi
+  fi
+  header_file="$(front_get "$pdir" "Header Image")"
+  if [ -n "$header_file" ]; then
+    if [ -f "$dir/$header_file" ]; then
+      header_image="/$rel/$header_file"
+    else
+      echo "warning: $dir/manifest.md references missing header image '$header_file'" >&2
+    fi
+  fi
 
   local artworks_json="[]" children_json="[]"
   local sub type node pdir_child
@@ -226,10 +245,12 @@ build_category_node() {
   check_failed
 
   jq -n --arg id "$id" --arg name "$name" --arg layout "$layout" --arg date "$date" \
-        --arg primary "$primary" --arg write_up "$write_up" \
+        --arg write_up "$write_up" --arg synopsis "$synopsis" \
+        --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
         --argjson artworks "$artworks_json" --argjson children "$children_json" '
-    {id:$id, name:$name, layout_type:$layout, date:$date, write_up:$write_up}
-    + (if $primary != "" then {primary_artwork_id:$primary} else {} end)
+    {id:$id, name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
+    + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
+    + (if $header_image != "" then {header_image:$header_image} else {} end)
     + (if ($artworks|length) > 0 then {artworks:$artworks} else {} end)
     + (if ($children|length) > 0 then {child_categories:$children} else {} end)
   '

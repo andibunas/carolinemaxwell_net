@@ -2,7 +2,7 @@ import { Suspense, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Breadcrumb from '../../components/layout/Breadcrumb';
 import ArtworkDetail from '../../components/artworks/ArtworkDetail';
-import { resolveArtworkPath } from '../../data/manifest';
+import { resolveArtworkPath, getCategoryHeaderImage } from '../../data/manifest';
 import { resolveArtworkLayout } from '../../components/artworks/layoutRegistry';
 import NotFoundPage from '../NotFoundPage';
 
@@ -45,10 +45,20 @@ export default function ArtworksCategoryPage() {
 
   const category = resolved.node;
   const LayoutComponent = resolveArtworkLayout(category.layout_type);
+  const headerImage = getCategoryHeaderImage(category);
 
   return (
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">
       <Breadcrumb trail={trail} current={category.name} />
+      {headerImage && (
+        <div className="overflow-hidden bg-panel mt-6">
+          <img
+            src={headerImage.src}
+            alt={headerImage.alt}
+            className="w-full h-auto max-h-[50vh] object-cover"
+          />
+        </div>
+      )}
       {category.write_up && (
         <p className="text-ink-soft text-base leading-relaxed max-w-2xl mt-4">
           {category.write_up}
