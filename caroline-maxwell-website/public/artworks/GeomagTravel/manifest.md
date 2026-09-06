@@ -3,8 +3,9 @@ Order: 3
 Name: Geomagnetic Travellogue
 Layout Type: grid
 Date: 2025-11-02
-Thumbnail: thumbnail.gif
-
+Thumbnail: declination.jpg
+    deepThumbnail: tools/geomag_tools.jpg
+Header Image: declination-animated.gif
 
 ## Synopsis
 

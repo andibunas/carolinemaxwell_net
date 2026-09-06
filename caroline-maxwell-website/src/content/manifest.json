@@ -180,7 +180,8 @@
         "date": "2025-11-02",
         "write_up": "This project follows the zero-degree line of the\nearth's magnetic field from the year 1590.\nIt is a work in progress.\n\nThe year 1590 is significant, as it coincides with the\ndevelopment of Galileo's first telescope, and with the\ncreation of the first compound microscope.\n\nTherefore, my project explores incidences of macro-\nand micro-scopic vision, magnetic attraction and\npolarity, and the intersection of scientific, historical,\nand artistic narratives.\n\nOn May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\n*using the wrong map to get to the right places*\n*can I reach Peru through a looking glass?*",
         "synopsis": "Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.",
-        "thumbnail": "/artworks/GeomagTravel/thumbnail.gif",
+        "thumbnail": "/artworks/GeomagTravel/declination.jpg",
+        "header_image": "/artworks/GeomagTravel/declination-animated.gif",
         "children": [
           {
             "id": "south-africa",
