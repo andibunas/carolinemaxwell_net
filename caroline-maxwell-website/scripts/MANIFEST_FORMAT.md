@@ -23,10 +23,10 @@ Run the script again any time you add, edit, or reorder folders.
   which one is primary, or skip it entirely to have every image included with
   the artwork's title as its alt text and the first one as primary.
 
-## `public/artworks/` — Type: Category
+## `public/artworks/` — Type: Project
 
 ```
-Type: Category
+Type: Project
 Order: 1
 Name: January Jones
 Layout Type: featured
@@ -46,16 +46,16 @@ A series of small interiors painted over one January...
 
 - `Layout Type` and `Date` are passed through as-is.
 - `Thumbnail` and `Header Image` are filenames of images sitting directly in
-  this category's own folder (not one of its artworks' images).
-  `Thumbnail` is the small preview shown wherever this category appears
-  among siblings (the Artworks index, a parent's subcategory list, Home's
+  this project's own folder (not one of its artworks' images).
+  `Thumbnail` is the small preview shown wherever this project appears
+  among siblings (the Artworks index, a parent's sub-project list, Home's
   "Latest work"). `Header Image` is the banner shown at the top of this
-  category's own page. Both are optional — omit either and nothing renders
+  project's own page. Both are optional — omit either and nothing renders
   in its place.
 - `Synopsis` is the short teaser shown next to the thumbnail in listings;
-  `Write Up` is the longer text shown on the category's own page. Both can
+  `Write Up` is the longer text shown on the project's own page. Both can
   be Markdown-free plain text or Markdown.
-- Subfolders can be any mix of `Category` (a sub-category, like a sketchbook)
+- Subfolders can be any mix of `Project` (a sub-project, like a sketchbook)
   and `Artwork` (a painting/drawing) — both live together in one ordered
   `children` list. A listing layout doesn't care which is which; it just
   follows each child's own link.
@@ -86,10 +86,10 @@ Thumbnail: thumbnail.svg
   and for artwork embedded inside `public/writings/` (e.g. process studies
   shown alongside an essay).
 
-## `public/writings/` — Type: Category
+## `public/writings/` — Type: Project
 
 ```
-Type: Category
+Type: Project
 Order: 1
 Name: Notebooks
 
@@ -98,7 +98,7 @@ Name: Notebooks
 Short, dated entries written alongside the studio work.
 ```
 
-- Subfolders can be any mix of `Category`, `Writing`, or `Artwork`.
+- Subfolders can be any mix of `Project`, `Writing`, or `Artwork`.
 
 ## `public/writings/` — Type: Writing
 

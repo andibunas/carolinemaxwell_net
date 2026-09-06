@@ -1,4 +1,4 @@
-Type: Category
+Type: Project
 Order: 3
 Name: Marginalia
 Layout Type: grid

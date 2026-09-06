@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import ChildCard from '../ChildCard';
 import { getNodeThumbnail } from '../../../data/manifest';
 
-export default function FeaturedLayout({ category, basePath }) {
-  const children = category.children || [];
+export default function FeaturedLayout({ project, basePath }) {
+  const children = project.children || [];
   const featured = children[0];
   const rest = children.slice(1);
   const featuredThumbnail = featured && getNodeThumbnail(featured);

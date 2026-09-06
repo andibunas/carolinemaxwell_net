@@ -46,7 +46,7 @@ Two tiers of navigation, per the requirements:
 
 1. **Top-level routes** — real `<Route>` entries, each a distinct page:
    `/`, `/artworks`, `/writings`, `/about`
-2. **Sub-routes (category/artwork/writing detail)** — nested dynamic routes
+2. **Sub-routes (project/artwork/writing detail)** — nested dynamic routes
    using slug/ID params. These use React Router's client-side transitions
    (no full page reload) via lazily-loaded layout components, so browsing
    within Artworks/Writings feels instant, while the URL always fully

@@ -200,15 +200,15 @@ build_artwork_node() {
 }
 
 # ---------------------------------------------------------------------------
-# Artworks tree: a Category holds a mix of Category / Artwork children under
+# Artworks tree: a Project holds a mix of Project / Artwork children under
 # one ordered `children` list (same shape as the writings tree below).
 # ---------------------------------------------------------------------------
-build_category_node() {
+build_project_node() {
   local dir="$1"
   local id; id="$(basename "$dir")"
   local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
   local type; type="$(front_get "$pdir" Type)"
-  [ "$type" = "Category" ] || fail "$dir/manifest.md has Type '$type' (expected Category)"
+  [ "$type" = "Project" ] || fail "$dir/manifest.md has Type '$type' (expected Project)"
   local name layout date write_up synopsis
   name="$(front_get "$pdir" Name)"
   layout="$(front_get "$pdir" "Layout Type")"
@@ -244,11 +244,11 @@ build_category_node() {
       Artwork)
         node="$(build_artwork_node "$sub")"; check_failed
         ;;
-      Category)
-        node="$(build_category_node "$sub")"; check_failed
+      Project)
+        node="$(build_project_node "$sub")"; check_failed
         ;;
       *)
-        fail "$sub/manifest.md has Type '$type' (expected Category or Artwork)"
+        fail "$sub/manifest.md has Type '$type' (expected Project or Artwork)"
         ;;
     esac
     children_json="$(json_push "$children_json" "$node")"
@@ -259,7 +259,7 @@ build_category_node() {
         --arg write_up "$write_up" --arg synopsis "$synopsis" \
         --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
         --argjson children "$children_json" '
-    {id:$id, type:"category", name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
+    {id:$id, type:"project", name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
     + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
     + (if $header_image != "" then {header_image:$header_image} else {} end)
     + {children:$children}
@@ -267,7 +267,7 @@ build_category_node() {
 }
 
 # ---------------------------------------------------------------------------
-# Writings tree: a Category holds a mix of Category / Writing / Artwork
+# Writings tree: a Project holds a mix of Project / Writing / Artwork
 # children under `children`; Writing and Artwork are leaves.
 # ---------------------------------------------------------------------------
 build_writings_node() {
@@ -277,7 +277,7 @@ build_writings_node() {
   local type; type="$(front_get "$pdir" Type)"
 
   case "$type" in
-    Category)
+    Project)
       local name write_up; name="$(front_get "$pdir" Name)"; write_up="$(section_get "$pdir" "Write Up")"
       local children_json="[]" sub node
       while IFS= read -r sub; do
@@ -286,7 +286,7 @@ build_writings_node() {
       done < <(ordered_children "$dir")
       check_failed
       jq -n --arg id "$id" --arg name "$name" --arg write_up "$write_up" --argjson children "$children_json" \
-        '{id:$id, type:"category", name:$name, write_up:$write_up, children:$children}'
+        '{id:$id, type:"project", name:$name, write_up:$write_up, children:$children}'
       ;;
     Writing)
       local name write_up writing
@@ -300,17 +300,17 @@ build_writings_node() {
       build_artwork_node "$dir"; check_failed
       ;;
     *)
-      fail "$dir/manifest.md has Type '$type' (expected Category, Writing or Artwork)"
+      fail "$dir/manifest.md has Type '$type' (expected Project, Writing or Artwork)"
       ;;
   esac
 }
 
 echo "Scanning $ARTWORKS_DIR ..." >&2
-categories_json="[]"
+projects_json="[]"
 if [ -d "$ARTWORKS_DIR" ]; then
   while IFS= read -r sub; do
-    node="$(build_category_node "$sub")"; check_failed
-    categories_json="$(json_push "$categories_json" "$node")"
+    node="$(build_project_node "$sub")"; check_failed
+    projects_json="$(json_push "$projects_json" "$node")"
   done < <(ordered_children "$ARTWORKS_DIR")
   check_failed
 fi
@@ -325,8 +325,8 @@ if [ -d "$WRITINGS_DIR" ]; then
   check_failed
 fi
 
-jq -n --argjson categories "$categories_json" --argjson items "$items_json" \
-  '{artworks:{categories:$categories}, writings:{items:$items}}' > "$OUT_FILE"
+jq -n --argjson projects "$projects_json" --argjson items "$items_json" \
+  '{artworks:{projects:$projects}, writings:{items:$items}}' > "$OUT_FILE"
 
 jq empty "$OUT_FILE" || fail "generated manifest is not valid JSON"
 

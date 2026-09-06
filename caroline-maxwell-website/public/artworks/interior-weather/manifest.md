@@ -1,4 +1,4 @@
-Type: Category
+Type: Project
 Order: 2
 Name: Interior Weather
 Layout Type: grid

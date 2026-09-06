@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { writingDisplayName } from '../../../data/manifest';
 
-export default function WritingCategoryLayout({ node, basePath }) {
+export default function WritingProjectLayout({ node, basePath }) {
   const children = node.children || [];
   return (
     <div className="mt-12 divide-y divide-line">
@@ -20,7 +20,7 @@ export default function WritingCategoryLayout({ node, basePath }) {
             )}
           </div>
           <span className="text-ink-faint text-xs whitespace-nowrap">
-            {child.type === 'category' ? 'Collection' : child.type === 'artwork' ? 'Artwork' : 'Writing'}
+            {child.type === 'project' ? 'Collection' : child.type === 'artwork' ? 'Artwork' : 'Writing'}
           </span>
         </Link>
       ))}

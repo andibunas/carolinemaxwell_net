@@ -2,7 +2,7 @@ import { Suspense, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Breadcrumb from '../../components/layout/Breadcrumb';
 import ArtworkDetail from '../../components/artworks/ArtworkDetail';
-import { resolveArtworkPath, getCategoryHeaderImage } from '../../data/manifest';
+import { resolveArtworkPath, getProjectHeaderImage } from '../../data/manifest';
 import { resolveArtworkLayout } from '../../components/artworks/layoutRegistry';
 import NotFoundPage from '../NotFoundPage';
 
@@ -16,7 +16,7 @@ function buildTrail(ancestors) {
   return trail;
 }
 
-export default function ArtworksCategoryPage() {
+export default function ArtworksProjectPage() {
   const params = useParams();
   const segments = (params['*'] || '').split('/').filter(Boolean);
   const resolved = resolveArtworkPath(segments);
@@ -43,13 +43,13 @@ export default function ArtworksCategoryPage() {
     );
   }
 
-  const category = resolved.node;
-  const LayoutComponent = resolveArtworkLayout(category.layout_type);
-  const headerImage = getCategoryHeaderImage(category);
+  const project = resolved.node;
+  const LayoutComponent = resolveArtworkLayout(project.layout_type);
+  const headerImage = getProjectHeaderImage(project);
 
   return (
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">
-      <Breadcrumb trail={trail} current={category.name} />
+      <Breadcrumb trail={trail} current={project.name} />
       {headerImage && (
         <div className="overflow-hidden bg-panel mt-6">
           <img
@@ -59,13 +59,13 @@ export default function ArtworksCategoryPage() {
           />
         </div>
       )}
-      {category.write_up && (
+      {project.write_up && (
         <p className="text-ink-soft text-base leading-relaxed max-w-2xl mt-4">
-          {category.write_up}
+          {project.write_up}
         </p>
       )}
       <Suspense fallback={<p className="text-ink-faint text-sm mt-12">Loading…</p>}>
-        <LayoutComponent category={category} basePath={basePath} />
+        <LayoutComponent project={project} basePath={basePath} />
       </Suspense>
     </div>
   );

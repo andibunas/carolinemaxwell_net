@@ -28,7 +28,7 @@ export default function WritingsIndexPage() {
               )}
             </div>
             <span className="text-ink-faint text-xs whitespace-nowrap">
-              {item.type === 'category' ? 'Collection' : item.type === 'artwork' ? 'Artwork' : 'Writing'}
+              {item.type === 'project' ? 'Collection' : item.type === 'artwork' ? 'Artwork' : 'Writing'}
             </span>
           </Link>
         ))}

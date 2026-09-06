@@ -2,8 +2,8 @@ import manifest from '../content/manifest.json';
 
 // ---------- Artworks ----------
 
-export function getArtworkCategories() {
-  return manifest.artworks.categories;
+export function getArtworkProjects() {
+  return manifest.artworks.projects;
 }
 
 export function getNodeThumbnail(node) {
@@ -17,19 +17,19 @@ export function getNodeThumbnail(node) {
   return null;
 }
 
-export function getCategoryHeaderImage(category) {
-  return category.header_image ? { src: category.header_image, alt: category.name } : null;
+export function getProjectHeaderImage(project) {
+  return project.header_image ? { src: project.header_image, alt: project.name } : null;
 }
 
 /**
  * Resolve a splat path (array of slug segments) against the artworks tree.
- * Returns { kind: 'category' | 'artwork', node, ancestors } or null if not found.
- * ancestors is the array of Category nodes from top-level down to (but not
+ * Returns { kind: 'project' | 'artwork', node, ancestors } or null if not found.
+ * ancestors is the array of Project nodes from top-level down to (but not
  * including) the resolved node.
  */
 export function resolveArtworkPath(segments) {
   if (!segments || segments.length === 0) return null;
-  let level = manifest.artworks.categories;
+  let level = manifest.artworks.projects;
   const ancestors = [];
 
   for (let i = 0; i < segments.length; i++) {
@@ -41,15 +41,15 @@ export function resolveArtworkPath(segments) {
     if (isLast) {
       return { kind: node.type, node, ancestors };
     }
-    if (node.type !== 'category') return null;
+    if (node.type !== 'project') return null;
     ancestors.push(node);
     level = node.children || [];
   }
   return null;
 }
 
-export function getLatestArtworkCategories(n = 2) {
-  return [...manifest.artworks.categories]
+export function getLatestArtworkProjects(n = 2) {
+  return [...manifest.artworks.projects]
     .filter((c) => !!c.date)
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, n);
@@ -62,7 +62,7 @@ export function getWritingItems() {
 }
 
 /**
- * Resolve a splat path against the writings tree (category / writing / artwork
+ * Resolve a splat path against the writings tree (project / writing / artwork
  * discriminated union). Returns { node, ancestors } or null.
  */
 export function resolveWritingPath(segments) {
@@ -79,7 +79,7 @@ export function resolveWritingPath(segments) {
     if (isLast) {
       return { node, ancestors };
     }
-    if (node.type !== 'category') return null; // can't descend further
+    if (node.type !== 'project') return null; // can't descend further
     ancestors.push(node);
     level = node.children || [];
   }

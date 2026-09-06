@@ -1,4 +1,4 @@
-Type: Category
+Type: Project
 Order: 2
 Name: Sketchbook II
 Layout Type: grid

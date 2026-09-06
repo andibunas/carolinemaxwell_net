@@ -1,22 +1,22 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getArtworkCategories, getNodeThumbnail } from '../../data/manifest';
+import { getArtworkProjects, getNodeThumbnail } from '../../data/manifest';
 
 export default function ArtworksIndexPage() {
   useEffect(() => {
     document.title = 'Artworks — Caroline Maxwell';
   }, []);
 
-  const categories = getArtworkCategories();
+  const projects = getArtworkProjects();
 
   return (
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">
       <h1 className="font-display text-3xl text-ink mb-12">Artworks</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-        {categories.map((category) => {
-          const thumbnail = getNodeThumbnail(category);
+        {projects.map((project) => {
+          const thumbnail = getNodeThumbnail(project);
           return (
-            <Link key={category.id} to={`/artworks/${category.id}`} className="group block">
+            <Link key={project.id} to={`/artworks/${project.id}`} className="group block">
               {thumbnail && (
                 <div className="overflow-hidden bg-panel">
                   <img
@@ -28,10 +28,10 @@ export default function ArtworksIndexPage() {
                 </div>
               )}
               <p className="font-display text-xl text-ink mt-4 group-hover:text-gold transition-colors">
-                {category.name}
+                {project.name}
               </p>
-              {category.synopsis && (
-                <p className="text-ink-soft text-sm mt-1 max-w-md">{category.synopsis}</p>
+              {project.synopsis && (
+                <p className="text-ink-soft text-sm mt-1 max-w-md">{project.synopsis}</p>
               )}
             </Link>
           );

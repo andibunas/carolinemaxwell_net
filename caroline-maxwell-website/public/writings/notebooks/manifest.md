@@ -1,4 +1,4 @@
-Type: Category
+Type: Project
 Order: 1
 Name: Notebooks
 
