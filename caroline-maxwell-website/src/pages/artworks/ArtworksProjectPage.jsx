@@ -51,11 +51,11 @@ export default function ArtworksProjectPage() {
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">
       <Breadcrumb trail={trail} current={project.name} />
       {headerImage && (
-        <div className="overflow-hidden bg-panel mt-6">
+        <div className="flex justify-center mt-6">
           <img
             src={headerImage.src}
             alt={headerImage.alt}
-            className="w-full h-auto max-h-[50vh] object-cover"
+            className="w-auto h-auto max-w-full max-h-[50vh] object-contain"
           />
         </div>
       )}

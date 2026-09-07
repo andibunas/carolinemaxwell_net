@@ -18,12 +18,12 @@ export default function ArtworksIndexPage() {
           return (
             <Link key={project.id} to={`/artworks/${project.id}`} className="group block">
               {thumbnail && (
-                <div className="overflow-hidden bg-panel">
+                <div className="flex items-center justify-center h-64 overflow-hidden">
                   <img
                     src={thumbnail.src}
                     alt={thumbnail.alt}
                     loading="lazy"
-                    className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="max-h-full max-w-full w-auto h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
               )}
