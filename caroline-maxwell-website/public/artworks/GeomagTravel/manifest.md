@@ -29,8 +29,8 @@ On May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland,
 
 I started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.
 
-*parallel worlds*
-*using the wrong map to get to the right places*
+*parallel worlds*\
+*using the wrong map to get to the right places*\
 *can I reach Peru through a looking glass?*
 
 ## Child Projects

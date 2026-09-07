@@ -1,3 +1,5 @@
+import MarkdownContent from '../about/MarkdownContent';
+
 export default function ArtworkDetail({ artwork }) {
   const images = [...artwork.images].sort((a, b) => (b.is_primary ? 1 : 0) - (a.is_primary ? 1 : 0));
   return (
@@ -13,7 +15,7 @@ export default function ArtworkDetail({ artwork }) {
         <p className="text-ink-soft text-sm">{artwork.medium}</p>
         {artwork.size && <p className="text-ink-faint text-sm">{artwork.size}</p>}
         {artwork.date && <p className="text-ink-faint text-sm">{artwork.date}</p>}
-        {artwork.write_up && <p className="text-ink-soft text-sm mt-4">{artwork.write_up}</p>}
+        {artwork.write_up && <MarkdownContent source={artwork.write_up} className="text-sm mt-4" />}
       </div>
     </div>
   );

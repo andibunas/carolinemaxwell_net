@@ -2,6 +2,7 @@ import { Suspense, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Breadcrumb from '../../components/layout/Breadcrumb';
 import ArtworkDetail from '../../components/artworks/ArtworkDetail';
+import MarkdownContent from '../../components/about/MarkdownContent';
 import { resolveArtworkPath, getProjectHeaderImage } from '../../data/manifest';
 import { resolveArtworkLayout } from '../../components/artworks/layoutRegistry';
 import NotFoundPage from '../NotFoundPage';
@@ -60,9 +61,7 @@ export default function ArtworksProjectPage() {
         </div>
       )}
       {project.write_up && (
-        <p className="text-ink-soft text-base leading-relaxed max-w-2xl mt-4">
-          {project.write_up}
-        </p>
+        <MarkdownContent source={project.write_up} className="max-w-2xl mt-4" />
       )}
       <Suspense fallback={<p className="text-ink-faint text-sm mt-12">Loading…</p>}>
         <LayoutComponent project={project} basePath={basePath} />
