@@ -21,7 +21,7 @@ export default function FeaturedLayout({ project, basePath }) {
             <img
               src={featuredThumbnail.src}
               alt={featuredThumbnail.alt}
-              className="w-full h-auto max-h-[70vh] object-cover transition-transform duration-700 group-hover:scale-[1.015]"
+              className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-[1.015]"
             />
           </div>
           <div className="mt-4 flex items-baseline justify-between gap-4">
@@ -34,7 +34,7 @@ export default function FeaturedLayout({ project, basePath }) {
       )}
 
       {rest.length > 0 && (
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-8">
           {rest.map((child) => (
             <ChildCard key={child.id} node={child} to={`${basePath}/${child.id}`} />
           ))}
