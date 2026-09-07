@@ -2,7 +2,6 @@ Name: Los Angeles
 Type: artworks
 Date: 2009-01-01
 Thumbnail: thumbnail.svg
-Header Image: header.svg
 Layout: grid
 
 ## Synopsis

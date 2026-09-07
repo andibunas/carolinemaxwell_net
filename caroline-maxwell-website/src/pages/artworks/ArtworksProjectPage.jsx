@@ -45,7 +45,7 @@ export default function ArtworksProjectPage() {
   }
 
   const project = resolved.node;
-  const LayoutComponent = resolveArtworkLayout(project.layout_type);
+  const LayoutComponent = resolveArtworkLayout(project);
   const headerImage = getProjectHeaderImage(project);
 
   return (
