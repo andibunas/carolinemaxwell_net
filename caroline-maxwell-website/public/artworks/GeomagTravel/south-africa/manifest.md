@@ -1,11 +1,23 @@
-Type: Artwork
-Order: 1
-Title: South Africa
+Name: South Africa
+Type: artworks
+Date: 2008
+
+## Artworks
+
+### Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California
 Medium: Digital inkjet prints
+Image: joburg_map.jpg
 
-## Images
+abandoned mines, mine dumps, and a combined population of 253
 
-- joburg_map.jpg | Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California — abandoned mines, mine dumps, and a combined population of 253
-- Joburg.jpg | Joburg | primary
-- mine_split.jpg | Mine, Split Two Ways
-- watertanks.jpg | Experiments With Water — Black, White, Two and Three
+### Joburg
+Medium: Digital inkjet prints
+Image: Joburg.jpg
+
+### Mine, Split Two Ways
+Medium: Digital inkjet prints
+Image: mine_split.jpg
+
+### Experiments With Water — Black, White, Two and Three
+Medium: Digital inkjet prints
+Image: watertanks.jpg

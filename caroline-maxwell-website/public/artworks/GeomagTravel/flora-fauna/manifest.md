@@ -1,10 +1,17 @@
-Type: Artwork
-Order: 5
-Title: Flora and Fauna
-Medium: Digital inkjet prints (2008)
+Name: Flora and Fauna
+Type: artworks
+Date: 2008
 
-## Images
+## Artworks
 
-- datura_divide2.jpg | Datura (divide) | primary
-- datura4.jpg | Datura (lights)
-- coyote.jpg | Coyote
+### Datura (divide)
+Medium: Digital inkjet prints
+Image: datura_divide2.jpg
+
+### Datura (lights)
+Medium: Digital inkjet prints
+Image: datura4.jpg
+
+### Coyote
+Medium: Digital inkjet prints
+Image: coyote.jpg

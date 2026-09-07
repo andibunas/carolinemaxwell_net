@@ -12,6 +12,8 @@ export default function ArtworkDetail({ artwork }) {
       <div className="mt-6 max-w-3xl">
         <p className="text-ink-soft text-sm">{artwork.medium}</p>
         {artwork.size && <p className="text-ink-faint text-sm">{artwork.size}</p>}
+        {artwork.date && <p className="text-ink-faint text-sm">{artwork.date}</p>}
+        {artwork.write_up && <p className="text-ink-soft text-sm mt-4">{artwork.write_up}</p>}
       </div>
     </div>
   );

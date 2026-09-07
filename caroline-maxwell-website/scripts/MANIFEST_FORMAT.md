@@ -17,22 +17,33 @@ Run the script again any time you add, edit, or reorder folders.
   `manifest.md`.
 - `Order: N` (a plain integer) controls sibling order within a folder.
   Folders without an `Order` sort alphabetically after any that have one.
-- Images are just files sitting in the folder — `.svg`, `.jpg`, `.png`, etc.
-  The script doesn't inspect them; it lists whatever files it finds. Use an
-  `## Images` section (see the Artwork type below) to give alt text or mark
-  which one is primary, or skip it entirely to have every image included with
-  the artwork's title as its alt text and the first one as primary.
+- Images are just files sitting in a folder — `.svg`, `.jpg`, `.png`, etc.
+  The script doesn't inspect them; each tree's convention below says how an
+  image file is pointed to and captioned.
 
-## `public/artworks/` — Type: Project
+## `public/artworks/` — every folder is a project
+
+Every folder under `public/artworks/` is a **project**. A project either
+holds more project folders, or holds artworks (images) directly — never
+both. There is no separate "artwork folder" type; an image lives directly
+in the folder of the project it belongs to, and is described inline in that
+project's own `manifest.md`.
+
+A project's `manifest.md` has up to three parts: **project info** (the
+`Key: value` front matter plus `## Synopsis` / `## Write Up`), an optional
+**`## Child Projects`** list, and an optional **`## Artworks`** list. Which
+of the latter two you use is determined by `Type`.
+
+### Project info (every manifest.md)
 
 ```
-Type: Project
-Order: 1
 Name: January Jones
-Layout Type: featured
+Type: artworks
+Order: 1
 Date: 2026-06-01
 Thumbnail: thumbnail.svg
 Header Image: header.svg
+Layout: featured
 
 ## Synopsis
 
@@ -44,23 +55,66 @@ north-facing room.
 A series of small interiors painted over one January...
 ```
 
-- `Layout Type` and `Date` are passed through as-is.
+- `Type` is `projects` (this folder's children are more project folders) or
+  `artworks` (this folder's content is the images sitting directly in it,
+  described under `## Artworks` below).
+- `Order` is a plain integer controlling sibling order. Folders without one
+  sort alphabetically after any that have one. It's redundant with a
+  position in a parent's `## Child Projects` list — set one or the other,
+  not both.
 - `Thumbnail` and `Header Image` are filenames of images sitting directly in
-  this project's own folder (not one of its artworks' images).
-  `Thumbnail` is the small preview shown wherever this project appears
-  among siblings (the Artworks index, a parent's sub-project list, Home's
-  "Latest work"). `Header Image` is the banner shown at the top of this
-  project's own page. Both are optional — omit either and nothing renders
-  in its place.
+  this project's own folder. `Thumbnail` is the small preview shown wherever
+  this project appears among siblings; `Header Image` is the banner at the
+  top of this project's own page. Both optional.
+- `Layout` is passed through as-is (e.g. `grid`, `featured`).
 - `Synopsis` is the short teaser shown next to the thumbnail in listings;
-  `Write Up` is the longer text shown on the project's own page. Both can
-  be Markdown-free plain text or Markdown.
-- Subfolders can be any mix of `Project` (a sub-project, like a sketchbook)
-  and `Artwork` (a painting/drawing) — both live together in one ordered
-  `children` list. A listing layout doesn't care which is which; it just
-  follows each child's own link.
+  `Write Up` is the longer text on the project's own page. Both can be
+  plain text or Markdown.
 
-## `public/artworks/` and `public/writings/` — Type: Artwork
+### `## Child Projects` (only when `Type: projects`)
+
+```
+## Child Projects
+
+- south-africa
+- iceland
+- peru
+```
+
+- One `- foldername` per line, naming a direct subfolder (which has its own
+  `manifest.md`). List order is sibling order, and takes precedence over
+  those folders' own `Order:` fields.
+- Optional — omit the whole section to fall back to sorting subfolders by
+  their own `Order:` field instead.
+
+### `## Artworks` (only when `Type: artworks`)
+
+```
+## Artworks
+
+### Frost Line
+Medium: Oil on panel
+Size: 24 x 30 in
+Date: 2026-01-01
+Image: frost-line-1.svg
+
+### Frost Line, detail
+Medium: Oil on panel
+Image: frost-line-2.svg
+```
+
+- One `### Title` subsection per image. `Image` names a file sitting
+  directly in this project's folder. `Medium`, `Size`, and `Date` are plain
+  text/optional. Any text after the `Key: value` lines (down to the next
+  `### `) is that artwork's write-up — optional, can be Markdown.
+- List order is display order.
+- A folder with `Type: artworks` has no subfolders — only its manifest.md
+  and image files.
+
+## `public/writings/` — Type: Artwork
+
+`public/writings/` keeps its own, unchanged convention (below) — it isn't
+part of the `public/artworks/` project/artworks model above.
 
 ```
 Type: Artwork
@@ -82,9 +136,8 @@ Thumbnail: thumbnail.svg
   folder, used as its preview wherever it appears among siblings (an
   Artworks listing page). Omit it and the primary image is used instead.
 - An artwork folder has no subfolders — only its manifest.md and image files.
-- The same Artwork type is used both for artworks under `public/artworks/`
-  and for artwork embedded inside `public/writings/` (e.g. process studies
-  shown alongside an essay).
+- This Artwork type is used for artwork embedded inside `public/writings/`
+  (e.g. process studies shown alongside an essay).
 
 ## `public/writings/` — Type: Project
 

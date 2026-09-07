@@ -1,10 +1,17 @@
-Type: Artwork
-Order: 6
-Title: First Aid
-Medium: Digital inkjet prints (2008)
+Name: First Aid
+Type: artworks
+Date: 2008
 
-## Images
+## Artworks
 
-- iceonJoburg.jpg | Icepack — Johannesburg | primary
-- iceonPeru.jpg | Icepack — Peru
-- iceonIceland2.jpg | Icepack — Iceland
+### Icepack — Johannesburg
+Medium: Digital inkjet prints
+Image: iceonJoburg.jpg
+
+### Icepack — Peru
+Medium: Digital inkjet prints
+Image: iceonPeru.jpg
+
+### Icepack — Iceland
+Medium: Digital inkjet prints
+Image: iceonIceland2.jpg

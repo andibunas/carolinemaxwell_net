@@ -18,16 +18,29 @@
             "title": "Frost Line",
             "medium": "Oil on panel",
             "size": "24 x 30 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/january-jones/frost-line/frost-line-1.svg",
-                "alt": "Frost Line, oil on panel",
+                "src": "/artworks/january-jones/frost-line-1.svg",
+                "alt": "Frost Line",
                 "is_primary": true
-              },
+              }
+            ]
+          },
+          {
+            "id": "frost-line-detail",
+            "type": "artwork",
+            "title": "Frost Line, detail",
+            "medium": "Oil on panel",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
               {
-                "src": "/artworks/january-jones/frost-line/frost-line-2.svg",
+                "src": "/artworks/january-jones/frost-line-2.svg",
                 "alt": "Frost Line, detail",
-                "is_primary": false
+                "is_primary": true
               }
             ]
           },
@@ -37,10 +50,12 @@
             "title": "Low Water",
             "medium": "Oil on panel",
             "size": "18 x 24 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/january-jones/low-water/low-water.svg",
-                "alt": "Low Water, oil on panel",
+                "src": "/artworks/january-jones/low-water.svg",
+                "alt": "Low Water",
                 "is_primary": true
               }
             ]
@@ -51,10 +66,12 @@
             "title": "The Long Thaw",
             "medium": "Oil on canvas",
             "size": "36 x 40 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/january-jones/the-long-thaw/the-long-thaw.svg",
-                "alt": "The Long Thaw, oil on canvas",
+                "src": "/artworks/january-jones/the-long-thaw.svg",
+                "alt": "The Long Thaw",
                 "is_primary": true
               }
             ]
@@ -65,10 +82,12 @@
             "title": "Still, January",
             "medium": "Graphite and gouache",
             "size": "11 x 14 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/january-jones/still-january/still-january.svg",
-                "alt": "Still, January, graphite and gouache",
+                "src": "/artworks/january-jones/still-january.svg",
+                "alt": "Still, January",
                 "is_primary": true
               }
             ]
@@ -92,9 +111,11 @@
             "title": "Kitchen Window, Morning",
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/kitchen-window-morning/kitchen-window-morning.svg",
+                "src": "/artworks/interior-weather/kitchen-window-morning.svg",
                 "alt": "Kitchen Window, Morning",
                 "is_primary": true
               }
@@ -106,9 +127,11 @@
             "title": "Kitchen Window, Evening",
             "medium": "Oil on canvas",
             "size": "20 x 24 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/kitchen-window-evening/kitchen-window-evening.svg",
+                "src": "/artworks/interior-weather/kitchen-window-evening.svg",
                 "alt": "Kitchen Window, Evening",
                 "is_primary": true
               }
@@ -120,10 +143,12 @@
             "title": "Radiator Study",
             "medium": "Gouache on paper",
             "size": "9 x 12 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/radiator-study/radiator-study.svg",
-                "alt": "Radiator Study, gouache on paper",
+                "src": "/artworks/interior-weather/radiator-study.svg",
+                "alt": "Radiator Study",
                 "is_primary": true
               }
             ]
@@ -134,10 +159,12 @@
             "title": "The Visitor",
             "medium": "Oil on canvas",
             "size": "30 x 34 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/the-visitor/the-visitor.svg",
-                "alt": "The Visitor, oil on canvas",
+                "src": "/artworks/interior-weather/the-visitor.svg",
+                "alt": "The Visitor",
                 "is_primary": true
               }
             ]
@@ -148,10 +175,12 @@
             "title": "Rain on Glass",
             "medium": "Oil on panel",
             "size": "16 x 20 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/rain-on-glass/rain-on-glass.svg",
-                "alt": "Rain on Glass, oil on panel",
+                "src": "/artworks/interior-weather/rain-on-glass.svg",
+                "alt": "Rain on Glass",
                 "is_primary": true
               }
             ]
@@ -162,10 +191,12 @@
             "title": "Interior with Lamp",
             "medium": "Oil on canvas",
             "size": "26 x 32 in",
+            "date": "",
+            "write_up": "",
             "images": [
               {
-                "src": "/artworks/interior-weather/interior-with-lamp/interior-with-lamp.svg",
-                "alt": "Interior with Lamp, oil on canvas",
+                "src": "/artworks/interior-weather/interior-with-lamp.svg",
+                "alt": "Interior with Lamp",
                 "is_primary": true
               }
             ]
@@ -185,30 +216,76 @@
         "children": [
           {
             "id": "south-africa",
-            "type": "artwork",
-            "title": "South Africa",
-            "medium": "Digital inkjet prints",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "South Africa",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/south-africa/joburg_map.jpg",
-                "alt": "Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California — abandoned mines, mine dumps, and a combined population of 253",
-                "is_primary": false
+                "id": "map-of-the-western-mojave-desert-mining-towns-of-johannesburg-and-randsburg-california",
+                "type": "artwork",
+                "title": "Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "abandoned mines, mine dumps, and a combined population of 253",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/south-africa/joburg_map.jpg",
+                    "alt": "Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/south-africa/Joburg.jpg",
-                "alt": "Joburg",
-                "is_primary": true
+                "id": "joburg",
+                "type": "artwork",
+                "title": "Joburg",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/south-africa/Joburg.jpg",
+                    "alt": "Joburg",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/south-africa/mine_split.jpg",
-                "alt": "Mine, Split Two Ways",
-                "is_primary": false
+                "id": "mine-split-two-ways",
+                "type": "artwork",
+                "title": "Mine, Split Two Ways",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/south-africa/mine_split.jpg",
+                    "alt": "Mine, Split Two Ways",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/south-africa/watertanks.jpg",
-                "alt": "Experiments With Water — Black, White, Two and Three",
-                "is_primary": false
+                "id": "experiments-with-water-black-white-two-and-three",
+                "type": "artwork",
+                "title": "Experiments With Water — Black, White, Two and Three",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/south-africa/watertanks.jpg",
+                    "alt": "Experiments With Water — Black, White, Two and Three",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
@@ -229,10 +306,12 @@
                 "title": "farallon",
                 "medium": "Oil and charcoal on canvas",
                 "size": "12 x 13 in",
+                "date": "2007",
+                "write_up": "the Farallon Plate, the subducted tectonic slab responsible for the chain of extinct volcanoes along the San Andreas fault",
                 "images": [
                   {
-                    "src": "/artworks/GeomagTravel/LosAngeles/farallon/farallon_sm.jpg",
-                    "alt": "farallon (2007) — the Farallon Plate, the subducted tectonic slab responsible for the chain of extinct volcanoes along the San Andreas fault",
+                    "src": "/artworks/GeomagTravel/LosAngeles/farallon_sm.jpg",
+                    "alt": "farallon",
                     "is_primary": true
                   }
                 ]
@@ -243,16 +322,29 @@
                 "title": "If Light Can Bend",
                 "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
                 "size": "",
+                "date": "2009",
+                "write_up": "installation for the exhibit \"The Studio as Laboratory\" at the California Institute of Technology",
                 "images": [
                   {
-                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/ifLightCanBend.jpg",
-                    "alt": "If Light Can Bend (2009) — installation for the exhibit \"The Studio as Laboratory\" at the California Institute of Technology",
+                    "src": "/artworks/GeomagTravel/LosAngeles/ifLightCanBend.jpg",
+                    "alt": "If Light Can Bend",
                     "is_primary": true
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "if-light-can-bend-detail",
+                "type": "artwork",
+                "title": "If Light Can Bend, detail",
+                "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
                   {
-                    "src": "/artworks/GeomagTravel/LosAngeles/if-light-can-bend/caroline1.jpg",
+                    "src": "/artworks/GeomagTravel/LosAngeles/caroline1.jpg",
                     "alt": "If Light Can Bend, detail",
-                    "is_primary": false
+                    "is_primary": true
                   }
                 ]
               }
@@ -260,30 +352,76 @@
           },
           {
             "id": "iceland",
-            "type": "artwork",
-            "title": "Iceland",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Iceland",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/iceland/redhill.png",
-                "alt": "Red Hill, a 10,000-year-old cinder cone in the Owens River Valley, California",
-                "is_primary": false
+                "id": "red-hill",
+                "type": "artwork",
+                "title": "Red Hill",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "a 10,000-year-old cinder cone in the Owens River Valley, California",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/iceland/redhill.png",
+                    "alt": "Red Hill",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/iceland/Iceland_vulcanx2.jpg",
-                "alt": "Cindercone",
-                "is_primary": true
+                "id": "cindercone",
+                "type": "artwork",
+                "title": "Cindercone",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/iceland/Iceland_vulcanx2.jpg",
+                    "alt": "Cindercone",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/iceland/iceland_wool.jpg",
-                "alt": "Iceland #1 (wool)",
-                "is_primary": false
+                "id": "iceland-1-wool",
+                "type": "artwork",
+                "title": "Iceland #1 (wool)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/iceland/iceland_wool.jpg",
+                    "alt": "Iceland #1 (wool)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/iceland/iceonIceland.jpg",
-                "alt": "Iceland #2 (ice)",
-                "is_primary": false
+                "id": "iceland-2-ice",
+                "type": "artwork",
+                "title": "Iceland #2 (ice)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/iceland/iceonIceland.jpg",
+                    "alt": "Iceland #2 (ice)",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
@@ -292,11 +430,10 @@
             "type": "project",
             "name": "Cyprus",
             "layout_type": "grid",
-            "date": "2007-01-01",
-            "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\nI felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
+            "date": "",
+            "write_up": "- The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have been fighting over the island for thousands of years. Ironically, it is the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\n- It was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.\n\n- I felt a certain \"geomagnetic attraction\" to Cyprus — from the birthday connection with this date in Cypriot history, to the mythological, anthropological, and even geological history of the place. I found the association with a \"love goddess\" intriguing, as well as the importance of materials like copper and honey.",
             "synopsis": "A birthday shared with a divided island's peace agreement, and the myths that followed.",
-            "thumbnail": "/artworks/GeomagTravel/cyprus/thumbnail.svg",
-            "header_image": "/artworks/GeomagTravel/cyprus/header.svg",
+            "thumbnail": "/artworks/GeomagTravel/cyprus/syrtos1.jpg",
             "children": [
               {
                 "id": "double-cypriot",
@@ -304,26 +441,61 @@
                 "title": "Double Cypriot",
                 "medium": "Oil and charcoal on canvas",
                 "size": "60 x 96 in",
+                "date": "2007",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/double_cypriot_sm.jpg",
-                    "alt": "Double Cypriot (2007)",
+                    "src": "/artworks/GeomagTravel/cyprus/double_cypriot_sm.jpg",
+                    "alt": "Double Cypriot",
                     "is_primary": true
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "double-cypriot-detail-1",
+                "type": "artwork",
+                "title": "Double Cypriot, detail 1",
+                "medium": "Oil and charcoal on canvas",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot1_det_sm.jpg",
-                    "alt": "Double Cypriot, detail",
-                    "is_primary": false
-                  },
+                    "src": "/artworks/GeomagTravel/cyprus/cypriot1_det_sm.jpg",
+                    "alt": "Double Cypriot, detail 1",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "double-cypriot-detail-2",
+                "type": "artwork",
+                "title": "Double Cypriot, detail 2",
+                "medium": "Oil and charcoal on canvas",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/cypriot2_det_sm.jpg",
-                    "alt": "Double Cypriot, detail",
-                    "is_primary": false
-                  },
+                    "src": "/artworks/GeomagTravel/cyprus/cypriot2_det_sm.jpg",
+                    "alt": "Double Cypriot, detail 2",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "map-of-cyprus",
+                "type": "artwork",
+                "title": "Map of Cyprus",
+                "medium": "",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/double-cypriot/map_cyprus.jpg",
+                    "src": "/artworks/GeomagTravel/cyprus/map_cyprus.jpg",
                     "alt": "Map of Cyprus",
-                    "is_primary": false
+                    "is_primary": true
                   }
                 ]
               },
@@ -333,10 +505,12 @@
                 "title": "Syrtos",
                 "medium": "Plaster and graphite on wall",
                 "size": "",
+                "date": "2006",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/syrtos/syrtos1.jpg",
-                    "alt": "Syrtos (2006)",
+                    "src": "/artworks/GeomagTravel/cyprus/syrtos1.jpg",
+                    "alt": "Syrtos",
                     "is_primary": true
                   }
                 ]
@@ -347,10 +521,12 @@
                 "title": "Stereoscopic Love Goddess",
                 "medium": "Stereoscope card, digital inkjet prints",
                 "size": "",
+                "date": "2006",
+                "write_up": "Aphrodite of Cyprus merged with Artemis of Ephesus",
                 "images": [
                   {
-                    "src": "/artworks/GeomagTravel/cyprus/stereoscopic-love-goddess/stereo_goddess.jpg",
-                    "alt": "Stereoscopic Love Goddess (2006) — Aphrodite of Cyprus merged with Artemis of Ephesus",
+                    "src": "/artworks/GeomagTravel/cyprus/stereo_goddess.png",
+                    "alt": "Stereoscopic Love Goddess",
                     "is_primary": true
                   }
                 ]
@@ -359,165 +535,419 @@
           },
           {
             "id": "peru",
-            "type": "artwork",
-            "title": "Peru",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Peru",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/peru/PERUracetrack.jpg",
-                "alt": "The Racetrack, Death Valley National Park, California",
-                "is_primary": false
+                "id": "the-racetrack-death-valley-national-park-california",
+                "type": "artwork",
+                "title": "The Racetrack, Death Valley National Park, California",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/peru/PERUracetrack.jpg",
+                    "alt": "The Racetrack, Death Valley National Park, California",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/peru/peru_trailsx4.jpg",
-                "alt": "Peru (Earth Drawings)",
-                "is_primary": true
+                "id": "peru-earth-drawings",
+                "type": "artwork",
+                "title": "Peru (Earth Drawings)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/peru/peru_trailsx4.jpg",
+                    "alt": "Peru (Earth Drawings)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/peru/peru_movedmtns.jpg",
-                "alt": "Peru (To Move and to Hold a Mountain)",
-                "is_primary": false
+                "id": "peru-to-move-and-to-hold-a-mountain",
+                "type": "artwork",
+                "title": "Peru (To Move and to Hold a Mountain)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/peru/peru_movedmtns.jpg",
+                    "alt": "Peru (To Move and to Hold a Mountain)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/peru/peru_icelake.jpg",
-                "alt": "Peru (ice lake)",
-                "is_primary": false
+                "id": "peru-ice-lake",
+                "type": "artwork",
+                "title": "Peru (ice lake)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/peru/peru_icelake.jpg",
+                    "alt": "Peru (ice lake)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/peru/Peru_mirror.jpg",
-                "alt": "Peru (mirror)",
-                "is_primary": false
+                "id": "peru-mirror",
+                "type": "artwork",
+                "title": "Peru (mirror)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/peru/Peru_mirror.jpg",
+                    "alt": "Peru (mirror)",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
           {
             "id": "australia",
-            "type": "artwork",
-            "title": "Australia",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Australia",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "This is the autstralia write up.  Where are you",
+            "synopsis": "Ausie synopsis",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/australia/teakettleMap.jpg",
-                "alt": "Tea Kettle Junction, Death Valley National Park, California",
-                "is_primary": false
+                "id": "tea-kettle-junction-death-valley-national-park-california",
+                "type": "artwork",
+                "title": "Tea Kettle Junction, Death Valley National Park, California",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/australia/teakettleMap.jpg",
+                    "alt": "Tea Kettle Junction, Death Valley National Park, California",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/australia/teakettle.jpg",
-                "alt": "Tea Kettle Junction",
-                "is_primary": true
+                "id": "tea-kettle-junction",
+                "type": "artwork",
+                "title": "Tea Kettle Junction",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/australia/teakettle.jpg",
+                    "alt": "Tea Kettle Junction",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/australia/australia_wool.jpg",
-                "alt": "Australia (wool)",
-                "is_primary": false
+                "id": "australia-wool",
+                "type": "artwork",
+                "title": "Australia (wool)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/australia/australia_wool.jpg",
+                    "alt": "Australia (wool)",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
           {
             "id": "flora-fauna",
-            "type": "artwork",
-            "title": "Flora and Fauna",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Flora and Fauna",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/flora-fauna/datura_divide2.jpg",
-                "alt": "Datura (divide)",
-                "is_primary": true
+                "id": "datura-divide",
+                "type": "artwork",
+                "title": "Datura (divide)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/flora-fauna/datura_divide2.jpg",
+                    "alt": "Datura (divide)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/flora-fauna/datura4.jpg",
-                "alt": "Datura (lights)",
-                "is_primary": false
+                "id": "datura-lights",
+                "type": "artwork",
+                "title": "Datura (lights)",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/flora-fauna/datura4.jpg",
+                    "alt": "Datura (lights)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/flora-fauna/coyote.jpg",
-                "alt": "Coyote",
-                "is_primary": false
+                "id": "coyote",
+                "type": "artwork",
+                "title": "Coyote",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/flora-fauna/coyote.jpg",
+                    "alt": "Coyote",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
           {
             "id": "first-aid",
-            "type": "artwork",
-            "title": "First Aid",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "First Aid",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/first-aid/iceonJoburg.jpg",
-                "alt": "Icepack — Johannesburg",
-                "is_primary": true
+                "id": "icepack-johannesburg",
+                "type": "artwork",
+                "title": "Icepack — Johannesburg",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/first-aid/iceonJoburg.jpg",
+                    "alt": "Icepack — Johannesburg",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/first-aid/iceonPeru.jpg",
-                "alt": "Icepack — Peru",
-                "is_primary": false
+                "id": "icepack-peru",
+                "type": "artwork",
+                "title": "Icepack — Peru",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/first-aid/iceonPeru.jpg",
+                    "alt": "Icepack — Peru",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/first-aid/iceonIceland2.jpg",
-                "alt": "Icepack — Iceland",
-                "is_primary": false
+                "id": "icepack-iceland",
+                "type": "artwork",
+                "title": "Icepack — Iceland",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/first-aid/iceonIceland2.jpg",
+                    "alt": "Icepack — Iceland",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
           {
             "id": "tools",
-            "type": "artwork",
-            "title": "Tools",
-            "medium": "Digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Tools",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/tools/geomag_tools.jpg",
-                "alt": "Field kit for the journey — lenses and mirrors of various shapes and sizes, copper plates, copper wire, lead weights, electrical tape, athletic tape, Icelandic wool, Peruvian Highland wool, eucalyptus-dyed Australian wool, a shovel, and a broom",
-                "is_primary": true
+                "id": "field-kit-for-the-journey",
+                "type": "artwork",
+                "title": "Field kit for the journey",
+                "medium": "Digital inkjet prints",
+                "size": "",
+                "date": "",
+                "write_up": "lenses and mirrors of various shapes and sizes, copper plates, copper wire, lead weights, electrical tape, athletic tape, Icelandic wool, Peruvian Highland wool, eucalyptus-dyed Australian wool, a shovel, and a broom",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/tools/geomag_tools.jpg",
+                    "alt": "Field kit for the journey",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           },
           {
             "id": "studio",
-            "type": "artwork",
-            "title": "Back in the Studio",
-            "medium": "Mixed media, digital inkjet prints (2008)",
-            "size": "",
-            "images": [
+            "type": "project",
+            "name": "Back in the Studio",
+            "layout_type": "",
+            "date": "2008",
+            "write_up": "",
+            "synopsis": "",
+            "children": [
               {
-                "src": "/artworks/GeomagTravel/studio/purse_bandg_hill.jpg",
-                "alt": "Copper purse and Untitled (bandages) — digital inkjet print, bandages, copper purse, blue velvet, honeycomb",
-                "is_primary": true
+                "id": "copper-purse-and-untitled-bandages",
+                "type": "artwork",
+                "title": "Copper purse and Untitled (bandages)",
+                "medium": "digital inkjet print, bandages, copper purse, blue velvet, honeycomb",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/purse_bandg_hill.jpg",
+                    "alt": "Copper purse and Untitled (bandages)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/bandage_hills.jpg",
-                "alt": "Untitled (bandages), detail — digital inkjet print, bandages",
-                "is_primary": false
+                "id": "untitled-bandages-detail",
+                "type": "artwork",
+                "title": "Untitled (bandages), detail",
+                "medium": "digital inkjet print, bandages",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/bandage_hills.jpg",
+                    "alt": "Untitled (bandages), detail",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/soil_samples.jpg",
-                "alt": "Soil Samples — earth collected from Johannesburg mine dumps, Red Hill, and the Owens Lake flood plain",
-                "is_primary": false
+                "id": "soil-samples",
+                "type": "artwork",
+                "title": "Soil Samples",
+                "medium": "earth collected from Johannesburg mine dumps, Red Hill, and the Owens Lake flood plain",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/soil_samples.jpg",
+                    "alt": "Soil Samples",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/net.jpg",
-                "alt": "Untitled (net) — handspun Peruvian Highland wool and eucalyptus-dyed wool, copper pipe, digital inkjet print",
-                "is_primary": false
+                "id": "untitled-net",
+                "type": "artwork",
+                "title": "Untitled (net)",
+                "medium": "handspun Peruvian Highland wool and eucalyptus-dyed wool, copper pipe, digital inkjet print",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/net.jpg",
+                    "alt": "Untitled (net)",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/elektron.jpg",
-                "alt": "Elektron — cello rosin, copper plate, copper wire, electrical tape, digital inkjet print",
-                "is_primary": false
+                "id": "elektron",
+                "type": "artwork",
+                "title": "Elektron",
+                "medium": "cello rosin, copper plate, copper wire, electrical tape, digital inkjet print",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/elektron.jpg",
+                    "alt": "Elektron",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/feet.jpg",
-                "alt": "We're on the same page when we begin and when we end — composition book page (numbers 152 and 1), pencil and oil paint, copper plate, Doctor McLean's Volcanic Oil Liniment",
-                "is_primary": false
+                "id": "we-re-on-the-same-page-when-we-begin-and-when-we-end",
+                "type": "artwork",
+                "title": "We're on the same page when we begin and when we end",
+                "medium": "composition book page (numbers 152 and 1), pencil and oil paint, copper plate, Doctor McLean's Volcanic Oil Liniment",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/feet.jpg",
+                    "alt": "We're on the same page when we begin and when we end",
+                    "is_primary": true
+                  }
+                ]
               },
               {
-                "src": "/artworks/GeomagTravel/studio/lostatsea.jpg",
-                "alt": "Lost at Sea — composition book page (numbers 126 and 27), chalk, red pencil, and india ink, electrical tape",
-                "is_primary": false
+                "id": "lost-at-sea",
+                "type": "artwork",
+                "title": "Lost at Sea",
+                "medium": "composition book page (numbers 126 and 27), chalk, red pencil, and india ink, electrical tape",
+                "size": "",
+                "date": "",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/studio/lostatsea.jpg",
+                    "alt": "Lost at Sea",
+                    "is_primary": true
+                  }
+                ]
               }
             ]
           }
@@ -546,42 +976,48 @@
             "header_image": "/artworks/marginalia/sketchbook-i/header.svg",
             "children": [
               {
-                "id": "sketchbook-i-01",
+                "id": "sketchbook-i-no-1",
                 "type": "artwork",
                 "title": "Sketchbook I, no. 1",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-01/sketchbook-i-01.svg",
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-01.svg",
                     "alt": "Sketchbook I, no. 1",
                     "is_primary": true
                   }
                 ]
               },
               {
-                "id": "sketchbook-i-02",
+                "id": "sketchbook-i-no-2",
                 "type": "artwork",
                 "title": "Sketchbook I, no. 2",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-02/sketchbook-i-02.svg",
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-02.svg",
                     "alt": "Sketchbook I, no. 2",
                     "is_primary": true
                   }
                 ]
               },
               {
-                "id": "sketchbook-i-03",
+                "id": "sketchbook-i-no-3",
                 "type": "artwork",
                 "title": "Sketchbook I, no. 3",
                 "medium": "Ink",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-03/sketchbook-i-03.svg",
+                    "src": "/artworks/marginalia/sketchbook-i/sketchbook-i-03.svg",
                     "alt": "Sketchbook I, no. 3",
                     "is_primary": true
                   }
@@ -601,42 +1037,48 @@
             "header_image": "/artworks/marginalia/sketchbook-ii/header.svg",
             "children": [
               {
-                "id": "sketchbook-ii-01",
+                "id": "sketchbook-ii-no-1",
                 "type": "artwork",
                 "title": "Sketchbook II, no. 1",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-01/sketchbook-ii-01.svg",
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-01.svg",
                     "alt": "Sketchbook II, no. 1",
                     "is_primary": true
                   }
                 ]
               },
               {
-                "id": "sketchbook-ii-02",
+                "id": "sketchbook-ii-no-2",
                 "type": "artwork",
                 "title": "Sketchbook II, no. 2",
                 "medium": "Ink wash",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-02/sketchbook-ii-02.svg",
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-02.svg",
                     "alt": "Sketchbook II, no. 2",
                     "is_primary": true
                   }
                 ]
               },
               {
-                "id": "sketchbook-ii-03",
+                "id": "sketchbook-ii-no-3",
                 "type": "artwork",
                 "title": "Sketchbook II, no. 3",
                 "medium": "Graphite",
                 "size": "7 x 9 in",
+                "date": "",
+                "write_up": "",
                 "images": [
                   {
-                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-03/sketchbook-ii-03.svg",
+                    "src": "/artworks/marginalia/sketchbook-ii/sketchbook-ii-03.svg",
                     "alt": "Sketchbook II, no. 3",
                     "is_primary": true
                   }

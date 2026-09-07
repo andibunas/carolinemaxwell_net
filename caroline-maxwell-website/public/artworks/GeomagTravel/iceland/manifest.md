@@ -1,11 +1,23 @@
-Type: Artwork
-Order: 2
-Title: Iceland
-Medium: Digital inkjet prints (2008)
+Name: Iceland
+Type: artworks
+Date: 2008
 
-## Images
+## Artworks
 
-- redhill.png | Red Hill, a 10,000-year-old cinder cone in the Owens River Valley, California
-- Iceland_vulcanx2.jpg | Cindercone | primary
-- iceland_wool.jpg | Iceland #1 (wool)
-- iceonIceland.jpg | Iceland #2 (ice)
+### Red Hill
+Medium: Digital inkjet prints
+Image: redhill.png
+
+a 10,000-year-old cinder cone in the Owens River Valley, California
+
+### Cindercone
+Medium: Digital inkjet prints
+Image: Iceland_vulcanx2.jpg
+
+### Iceland #1 (wool)
+Medium: Digital inkjet prints
+Image: iceland_wool.jpg
+
+### Iceland #2 (ice)
+Medium: Digital inkjet prints
+Image: iceonIceland.jpg

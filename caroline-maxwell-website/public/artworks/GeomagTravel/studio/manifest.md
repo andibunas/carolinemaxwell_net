@@ -1,14 +1,33 @@
-Type: Artwork
-Order: 8
-Title: Back in the Studio
-Medium: Mixed media, digital inkjet prints (2008)
+Name: Back in the Studio
+Type: artworks
+Date: 2008
 
-## Images
+## Artworks
 
-- purse_bandg_hill.jpg | Copper purse and Untitled (bandages) — digital inkjet print, bandages, copper purse, blue velvet, honeycomb | primary
-- bandage_hills.jpg | Untitled (bandages), detail — digital inkjet print, bandages
-- soil_samples.jpg | Soil Samples — earth collected from Johannesburg mine dumps, Red Hill, and the Owens Lake flood plain
-- net.jpg | Untitled (net) — handspun Peruvian Highland wool and eucalyptus-dyed wool, copper pipe, digital inkjet print
-- elektron.jpg | Elektron — cello rosin, copper plate, copper wire, electrical tape, digital inkjet print
-- feet.jpg | We're on the same page when we begin and when we end — composition book page (numbers 152 and 1), pencil and oil paint, copper plate, Doctor McLean's Volcanic Oil Liniment
-- lostatsea.jpg | Lost at Sea — composition book page (numbers 126 and 27), chalk, red pencil, and india ink, electrical tape
+### Copper purse and Untitled (bandages)
+Medium: digital inkjet print, bandages, copper purse, blue velvet, honeycomb
+Image: purse_bandg_hill.jpg
+
+### Untitled (bandages), detail
+Medium: digital inkjet print, bandages
+Image: bandage_hills.jpg
+
+### Soil Samples
+Medium: earth collected from Johannesburg mine dumps, Red Hill, and the Owens Lake flood plain
+Image: soil_samples.jpg
+
+### Untitled (net)
+Medium: handspun Peruvian Highland wool and eucalyptus-dyed wool, copper pipe, digital inkjet print
+Image: net.jpg
+
+### Elektron
+Medium: cello rosin, copper plate, copper wire, electrical tape, digital inkjet print
+Image: elektron.jpg
+
+### We're on the same page when we begin and when we end
+Medium: composition book page (numbers 152 and 1), pencil and oil paint, copper plate, Doctor McLean's Volcanic Oil Liniment
+Image: feet.jpg
+
+### Lost at Sea
+Medium: composition book page (numbers 126 and 27), chalk, red pencil, and india ink, electrical tape
+Image: lostatsea.jpg

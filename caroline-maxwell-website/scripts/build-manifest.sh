@@ -108,8 +108,147 @@ json_push() {
 }
 
 # ---------------------------------------------------------------------------
-# Artwork node: Title / Medium / Size + an image list built from the folder's
-# own image files, optionally annotated by a `## Images` section of the form
+# Artworks tree (public/artworks/): every folder is a "project". `Type:
+# projects` recurses into subfolders; `Type: artworks` reads inline artwork
+# entries from a `## Artworks` section (one `### Title` per image, living
+# directly in this folder) instead of recursing. See MANIFEST_FORMAT.md.
+# ---------------------------------------------------------------------------
+
+# Splits a `## Artworks` section file into one artwork object per `### Title`
+# subsection. Each subsection is `Key: value` lines (Medium/Size/Date/Image)
+# followed by optional free-text write-up. Returns a JSON array.
+parse_artwork_entries() {
+  local section_file="$1" dir="$2"
+  local entries_json="[]"
+  [ -f "$section_file" ] || { printf '%s' "$entries_json"; return; }
+
+  local edir; edir="$(mktemp -d "$WORKDIR/artentry.XXXXXX")"
+  awk -v outdir="$edir" '
+    BEGIN { n = 0; out = outdir "/_pre.md" }
+    /^### / {
+      n++
+      title = $0
+      sub(/^### /, "", title)
+      print title > (outdir "/_title_" n ".txt")
+      out = outdir "/_entry_" n ".md"
+      next
+    }
+    { print > out }
+  ' "$section_file"
+
+  local rel; rel="${dir#"$PUBLIC_DIR"/}"
+  local n=1 efile title medium size date image write_up slug
+  while [ -f "$edir/_title_$n.txt" ]; do
+    title="$(cat "$edir/_title_$n.txt")"
+    efile="$edir/_entry_$n.md"
+    medium="$(grep -m1 '^Medium:' "$efile" 2>/dev/null | sed -E 's/^Medium:[[:space:]]*//')"
+    size="$(grep -m1 '^Size:' "$efile" 2>/dev/null | sed -E 's/^Size:[[:space:]]*//')"
+    date="$(grep -m1 '^Date:' "$efile" 2>/dev/null | sed -E 's/^Date:[[:space:]]*//')"
+    image="$(grep -m1 '^Image:' "$efile" 2>/dev/null | sed -E 's/^Image:[[:space:]]*//')"
+    write_up="$(awk '
+      BEGIN { skipping = 1 }
+      /^(Medium|Size|Date|Image):/ { next }
+      skipping && /^[[:space:]]*$/ { next }
+      { skipping = 0; lines[++n] = $0 }
+      END { last = n; while (last > 0 && lines[last] == "") last--; for (i = 1; i <= last; i++) print lines[i] }
+    ' "$efile")"
+
+    if [ -z "$image" ] || [ ! -f "$dir/$image" ]; then
+      echo "warning: $dir/manifest.md artwork '$title' has missing/invalid Image '$image'" >&2
+      n=$((n + 1))
+      continue
+    fi
+
+    slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
+    entries_json="$(json_push "$entries_json" "$(jq -n \
+      --arg id "$slug" --arg title "$title" --arg medium "${medium:-}" --arg size "${size:-}" \
+      --arg date "${date:-}" --arg src "/$rel/$image" --arg write_up "${write_up:-}" \
+      '{id:$id, type:"artwork", title:$title, medium:$medium, size:$size, date:$date, write_up:$write_up,
+        images:[{src:$src, alt:$title, is_primary:true}]}')")"
+    n=$((n + 1))
+  done
+  printf '%s' "$entries_json"
+}
+
+# Ordered subfolder list for a `Type: projects` folder: an explicit
+# `## Child Projects` list (one `- foldername` per line) if present,
+# otherwise the same Order-field fallback as ordered_children().
+ordered_child_projects() {
+  local dir="$1" pdir="$2"
+  local list_file="$pdir/_section_child_projects.md"
+  if [ -f "$list_file" ] && grep -q '^-[[:space:]]' "$list_file"; then
+    grep '^-[[:space:]]' "$list_file" | sed -E 's/^-[[:space:]]+//; s/[[:space:]]+$//' \
+      | while IFS= read -r name; do printf '%s/%s\n' "$dir" "$name"; done
+  else
+    ordered_children "$dir"
+  fi
+}
+
+build_artworks_node() {
+  local dir="$1"
+  local id; id="$(basename "$dir")"
+  local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
+  local type; type="$(front_get "$pdir" Type)"
+  local name layout date write_up synopsis
+  name="$(front_get "$pdir" Name)"
+  layout="$(front_get "$pdir" Layout)"
+  date="$(front_get "$pdir" Date)"
+  write_up="$(section_get "$pdir" "Write Up")"
+  synopsis="$(section_get "$pdir" "Synopsis")"
+
+  local rel thumbnail_file header_file thumbnail="" header_image=""
+  rel="${dir#"$PUBLIC_DIR"/}"
+  thumbnail_file="$(front_get "$pdir" Thumbnail)"
+  if [ -n "$thumbnail_file" ]; then
+    if [ -f "$dir/$thumbnail_file" ]; then
+      thumbnail="/$rel/$thumbnail_file"
+    else
+      echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
+    fi
+  fi
+  header_file="$(front_get "$pdir" "Header Image")"
+  if [ -n "$header_file" ]; then
+    if [ -f "$dir/$header_file" ]; then
+      header_image="/$rel/$header_file"
+    else
+      echo "warning: $dir/manifest.md references missing header image '$header_file'" >&2
+    fi
+  fi
+
+  local children_json
+  case "$type" in
+    projects)
+      children_json="[]"
+      local sub node
+      while IFS= read -r sub; do
+        node="$(build_artworks_node "$sub")"; check_failed
+        children_json="$(json_push "$children_json" "$node")"
+      done < <(ordered_child_projects "$dir" "$pdir")
+      check_failed
+      ;;
+    artworks)
+      children_json="$(parse_artwork_entries "$pdir/_section_artworks.md" "$dir")"
+      ;;
+    *)
+      fail "$dir/manifest.md has Type '$type' (expected projects or artworks)"
+      ;;
+  esac
+
+  jq -n --arg id "$id" --arg name "$name" --arg layout "$layout" --arg date "$date" \
+        --arg write_up "$write_up" --arg synopsis "$synopsis" \
+        --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
+        --argjson children "$children_json" '
+    {id:$id, type:"project", name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
+    + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
+    + (if $header_image != "" then {header_image:$header_image} else {} end)
+    + {children:$children}
+  '
+}
+
+# ---------------------------------------------------------------------------
+# Writings tree only: Artwork node with Title / Medium / Size + an image list
+# built from the folder's own image files, optionally annotated by a
+# `## Images` section of the form
 #   - filename.ext | alt text | primary
 # Any image file present on disk but not listed in that section is appended
 # automatically (alt text falls back to the artwork's title). If no image is
@@ -200,73 +339,6 @@ build_artwork_node() {
 }
 
 # ---------------------------------------------------------------------------
-# Artworks tree: a Project holds a mix of Project / Artwork children under
-# one ordered `children` list (same shape as the writings tree below).
-# ---------------------------------------------------------------------------
-build_project_node() {
-  local dir="$1"
-  local id; id="$(basename "$dir")"
-  local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
-  local type; type="$(front_get "$pdir" Type)"
-  [ "$type" = "Project" ] || fail "$dir/manifest.md has Type '$type' (expected Project)"
-  local name layout date write_up synopsis
-  name="$(front_get "$pdir" Name)"
-  layout="$(front_get "$pdir" "Layout Type")"
-  date="$(front_get "$pdir" Date)"
-  write_up="$(section_get "$pdir" "Write Up")"
-  synopsis="$(section_get "$pdir" "Synopsis")"
-
-  local rel thumbnail_file header_file thumbnail="" header_image=""
-  rel="${dir#"$PUBLIC_DIR"/}"
-  thumbnail_file="$(front_get "$pdir" Thumbnail)"
-  if [ -n "$thumbnail_file" ]; then
-    if [ -f "$dir/$thumbnail_file" ]; then
-      thumbnail="/$rel/$thumbnail_file"
-    else
-      echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
-    fi
-  fi
-  header_file="$(front_get "$pdir" "Header Image")"
-  if [ -n "$header_file" ]; then
-    if [ -f "$dir/$header_file" ]; then
-      header_image="/$rel/$header_file"
-    else
-      echo "warning: $dir/manifest.md references missing header image '$header_file'" >&2
-    fi
-  fi
-
-  local children_json="[]"
-  local sub type node pdir_child
-  while IFS= read -r sub; do
-    pdir_child="$(parse_manifest_md "$sub/manifest.md")"; check_failed
-    type="$(front_get "$pdir_child" Type)"
-    case "$type" in
-      Artwork)
-        node="$(build_artwork_node "$sub")"; check_failed
-        ;;
-      Project)
-        node="$(build_project_node "$sub")"; check_failed
-        ;;
-      *)
-        fail "$sub/manifest.md has Type '$type' (expected Project or Artwork)"
-        ;;
-    esac
-    children_json="$(json_push "$children_json" "$node")"
-  done < <(ordered_children "$dir")
-  check_failed
-
-  jq -n --arg id "$id" --arg name "$name" --arg layout "$layout" --arg date "$date" \
-        --arg write_up "$write_up" --arg synopsis "$synopsis" \
-        --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
-        --argjson children "$children_json" '
-    {id:$id, type:"project", name:$name, layout_type:$layout, date:$date, write_up:$write_up, synopsis:$synopsis}
-    + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
-    + (if $header_image != "" then {header_image:$header_image} else {} end)
-    + {children:$children}
-  '
-}
-
-# ---------------------------------------------------------------------------
 # Writings tree: a Project holds a mix of Project / Writing / Artwork
 # children under `children`; Writing and Artwork are leaves.
 # ---------------------------------------------------------------------------
@@ -309,7 +381,7 @@ echo "Scanning $ARTWORKS_DIR ..." >&2
 projects_json="[]"
 if [ -d "$ARTWORKS_DIR" ]; then
   while IFS= read -r sub; do
-    node="$(build_project_node "$sub")"; check_failed
+    node="$(build_artworks_node "$sub")"; check_failed
     projects_json="$(json_push "$projects_json" "$node")"
   done < <(ordered_children "$ARTWORKS_DIR")
   check_failed

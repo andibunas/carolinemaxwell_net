@@ -1,12 +1,25 @@
-Type: Artwork
-Order: 3
-Title: Peru
-Medium: Digital inkjet prints (2008)
+Name: Peru
+Type: artworks
+Date: 2008
 
-## Images
+## Artworks
 
-- PERUracetrack.jpg | The Racetrack, Death Valley National Park, California
-- peru_trailsx4.jpg | Peru (Earth Drawings) | primary
-- peru_movedmtns.jpg | Peru (To Move and to Hold a Mountain)
-- peru_icelake.jpg | Peru (ice lake)
-- Peru_mirror.jpg | Peru (mirror)
+### The Racetrack, Death Valley National Park, California
+Medium: Digital inkjet prints
+Image: PERUracetrack.jpg
+
+### Peru (Earth Drawings)
+Medium: Digital inkjet prints
+Image: peru_trailsx4.jpg
+
+### Peru (To Move and to Hold a Mountain)
+Medium: Digital inkjet prints
+Image: peru_movedmtns.jpg
+
+### Peru (ice lake)
+Medium: Digital inkjet prints
+Image: peru_icelake.jpg
+
+### Peru (mirror)
+Medium: Digital inkjet prints
+Image: Peru_mirror.jpg

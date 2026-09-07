@@ -1,11 +1,10 @@
-Type: Project
-Order: 3
 Name: Geomagnetic Travellogue
-Layout Type: grid
+Type: projects
+Order: 3
 Date: 2025-11-02
 Thumbnail: declination.jpg
-    deepThumbnail: tools/geomag_tools.jpg
 Header Image: declination-animated.gif
+Layout: grid
 
 ## Synopsis
 
@@ -33,3 +32,16 @@ I started my expedition in Los Angeles, and after carefully studying my maps, I 
 *parallel worlds*
 *using the wrong map to get to the right places*
 *can I reach Peru through a looking glass?*
+
+## Child Projects
+
+- south-africa
+- LosAngeles
+- iceland
+- cyprus
+- peru
+- australia
+- flora-fauna
+- first-aid
+- tools
+- studio
