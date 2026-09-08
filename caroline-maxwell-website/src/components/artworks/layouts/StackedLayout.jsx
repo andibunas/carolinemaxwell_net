@@ -1,7 +1,19 @@
+import { useEffect, useState } from 'react';
+import { X } from 'lucide-react';
 import MarkdownContent from '../../about/MarkdownContent';
 
 export default function StackedLayout({ project }) {
   const artworks = project.children || [];
+  const [lightboxImage, setLightboxImage] = useState(null);
+
+  useEffect(() => {
+    if (!lightboxImage) return;
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setLightboxImage(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxImage]);
 
   return (
     <div className="mt-12 flex flex-col gap-6">
@@ -16,9 +28,14 @@ export default function StackedLayout({ project }) {
           >
             <div className="flex flex-col gap-8">
               {images.map((img, i) => (
-                <div key={i} className="bg-panel overflow-hidden">
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => setLightboxImage(img)}
+                  className="bg-panel overflow-hidden cursor-zoom-in"
+                >
                   <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />
-                </div>
+                </button>
               ))}
             </div>
             <div className="mt-6">
@@ -33,6 +50,28 @@ export default function StackedLayout({ project }) {
           </div>
         );
       })}
+
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90"
+          onClick={() => setLightboxImage(null)}
+        >
+          <button
+            type="button"
+            onClick={() => setLightboxImage(null)}
+            aria-label="Close"
+            className="absolute top-4 right-4 text-white/80 hover:text-white"
+          >
+            <X size={32} />
+          </button>
+          <img
+            src={lightboxImage.src}
+            alt={lightboxImage.alt}
+            className="max-w-[90vw] max-h-[90vh] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 }
