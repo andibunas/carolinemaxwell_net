@@ -4,7 +4,7 @@ export default function StackedLayout({ project }) {
   const artworks = project.children || [];
 
   return (
-    <div className="mt-12 flex flex-col gap-16">
+    <div className="mt-12 flex flex-col gap-6">
       {artworks.map((artwork, index) => {
         const images = [...(artwork.images || [])].sort(
           (a, b) => (b.is_primary ? 1 : 0) - (a.is_primary ? 1 : 0)
@@ -12,7 +12,7 @@ export default function StackedLayout({ project }) {
         return (
           <div
             key={artwork.id}
-            className={`max-w-3xl ${index > 0 ? 'pt-16 border-t border-ink/10' : ''}`}
+            className={`max-w-3xl ${index > 0 ? 'pt-6 border-t border-ink/10' : ''}`}
           >
             <div className="flex flex-col gap-8">
               {images.map((img, i) => (
