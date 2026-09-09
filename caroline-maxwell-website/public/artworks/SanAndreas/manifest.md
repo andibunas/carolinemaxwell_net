@@ -1,6 +1,5 @@
 Name: San Andreas Project
 Type: artworks
-Order: 17
 Date: 2006-10-30
 Thumbnail: GKGilbert_faultline.jpg
 Header Image: 

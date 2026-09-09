@@ -1,6 +1,5 @@
 Name: Stoppage Time
 Type: artworks
-Order: 11
 Date: 2015-01-01
 Thumbnail: StoppageTime1.jpg
 Header Image: 

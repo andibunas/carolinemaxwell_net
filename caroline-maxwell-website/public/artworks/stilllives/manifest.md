@@ -1,6 +1,5 @@
 Name: Still Lives
 Type: artworks
-Order: 6
 Date: 2021-01-06
 Thumbnail: stilllives.jpg
 Header Image: 

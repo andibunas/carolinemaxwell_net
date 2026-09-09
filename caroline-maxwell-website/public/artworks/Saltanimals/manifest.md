@@ -1,6 +1,5 @@
 Name: Saltanimals
 Type: artworks
-Order: 12
 Date: 2006-01-01
 Thumbnail: saltanimals.jpg
 Header Image: 

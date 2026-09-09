@@ -1,6 +1,5 @@
 Name: Engelmann
 Type: artworks
-Order: 5
 Date: 2019-01-01
 Thumbnail: Engelmann1.jpg
 Header Image: 

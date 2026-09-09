@@ -1,6 +1,5 @@
 Name: Villa of the Mysteries: Department of Eagles
 Type: artworks
-Order: 16
 Date: 2007-01-01
 Thumbnail: 1_intro_to_eagles_sm.jpg
 Header Image: 

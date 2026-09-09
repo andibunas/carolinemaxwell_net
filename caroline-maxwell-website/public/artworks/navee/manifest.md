@@ -1,6 +1,5 @@
 Name: Jerusalem Field Office: Prophecy Desk
 Type: artworks
-Order: 19
 Date: 2014-10-01
 Thumbnail: navee_typewriter.jpg
 Header Image: 

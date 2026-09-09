@@ -1,6 +1,5 @@
 Name: Painting 2007 - 2013
 Type: artworks
-Order: 20
 Date: 2013-01-01
 Thumbnail: farallon_sm.jpg
 Header Image: 

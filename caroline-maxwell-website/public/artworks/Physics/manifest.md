@@ -1,6 +1,5 @@
 Name: The Intimacy of Physics
 Type: artworks
-Order: 13
 Date: 2019-01-01
 Thumbnail: transit3.jpg
 Header Image: 

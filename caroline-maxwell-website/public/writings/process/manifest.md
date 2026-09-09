@@ -1,5 +1,4 @@
 Type: projects
-Order: 2
 Name: Process
 Thumbnail:studies-for-frost-line/process-studies-1.svg
 

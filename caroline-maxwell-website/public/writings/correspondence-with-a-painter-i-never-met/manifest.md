@@ -1,5 +1,4 @@
 Type: writing
-Order: 3
 Name: Correspondence with a Painter I Never Met
 
 ## Synopsis

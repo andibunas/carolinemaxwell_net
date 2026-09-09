@@ -1,6 +1,5 @@
 Name: Painting 2005 - 2011
 Type: artworks
-Order: 18
 Date: 2009-01-01
 Thumbnail: caroline_insight.jpg
 Header Image: 

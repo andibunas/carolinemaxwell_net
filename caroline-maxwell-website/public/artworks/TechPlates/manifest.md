@@ -1,6 +1,5 @@
 Name: Plate Tectonics
 Type: artworks
-Order: 22
 Date: 2006-01-01
 Thumbnail: techtonic_plates1.jpg
 Header Image: 

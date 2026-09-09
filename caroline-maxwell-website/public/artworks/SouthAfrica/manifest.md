@@ -1,6 +1,5 @@
 Name: South Africa Works
 Type: artworks
-Order: 21
 Date: 2006-01-01
 Thumbnail: tents.jpg
 Header Image: 

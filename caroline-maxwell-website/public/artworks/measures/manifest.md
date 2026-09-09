@@ -1,6 +1,5 @@
 Name: Measures of Our Nature: Killing, Playing
 Type: artworks
-Order: 8
 Date: 2020-01-01
 Thumbnail: dogs_of_actaeon.jpg
 Header Image: 

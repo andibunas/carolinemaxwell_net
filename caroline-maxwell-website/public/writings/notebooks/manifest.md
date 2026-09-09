@@ -1,5 +1,4 @@
 Type: projects
-Order: 1
 Name: Notebooks
 
 ## Synopsis

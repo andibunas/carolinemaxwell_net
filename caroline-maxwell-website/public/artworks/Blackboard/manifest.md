@@ -1,6 +1,5 @@
 Name: Blackboard
 Type: artworks
-Order: 14
 Date: 
 Thumbnail: blackboard_line.jpg
 Header Image: 

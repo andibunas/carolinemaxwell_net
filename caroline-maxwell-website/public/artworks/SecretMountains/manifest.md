@@ -1,6 +1,5 @@
 Name: Secret Maps for Secret Mountains
 Type: artworks
-Order: 10
 Date: 2015-01-01
 Thumbnail: CubeSlices.jpg
 Header Image: 

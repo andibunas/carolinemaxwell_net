@@ -1,6 +1,5 @@
 Name: Trees to Keep Time
 Type: artworks
-Order: 9
 Date: 2017-01-01
 Thumbnail: tree1.jpg
 Header Image: 

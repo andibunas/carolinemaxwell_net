@@ -1,6 +1,5 @@
 Name: Artworks (2004-2006)
 Type: artworks
-Order: 4
 Date: 2006-01-01
 Thumbnail: caroline_insight.jpg
 Header Image: 

@@ -1,6 +1,5 @@
 Name: The Most Silent of Great Cities
 Type: artworks
-Order: 7
 Date: 2020-01-01
 Thumbnail: SilentCities.jpg
 Header Image: 

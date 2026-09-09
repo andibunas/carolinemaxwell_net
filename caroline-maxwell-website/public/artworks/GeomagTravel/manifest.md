@@ -1,6 +1,5 @@
 Name: Geomagnetic Travellogue
 Type: projects
-Order: 3
 Date: 2025-11-02
 Thumbnail: declination.jpg
 Header Image: declination-animated.gif
