@@ -1095,21 +1095,26 @@
         "id": "notebooks",
         "type": "project",
         "name": "Notebooks",
+        "synopsis": "Short, dated entries written alongside the studio work.",
         "write_up": "Short, dated entries written alongside the studio work.",
         "children": [
           {
             "id": "on-slowness",
             "type": "writing",
             "name": "On Slowness",
-            "write_up": "A short entry on why the January Jones paintings took a full year to finish.",
-            "writing": "The paintings in this room took longer than any I have made. Not because the surfaces are complicated — most of them are just a table, a window, a fall of light — but because I kept waiting for the room to tell me it was finished, and it never quite did.\n\nI have started to think of slowness as a material, the way I think about oil or graphite. It has a texture. It resists you in a specific way. You can push against it, and sometimes it gives, and sometimes it pushes back harder, and either way you learn something about the painting you would not have learned by finishing it quickly.\n\nI don't think fast work is worse. I think I am just not very good at it, and I have decided to stop apologizing for that."
+            "synopsis": "A short entry on why the January Jones paintings took a full year to finish.",
+            "write_up": "The paintings in this room took longer than any I have made. Not because the surfaces are complicated — most of them are just a table, a window, a fall of light — but because I kept waiting for the room to tell me it was finished, and it never quite did.\n\nI have started to think of slowness as a material, the way I think about oil or graphite. It has a texture. It resists you in a specific way. You can push against it, and sometimes it gives, and sometimes it pushes back harder, and either way you learn something about the painting you would not have learned by finishing it quickly.\n\nI don't think fast work is worse. I think I am just not very good at it, and I have decided to stop apologizing for that.",
+            "layout": "simple",
+            "images": []
           },
           {
             "id": "studio-notes-winter",
             "type": "writing",
             "name": "Studio Notes, Winter",
-            "write_up": "Notes kept during the coldest weeks of the January Jones series.",
-            "writing": "The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.\n\nSome days the light comes in flat and grey and every color on the palette looks like a compromise. Other days, for maybe twenty minutes around four in the afternoon, the whole room goes the color of a bruise healing, and I try to work fast enough to catch it before it changes. I rarely do. That failure is most of what this series is about."
+            "synopsis": "Notes kept during the coldest weeks of the January Jones series.",
+            "write_up": "The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.\n\nSome days the light comes in flat and grey and every color on the palette looks like a compromise. Other days, for maybe twenty minutes around four in the afternoon, the whole room goes the color of a bruise healing, and I try to work fast enough to catch it before it changes. I rarely do. That failure is most of what this series is about.",
+            "layout": "simple",
+            "images": []
           }
         ]
       },
@@ -1117,24 +1122,24 @@
         "id": "process",
         "type": "project",
         "name": "Process",
+        "synopsis": "Studies, drawings, and working notes that sit alongside the finished paintings.",
         "write_up": "Studies, drawings, and working notes that sit alongside the finished paintings.",
         "children": [
           {
             "id": "studies-for-frost-line",
-            "type": "artwork",
-            "title": "Studies for Frost Line",
-            "medium": "Graphite on paper",
-            "size": "11 x 14 in (each)",
+            "type": "writing",
+            "name": "Studies for Frost Line",
+            "synopsis": "Two graphite studies made before painting Frost Line.",
+            "write_up": "Graphite on paper, 11 x 14 in each.\n\n[process-studies-1.svg]\n\nA first study, working out the fall of light across the sill.\n\n[process-studies-2.svg]\n\nA second study, closer in on the corner where the frost line breaks.",
+            "layout": "simple",
             "images": [
               {
                 "src": "/writings/process/studies-for-frost-line/process-studies-1.svg",
-                "alt": "Study for Frost Line",
-                "is_primary": true
+                "alt": "Studies for Frost Line"
               },
               {
                 "src": "/writings/process/studies-for-frost-line/process-studies-2.svg",
-                "alt": "Study for Frost Line, second study",
-                "is_primary": false
+                "alt": "Studies for Frost Line"
               }
             ]
           },
@@ -1142,8 +1147,10 @@
             "id": "working-method",
             "type": "writing",
             "name": "Working Method",
-            "write_up": "How the studies for Frost Line led to the finished painting.",
-            "writing": "I usually draw a room four or five times before I let myself paint it. The drawings are not preparatory in the usual sense — I'm not solving composition problems, I already know where the table goes. I'm trying to memorize the room well enough that I can paint it later without needing to look at it, the way you might learn a piece of music well enough to play it with your eyes closed.\n\nBy the time I started Frost Line, I had drawn that corner of the studio often enough that I painted most of it from memory, checking the actual room only twice, both times to confirm something about the color of the frost on the glass rather than its shape."
+            "synopsis": "How the studies for Frost Line led to the finished painting.",
+            "write_up": "I usually draw a room four or five times before I let myself paint it. The drawings are not preparatory in the usual sense — I'm not solving composition problems, I already know where the table goes. I'm trying to memorize the room well enough that I can paint it later without needing to look at it, the way you might learn a piece of music well enough to play it with your eyes closed.\n\nBy the time I started Frost Line, I had drawn that corner of the studio often enough that I painted most of it from memory, checking the actual room only twice, both times to confirm something about the color of the frost on the glass rather than its shape.",
+            "layout": "simple",
+            "images": []
           }
         ]
       },
@@ -1151,8 +1158,10 @@
         "id": "correspondence-with-a-painter-i-never-met",
         "type": "writing",
         "name": "Correspondence with a Painter I Never Met",
-        "write_up": "An essay written after finding a box of unsent letters at an estate sale.",
-        "writing": "I bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.\n\nI don't know the writer's name. I know she worked in a cold room, that she distrusted her own blues, and that she once spent three weeks on a single square foot of a canvas she eventually painted over entirely. I think about her more than I think about painters I actually know, possibly because there is nothing left to argue with. She only gets to be right."
+        "synopsis": "An essay written after finding a box of unsent letters at an estate sale.",
+        "write_up": "I bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.\n\nI don't know the writer's name. I know she worked in a cold room, that she distrusted her own blues, and that she once spent three weeks on a single square foot of a canvas she eventually painted over entirely. I think about her more than I think about painters I actually know, possibly because there is nothing left to argue with. She only gets to be right.",
+        "layout": "simple",
+        "images": []
       }
     ]
   }

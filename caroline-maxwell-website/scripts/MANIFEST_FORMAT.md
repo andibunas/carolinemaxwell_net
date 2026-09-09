@@ -111,64 +111,90 @@ Image: frost-line-2.svg
 - A folder with `Type: artworks` has no subfolders — only its manifest.md
   and image files.
 
-## `public/writings/` — Type: Artwork
+## `public/writings/` — every folder is a project or a writing
 
-`public/writings/` keeps its own, unchanged convention (below) — it isn't
-part of the `public/artworks/` project/artworks model above.
+`public/writings/` mirrors the `public/artworks/` project model: every
+folder is a **project** (holds more project folders) or a **writing** (a
+single piece, with any number of images sitting directly in its folder) —
+never both. There's no separate "artwork folder" type here; an image used by
+a writing lives directly in that writing's own folder and is placed by name
+from within its `Write Up` text.
+
+### Type: projects
 
 ```
-Type: Artwork
+Type: projects
 Order: 1
-Title: Frost Line
-Medium: Oil on panel
-Size: 24 x 30 in
+Name: Process
 Thumbnail: thumbnail.svg
+Header Image: header.svg
 
-## Images
+## Synopsis
 
-- frost-line-1.svg | Frost Line, oil on panel | primary
-- frost-line-2.svg | Frost Line, detail
-```
-
-- Each line in `## Images` is `filename | alt text | primary` (the third
-  field is the literal word `primary` on exactly one line, or omit it).
-- `Thumbnail` is an optional filename, sitting directly in this artwork's own
-  folder, used as its preview wherever it appears among siblings (an
-  Artworks listing page). Omit it and the primary image is used instead.
-- An artwork folder has no subfolders — only its manifest.md and image files.
-- This Artwork type is used for artwork embedded inside `public/writings/`
-  (e.g. process studies shown alongside an essay).
-
-## `public/writings/` — Type: Project
-
-```
-Type: Project
-Order: 1
-Name: Notebooks
+Studies, drawings, and working notes that sit alongside the finished paintings.
 
 ## Write Up
 
-Short, dated entries written alongside the studio work.
+Studies, drawings, and working notes that sit alongside the finished
+paintings, kept as a record of how each piece was worked out.
 ```
 
-- Subfolders can be any mix of `Project`, `Writing`, or `Artwork`.
+- `Thumbnail` and `Header Image` are filenames of images sitting directly in
+  this project's own folder. `Thumbnail` is the small preview shown wherever
+  this project appears among siblings; `Header Image` is the banner at the
+  top of this project's own page. Both optional.
+- `Synopsis` is the short teaser shown next to the thumbnail in listings;
+  `Write Up` is the longer text on the project's own page. Both optional,
+  both can be Markdown.
+- Subfolders can be any mix of `projects` and `writing`, ordered the same
+  way as `public/artworks/` (by each subfolder's own `Order:` field).
 
-## `public/writings/` — Type: Writing
+### Type: writing
 
 ```
-Type: Writing
+Type: writing
 Order: 1
-Name: On Slowness
+Name: Studies for Frost Line
+Layout: simple
+Header Image: header.svg
+Grid Columns: 2
+
+## Synopsis
+
+Two graphite studies made before painting Frost Line.
 
 ## Write Up
 
-A short entry on why the January Jones paintings took a full year to finish.
+Graphite on paper, 11 x 14 in each.
 
-## Writing
+[process-studies-1.svg]
 
-The paintings in this room took longer than any I have made...
+A first study, working out the fall of light across the sill.
+
+[process-studies-2.svg]
+
+A second study, closer in on the corner where the frost line breaks.
 ```
 
-- `Write Up` is the short teaser shown in listings; `Writing` is the full
-  piece. Both can be Markdown.
-- A `Writing` folder has no subfolders or images.
+- A `writing` folder has no subfolders. Any image file sitting directly in
+  it (besides `manifest.md` and the `Header Image` file, if any) is
+  available to be placed in the `Write Up` by writing its filename in square
+  brackets — `[process-studies-1.svg]` — either bare or without its
+  extension (`[process-studies-1]`). Anywhere in the text, start, middle, or
+  end.
+- `Synopsis` is the short teaser shown in listings; `Write Up` is the full
+  piece, with image placement markers as above. Both optional, both can be
+  Markdown.
+- `Header Image` is an optional filename used as this writing's small
+  preview wherever it appears among siblings, and as a banner at the top of
+  its own page.
+- `Layout` controls how images referenced in `Write Up` are placed:
+  - `simple` (default) — each image appears inline exactly where its marker
+    is in the text.
+  - `grid-top` — every referenced image is pulled out of the flow and shown
+    together as a grid above the text (its markers are removed from the
+    text). If `Write Up` has no markers at all, every image in the folder is
+    used.
+  - `grid-bottom` — same as `grid-top`, but the grid is shown below the text.
+  - `Grid Columns` (optional integer, default 3) sets how many images per
+    row for `grid-top` / `grid-bottom`. Ignored for `simple`.

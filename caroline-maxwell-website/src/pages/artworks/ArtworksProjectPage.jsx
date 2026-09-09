@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Breadcrumb from '../../components/layout/Breadcrumb';
 import ArtworkDetail from '../../components/artworks/ArtworkDetail';
 import MarkdownContent from '../../components/about/MarkdownContent';
-import { resolveArtworkPath, getProjectHeaderImage } from '../../data/manifest';
+import { resolveArtworkPath, getHeaderImage } from '../../data/manifest';
 import { resolveArtworkLayout } from '../../components/artworks/layoutRegistry';
 import NotFoundPage from '../NotFoundPage';
 
@@ -46,7 +46,7 @@ export default function ArtworksProjectPage() {
 
   const project = resolved.node;
   const LayoutComponent = resolveArtworkLayout(project);
-  const headerImage = getProjectHeaderImage(project);
+  const headerImage = getHeaderImage(project);
 
   return (
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">

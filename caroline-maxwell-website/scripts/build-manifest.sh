@@ -246,133 +246,107 @@ build_artworks_node() {
 }
 
 # ---------------------------------------------------------------------------
-# Writings tree only: Artwork node with Title / Medium / Size + an image list
-# built from the folder's own image files, optionally annotated by a
-# `## Images` section of the form
-#   - filename.ext | alt text | primary
-# Any image file present on disk but not listed in that section is appended
-# automatically (alt text falls back to the artwork's title). If no image is
-# marked "primary", the first one is used.
+# Writings tree only: a `writing` leaf's own image list. Every file sitting
+# directly in the folder (besides manifest.md and the Header Image file, if
+# any) becomes an entry; alt text falls back to the writing's Name. Order
+# matches directory listing order -- the Write Up's own [filename] markers
+# are what actually control display order/placement, not this array.
 # ---------------------------------------------------------------------------
-build_artwork_node() {
-  local dir="$1"
-  local id; id="$(basename "$dir")"
-  local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
-  local type; type="$(front_get "$pdir" Type)"
-  [ "$type" = "Artwork" ] || fail "$dir/manifest.md has Type '$type' (expected Artwork)"
-  local title medium size rel
-  title="$(front_get "$pdir" Title)"
-  medium="$(front_get "$pdir" Medium)"
-  size="$(front_get "$pdir" Size)"
-  rel="${dir#"$PUBLIC_DIR"/}"
-
-  local thumbnail_file thumbnail=""
-  thumbnail_file="$(front_get "$pdir" Thumbnail)"
-  if [ -n "$thumbnail_file" ]; then
-    if [ -f "$dir/$thumbnail_file" ]; then
-      thumbnail="/$rel/$thumbnail_file"
-    else
-      echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
-    fi
-  fi
-
-  local names=() alts=() primaries=() have_primary=0
-  local declared="$pdir/_section_images.md"
-  if [ -f "$declared" ]; then
-    local line fn alt flag found n
-    while IFS= read -r line; do
-      [[ "$line" =~ ^-[[:space:]] ]] || continue
-      line="${line#-}"
-      IFS='|' read -r fn alt flag <<<"$line"
-      fn="$(printf '%s' "$fn" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
-      alt="$(printf '%s' "${alt:-}" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
-      flag="$(printf '%s' "${flag:-}" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
-      if [ ! -f "$dir/$fn" ]; then
-        echo "warning: $dir/manifest.md references missing image '$fn'" >&2
-        continue
-      fi
-      names+=("$fn")
-      if [ -z "$alt" ]; then alt="$title"; fi
-      alts+=("$alt")
-      if [ "$flag" = "primary" ]; then
-        primaries+=("true")
-        have_primary=1
-      else
-        primaries+=("false")
-      fi
-    done < "$declared"
-  fi
-
-  local fpath fn found n
+build_writing_images() {
+  local dir="$1" name="$2" header_file="$3"
+  local rel; rel="${dir#"$PUBLIC_DIR"/}"
+  local images_json="[]" fpath fn obj
   while IFS= read -r fpath; do
     fn="$(basename "$fpath")"
-    found=0
-    for n in "${names[@]:-}"; do
-      if [ "$n" = "$fn" ]; then
-        found=1
-        break
-      fi
-    done
-    if [ "$found" = 1 ]; then
+    if [ -n "$header_file" ] && [ "$fn" = "$header_file" ]; then
       continue
     fi
-    names+=("$fn")
-    alts+=("$title")
-    primaries+=("false")
-  done < <(find "$dir" -maxdepth 1 -type f ! -name 'manifest.md' ! -name '.*' | sort)
-
-  if [ "$have_primary" = 0 ] && [ "${#names[@]}" -gt 0 ]; then
-    primaries[0]="true"
-  fi
-
-  local images_json="[]" i obj
-  for i in "${!names[@]}"; do
-    obj="$(jq -n --arg src "/$rel/${names[$i]}" --arg alt "${alts[$i]}" --argjson primary "${primaries[$i]}" \
-      '{src:$src, alt:$alt, is_primary:$primary}')"
+    obj="$(jq -n --arg src "/$rel/$fn" --arg alt "$name" '{src:$src, alt:$alt}')"
     images_json="$(json_push "$images_json" "$obj")"
-  done
-
-  jq -n --arg id "$id" --arg title "$title" --arg medium "$medium" --arg size "$size" \
-        --arg thumbnail "$thumbnail" --argjson images "$images_json" \
-    '{id:$id, type:"artwork", title:$title, medium:$medium, size:$size, images:$images}
-    + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)'
+  done < <(find "$dir" -maxdepth 1 -type f ! -name 'manifest.md' ! -name '.*' | sort)
+  printf '%s' "$images_json"
 }
 
 # ---------------------------------------------------------------------------
-# Writings tree: a Project holds a mix of Project / Writing / Artwork
-# children under `children`; Writing and Artwork are leaves.
+# Writings tree: a `projects` folder holds a mix of `projects` / `writing`
+# children under `children`; `writing` is a leaf (see build_writing_images
+# above for how its images are collected).
 # ---------------------------------------------------------------------------
 build_writings_node() {
   local dir="$1"
   local id; id="$(basename "$dir")"
   local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
   local type; type="$(front_get "$pdir" Type)"
+  local rel; rel="${dir#"$PUBLIC_DIR"/}"
 
   case "$type" in
-    Project)
-      local name write_up; name="$(front_get "$pdir" Name)"; write_up="$(section_get "$pdir" "Write Up")"
+    projects)
+      local name synopsis write_up thumbnail_file header_file thumbnail="" header_image=""
+      name="$(front_get "$pdir" Name)"
+      synopsis="$(section_get "$pdir" "Synopsis")"
+      write_up="$(section_get "$pdir" "Write Up")"
+      thumbnail_file="$(front_get "$pdir" Thumbnail)"
+      if [ -n "$thumbnail_file" ]; then
+        if [ -f "$dir/$thumbnail_file" ]; then
+          thumbnail="/$rel/$thumbnail_file"
+        else
+          echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
+        fi
+      fi
+      header_file="$(front_get "$pdir" "Header Image")"
+      if [ -n "$header_file" ]; then
+        if [ -f "$dir/$header_file" ]; then
+          header_image="/$rel/$header_file"
+        else
+          echo "warning: $dir/manifest.md references missing header image '$header_file'" >&2
+        fi
+      fi
+
       local children_json="[]" sub node
       while IFS= read -r sub; do
         node="$(build_writings_node "$sub")"; check_failed
         children_json="$(json_push "$children_json" "$node")"
       done < <(ordered_children "$dir")
       check_failed
-      jq -n --arg id "$id" --arg name "$name" --arg write_up "$write_up" --argjson children "$children_json" \
-        '{id:$id, type:"project", name:$name, write_up:$write_up, children:$children}'
+
+      jq -n --arg id "$id" --arg name "$name" --arg synopsis "$synopsis" --arg write_up "$write_up" \
+            --arg thumbnail "$thumbnail" --arg header_image "$header_image" --argjson children "$children_json" '
+        {id:$id, type:"project", name:$name, synopsis:$synopsis, write_up:$write_up}
+        + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
+        + (if $header_image != "" then {header_image:$header_image} else {} end)
+        + {children:$children}
+      '
       ;;
-    Writing)
-      local name write_up writing
+    writing)
+      local name synopsis write_up layout grid_columns header_file header_image=""
       name="$(front_get "$pdir" Name)"
+      synopsis="$(section_get "$pdir" "Synopsis")"
       write_up="$(section_get "$pdir" "Write Up")"
-      writing="$(section_get "$pdir" "Writing")"
-      jq -n --arg id "$id" --arg name "$name" --arg write_up "$write_up" --arg writing "$writing" \
-        '{id:$id, type:"writing", name:$name, write_up:$write_up, writing:$writing}'
-      ;;
-    Artwork)
-      build_artwork_node "$dir"; check_failed
+      layout="$(front_get "$pdir" Layout)"
+      [ -n "$layout" ] || layout="simple"
+      grid_columns="$(front_get "$pdir" "Grid Columns")"
+      header_file="$(front_get "$pdir" "Header Image")"
+      if [ -n "$header_file" ]; then
+        if [ -f "$dir/$header_file" ]; then
+          header_image="/$rel/$header_file"
+        else
+          echo "warning: $dir/manifest.md references missing header image '$header_file'" >&2
+          header_file=""
+        fi
+      fi
+
+      local images_json; images_json="$(build_writing_images "$dir" "$name" "$header_file")"
+
+      jq -n --arg id "$id" --arg name "$name" --arg synopsis "$synopsis" --arg write_up "$write_up" \
+            --arg layout "$layout" --arg grid_columns "${grid_columns:-}" --arg header_image "$header_image" \
+            --argjson images "$images_json" '
+        {id:$id, type:"writing", name:$name, synopsis:$synopsis, write_up:$write_up, layout:$layout, images:$images}
+        + (if $grid_columns != "" then {grid_columns:($grid_columns|tonumber)} else {} end)
+        + (if $header_image != "" then {header_image:$header_image} else {} end)
+      '
       ;;
     *)
-      fail "$dir/manifest.md has Type '$type' (expected Project, Writing or Artwork)"
+      fail "$dir/manifest.md has Type '$type' (expected projects or writing)"
       ;;
   esac
 }

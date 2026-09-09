@@ -14,11 +14,14 @@ export function getNodeThumbnail(node) {
     const img = node.images.find((i) => i.is_primary) || node.images[0];
     return { src: img.src, alt: img.alt };
   }
+  if (node.type === 'writing' && node.header_image) {
+    return { src: node.header_image, alt: node.name };
+  }
   return null;
 }
 
-export function getProjectHeaderImage(project) {
-  return project.header_image ? { src: project.header_image, alt: project.name } : null;
+export function getHeaderImage(node) {
+  return node.header_image ? { src: node.header_image, alt: node.name } : null;
 }
 
 /**
@@ -84,8 +87,4 @@ export function resolveWritingPath(segments) {
     level = node.children || [];
   }
   return null;
-}
-
-export function writingDisplayName(node) {
-  return node.type === 'artwork' ? node.title : node.name;
 }
