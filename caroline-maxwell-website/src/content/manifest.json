@@ -1086,6 +1086,210 @@
             ]
           }
         ]
+      },
+      {
+        "id": "Artwork04_06",
+        "type": "project",
+        "name": "Artwork04 06",
+        "layout_type": "",
+        "date": "",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/Artwork04_06/caroline_insight.jpg",
+        "children": [
+          {
+            "id": "jackal-1",
+            "type": "artwork",
+            "title": "Jackal 1",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/jackal_1.jpg",
+                "alt": "Jackal 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "caroline-insight",
+            "type": "artwork",
+            "title": "Caroline Insight",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/caroline_insight.jpg",
+                "alt": "Caroline Insight",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "jakal-detail",
+            "type": "artwork",
+            "title": "Jakal Detail",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/jakal_detail.jpg",
+                "alt": "Jakal Detail",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "littlepainting1",
+            "type": "artwork",
+            "title": "Littlepainting1",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
+                "alt": "Littlepainting1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "littlepainting2",
+            "type": "artwork",
+            "title": "Littlepainting2",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
+                "alt": "Littlepainting2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "littleseries",
+            "type": "artwork",
+            "title": "Littleseries",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littleseries.jpg",
+                "alt": "Littleseries",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "reindeer",
+            "type": "artwork",
+            "title": "Reindeer",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/reindeer.jpg",
+                "alt": "Reindeer",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "reindeer1",
+            "type": "artwork",
+            "title": "Reindeer1",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/reindeer1.jpg",
+                "alt": "Reindeer1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins1",
+            "type": "artwork",
+            "title": "Twins1",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins1.jpg",
+                "alt": "Twins1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins1detail",
+            "type": "artwork",
+            "title": "Twins1detail",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins1detail.jpg",
+                "alt": "Twins1detail",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins2",
+            "type": "artwork",
+            "title": "Twins2",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins2.jpg",
+                "alt": "Twins2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins4-sm",
+            "type": "artwork",
+            "title": "Twins4 Sm",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
+                "alt": "Twins4 Sm",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
       }
     ]
   },
