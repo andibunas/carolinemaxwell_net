@@ -32,9 +32,13 @@ export default function StackedLayout({ project }) {
                   key={i}
                   type="button"
                   onClick={() => setLightboxImage(img)}
-                  className="bg-panel overflow-hidden cursor-zoom-in"
+                  className="overflow-hidden cursor-zoom-in"
                 >
-                  <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="max-w-full max-h-[75vh] w-auto h-auto object-contain"
+                  />
                 </button>
               ))}
             </div>
