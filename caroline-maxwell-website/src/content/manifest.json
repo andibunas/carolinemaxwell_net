@@ -1090,105 +1090,169 @@
       {
         "id": "Artwork04_06",
         "type": "project",
-        "name": "Artwork04 06",
-        "layout_type": "",
-        "date": "",
-        "write_up": "",
-        "synopsis": "",
+        "name": "Artworks (2004-2006)",
+        "layout_type": "grid",
+        "date": "2006-01-01",
+        "write_up": "A selection of work from 2004 through 2006, spanning oil and charcoal paintings on canvas alongside more experimental pieces made with tar, salt water, and dandelion seeds.",
+        "synopsis": "Early paintings and installations from 2004 to 2006, including the Twins and Small Series groups.",
         "thumbnail": "/artworks/Artwork04_06/caroline_insight.jpg",
         "children": [
           {
-            "id": "jackal-1",
+            "id": "the-inexplicable-remainder-of-an-insight",
             "type": "artwork",
-            "title": "Jackal 1",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/jackal_1.jpg",
-                "alt": "Jackal 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "caroline-insight",
-            "type": "artwork",
-            "title": "Caroline Insight",
-            "medium": "",
-            "size": "",
-            "date": "",
+            "title": "The Inexplicable Remainder of an Insight",
+            "medium": "Oil, tar, and evaporated salt water on panel",
+            "size": "13 x 13 in",
+            "date": "2005",
             "write_up": "",
             "images": [
               {
                 "src": "/artworks/Artwork04_06/caroline_insight.jpg",
-                "alt": "Caroline Insight",
+                "alt": "The Inexplicable Remainder of an Insight",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "jakal-detail",
+            "id": "jackal",
             "type": "artwork",
-            "title": "Jakal Detail",
+            "title": "Jackal",
+            "medium": "Oil on canvas",
+            "size": "48 x 60 in",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/jackal_1.jpg",
+                "alt": "Jackal",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "jackal-detail",
+            "type": "artwork",
+            "title": "Jackal (detail)",
             "medium": "",
             "size": "",
-            "date": "",
+            "date": "2006",
             "write_up": "",
             "images": [
               {
                 "src": "/artworks/Artwork04_06/jakal_detail.jpg",
-                "alt": "Jakal Detail",
+                "alt": "Jackal (detail)",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "littlepainting1",
+            "id": "twins-1",
             "type": "artwork",
-            "title": "Littlepainting1",
-            "medium": "",
-            "size": "",
-            "date": "",
+            "title": "Twins 1",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 44 in",
+            "date": "2004",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
-                "alt": "Littlepainting1",
+                "src": "/artworks/Artwork04_06/twins1.jpg",
+                "alt": "Twins 1",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "littlepainting2",
+            "id": "twins-1-detail",
             "type": "artwork",
-            "title": "Littlepainting2",
+            "title": "Twins 1 (detail)",
             "medium": "",
             "size": "",
-            "date": "",
+            "date": "2004",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
-                "alt": "Littlepainting2",
+                "src": "/artworks/Artwork04_06/twins1detail.jpg",
+                "alt": "Twins 1 (detail)",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "littleseries",
+            "id": "twins-2",
             "type": "artwork",
-            "title": "Littleseries",
+            "title": "Twins 2",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 48 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins2.jpg",
+                "alt": "Twins 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins-4",
+            "type": "artwork",
+            "title": "Twins 4",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 60 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
+                "alt": "Twins 4",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "the-small-series",
+            "type": "artwork",
+            "title": "The Small Series",
             "medium": "",
             "size": "",
-            "date": "",
+            "date": "2004",
             "write_up": "",
             "images": [
               {
                 "src": "/artworks/Artwork04_06/littleseries.jpg",
-                "alt": "Littleseries",
+                "alt": "The Small Series",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-painting-1",
+            "type": "artwork",
+            "title": "Small Painting #1",
+            "medium": "Oil on canvas",
+            "size": "8 x 10 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
+                "alt": "Small Painting #1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-painting-2",
+            "type": "artwork",
+            "title": "Small Painting #2",
+            "medium": "Oil on panel",
+            "size": "8 x 10 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
+                "alt": "Small Painting #2",
                 "is_primary": true
               }
             ]
@@ -1197,9 +1261,9 @@
             "id": "reindeer",
             "type": "artwork",
             "title": "Reindeer",
-            "medium": "",
-            "size": "",
-            "date": "",
+            "medium": "Dandelion seeds and fixative spray on wall",
+            "size": "approximately 4 x 6 ft",
+            "date": "2005",
             "write_up": "",
             "images": [
               {
@@ -1210,81 +1274,17 @@
             ]
           },
           {
-            "id": "reindeer1",
+            "id": "reindeer-detail",
             "type": "artwork",
-            "title": "Reindeer1",
+            "title": "Reindeer (detail)",
             "medium": "",
             "size": "",
-            "date": "",
+            "date": "2005",
             "write_up": "",
             "images": [
               {
                 "src": "/artworks/Artwork04_06/reindeer1.jpg",
-                "alt": "Reindeer1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins1",
-            "type": "artwork",
-            "title": "Twins1",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins1.jpg",
-                "alt": "Twins1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins1detail",
-            "type": "artwork",
-            "title": "Twins1detail",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins1detail.jpg",
-                "alt": "Twins1detail",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins2",
-            "type": "artwork",
-            "title": "Twins2",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins2.jpg",
-                "alt": "Twins2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins4-sm",
-            "type": "artwork",
-            "title": "Twins4 Sm",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
-                "alt": "Twins4 Sm",
+                "alt": "Reindeer (detail)",
                 "is_primary": true
               }
             ]
