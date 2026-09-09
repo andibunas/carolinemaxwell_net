@@ -20,6 +20,11 @@ Run the script again any time you add, edit, or reorder folders.
 - Images are just files sitting in a folder — `.svg`, `.jpg`, `.png`, etc.
   The script doesn't inspect them; each tree's convention below says how an
   image file is pointed to and captioned.
+- `writeup.md`, if present next to a `manifest.md`, is used whole as that
+  folder's Write Up in place of its `## Write Up` section. Useful when the
+  write-up is long enough to want its own file. Applies to any folder with a
+  `manifest.md` — artwork projects, writing projects, and individual
+  writings alike.
 
 ## `public/artworks/` — every folder is a project
 

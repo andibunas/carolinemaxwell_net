@@ -71,12 +71,28 @@ front_get() {
   printf '%s' "$val"
 }
 
+strip_leading_blank() {
+  awk 'BEGIN{started=0} !started && /^[[:space:]]*$/ {next} {started=1; print}' "$1"
+}
+
 section_get() {
   local pdir="$1" name="$2"
   local slug; slug="$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/_/g; s/^_+|_+$//g')"
   local f="$pdir/_section_${slug}.md"
   [ -f "$f" ] || { printf ''; return; }
-  awk 'BEGIN{started=0} !started && /^[[:space:]]*$/ {next} {started=1; print}' "$f"
+  strip_leading_blank "$f"
+}
+
+# A folder's Write Up: `writeup.md` sitting next to manifest.md, if present,
+# takes the whole file as the write-up in place of the `## Write Up` section.
+write_up_get() {
+  local dir="$1" pdir="$2"
+  local f="$dir/writeup.md"
+  if [ -f "$f" ]; then
+    strip_leading_blank "$f"
+  else
+    section_get "$pdir" "Write Up"
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -193,7 +209,7 @@ build_artworks_node() {
   name="$(front_get "$pdir" Name)"
   layout="$(front_get "$pdir" Layout)"
   date="$(front_get "$pdir" Date)"
-  write_up="$(section_get "$pdir" "Write Up")"
+  write_up="$(write_up_get "$dir" "$pdir")"
   synopsis="$(section_get "$pdir" "Synopsis")"
 
   local rel thumbnail_file header_file thumbnail="" header_image=""
@@ -284,7 +300,7 @@ build_writings_node() {
       local name synopsis write_up thumbnail_file header_file thumbnail="" header_image=""
       name="$(front_get "$pdir" Name)"
       synopsis="$(section_get "$pdir" "Synopsis")"
-      write_up="$(section_get "$pdir" "Write Up")"
+      write_up="$(write_up_get "$dir" "$pdir")"
       thumbnail_file="$(front_get "$pdir" Thumbnail)"
       if [ -n "$thumbnail_file" ]; then
         if [ -f "$dir/$thumbnail_file" ]; then
@@ -321,7 +337,7 @@ build_writings_node() {
       local name synopsis write_up layout grid_columns header_file header_image="" thumbnail_file thumbnail=""
       name="$(front_get "$pdir" Name)"
       synopsis="$(section_get "$pdir" "Synopsis")"
-      write_up="$(section_get "$pdir" "Write Up")"
+      write_up="$(write_up_get "$dir" "$pdir")"
       layout="$(front_get "$pdir" Layout)"
       [ -n "$layout" ] || layout="simple"
       grid_columns="$(front_get "$pdir" "Grid Columns")"
