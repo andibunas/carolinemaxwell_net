@@ -2,6 +2,210 @@
   "artworks": {
     "projects": [
       {
+        "id": "Artwork04_06",
+        "type": "project",
+        "name": "Artworks (2004-2006)",
+        "layout_type": "grid",
+        "date": "2006-01-01",
+        "write_up": "A selection of work from 2004 through 2006, spanning oil and charcoal paintings on canvas alongside more experimental pieces made with tar, salt water, and dandelion seeds.",
+        "synopsis": "Early paintings and installations from 2004 to 2006, including the Twins and Small Series groups.",
+        "thumbnail": "/artworks/Artwork04_06/caroline_insight.jpg",
+        "children": [
+          {
+            "id": "the-inexplicable-remainder-of-an-insight",
+            "type": "artwork",
+            "title": "The Inexplicable Remainder of an Insight",
+            "medium": "Oil, tar, and evaporated salt water on panel",
+            "size": "13 x 13 in",
+            "date": "2005",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/caroline_insight.jpg",
+                "alt": "The Inexplicable Remainder of an Insight",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "jackal",
+            "type": "artwork",
+            "title": "Jackal",
+            "medium": "Oil on canvas",
+            "size": "48 x 60 in",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/jackal_1.jpg",
+                "alt": "Jackal",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "jackal-detail",
+            "type": "artwork",
+            "title": "Jackal (detail)",
+            "medium": "",
+            "size": "",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/jakal_detail.jpg",
+                "alt": "Jackal (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins-1",
+            "type": "artwork",
+            "title": "Twins 1",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 44 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins1.jpg",
+                "alt": "Twins 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins-1-detail",
+            "type": "artwork",
+            "title": "Twins 1 (detail)",
+            "medium": "",
+            "size": "",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins1detail.jpg",
+                "alt": "Twins 1 (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins-2",
+            "type": "artwork",
+            "title": "Twins 2",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 48 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins2.jpg",
+                "alt": "Twins 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "twins-4",
+            "type": "artwork",
+            "title": "Twins 4",
+            "medium": "Oil and charcoal on canvas",
+            "size": "48 x 60 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
+                "alt": "Twins 4",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "the-small-series",
+            "type": "artwork",
+            "title": "The Small Series",
+            "medium": "",
+            "size": "",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littleseries.jpg",
+                "alt": "The Small Series",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-painting-1",
+            "type": "artwork",
+            "title": "Small Painting #1",
+            "medium": "Oil on canvas",
+            "size": "8 x 10 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
+                "alt": "Small Painting #1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-painting-2",
+            "type": "artwork",
+            "title": "Small Painting #2",
+            "medium": "Oil on panel",
+            "size": "8 x 10 in",
+            "date": "2004",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
+                "alt": "Small Painting #2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "reindeer",
+            "type": "artwork",
+            "title": "Reindeer",
+            "medium": "Dandelion seeds and fixative spray on wall",
+            "size": "approximately 4 x 6 ft",
+            "date": "2005",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/reindeer.jpg",
+                "alt": "Reindeer",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "reindeer-detail",
+            "type": "artwork",
+            "title": "Reindeer (detail)",
+            "medium": "",
+            "size": "",
+            "date": "2005",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Artwork04_06/reindeer1.jpg",
+                "alt": "Reindeer (detail)",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "GeomagTravel",
         "type": "project",
         "name": "Geomagnetic Travellogue",
@@ -745,210 +949,6 @@
                     "is_primary": true
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Artwork04_06",
-        "type": "project",
-        "name": "Artworks (2004-2006)",
-        "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "A selection of work from 2004 through 2006, spanning oil and charcoal paintings on canvas alongside more experimental pieces made with tar, salt water, and dandelion seeds.",
-        "synopsis": "Early paintings and installations from 2004 to 2006, including the Twins and Small Series groups.",
-        "thumbnail": "/artworks/Artwork04_06/caroline_insight.jpg",
-        "children": [
-          {
-            "id": "the-inexplicable-remainder-of-an-insight",
-            "type": "artwork",
-            "title": "The Inexplicable Remainder of an Insight",
-            "medium": "Oil, tar, and evaporated salt water on panel",
-            "size": "13 x 13 in",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/caroline_insight.jpg",
-                "alt": "The Inexplicable Remainder of an Insight",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "jackal",
-            "type": "artwork",
-            "title": "Jackal",
-            "medium": "Oil on canvas",
-            "size": "48 x 60 in",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/jackal_1.jpg",
-                "alt": "Jackal",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "jackal-detail",
-            "type": "artwork",
-            "title": "Jackal (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/jakal_detail.jpg",
-                "alt": "Jackal (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-1",
-            "type": "artwork",
-            "title": "Twins 1",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 44 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins1.jpg",
-                "alt": "Twins 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-1-detail",
-            "type": "artwork",
-            "title": "Twins 1 (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins1detail.jpg",
-                "alt": "Twins 1 (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-2",
-            "type": "artwork",
-            "title": "Twins 2",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 48 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins2.jpg",
-                "alt": "Twins 2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-4",
-            "type": "artwork",
-            "title": "Twins 4",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 60 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
-                "alt": "Twins 4",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "the-small-series",
-            "type": "artwork",
-            "title": "The Small Series",
-            "medium": "",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/littleseries.jpg",
-                "alt": "The Small Series",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "small-painting-1",
-            "type": "artwork",
-            "title": "Small Painting #1",
-            "medium": "Oil on canvas",
-            "size": "8 x 10 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
-                "alt": "Small Painting #1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "small-painting-2",
-            "type": "artwork",
-            "title": "Small Painting #2",
-            "medium": "Oil on panel",
-            "size": "8 x 10 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
-                "alt": "Small Painting #2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "reindeer",
-            "type": "artwork",
-            "title": "Reindeer",
-            "medium": "Dandelion seeds and fixative spray on wall",
-            "size": "approximately 4 x 6 ft",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/reindeer.jpg",
-                "alt": "Reindeer",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "reindeer-detail",
-            "type": "artwork",
-            "title": "Reindeer (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/reindeer1.jpg",
-                "alt": "Reindeer (detail)",
-                "is_primary": true
               }
             ]
           }
@@ -3363,33 +3363,6 @@
   "writings": {
     "items": [
       {
-        "id": "notebooks",
-        "type": "project",
-        "name": "Notebooks",
-        "synopsis": "Short, dated entries written alongside the studio work.",
-        "write_up": "Short, dated entries written alongside the studio work.",
-        "children": [
-          {
-            "id": "on-slowness",
-            "type": "writing",
-            "name": "On Slowness",
-            "synopsis": "A short entry on why the January Jones paintings took a full year to finish.",
-            "write_up": "The paintings in this room took longer than any I have made. Not because the surfaces are complicated — most of them are just a table, a window, a fall of light — but because I kept waiting for the room to tell me it was finished, and it never quite did.\n\nI have started to think of slowness as a material, the way I think about oil or graphite. It has a texture. It resists you in a specific way. You can push against it, and sometimes it gives, and sometimes it pushes back harder, and either way you learn something about the painting you would not have learned by finishing it quickly.\n\nI don't think fast work is worse. I think I am just not very good at it, and I have decided to stop apologizing for that.",
-            "layout": "simple",
-            "images": []
-          },
-          {
-            "id": "studio-notes-winter",
-            "type": "writing",
-            "name": "Studio Notes, Winter",
-            "synopsis": "Notes kept during the coldest weeks of the January Jones series.",
-            "write_up": "The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.\n\nSome days the light comes in flat and grey and every color on the palette looks like a compromise. Other days, for maybe twenty minutes around four in the afternoon, the whole room goes the color of a bruise healing, and I try to work fast enough to catch it before it changes. I rarely do. That failure is most of what this series is about.",
-            "layout": "simple",
-            "images": []
-          }
-        ]
-      },
-      {
         "id": "process",
         "type": "project",
         "name": "Process",
@@ -3422,6 +3395,33 @@
             "name": "Working Method",
             "synopsis": "How the studies for Frost Line led to the finished painting.",
             "write_up": "I usually draw a room four or five times before I let myself paint it. The drawings are not preparatory in the usual sense — I'm not solving composition problems, I already know where the table goes. I'm trying to memorize the room well enough that I can paint it later without needing to look at it, the way you might learn a piece of music well enough to play it with your eyes closed.\n\nBy the time I started Frost Line, I had drawn that corner of the studio often enough that I painted most of it from memory, checking the actual room only twice, both times to confirm something about the color of the frost on the glass rather than its shape.",
+            "layout": "simple",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": "notebooks",
+        "type": "project",
+        "name": "Notebooks",
+        "synopsis": "Short, dated entries written alongside the studio work.",
+        "write_up": "Short, dated entries written alongside the studio work.",
+        "children": [
+          {
+            "id": "on-slowness",
+            "type": "writing",
+            "name": "On Slowness",
+            "synopsis": "A short entry on why the January Jones paintings took a full year to finish.",
+            "write_up": "The paintings in this room took longer than any I have made. Not because the surfaces are complicated — most of them are just a table, a window, a fall of light — but because I kept waiting for the room to tell me it was finished, and it never quite did.\n\nI have started to think of slowness as a material, the way I think about oil or graphite. It has a texture. It resists you in a specific way. You can push against it, and sometimes it gives, and sometimes it pushes back harder, and either way you learn something about the painting you would not have learned by finishing it quickly.\n\nI don't think fast work is worse. I think I am just not very good at it, and I have decided to stop apologizing for that.",
+            "layout": "simple",
+            "images": []
+          },
+          {
+            "id": "studio-notes-winter",
+            "type": "writing",
+            "name": "Studio Notes, Winter",
+            "synopsis": "Notes kept during the coldest weeks of the January Jones series.",
+            "write_up": "The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.\n\nSome days the light comes in flat and grey and every color on the palette looks like a compromise. Other days, for maybe twenty minutes around four in the afternoon, the whole room goes the color of a bruise healing, and I try to work fast enough to catch it before it changes. I rarely do. That failure is most of what this series is about.",
             "layout": "simple",
             "images": []
           }

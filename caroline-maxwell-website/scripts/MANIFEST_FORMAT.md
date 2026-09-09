@@ -10,7 +10,10 @@ Run the script again any time you add, edit, or reorder folders.
 ## Common rules
 
 - Every folder needs a `manifest.md`, except the top-level `public/artworks/`
-  and `public/writings/` folders themselves, which are just containers.
+  and `public/writings/` folders themselves, which are just containers. Each
+  of those root folders can still have its own `manifest.md` with just a
+  `## Child Projects` list (see below) to order its top-level project
+  folders — no `Type`/`Name`/other front matter needed there.
 - The first line(s) of `manifest.md` are `Key: value` pairs. Below those,
   `## Section Name` headings hold longer, multi-line, Markdown content.
 - `Type:` picks which fields apply (see below) — required on every
@@ -91,6 +94,12 @@ A series of small interiors painted over one January...
   those folders' own `Order:` fields.
 - Optional — omit the whole section to fall back to sorting subfolders by
   their own `Order:` field instead.
+- The top-level `public/artworks/` folder works the same way: an optional
+  `manifest.md` directly inside it can carry a `## Child Projects` list to
+  order the top-level project folders. It needs no other front matter
+  (`Type`, `Name`, etc. are ignored there since the root isn't a project
+  itself). Omit it to fall back to sorting top-level folders by their own
+  `Order:` field.
 
 ### `## Artworks` (only when `Type: artworks`)
 
@@ -153,6 +162,11 @@ paintings, kept as a record of how each piece was worked out.
   both can be Markdown.
 - Subfolders can be any mix of `projects` and `writing`, ordered the same
   way as `public/artworks/` (by each subfolder's own `Order:` field).
+- The top-level `public/writings/` folder works the same way as
+  `public/artworks/`: an optional `manifest.md` directly inside it can carry
+  a `## Child Projects` list to order the top-level folders, with no other
+  front matter needed. Omit it to fall back to sorting by each folder's own
+  `Order:` field.
 
 ### Type: writing
 

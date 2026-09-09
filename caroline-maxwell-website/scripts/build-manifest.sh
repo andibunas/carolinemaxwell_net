@@ -200,6 +200,25 @@ ordered_child_projects() {
   fi
 }
 
+# Ordered top-level list for public/artworks/ or public/writings/ itself (a
+# container, not a project): an optional manifest.md sitting directly in it
+# can carry a `## Child Projects` list, just like a `Type: projects` folder's,
+# to order the top-level project folders; otherwise falls back to the same
+# Order-field fallback as ordered_children().
+ordered_top_level() {
+  local dir="$1"
+  if [ -f "$dir/manifest.md" ]; then
+    local pdir; pdir="$(parse_manifest_md "$dir/manifest.md")"; check_failed
+    local list_file="$pdir/_section_child_projects.md"
+    if [ -f "$list_file" ] && grep -q '^-[[:space:]]' "$list_file"; then
+      grep '^-[[:space:]]' "$list_file" | sed -E 's/^-[[:space:]]+//; s/[[:space:]]+$//' \
+        | while IFS= read -r name; do printf '%s/%s\n' "$dir" "$name"; done
+      return
+    fi
+  fi
+  ordered_children "$dir"
+}
+
 build_artworks_node() {
   local dir="$1"
   local id; id="$(basename "$dir")"
@@ -383,7 +402,7 @@ if [ -d "$ARTWORKS_DIR" ]; then
   while IFS= read -r sub; do
     node="$(build_artworks_node "$sub")"; check_failed
     projects_json="$(json_push "$projects_json" "$node")"
-  done < <(ordered_children "$ARTWORKS_DIR")
+  done < <(ordered_top_level "$ARTWORKS_DIR")
   check_failed
 fi
 
@@ -393,7 +412,7 @@ if [ -d "$WRITINGS_DIR" ]; then
   while IFS= read -r sub; do
     node="$(build_writings_node "$sub")"; check_failed
     items_json="$(json_push "$items_json" "$node")"
-  done < <(ordered_children "$WRITINGS_DIR")
+  done < <(ordered_top_level "$WRITINGS_DIR")
   check_failed
 fi
 
