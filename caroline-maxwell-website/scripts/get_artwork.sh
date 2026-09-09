@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
 #
-# Copies all images from a source folder into a target artwork project
-# folder and generates a `Type: artworks` manifest.md listing them, per the
-# convention in scripts/MANIFEST_FORMAT.md.
+# Copies all images from a source folder into a new artwork project folder
+# (named after the source folder) created inside a target container, and
+# generates a `Type: artworks` manifest.md listing them, per the convention
+# in scripts/MANIFEST_FORMAT.md.
 #
-# Usage: get_artwork.sh <source> <target>
+# Usage: get_artwork.sh <source> <target-container>
 set -u
 
 usage() {
-  echo "Usage: $(basename "$0") [-f] <source> <target>" >&2
-  echo "  -f  overwrite an existing manifest.md in <target>" >&2
+  echo "Usage: $(basename "$0") [-f] <source> <target-container>" >&2
+  echo "  <target-container>/<source-folder-name>/ is created and filled in" >&2
+  echo "  -f  overwrite an existing manifest.md there" >&2
   exit 1
 }
 
@@ -24,9 +26,12 @@ shift $((OPTIND - 1))
 
 [ $# -eq 2 ] || usage
 SOURCE="$1"
-TARGET="$2"
+CONTAINER="$2"
 
 [ -d "$SOURCE" ] || { echo "error: source folder '$SOURCE' not found" >&2; exit 1; }
+
+SOURCE_NAME="$(basename "$SOURCE")"
+TARGET="$CONTAINER/$SOURCE_NAME"
 
 MANIFEST="$TARGET/manifest.md"
 if [ -f "$MANIFEST" ] && [ "$FORCE" -ne 1 ]; then
@@ -71,12 +76,15 @@ for fn in "${IMAGES[@]}"; do
   cp "$SOURCE/$fn" "$TARGET/$fn"
 done
 
+THUMBNAIL=""
+[ "${#IMAGES[@]}" -gt 0 ] && THUMBNAIL="${IMAGES[0]}"
+
 {
-  echo "Name: "
+  echo "Name: $(prettify_title "$SOURCE_NAME")"
   echo "Type: artworks"
   echo "Order: "
   echo "Date: "
-  echo "Thumbnail: "
+  echo "Thumbnail: $THUMBNAIL"
   echo "Header Image: "
   echo "Layout: "
   echo
@@ -100,4 +108,5 @@ done
 } > "$MANIFEST"
 
 echo "Copied ${#IMAGES[@]} image(s) to $TARGET" >&2
+
 echo "Wrote $MANIFEST" >&2
