@@ -41,18 +41,6 @@ export default function WritingDetailLayout({ node }) {
 
   return (
     <div className="mt-10 max-w-2xl">
-      {node.header_image && (
-        <div className="mb-8 bg-panel overflow-hidden">
-          <img src={node.header_image} alt={node.name} className="w-full h-auto object-cover" />
-        </div>
-      )}
-
-      {node.synopsis && (
-        <p className="text-ink-soft text-base italic mb-8 border-l-2 border-line-strong pl-4">
-          {node.synopsis}
-        </p>
-      )}
-
       {layout === 'simple' && (
         <div className="prose-writing text-ink text-[17px] leading-relaxed font-body">
           {splitWritingSegments(writeUp, images).map((seg, i) =>

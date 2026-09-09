@@ -2,6 +2,7 @@ Type: writing
 Order: 1
 Name: Studies for Frost Line
 Layout: simple
+Thumbnail:process-studies-1.svg
 
 ## Synopsis
 

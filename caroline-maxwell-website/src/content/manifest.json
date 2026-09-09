@@ -1123,7 +1123,8 @@
         "type": "project",
         "name": "Process",
         "synopsis": "Studies, drawings, and working notes that sit alongside the finished paintings.",
-        "write_up": "Studies, drawings, and working notes that sit alongside the finished paintings.",
+        "write_up": "writeup of this whole thing.  Studies, drawings, and working notes that sit alongside the finished paintings.",
+        "thumbnail": "/writings/process/studies-for-frost-line/process-studies-1.svg",
         "children": [
           {
             "id": "studies-for-frost-line",
@@ -1141,7 +1142,8 @@
                 "src": "/writings/process/studies-for-frost-line/process-studies-2.svg",
                 "alt": "Studies for Frost Line"
               }
-            ]
+            ],
+            "thumbnail": "/writings/process/studies-for-frost-line/process-studies-1.svg"
           },
           {
             "id": "working-method",
@@ -1159,7 +1161,7 @@
         "type": "writing",
         "name": "Correspondence with a Painter I Never Met",
         "synopsis": "An essay written after finding a box of unsent letters at an estate sale.",
-        "write_up": "I bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.\n\nI don't know the writer's name. I know she worked in a cold room, that she distrusted her own blues, and that she once spent three weeks on a single square foot of a canvas she eventually painted over entirely. I think about her more than I think about painters I actually know, possibly because there is nothing left to argue with. She only gets to be right.",
+        "write_up": "**title 1**\\\nI bought the letters for four dollars, in a shoebox that also held a broken thermometer and a lot of loose buttons. They were addressed to no one in particular — drafts, it seems, rather than letters that were ever sent — and they were all about painting, in the specific, granular way that people only write when they don't expect to be read.",
         "layout": "simple",
         "images": []
       }

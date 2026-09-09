@@ -1,6 +1,7 @@
 Type: projects
 Order: 2
 Name: Process
+Thumbnail:studies-for-frost-line/process-studies-1.svg
 
 ## Synopsis
 
@@ -8,4 +9,4 @@ Studies, drawings, and working notes that sit alongside the finished paintings.
 
 ## Write Up
 
-Studies, drawings, and working notes that sit alongside the finished paintings.
+writeup of this whole thing.  Studies, drawings, and working notes that sit alongside the finished paintings.

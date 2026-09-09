@@ -156,6 +156,7 @@ Type: writing
 Order: 1
 Name: Studies for Frost Line
 Layout: simple
+Thumbnail: thumbnail.svg
 Header Image: header.svg
 Grid Columns: 2
 
@@ -185,9 +186,13 @@ A second study, closer in on the corner where the frost line breaks.
 - `Synopsis` is the short teaser shown in listings; `Write Up` is the full
   piece, with image placement markers as above. Both optional, both can be
   Markdown.
-- `Header Image` is an optional filename used as this writing's small
-  preview wherever it appears among siblings, and as a banner at the top of
-  its own page.
+- `Thumbnail` is an optional filename used as this writing's small preview
+  wherever it appears among siblings (e.g. in its project's listing). It can
+  point at a file directly in this folder or at a path further inside it,
+  and can be the same file used inline in `Write Up`.
+- `Header Image` is an optional filename for a banner image; it no longer
+  renders anywhere in the writing views but is still recognized so it isn't
+  swept into the writing's image list.
 - `Layout` controls how images referenced in `Write Up` are placed:
   - `simple` (default) — each image appears inline exactly where its marker
     is in the text.

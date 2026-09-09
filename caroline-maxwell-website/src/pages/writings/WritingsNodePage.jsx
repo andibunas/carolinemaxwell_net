@@ -4,7 +4,7 @@ import Breadcrumb from '../../components/layout/Breadcrumb';
 import MarkdownContent from '../../components/about/MarkdownContent';
 import WritingProjectLayout from '../../components/writings/layouts/WritingProjectLayout';
 import WritingDetailLayout from '../../components/writings/layouts/WritingDetailLayout';
-import { resolveWritingPath, getHeaderImage } from '../../data/manifest';
+import { resolveWritingPath } from '../../data/manifest';
 import NotFoundPage from '../NotFoundPage';
 
 function buildTrail(ancestors) {
@@ -33,7 +33,6 @@ export default function WritingsNodePage() {
   const trail = buildTrail(resolved.ancestors);
   const basePath = `/writings/${segments.join('/')}`;
   const { node } = resolved;
-  const headerImage = getHeaderImage(node);
 
   return (
     <div className="mx-auto max-w-3xl px-6 sm:px-8 py-14">
@@ -41,15 +40,6 @@ export default function WritingsNodePage() {
 
       {node.type === 'project' && (
         <>
-          {headerImage && (
-            <div className="flex justify-center mt-6">
-              <img
-                src={headerImage.src}
-                alt={headerImage.alt}
-                className="w-auto h-auto max-w-full max-h-[50vh] object-contain"
-              />
-            </div>
-          )}
           {node.write_up && <MarkdownContent source={node.write_up} className="max-w-2xl mt-4" />}
           <WritingProjectLayout node={node} basePath={basePath} />
         </>

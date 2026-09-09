@@ -318,13 +318,21 @@ build_writings_node() {
       '
       ;;
     writing)
-      local name synopsis write_up layout grid_columns header_file header_image=""
+      local name synopsis write_up layout grid_columns header_file header_image="" thumbnail_file thumbnail=""
       name="$(front_get "$pdir" Name)"
       synopsis="$(section_get "$pdir" "Synopsis")"
       write_up="$(section_get "$pdir" "Write Up")"
       layout="$(front_get "$pdir" Layout)"
       [ -n "$layout" ] || layout="simple"
       grid_columns="$(front_get "$pdir" "Grid Columns")"
+      thumbnail_file="$(front_get "$pdir" Thumbnail)"
+      if [ -n "$thumbnail_file" ]; then
+        if [ -f "$dir/$thumbnail_file" ]; then
+          thumbnail="/$rel/$thumbnail_file"
+        else
+          echo "warning: $dir/manifest.md references missing thumbnail '$thumbnail_file'" >&2
+        fi
+      fi
       header_file="$(front_get "$pdir" "Header Image")"
       if [ -n "$header_file" ]; then
         if [ -f "$dir/$header_file" ]; then
@@ -338,10 +346,12 @@ build_writings_node() {
       local images_json; images_json="$(build_writing_images "$dir" "$name" "$header_file")"
 
       jq -n --arg id "$id" --arg name "$name" --arg synopsis "$synopsis" --arg write_up "$write_up" \
-            --arg layout "$layout" --arg grid_columns "${grid_columns:-}" --arg header_image "$header_image" \
+            --arg layout "$layout" --arg grid_columns "${grid_columns:-}" \
+            --arg thumbnail "$thumbnail" --arg header_image "$header_image" \
             --argjson images "$images_json" '
         {id:$id, type:"writing", name:$name, synopsis:$synopsis, write_up:$write_up, layout:$layout, images:$images}
         + (if $grid_columns != "" then {grid_columns:($grid_columns|tonumber)} else {} end)
+        + (if $thumbnail != "" then {thumbnail:$thumbnail} else {} end)
         + (if $header_image != "" then {header_image:$header_image} else {} end)
       '
       ;;
