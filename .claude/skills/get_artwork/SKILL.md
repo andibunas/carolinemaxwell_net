@@ -9,6 +9,33 @@ Imports a new artwork or project into `caroline-maxwell-website/public/artworks/
 copying source images and generating a `manifest.md` in the format the site already
 uses (see e.g. `public/artworks/DNA/manifest.md` or `public/artworks/GeomagTravel/manifest.md`).
 
+## Detect environment first
+
+This skill runs in two different places, and the output differs accordingly:
+
+- **Claude Code (CLI / VS Code / desktop app) with this repo open** — you have
+  Bash/Read/Write/Edit tools with direct filesystem access to the actual
+  `caroline-maxwell-website` repo on disk. This is the primary case: **write the
+  files directly** into `public/artworks/` as described below.
+- **claude.ai chat app** — you have no filesystem access to the user's repo. The
+  user has instead uploaded images (and maybe a writeup) directly into the
+  conversation. In this case:
+  1. Generate the `manifest.md` content per the same rules below.
+  2. If code execution / file-creation is available, bundle the uploaded images
+     plus the generated `manifest.md` into a single downloadable `.zip`, named
+     after the target artwork folder (e.g. `Blackboard.zip`), with the manifest
+     and images at the top level of the zip (i.e. what should end up directly
+     inside `public/artworks/<Name>/`). Tell the user to unzip it into
+     `public/artworks/<Name>/` in their repo.
+  3. If file-creation/code execution isn't available, fall back to: output the
+     manifest.md content as a fenced code block the user can save themselves,
+     plus plain-language instructions for where to save it and how to move the
+     images they uploaded into `public/artworks/<Name>/`.
+
+Check which situation you're in before starting — don't assume; if you have Bash/Write
+tools and can see the repo, you're in the Claude Code case even if the user's phrasing
+sounds like the chat-app case.
+
 ## Inputs
 
 Ask the user for (or infer from their message):
@@ -28,20 +55,28 @@ than guessing silently.
 
 ## Steps
 
-1. **Locate the repo.** The site lives in `caroline-maxwell-website/` at the repo
-   root; artworks live in `caroline-maxwell-website/public/artworks/`.
+1. **Locate the repo** (Claude Code case only). The site lives in
+   `caroline-maxwell-website/` at the repo root; artworks live in
+   `caroline-maxwell-website/public/artworks/`.
 
-2. **Create the target folder**: `public/artworks/<Name>/` (or nested under the
-   parent for a child project). Don't overwrite an existing manifest.md without
-   confirming with the user first — if the folder already exists, treat this as
-   an update and merge rather than clobber.
+2. **Create/stage the target folder.**
+   - *Claude Code*: create `public/artworks/<Name>/` (or nested under the parent
+     for a child project). Don't overwrite an existing manifest.md without
+     confirming with the user first — if the folder already exists, treat this
+     as an update and merge rather than clobber.
+   - *Chat app*: no folder to create — the zip's top level stands in for this
+     folder.
 
-3. **Copy the images.** Copy every image file (jpg/jpeg/png/gif/webp/svg) from the
-   source folder into the target folder, preserving original filenames. Skip
-   non-image files other than the writeup text file. If there are many images or
-   subfolders of images (e.g. per-series folders), preserve that substructure only
-   if it mirrors how existing multi-part projects are organized (see
-   `GeomagTravel/` for an example of a project with image subfolders per child).
+3. **Handle the images.**
+   - *Claude Code*: copy every image file (jpg/jpeg/png/gif/webp/svg) from the
+     source folder into the target folder, preserving original filenames. Skip
+     non-image files other than the writeup text file. If there are many images
+     or subfolders of images (e.g. per-series folders), preserve that
+     substructure only if it mirrors how existing multi-part projects are
+     organized (see `GeomagTravel/` for an example of a project with image
+     subfolders per child).
+   - *Chat app*: use the images the user uploaded as-is (same filenames) when
+     building the zip.
 
 4. **Read the writeup**, if one was provided, and extract whatever is available:
    - Title/Name
@@ -62,8 +97,10 @@ than guessing silently.
    image (or one the writeup calls out as representative); Header Image can be
    left blank unless the writeup specifies a hero/banner image or animated image.
 
-6. **Write `manifest.md`** in the target folder using this exact field format
-   (fields first, blank line, then `##` sections — copy the structure precisely):
+6. **Write `manifest.md`** (in the target folder for Claude Code; as generated
+   content to include in the zip/code-block for the chat app) using this exact
+   field format (fields first, blank line, then `##` sections — copy the
+   structure precisely):
 
    ```
    Name: <Title>
@@ -100,14 +137,21 @@ than guessing silently.
    flat collection of related pieces — infer from the writeup, default to
    `artworks` if unclear, and flag the choice to the user.
 
-7. **If this is a child project**, add its folder name to the parent's
-   `## Child Projects` list (see `GeomagTravel/manifest.md`), and add the new
-   top-level name to `public/artworks/manifest.md`'s `## Child Projects` list if
-   this is a new top-level artwork/project.
+7. **Update parent listings** (Claude Code only — the chat app has no repo access
+   to edit these). If this is a child project, add its folder name to the
+   parent's `## Child Projects` list (see `GeomagTravel/manifest.md`), and add
+   the new top-level name to `public/artworks/manifest.md`'s `## Child Projects`
+   list if this is a new top-level artwork/project. In the chat-app case, tell
+   the user these lists need a manual one-line edit after they unzip, and show
+   them the line to add.
 
-8. **Report back**: list what was copied, the manifest.md path, and call out any
-   fields left blank or guessed (Type, Date, Layout, Thumbnail) so the user can
-   correct them.
+8. **Report back.**
+   - *Claude Code*: list what was copied, the manifest.md path, and call out any
+     fields left blank or guessed (Type, Date, Layout, Thumbnail) so the user can
+     correct them.
+   - *Chat app*: hand over the zip (or manifest code block), state what's inside
+     it, call out guessed/blank fields the same way, and give the exact target
+     path (`public/artworks/<Name>/`) to unzip/save into.
 
 ## Notes
 
@@ -115,4 +159,7 @@ than guessing silently.
   material — leave fields sparse rather than fabricating detail.
 - `Layout: grid` is the only layout value seen in the current site; keep it unless
   the user specifies otherwise.
-- This only writes files under `public/artworks/`; it never touches site code.
+- This only writes/produces files for `public/artworks/`; it never touches site code.
+- Never fabricate a filesystem you don't have — if you're in the chat app, don't
+  pretend to have written files into the user's repo; produce a zip or a
+  copy/paste bundle instead.
