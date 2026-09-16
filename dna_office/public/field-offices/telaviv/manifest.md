@@ -1,0 +1,18 @@
+Name: Tel Aviv
+Location: Nisuy Kelim Festival, 2011
+Order: 3
+Thumbnail: nisuykelim.jpg
+
+## Write Up
+
+For the Nisuy Kelim Festival, the D.N.A. opened a field office in a downtown Tel Aviv art gallery. August, 2011.
+
+## Images
+
+### Tal Yizrael interviews a visitor
+Image: nisuykelim.jpg
+
+Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival.
+
+### At the D.N.A. office
+Image: tal_nisuykelim.jpg

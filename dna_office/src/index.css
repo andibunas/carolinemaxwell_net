@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Field-office / case-file palette -- manila, carbon ink, night-sky accent. */
+  --color-paper: #F1ECDD;
+  --color-panel: #E6DFC9;
+  --color-ink: #1C1A16;
+  --color-ink-soft: #4A4536;
+  --color-ink-faint: #837C63;
+  --color-line: #CFC5A3;
+  --color-line-strong: #B7AB82;
+  --color-glow: #6B7C4F;
+
+  --font-display: "Special Elite", ui-monospace, monospace;
+  --font-body: "Courier Prime", ui-monospace, "Courier New", monospace;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-paper);
+  }
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  a {
+    color: inherit;
+  }
+  ::selection {
+    background: var(--color-glow);
+    color: var(--color-paper);
+  }
+  :focus-visible {
+    outline: 1.5px solid var(--color-glow);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .chip-scroll {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .chip-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
