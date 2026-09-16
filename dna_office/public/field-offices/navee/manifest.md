@@ -20,6 +20,9 @@ resistance. October, 2014.
 
 ## Images
 
+### The D.N.A. Office at Templer House
+Image: navee_typewriter.jpg
+
 ### Tal Yizrael interviews a visitor
 Image: tal1.jpg
 

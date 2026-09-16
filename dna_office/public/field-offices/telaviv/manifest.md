@@ -8,3 +8,6 @@ Thumbnail: nisuykelim.jpg
 For the Nisuy Kelim Festival, the D.N.A. opened a field office in a downtown Tel Aviv art gallery. August, 2011.
 
 ## Images
+
+### The D.N.A. Office at the Nisuy Kelim Festival
+Image: nisuykelim.jpg

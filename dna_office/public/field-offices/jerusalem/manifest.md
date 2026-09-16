@@ -11,6 +11,9 @@ of Jerusalem. June 15 – June 22, 2011.
 
 ## Images
 
+### St. James Street Field Office sign
+Image: sign.jpg
+
 ### St. James Street Field Office
 Image: DNAjerusalem_titleimg.jpg
 

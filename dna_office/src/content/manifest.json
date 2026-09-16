@@ -123,6 +123,11 @@
       "write_up": "For the GLOW Festival, the D.N.A. opened a field office in Palisades Park, Santa Monica, California. July 19,\n2008, 7am to 7pm.",
       "images": [
         {
+          "src": "/field-offices/glow/dna-sign.jpg",
+          "alt": "The D.N.A. Field Office sign",
+          "caption": "The D.N.A. Field Office sign"
+        },
+        {
           "src": "/field-offices/glow/glow-dna.jpg",
           "alt": "The D.N.A. Office in Palisades Park, Santa Monica",
           "caption": "The D.N.A. Office in Palisades Park, Santa Monica"
@@ -147,6 +152,11 @@
       "location": "In Love With Night, Guggenheim Gallery, Chapman University, 2009",
       "write_up": "The D.N.A. opened a field office in Chapman University's Guggenheim Gallery during the exhibit *In Love With\nNight*, curated by Ciara Ennis and Max King Cap, August 31 – October 2, 2009.\n\nOn September 15, 2009, the D.N.A. led a \"Nocturnal Walking Tour\" of the Chapman University campus, along with\nOrange County naturalist Joel Robinson.",
       "images": [
+        {
+          "src": "/field-offices/chapman/DNAoffice_chapman.jpg",
+          "alt": "The D.N.A. Office at Chapman University",
+          "caption": "The D.N.A. Office at Chapman University"
+        },
         {
           "src": "/field-offices/chapman/DNA_caro_byJoanna.jpg",
           "alt": "Caroline Maxwell, photographed by Joanna",
@@ -181,6 +191,11 @@
       "write_up": "The D.N.A.'s first solo gallery show — artists Tal Yizrael and Caroline Maxwell created artworks for the\nDepartment of Nocturnal Affairs. A field office was open in the gallery for the duration of the exhibit to\nallow visitors to file reports of nocturnal animal sightings. July 30 – August 29, 2009.",
       "images": [
         {
+          "src": "/field-offices/project210/DNA210.jpg",
+          "alt": "The D.N.A. Office at Project 210 Gallery",
+          "caption": "The D.N.A. Office at Project 210 Gallery"
+        },
+        {
           "src": "/field-offices/project210/DNA210a.jpg",
           "alt": "Wall display: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints",
           "caption": "Wall display: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints"
@@ -195,6 +210,11 @@
       "location": "St. James Street Field Office — Jerusalem Festival of Light and Art, 2011",
       "write_up": "For the Jerusalem Festival of Art and Light, the D.N.A. opened a field office on St. James Street in the Old City\nof Jerusalem. June 15 – June 22, 2011.",
       "images": [
+        {
+          "src": "/field-offices/jerusalem/sign.jpg",
+          "alt": "St. James Street Field Office sign",
+          "caption": "St. James Street Field Office sign"
+        },
         {
           "src": "/field-offices/jerusalem/DNAjerusalem_titleimg.jpg",
           "alt": "St. James Street Field Office",
@@ -232,7 +252,13 @@
       "name": "Tel Aviv",
       "location": "Nisuy Kelim Festival, 2011",
       "write_up": "For the Nisuy Kelim Festival, the D.N.A. opened a field office in a downtown Tel Aviv art gallery. August, 2011.",
-      "images": [],
+      "images": [
+        {
+          "src": "/field-offices/telaviv/nisuykelim.jpg",
+          "alt": "The D.N.A. Office at the Nisuy Kelim Festival",
+          "caption": "The D.N.A. Office at the Nisuy Kelim Festival"
+        }
+      ],
       "transcript": null,
       "thumbnail": "/field-offices/telaviv/nisuykelim.jpg"
     },
@@ -241,7 +267,13 @@
       "name": "Roosevelt Row",
       "location": "Modified Arts Gallery, Phoenix, AZ — The End of Wild, 2012",
       "write_up": "The D.N.A. opened a field office on Roosevelt Row in Phoenix, Arizona, at Modified Arts Gallery, as part of\n*The End of Wild*, curated by Jeff Chabot. May 18 – June 9, 2012.",
-      "images": [],
+      "images": [
+        {
+          "src": "/field-offices/endofwild/modified.JPG",
+          "alt": "The D.N.A. Office at Modified Arts",
+          "caption": "The D.N.A. Office at Modified Arts"
+        }
+      ],
       "transcript": null,
       "thumbnail": "/field-offices/endofwild/modified.JPG"
     },
@@ -251,6 +283,11 @@
       "location": "Templer House, Jerusalem — Navee Navee / Prophet Prophet, Manofim Contemporary Arts Festival, 2014",
       "write_up": "For the Manofim Contemporary Arts Festival, the D.N.A. opened a field office at the historic Templer House, as\npart of the exhibit *Navee Navee* (*Prophet Prophet*). The show explores the concept of prophecy as such:\n\n*In ancient times, the prophets were the ones who protested moral corruption and warned against catastrophes.\nThey were prepared to pay a heavy personal price and forgo being popular when their prophecies were dire. In\nmany respects, artists (like prophets) observe society from the sidelines and refuse to conform to social\nnorms. From the margins, it is \"permissible\" to utter a dissenting opinion or criticism that may be painful to\nhear.*\n\nFor this exhibit, the D.N.A. created a special animal reporting form that enquires about the prophetic\nqualities of people's animal encounters, thus opening up an awareness of animals as agents of memory and\nresistance. October, 2014.",
       "images": [
+        {
+          "src": "/field-offices/navee/navee_typewriter.jpg",
+          "alt": "The D.N.A. Office at Templer House",
+          "caption": "The D.N.A. Office at Templer House"
+        },
         {
           "src": "/field-offices/navee/tal1.jpg",
           "alt": "Tal Yizrael interviews a visitor",
@@ -276,6 +313,11 @@
       "location": "Fresh Paint Art Fair, Special Projects — Zoological Museum, University of Tel Aviv, 2017",
       "write_up": "For the Fresh Paint Art Fair, Special Projects, the D.N.A. opened a field office at the Zoological Museum,\nUniversity of Tel Aviv, Israel. March, 2017.",
       "images": [
+        {
+          "src": "/field-offices/fresh-paint/fresh-paint-office.jpg",
+          "alt": "The D.N.A. Office at Fresh Paint",
+          "caption": "The D.N.A. Office at Fresh Paint"
+        },
         {
           "src": "/field-offices/fresh-paint/students-report.jpg",
           "alt": "Taking reports on opening day",
@@ -312,6 +354,11 @@
       "write_up": "For the MaidenLA Art Event, the D.N.A. opened a field office at Row DTLA, Los Angeles, California. August 2018.",
       "images": [
         {
+          "src": "/field-offices/row-dtla/dna-table-above.jpg",
+          "alt": "The D.N.A. Office table at Row DTLA",
+          "caption": "The D.N.A. Office table at Row DTLA"
+        },
+        {
           "src": "/field-offices/row-dtla/coyote-raccoon-shadow-framed.jpg",
           "alt": "Nocturnal Animal Studies: Coyote, Raccoon",
           "caption": "Nocturnal Animal Studies: Coyote, Raccoon"
@@ -331,6 +378,11 @@
       "location": "Bat Yam, Israel — Artist Residency, September & October 2020",
       "write_up": "As resident artists, the D.N.A. transforms the home of Yiddish essayist and playwright Sholem Asch through\nvarious installations that explore darkness as a theme. Camera obscuras bring the outside world in, through\nghostly projections that ask us all to consider our own interior projections as we move through the darkness\nof being.\n\nA particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has\nbecome a centerpiece for the D.N.A. residency. The D.N.A. has created a set of companion portraits, of\nnocturnal animals with closed eyes, to join this woman on her journey. Additionally, the D.N.A. has presented\nanother set of paintings that capture small corners of the house at dusk or in the stillness of nighttime.\nThese are installed in the small drawers of Asch's writing cabinet, to be opened or closed away in an act that\nmirrors the openings and closings of our days, our nights, our eyes, and our memories. Words from Asch's\nwriting, in the form of personal letters, books, and notes, are displayed around the house.\n\nThe residency also includes *The Storyteller* (2020), a video work by Tal Yizrael.",
       "images": [
+        {
+          "src": "/field-offices/sholem-asch/dna-eyes-closed.jpg",
+          "alt": "Portrait of a woman with her eyes closed",
+          "caption": "Portrait of a woman with her eyes closed"
+        },
         {
           "src": "/field-offices/sholem-asch/drawers.jpg",
           "alt": "Nocturnal Details: Writing Cabinet",
