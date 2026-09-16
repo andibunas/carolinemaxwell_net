@@ -10,6 +10,9 @@ For the GLOW Festival, the D.N.A. opened a field office in Palisades Park, Santa
 
 ## Images
 
+### The D.N.A. Field Office sign
+Image: dna-sign.jpg
+
 ### The D.N.A. Office in Palisades Park, Santa Monica
 Image: glow-dna.jpg
 

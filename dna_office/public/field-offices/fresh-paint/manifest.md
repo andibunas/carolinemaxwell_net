@@ -10,6 +10,9 @@ University of Tel Aviv, Israel. March, 2017.
 
 ## Images
 
+### The D.N.A. Office at Fresh Paint
+Image: fresh-paint-office.jpg
+
 ### Taking reports on opening day
 Image: students-report.jpg
 

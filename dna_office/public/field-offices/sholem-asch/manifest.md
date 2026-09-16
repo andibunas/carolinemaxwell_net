@@ -22,5 +22,8 @@ The residency also includes *The Storyteller* (2020), a video work by Tal Yizrae
 
 ## Images
 
+### Portrait of a woman with her eyes closed
+Image: dna-eyes-closed.jpg
+
 ### Nocturnal Details: Writing Cabinet
 Image: drawers.jpg
