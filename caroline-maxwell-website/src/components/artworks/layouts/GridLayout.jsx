@@ -1,10 +1,10 @@
-import ArtworkCard from '../ArtworkCard';
+import ChildCard from '../ChildCard';
 
-export default function GridLayout({ category, basePath }) {
+export default function GridLayout({ project, basePath }) {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-10 mt-12">
-      {(category.artworks || []).map((artwork) => (
-        <ArtworkCard key={artwork.id} artwork={artwork} to={`${basePath}/${artwork.id}`} />
+    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-8 mt-12">
+      {(project.children || []).map((child) => (
+        <ChildCard key={child.id} node={child} to={`${basePath}/${child.id}`} />
       ))}
     </div>
   );

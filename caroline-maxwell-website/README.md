@@ -74,7 +74,7 @@ src/
   components/
     layout/               header, nav, hamburger menu, breadcrumb, footer
     artworks/              artwork card, artwork detail, and the three
-                            layout components (grid / featured / subcategory)
+                            layout components (grid / featured / subproject)
     writings/               writings-specific layout components
     home/                   bio teaser + latest work section
     about/                  About sub-nav, contact form, markdown renderer
@@ -87,8 +87,8 @@ public/
 ## 6. Editing content (no code changes required)
 
 ### Adding or editing an artwork
-Open `src/content/manifest.json`, find the relevant category under
-`artworks.categories`, and edit its `artworks` array. Each artwork needs:
+Open `src/content/manifest.json`, find the relevant project under
+`artworks.projects`, and edit its `artworks` array. Each artwork needs:
 ```json
 {
   "id": "unique-url-slug",
@@ -104,25 +104,25 @@ Exactly one image per artwork should have `"is_primary": true`. Drop the
 actual image file into `public/images/artworks/` and reference it with a path
 starting `/images/artworks/...`.
 
-### Adding a new artwork category
-Add a new object to `artworks.categories` (or to a category's
-`child_categories` array, for nesting):
+### Adding a new artwork project
+Add a new object to `artworks.projects` (or to a project's
+`child_projects` array, for nesting):
 ```json
 {
   "id": "unique-url-slug",
-  "name": "Category Name",
+  "name": "Project Name",
   "layout_type": "grid",
   "date": "2026-01-01",
   "write_up": "A sentence or two about this body of work.",
-  "primary_artwork_id": "id-of-one-artwork-in-this-category",
+  "primary_artwork_id": "id-of-one-artwork-in-this-project",
   "artworks": []
 }
 ```
 `layout_type` must be one of the registered layouts: `grid`, `featured`, or
-`subcategory_list`. See §7 below to add a new one.
+`subproject_list`. See §7 below to add a new one.
 
 ### Writings
-Same file, under `writings.items`. Each node needs a `type` of `category`,
+Same file, under `writings.items`. Each node needs a `type` of `project`,
 `writing`, or `artwork` — see the existing examples in the manifest for the
 shape of each.
 
@@ -139,7 +139,7 @@ email shown at the top of the page is set in `src/pages/ContactPage.jsx`.
 ## 7. Adding a new artwork layout type
 
 1. Create a new component in `src/components/artworks/layouts/`, following
-   the shape of `GridLayout.jsx` (it receives `category` and `basePath` props).
+   the shape of `GridLayout.jsx` (it receives `project` and `basePath` props).
 2. Register it in `src/components/artworks/layoutRegistry.js`.
 3. Reference its key from `layout_type` in the manifest.
 

@@ -1,12 +1,12 @@
-Type: Writing
+Type: writing
 Order: 2
 Name: Studio Notes, Winter
 
-## Write Up
+## Synopsis
 
 Notes kept during the coldest weeks of the January Jones series.
 
-## Writing
+## Write Up
 
 The radiator in the studio makes a sound like a held breath being let go, on and off, all day. I have started timing my brushstrokes to it without meaning to.
 

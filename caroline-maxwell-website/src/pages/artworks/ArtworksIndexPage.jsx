@@ -1,35 +1,38 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getArtworkCategories, getCategoryCoverImage } from '../../data/manifest';
+import { getArtworkProjects, getNodeThumbnail } from '../../data/manifest';
 
 export default function ArtworksIndexPage() {
   useEffect(() => {
     document.title = 'Artworks — Caroline Maxwell';
   }, []);
 
-  const categories = getArtworkCategories();
+  const projects = getArtworkProjects();
 
   return (
     <div className="mx-auto max-w-6xl px-6 sm:px-8 py-14">
       <h1 className="font-display text-3xl text-ink mb-12">Artworks</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-        {categories.map((category) => {
-          const cover = getCategoryCoverImage(category);
+        {projects.map((project) => {
+          const thumbnail = getNodeThumbnail(project);
           return (
-            <Link key={category.id} to={`/artworks/${category.id}`} className="group block">
-              {cover && (
-                <div className="overflow-hidden bg-panel">
+            <Link key={project.id} to={`/artworks/${project.id}`} className="group block">
+              {thumbnail && (
+                <div className="flex items-center justify-center h-64 overflow-hidden">
                   <img
-                    src={cover.src}
-                    alt={cover.alt}
+                    src={thumbnail.src}
+                    alt={thumbnail.alt}
                     loading="lazy"
-                    className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="max-h-full max-w-full w-auto h-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
               )}
               <p className="font-display text-xl text-ink mt-4 group-hover:text-gold transition-colors">
-                {category.name}
+                {project.name}
               </p>
+              {project.synopsis && (
+                <p className="text-ink-soft text-sm mt-1 max-w-md">{project.synopsis}</p>
+              )}
             </Link>
           );
         })}

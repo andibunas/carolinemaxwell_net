@@ -4,7 +4,7 @@ import SiteFooter from './components/layout/SiteFooter';
 
 import HomePage from './pages/home/HomePage';
 import ArtworksIndexPage from './pages/artworks/ArtworksIndexPage';
-import ArtworksCategoryPage from './pages/artworks/ArtworksCategoryPage';
+import ArtworksProjectPage from './pages/artworks/ArtworksProjectPage';
 import WritingsIndexPage from './pages/writings/WritingsIndexPage';
 import WritingsNodePage from './pages/writings/WritingsNodePage';
 import AboutLayout from './pages/about/AboutLayout';
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
 
           <Route path="/artworks" element={<ArtworksIndexPage />} />
-          <Route path="/artworks/*" element={<ArtworksCategoryPage />} />
+          <Route path="/artworks/*" element={<ArtworksProjectPage />} />
 
           <Route path="/writings" element={<WritingsIndexPage />} />
           <Route path="/writings/*" element={<WritingsNodePage />} />

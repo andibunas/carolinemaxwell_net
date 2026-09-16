@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:static": "vite build && node scripts/generate-static.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist dist-static",
     "build-manifest": "bash scripts/build-manifest.sh"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "@vitejs/plugin-react": "^6.1.0",
     "autoprefixer": "^10.5.4",
     "oxlint": "^1.79.0",
+    "playwright": "^1.63.0",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
     "vite": "^8.2.2"
