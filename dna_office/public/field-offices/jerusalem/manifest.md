@@ -1,7 +1,7 @@
 Name: Jerusalem
 Location: St. James Street Field Office — Jerusalem Festival of Light and Art, 2011
-Order: 1
-Thumbnail: DNAjerusalem_titleimg.jpg
+Order: 4
+Thumbnail: sign.jpg
 Transcript: Daily Reports from the Festival
 
 ## Write Up
@@ -10,6 +10,9 @@ For the Jerusalem Festival of Art and Light, the D.N.A. opened a field office on
 of Jerusalem. June 15 – June 22, 2011.
 
 ## Images
+
+### St. James Street Field Office
+Image: DNAjerusalem_titleimg.jpg
 
 ### The D.N.A. Office on St. James Street
 Image: office.JPG

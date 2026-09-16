@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import { useQueryNav } from '../../hooks/useQueryNav';
 import { getFieldOffice } from '../../data/manifest';
 import MarkdownContent from '../../components/about/MarkdownContent';
+import ImageLightbox from '../../components/about/ImageLightbox';
 
 export default function FieldOfficeDetailPage() {
   const { params, linkTo } = useQueryNav();
   const office = getFieldOffice(params.get('office'));
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   if (!office) {
     return (
@@ -32,16 +35,27 @@ export default function FieldOfficeDetailPage() {
         </a>
       )}
 
-      <div className="flex gap-6 overflow-x-auto chip-scroll pb-2 -mx-6 px-6 sm:mx-0 sm:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {office.images.map((img, i) => (
-          <figure key={i} className="shrink-0 w-64 sm:w-80">
-            <div className="bg-panel overflow-hidden">
+          <figure key={i}>
+            <button
+              type="button"
+              onClick={() => setLightboxIndex(i)}
+              className="block w-full bg-panel overflow-hidden cursor-zoom-in"
+            >
               <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />
-            </div>
+            </button>
             {img.caption && <figcaption className="mt-2 text-ink-faint text-xs italic">{img.caption}</figcaption>}
           </figure>
         ))}
       </div>
+
+      <ImageLightbox
+        images={office.images}
+        index={lightboxIndex}
+        onClose={() => setLightboxIndex(null)}
+        onNavigate={setLightboxIndex}
+      />
     </div>
   );
 }
