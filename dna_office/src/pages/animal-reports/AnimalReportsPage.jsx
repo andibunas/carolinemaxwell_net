@@ -31,13 +31,13 @@ export default function AnimalReportsPage() {
 
       {category && (
         <div className="mt-8">
-          <div className="flex items-center gap-2 mb-6">
+          <div className="flex items-center justify-center gap-2 mb-6 flex-nowrap">
             <button
               type="button"
               onClick={() => goToItem(category.reports[0])}
               disabled={activeIndex <= 0}
               aria-label="Jump to first"
-              className="px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
+              className="shrink-0 px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
             >
               &laquo;
             </button>
@@ -46,7 +46,7 @@ export default function AnimalReportsPage() {
               onClick={() => goToItem(category.reports[activeIndex - 1])}
               disabled={activeIndex <= 0}
               aria-label="Jump back one"
-              className="px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
+              className="shrink-0 px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
             >
               &lsaquo;
             </button>
@@ -55,7 +55,7 @@ export default function AnimalReportsPage() {
               aria-label="Jump to report"
               value={activeItem?.id || ''}
               onChange={(e) => goToItem(category.reports.find((r) => r.id === e.target.value))}
-              className="flex-1 min-w-0 px-3 py-1.5 text-sm border border-line rounded bg-panel text-ink"
+              className="shrink min-w-0 max-w-[40vw] sm:max-w-[220px] truncate px-3 py-1.5 text-sm border border-line rounded bg-panel text-ink"
             >
               {category.reports.map((r) => (
                 <option key={r.id} value={r.id}>
@@ -69,7 +69,7 @@ export default function AnimalReportsPage() {
               onClick={() => goToItem(category.reports[activeIndex + 1])}
               disabled={activeIndex === -1 || activeIndex >= category.reports.length - 1}
               aria-label="Jump forward one"
-              className="px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
+              className="shrink-0 px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
             >
               &rsaquo;
             </button>
@@ -78,7 +78,7 @@ export default function AnimalReportsPage() {
               onClick={() => goToItem(category.reports[category.reports.length - 1])}
               disabled={activeIndex === -1 || activeIndex >= category.reports.length - 1}
               aria-label="Jump to last"
-              className="px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
+              className="shrink-0 px-2 py-1.5 text-sm border border-line rounded disabled:opacity-30 hover:border-line-strong disabled:hover:border-line"
             >
               &raquo;
             </button>
