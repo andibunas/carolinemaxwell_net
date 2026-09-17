@@ -30,7 +30,7 @@ export default function GalleryProjectPage() {
         {project.artworks.map((art, i) => (
           <figure
             key={art.id}
-            className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 border-t border-ink-faint/20 pt-10' : ''}
+            className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 sm:[&:nth-child(-n+2)]:pt-0 border-t border-ink-faint/20 pt-10' : ''}
           >
             <button
               type="button"

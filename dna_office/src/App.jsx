@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import SiteHeader from './components/layout/SiteHeader';
 import SiteFooter from './components/layout/SiteFooter';
 import { useQueryNav } from './hooks/useQueryNav';
@@ -37,6 +38,11 @@ function renderSection(section, params) {
 
 export default function App() {
   const { section, params } = useQueryNav();
+  const paramsKey = params.toString();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [paramsKey]);
 
   return (
     <div className="min-h-screen flex flex-col">

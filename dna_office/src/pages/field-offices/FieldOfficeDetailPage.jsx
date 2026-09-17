@@ -38,7 +38,14 @@ export default function FieldOfficeDetailPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {office.images.map((img, i) => (
-          <figure key={i}>
+          <figure
+            key={i}
+            className={
+              i > 0
+                ? 'border-t border-ink-faint/20 pt-10 sm:[&:nth-child(-n+2)]:border-t-0 sm:[&:nth-child(-n+2)]:pt-0 lg:[&:nth-child(-n+3)]:border-t-0 lg:[&:nth-child(-n+3)]:pt-0'
+                : ''
+            }
+          >
             {img.video ? (
               <video src={img.video} controls className="block w-full bg-panel" />
             ) : (
