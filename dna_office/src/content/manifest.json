@@ -125,6 +125,240 @@
         }
       ],
       "thumbnail": "/gallery/24hournight/LA24hournight.jpg"
+    },
+    {
+      "id": "behaviors",
+      "name": "Miscellaneous Studies on Nocturnal Behaviors",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell.",
+      "artworks": [
+        {
+          "id": "snails",
+          "title": "Snails",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/snails2.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "24-hour-turkey-farm",
+          "title": "24-hour turkey farm",
+          "medium": "digital inkjet print, 2009",
+          "size": "",
+          "image": "/gallery/behaviors/turkeys.jpg",
+          "video": "",
+          "write_up": "20,000 turkeys on a Minnesota farm. Bright floodlights fill the space at night. This artificial daylight keeps\nthe turkeys eating 24 hours a day. These turkeys gain weight at a much faster pace than normal, and are ready\nto send to slaughter in less than a year."
+        },
+        {
+          "id": "smamit-summit-geckos",
+          "title": "Smamit Summit (Geckos)",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/smamit_summit.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "tel-aviv-bats",
+          "title": "Tel Aviv Bats",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/bat.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/behaviors/snails2.jpg"
+    },
+    {
+      "id": "drawingnocturnal",
+      "name": "Drawing Nocturnal",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
+      "artworks": [
+        {
+          "id": "table-display",
+          "title": "Table Display",
+          "medium": "",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/table.jpg",
+          "video": "",
+          "write_up": "at Row DTLA, Maiden LA Art Festival, 2018"
+        },
+        {
+          "id": "raccoon-and-shadow",
+          "title": "Raccoon and Shadow",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/raccoon-and-shadow.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "wild-boar",
+          "title": "Wild Boar",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/boar.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "tel-aviv-bats",
+          "title": "Tel Aviv Bats",
+          "medium": "digital inkjet print, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/coyote.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "hyena-tree",
+          "title": "Hyena, Tree",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/hyena-tree.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "moth-maple",
+          "title": "Moth, Maple",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/moth-maple.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "porcupine-moths",
+          "title": "Porcupine, Moths",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/porcupine-moths.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "porcupine",
+          "title": "Porcupine",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/porcupine.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/drawingnocturnal/table.jpg"
+    },
+    {
+      "id": "sholem-asch",
+      "name": "Sholem Asch House Museum: Nocturnal Residency",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
+      "artworks": [
+        {
+          "id": "nocturnal-details-of-asch-house-objects",
+          "title": "Nocturnal Details of Asch House: Objects",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-objects.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-cabinet",
+          "title": "Nocturnal Details of Asch House: Cabinet",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-cabinet2.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-chair",
+          "title": "Nocturnal Details of Asch House: Chair",
+          "medium": "oil on paper",
+          "size": "9\" x 13\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-chair.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-desk-objects",
+          "title": "Nocturnal Details of Asch House: Desk Objects",
+          "medium": "oil on paper",
+          "size": "9\" x 13\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-desk-objects.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-fireplace",
+          "title": "Nocturnal Details of Asch House: Fireplace",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-fireplace.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-books",
+          "title": "Nocturnal Details of Asch House: Books",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-books.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "asch-house-dawn",
+          "title": "Asch House: Dawn",
+          "medium": "Photograph",
+          "size": "",
+          "image": "/gallery/sholem-asch/dawn.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-badger",
+          "title": "Portrait Gallery: Badger",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-badger.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-owl",
+          "title": "Portrait Gallery: Owl",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-owl.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-coyote",
+          "title": "Portrait Gallery: Coyote",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-coyote.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-rats",
+          "title": "Portrait Gallery: Rats",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-rats.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/sholem-asch/sm-asch-house-objects.jpg"
     }
   ],
   "fieldOffices": [
