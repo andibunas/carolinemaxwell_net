@@ -14,13 +14,18 @@ export default function FieldOfficesIndexPage() {
         reports of nocturnal wildlife sightings.
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-10">
-        {offices.map((o) => (
+        {offices.map((o, i) => (
           <ChildCard
             key={o.id}
             linkProps={linkTo({ section: 'field-offices', office: o.id })}
             thumbnail={o.thumbnail ? { src: o.thumbnail, alt: o.name } : null}
             title={o.name}
             subtitle={o.location}
+            className={
+              i >= 2
+                ? 'border-t border-ink-faint/20 pt-10 sm:[&:nth-child(3)]:border-t-0 sm:[&:nth-child(3)]:pt-0'
+                : ''
+            }
           />
         ))}
       </div>
