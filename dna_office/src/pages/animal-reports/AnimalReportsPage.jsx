@@ -31,7 +31,7 @@ export default function AnimalReportsPage() {
 
       {category && (
         <div className="mt-8">
-          <div className="flex items-center justify-center gap-2 mb-6 flex-nowrap">
+          <div className="flex items-center justify-left gap-2 mb-6 flex-nowrap">
             <button
               type="button"
               onClick={() => goToItem(category.reports[0])}
