@@ -4,7 +4,7 @@ import { navItems } from './navItems';
 export default function NavMenu() {
   const { section, linkTo } = useQueryNav();
   return (
-    <nav aria-label="Primary" className="hidden md:flex items-center gap-6">
+    <nav aria-label="Primary" className="hidden lg:flex items-center gap-6">
       {navItems.map((item) => {
         const isActive = section === item.section;
         return (

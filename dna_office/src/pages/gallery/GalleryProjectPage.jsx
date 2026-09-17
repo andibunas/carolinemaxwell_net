@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import { useQueryNav } from '../../hooks/useQueryNav';
 import { getGalleryProject } from '../../data/manifest';
 import MarkdownContent from '../../components/about/MarkdownContent';
+import ImageLightbox from '../../components/about/ImageLightbox';
 
 export default function GalleryProjectPage() {
   const { params, linkTo } = useQueryNav();
   const project = getGalleryProject(params.get('project'));
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   if (!project) {
     return (
@@ -23,11 +26,18 @@ export default function GalleryProjectPage() {
       {project.write_up && <MarkdownContent source={project.write_up} className="max-w-2xl mb-10" />}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-        {project.artworks.map((art) => (
-          <figure key={art.id}>
-            <div className="bg-panel overflow-hidden">
+        {project.artworks.map((art, i) => (
+          <figure
+            key={art.id}
+            className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 border-t border-ink-faint/20 pt-10' : ''}
+          >
+            <button
+              type="button"
+              onClick={() => setLightboxIndex(i)}
+              className="block w-full bg-panel overflow-hidden cursor-zoom-in"
+            >
               <img src={art.image} alt={art.title} className="w-full h-auto object-cover" />
-            </div>
+            </button>
             <figcaption className="mt-3 text-sm">
               <p className="italic text-ink">{art.title}</p>
               {(art.medium || art.size) && (
@@ -38,6 +48,13 @@ export default function GalleryProjectPage() {
           </figure>
         ))}
       </div>
+
+      <ImageLightbox
+        images={project.artworks.map((art) => ({ src: art.image, alt: art.title, caption: art.title }))}
+        index={lightboxIndex}
+        onClose={() => setLightboxIndex(null)}
+        onNavigate={setLightboxIndex}
+      />
     </div>
   );
 }
