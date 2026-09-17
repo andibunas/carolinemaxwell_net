@@ -2,21 +2,21 @@ Name: Other Birds
 
 ## Reports
 
-### Other Birds 1
+### Cockatiel
 Image: cockatiel_sm.jpg
 
-### Other Birds 2
+### Elephant
 Image: elephant_sm.jpg
 
-### Other Birds 3
+### Fighting Cocks
 Image: fightingcocks_sm.jpg
 
-### Other Birds 4
+### Seagull
 Image: seagull1_sm.jpg
 
-### Other Birds 5
+### Seagull 1
 Image: seagull_sm.jpg
 
-### Other Birds 6
+### Starling/Killdeer
 Image: starling_killdeer_sm.jpg
 

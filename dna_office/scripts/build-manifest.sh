@@ -98,8 +98,9 @@ json_push() {
 }
 
 # One entry object per `### Title` subsection of a section file. Fields
-# read: Medium, Size, Image (Medium/Size optional, used by gallery only).
-# Any text after the Key: value lines is that entry's own write-up.
+# read: Medium, Size, Image, Video (Medium/Size optional, used by gallery
+# only; an entry needs at least one of Image/Video). Any text after the
+# Key: value lines is that entry's own write-up.
 parse_leaf_entries() {
   local section_file="$1" dir="$2" rel="$3"
   local entries_json="[]"
@@ -119,32 +120,46 @@ parse_leaf_entries() {
     { print > out }
   ' "$section_file"
 
-  local n=1 efile title medium size image write_up slug
+  local n=1 efile title medium size image video write_up slug
   while [ -f "$edir/_title_$n.txt" ]; do
     title="$(cat "$edir/_title_$n.txt")"
     efile="$edir/_entry_$n.md"
     medium="$(grep -m1 '^Medium:' "$efile" 2>/dev/null | sed -E 's/^Medium:[[:space:]]*//')"
     size="$(grep -m1 '^Size:' "$efile" 2>/dev/null | sed -E 's/^Size:[[:space:]]*//')"
     image="$(grep -m1 '^Image:' "$efile" 2>/dev/null | sed -E 's/^Image:[[:space:]]*//')"
+    video="$(grep -m1 '^Video:' "$efile" 2>/dev/null | sed -E 's/^Video:[[:space:]]*//')"
     write_up="$(awk '
       BEGIN { skipping = 1 }
-      /^(Medium|Size|Image):/ { next }
+      /^(Medium|Size|Image|Video):/ { next }
       skipping && /^[[:space:]]*$/ { next }
       { skipping = 0; lines[++n] = $0 }
       END { last = n; while (last > 0 && lines[last] == "") last--; for (i = 1; i <= last; i++) print lines[i] }
     ' "$efile")"
 
-    if [ -z "$image" ] || [ ! -f "$dir/$image" ]; then
+    if [ -n "$image" ] && [ ! -f "$dir/$image" ]; then
       echo "warning: $dir/manifest.md entry '$title' has missing/invalid Image '$image'" >&2
+      n=$((n + 1))
+      continue
+    fi
+    if [ -n "$video" ] && [ ! -f "$dir/$video" ]; then
+      echo "warning: $dir/manifest.md entry '$title' has missing/invalid Video '$video'" >&2
+      n=$((n + 1))
+      continue
+    fi
+    if [ -z "$image" ] && [ -z "$video" ]; then
+      echo "warning: $dir/manifest.md entry '$title' has no Image or Video" >&2
       n=$((n + 1))
       continue
     fi
 
     slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
+    local img_src="" video_src=""
+    [ -n "$image" ] && img_src="/$rel/$image"
+    [ -n "$video" ] && video_src="/$rel/$video"
     entries_json="$(json_push "$entries_json" "$(jq -n \
       --arg id "$slug" --arg title "$title" --arg medium "${medium:-}" --arg size "${size:-}" \
-      --arg src "/$rel/$image" --arg write_up "${write_up:-}" \
-      '{id:$id, title:$title, medium:$medium, size:$size, image:$src, write_up:$write_up}')")"
+      --arg src "$img_src" --arg video "$video_src" --arg write_up "${write_up:-}" \
+      '{id:$id, title:$title, medium:$medium, size:$size, image:$src, video:$video, write_up:$write_up}')")"
     n=$((n + 1))
   done
   printf '%s' "$entries_json"
@@ -181,7 +196,8 @@ build_office_node() {
   write_up="$(section_get "$pdir" "Write Up")"
 
   local entries_json; entries_json="$(parse_leaf_entries "$pdir/_section_images.md" "$dir" "$rel")"
-  images_json="$(jq -c '[.[] | {src: .image, alt: .title, caption: .title}]' <<<"$entries_json")"
+  images_json="$(jq -c '[.[] | {src: .image, video: .video, alt: .title, caption: .title, body: .write_up}
+    | with_entries(select(.value != ""))]' <<<"$entries_json")"
 
   transcript_title="$(front_get "$pdir" Transcript)"
   if [ -n "$transcript_title" ] && [ -f "$dir/transcript.md" ]; then

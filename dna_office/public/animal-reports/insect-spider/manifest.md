@@ -2,111 +2,111 @@ Name: Insect / Spider
 
 ## Reports
 
-### Insect / Spider 1
+### Bedbug
 Image: bedbug_sm.jpg
 
-### Insect / Spider 2
+### Beetle
 Image: beetle_sm.jpg
 
-### Insect / Spider 3
+### Black Widow
 Image: blackwidow_sm.jpg
 
-### Insect / Spider 4
+### Butterfly 1
 Image: butterfly1_sm.jpg
 
-### Insect / Spider 5
+### Butterfly
 Image: butterfly_sm.jpg
 
-### Insect / Spider 6
+### Centipede
 Image: centipede_sm.jpg
 
-### Insect / Spider 7
+### Cockroach 10
 Image: cockroach10_sm.jpg
 
-### Insect / Spider 8
+### Cockroach 1
 Image: cockroach1_sm.jpg
 
-### Insect / Spider 9
+### Cockroach 2
 Image: cockroach2_sm.jpg
 
-### Insect / Spider 10
+### Cockroach 3
 Image: cockroach3_sm.jpg
 
-### Insect / Spider 11
+### Cockroach 4
 Image: cockroach4_sm.jpg
 
-### Insect / Spider 12
+### Cockroach 5
 Image: cockroach5_sm.jpg
 
-### Insect / Spider 13
+### Cockroach 6
 Image: cockroach6_sm.jpg
 
-### Insect / Spider 14
+### Cockroach 7
 Image: cockroach7_sm.jpg
 
-### Insect / Spider 15
+### Cockroach 8
 Image: cockroach8_sm.jpg
 
-### Insect / Spider 16
+### Cockroach 9
 Image: cockroach9_sm.jpg
 
-### Insect / Spider 17
+### Cockroach
 Image: cockroach_sm.jpg
 
-### Insect / Spider 18
+### Firefly 1
 Image: firefly1_sm.jpg
 
-### Insect / Spider 19
+### Firefly
 Image: firefly_sm.jpg
 
-### Insect / Spider 20
+### Insect
 Image: insect_sm.jpg
 
-### Insect / Spider 21
+### Junebug 1
 Image: junebug1_sm.jpg
 
-### Insect / Spider 22
+### Junebug
 Image: junebug_sm.jpg
 
-### Insect / Spider 23
+### Lightning Bug
 Image: lightningbug_sm.jpg
 
-### Insect / Spider 24
+### Mosquito
 Image: mosquito_sm.jpg
 
-### Insect / Spider 25
+### Moth 1
 Image: moth1_sm.jpg
 
-### Insect / Spider 26
+### Moth 2
 Image: moth2_sm.jpg
 
-### Insect / Spider 27
+### Moth 3
 Image: moth3_sm.jpg
 
-### Insect / Spider 28
+### Moth 4
 Image: moth4_sm.jpg
 
-### Insect / Spider 29
+### Moth
 Image: moth_sm.jpg
 
-### Insect / Spider 30
+### Mothra
 Image: mothra_sm.jpg
 
-### Insect / Spider 31
+### Praying Mantis
 Image: prayingmantis_sm.jpg
 
-### Insect / Spider 32
+### Silverfish
 Image: silverfish_sm.jpg
 
-### Insect / Spider 33
+### Spider 1
 Image: spider1_sm.jpg
 
-### Insect / Spider 34
+### Spider 2
 Image: spider2_sm.jpg
 
-### Insect / Spider 35
+### Spider
 Image: spider_sm.jpg
 
-### Insect / Spider 36
+### Tarantula
 Image: tarantula_sm.jpg
 

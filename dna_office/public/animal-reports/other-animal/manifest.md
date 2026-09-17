@@ -2,40 +2,40 @@ Name: Other Animal
 
 ## Reports
 
-### Other Animal 1
+### Beaver
 Image: beaver_sm.jpg
 
-### Other Animal 2
+### Brown Toad
 Image: browntoad_sm.jpg
 
-### Other Animal 3
+### Bush Baby
 Image: bushbaby1_sm.jpg
 
-### Other Animal 4
+### Bush Baby 1
 Image: bushbaby_sm.jpg
 
-### Other Animal 5
+### Coatimundi
 Image: coatimundi_sm.jpg
 
-### Other Animal 6
+### Deer 1
 Image: deer1_sm.jpg
 
-### Other Animal 7
+### Deer 2
 Image: deer2_sm.jpg
 
-### Other Animal 8
+### Deer 3
 Image: deer3_sm.jpg
 
-### Other Animal 9
+### Deer 4
 Image: deer4_sm.jpg
 
-### Other Animal 10
+### Deer
 Image: deer_sm.jpg
 
-### Other Animal 11
+### Goat
 Image: goat_sm.jpg
 
-### Other Animal 12
+### Green Tree Frog
 Image: greentreefrog_sm.jpg
 
 ### Other Animal 13
@@ -47,63 +47,63 @@ Image: img20101215_17251377_sm.jpg
 ### Other Animal 15
 Image: img20101215_17271360_sm.jpg
 
-### Other Animal 16
+### Monkey
 Image: monkey_sm.jpg
 
-### Other Animal 17
+### Mule Deer
 Image: muledeer_sm.jpg
 
-### Other Animal 18
+### Porcupine
 Image: porcupine_sm.jpg
 
-### Other Animal 19
+### Rabbit 1
 Image: rabbit1_sm.jpg
 
-### Other Animal 20
+### Rabbit 2
 Image: rabbit2_sm.jpg
 
-### Other Animal 21
+### Rabbit 3
 Image: rabbit3_sm.jpg
 
-### Other Animal 22
+### Rabbit 4
 Image: rabbit4_sm.jpg
 
-### Other Animal 23
+### Rabbit
 Image: rabbit_sm.jpg
 
-### Other Animal 24
+### Sea Otter
 Image: seaotter_sm.jpg
 
 ### Other Animal 25
 Image: snails.jpg
 
-### Other Animal 26
+### Squirrel 1
 Image: squirrel1_sm.jpg
 
-### Other Animal 27
+### Squirrel 2
 Image: squirrel2_sm.jpg
 
-### Other Animal 28
+### Squirrel 3
 Image: squirrel3_sm.jpg
 
-### Other Animal 29
+### Squirrel
 Image: squirrel_sm.jpg
 
-### Other Animal 30
+### Turtle
 Image: turtle1_sm.jpg
 
-### Other Animal 31
+### Turtle 1
 Image: turtle_sm.jpg
 
-### Other Animal 32
+### Wild Boar 1
 Image: wildboar1_sm.jpg
 
-### Other Animal 33
+### Wild Boar
 Image: wildboar_sm.jpg
 
-### Other Animal 34
+### Wild Women
 Image: wildwomen_sm.jpg
 
-### Other Animal 35
+### Yak
 Image: yak_sm.jpg
 

@@ -11,7 +11,7 @@ Artworks created for the Department of Nocturnal Affairs, installed at Project 2
 Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at
 Project 210 Gallery, 2009.
 
-Reviewed by NPR's Adolfo Guzman-Lopez, *Artists document city-animal encounters*, KPCC, Aug. 23, 2009.
+Review of the show by NPR's Adolfo Guzman-Lopez — *Artists document city-animal encounters*, KPCC, Aug. 23, 2009.
 
 ## Artworks
 
@@ -33,8 +33,11 @@ Image: DNA020b.jpg
 Image: DNA210c.jpg
 
 Hand-crafted, each of these hues is mixed to match the color of the night sky in different Los Angeles
-neighborhoods. Currently available hues are: Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park,
-Huntington Park, Atwater Village, Pasadena, Altadena, South Pasadena, Alhambra, Hollywood.
+neighborhoods.
+
+Currently available hues are:  
+**Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park, Huntington Park, Atwater Village, Pasadena,
+Altadena, South Pasadena, Alhambra, Hollywood**
 
 ### DNA Color Studies
 Medium: oil paint on exposed photographic paper
@@ -59,8 +62,8 @@ announcing memorial days and emergencies. In other cities in Israel, sirens also
 Friday evening, notifying Jewish believers to stop their everyday doings and to prepare for the coming holy day.
 The siren in my neighborhood does not announce Saturdays, as the area's residents are mostly secular. In this
 series I have tried to replace the siren sound's function as Saturday night notifier and identifier with color,
-by creating a palette to define the coming day. The sky changing color behind the siren functions as a litmus
-paper.
+by creating a palette to define the coming day. The sky changing color behind the siren therefore functions as
+a litmus paper.
 
 ### Night Bath
 Medium: chromogenic print

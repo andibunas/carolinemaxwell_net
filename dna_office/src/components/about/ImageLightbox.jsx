@@ -66,11 +66,20 @@ export default function ImageLightbox({ images, index, onClose, onNavigate }) {
         className="max-w-[80vw] max-h-[80vh] flex flex-col items-center"
         onClick={(e) => e.stopPropagation()}
       >
-        <img
-          src={img.src}
-          alt={img.alt}
-          className="max-w-[80vw] max-h-[75vh] w-auto h-auto object-contain"
-        />
+        {img.video ? (
+          <video
+            src={img.video}
+            controls
+            autoPlay
+            className="max-w-[80vw] max-h-[75vh] w-auto h-auto"
+          />
+        ) : (
+          <img
+            src={img.src}
+            alt={img.alt}
+            className="max-w-[80vw] max-h-[75vh] w-auto h-auto object-contain"
+          />
+        )}
         {img.caption && (
           <figcaption className="mt-3 text-white/80 text-xs italic text-center">{img.caption}</figcaption>
         )}

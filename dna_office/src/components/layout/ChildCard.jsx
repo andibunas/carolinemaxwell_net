@@ -1,6 +1,6 @@
-export default function ChildCard({ linkProps, thumbnail, title, subtitle }) {
+export default function ChildCard({ linkProps, thumbnail, title, subtitle, className = '' }) {
   return (
-    <a {...linkProps} className="group block">
+    <a {...linkProps} className={`group block ${className}`}>
       {thumbnail && (
         <div className="overflow-hidden bg-panel">
           <img

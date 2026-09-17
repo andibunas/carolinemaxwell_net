@@ -2,36 +2,36 @@ Name: Human
 
 ## Reports
 
-### Human 1
+### Human
 Image: barfly_sm.jpg
 
-### Human 2
+### Bouncer
 Image: bouncer_sm.jpg
 
-### Human 3
+### Drag Queen
 Image: dragqueen_sm.jpg
 
-### Human 4
+### Elephant Human
 Image: elephanthuman_sm.jpg
 
-### Human 5
+### Homeless Human 1
 Image: homeless1_sm.jpg
 
-### Human 6
+### Homeless Human
 Image: homeless_sm.jpg
 
-### Human 7
+### Human 1
 Image: human1_sm.jpg
 
-### Human 8
+### Human 2
 Image: human2_sm.jpg
 
-### Human 9
+### Human 3
 Image: human3_sm.jpg
 
-### Human 10
+### Human
 Image: human_sm.jpg
 
-### Human 11
+### Humans And Their Machines
 Image: humanandmachine_sm.jpg
 

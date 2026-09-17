@@ -2,144 +2,144 @@ Name: Coyote / Jackal / Fox
 
 ## Reports
 
-### Coyote / Jackal / Fox 1
+### Coyote 10
 Image: coyote10_sm.jpg
 
-### Coyote / Jackal / Fox 2
+### Coyote 11
 Image: coyote11_sm.jpg
 
-### Coyote / Jackal / Fox 3
+### Coyote 12
 Image: coyote12_sm.jpg
 
-### Coyote / Jackal / Fox 4
+### Coyote 13
 Image: coyote13_sm.jpg
 
-### Coyote / Jackal / Fox 5
+### Coyote 14
 Image: coyote14_sm.jpg
 
-### Coyote / Jackal / Fox 6
+### Coyote 15
 Image: coyote15_sm.jpg
 
-### Coyote / Jackal / Fox 7
+### Coyote 16
 Image: coyote16_sm.jpg
 
-### Coyote / Jackal / Fox 8
+### Coyote 17
 Image: coyote17_sm.jpg
 
-### Coyote / Jackal / Fox 9
+### Coyote 18
 Image: coyote18_sm.jpg
 
-### Coyote / Jackal / Fox 10
+### Coyote 19
 Image: coyote19_sm.jpg
 
-### Coyote / Jackal / Fox 11
+### Coyote 1
 Image: coyote1_sm.jpg
 
-### Coyote / Jackal / Fox 12
+### Coyote 20
 Image: coyote20_sm.jpg
 
-### Coyote / Jackal / Fox 13
+### Coyote 21
 Image: coyote21_sm.jpg
 
-### Coyote / Jackal / Fox 14
+### Coyote 22
 Image: coyote22_sm.jpg
 
-### Coyote / Jackal / Fox 15
+### Coyote 23
 Image: coyote23_sm.jpg
 
-### Coyote / Jackal / Fox 16
+### Coyote 24
 Image: coyote24_sm.jpg
 
-### Coyote / Jackal / Fox 17
+### Coyote 25
 Image: coyote25_sm.jpg
 
-### Coyote / Jackal / Fox 18
+### Coyote 26
 Image: coyote26_sm.jpg
 
-### Coyote / Jackal / Fox 19
+### Coyote 27
 Image: coyote27_sm.jpg
 
-### Coyote / Jackal / Fox 20
+### Coyote 28
 Image: coyote28_sm.jpg
 
-### Coyote / Jackal / Fox 21
+### Coyote 29
 Image: coyote29_sm.jpg
 
-### Coyote / Jackal / Fox 22
+### Coyote 2
 Image: coyote2_sm.jpg
 
-### Coyote / Jackal / Fox 23
+### Coyote 30
 Image: coyote30_sm.jpg
 
-### Coyote / Jackal / Fox 24
+### Coyote 31
 Image: coyote31_sm.jpg
 
-### Coyote / Jackal / Fox 25
+### Coyote 32
 Image: coyote32_sm.jpg
 
-### Coyote / Jackal / Fox 26
+### Coyote 33
 Image: coyote33_sm.jpg
 
-### Coyote / Jackal / Fox 27
+### Coyote 34
 Image: coyote34_sm.jpg
 
-### Coyote / Jackal / Fox 28
+### Coyote 35
 Image: coyote35_sm.jpg
 
-### Coyote / Jackal / Fox 29
+### Coyote 36
 Image: coyote36_sm.jpg
 
-### Coyote / Jackal / Fox 30
+### Coyote 37
 Image: coyote37_sm.jpg
 
-### Coyote / Jackal / Fox 31
+### Coyote 38
 Image: coyote38_sm.jpg
 
-### Coyote / Jackal / Fox 32
+### Coyote 39
 Image: coyote39_sm.jpg
 
-### Coyote / Jackal / Fox 33
+### Coyote 3
 Image: coyote3_sm.jpg
 
-### Coyote / Jackal / Fox 34
+### Coyote 4
 Image: coyote4_sm.jpg
 
-### Coyote / Jackal / Fox 35
+### Coyote 5
 Image: coyote5_sm.jpg
 
-### Coyote / Jackal / Fox 36
+### Coyote 6
 Image: coyote6_sm.jpg
 
-### Coyote / Jackal / Fox 37
+### Coyote 7
 Image: coyote7_sm.jpg
 
-### Coyote / Jackal / Fox 38
+### Coyote 8
 Image: coyote8_sm.jpg
 
-### Coyote / Jackal / Fox 39
+### Coyote 9
 Image: coyote9_sm.jpg
 
-### Coyote / Jackal / Fox 40
+### Coyote
 Image: coyote_sm.jpg
 
-### Coyote / Jackal / Fox 41
+### Fox 1
 Image: fox1_sm.jpg
 
-### Coyote / Jackal / Fox 42
+### Fox 2
 Image: fox2_sm.jpg
 
-### Coyote / Jackal / Fox 43
+### Fox
 Image: fox_sm.jpg
 
-### Coyote / Jackal / Fox 44
+### Jackal 1
 Image: jackal1_sm.jpg
 
-### Coyote / Jackal / Fox 45
+### Jackal 2
 Image: jackal2_sm.jpg
 
-### Coyote / Jackal / Fox 46
+### Jackal 3
 Image: jackal3_sm.jpg
 
-### Coyote / Jackal / Fox 47
+### Jackal
 Image: jackal_sm.jpg
 

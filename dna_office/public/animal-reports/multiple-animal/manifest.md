@@ -5,18 +5,18 @@ Name: Multiple Animal
 ### Multiple Animal 1
 Image: hedgehog.jpg
 
-### Multiple Animal 2
+### Multiple 1
 Image: multiple1_sm.jpg
 
-### Multiple Animal 3
+### Multiple 2
 Image: multiple2_sm.jpg
 
-### Multiple Animal 4
+### Multiple 3
 Image: multiple3_sm.jpg
 
-### Multiple Animal 5
+### Multiple 4
 Image: multiple4_sm.jpg
 
-### Multiple Animal 6
+### Multiple
 Image: multiple_sm.jpg
 

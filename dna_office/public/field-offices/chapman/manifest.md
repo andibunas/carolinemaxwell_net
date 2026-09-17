@@ -14,7 +14,7 @@ Orange County naturalist Joel Robinson.
 
 ## Images
 
-### The D.N.A. Office at Chapman University
+### The D.N.A. Office in Chapman University's Guggenheim Gallery
 Image: DNAoffice_chapman.jpg
 
 ### Caroline Maxwell, photographed by Joanna

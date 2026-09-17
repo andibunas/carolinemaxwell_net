@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useQueryNav } from '../../hooks/useQueryNav';
 import { getGalleryProject } from '../../data/manifest';
 import MarkdownContent from '../../components/about/MarkdownContent';
+import InlineMarkdown from '../../components/about/InlineMarkdown';
 import ImageLightbox from '../../components/about/ImageLightbox';
 
 export default function GalleryProjectPage() {
@@ -29,7 +30,7 @@ export default function GalleryProjectPage() {
         {project.artworks.map((art, i) => (
           <figure
             key={art.id}
-            className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 border-t border-ink-faint/20 pt-10' : ''}
+            className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 sm:[&:nth-child(-n+2)]:pt-0 border-t border-ink-faint/20 pt-10' : ''}
           >
             <button
               type="button"
@@ -40,10 +41,16 @@ export default function GalleryProjectPage() {
             </button>
             <figcaption className="mt-3 text-sm">
               <p className="italic text-ink">{art.title}</p>
-              {(art.medium || art.size) && (
-                <p className="text-ink-faint text-xs mt-0.5">{[art.medium, art.size].filter(Boolean).join(', ')}</p>
+              {(art.medium) && (
+                <p className="text-ink-faint text-xs mt-0.5">{art.medium}</p>
               )}
-              {art.write_up && <p className="text-ink-soft text-xs mt-2 leading-relaxed">{art.write_up}</p>}
+              {(art.size) && (
+                <p className="text-ink-faint text-xs mt-0.5">{art.size}</p>
+              )}
+              {art.write_up && (
+                // <InlineMarkdown as="p" source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
+                <MarkdownContent source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
+              )}
             </figcaption>
           </figure>
         ))}

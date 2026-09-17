@@ -2,63 +2,63 @@ Name: Mystery / Supernatural
 
 ## Reports
 
-### Mystery / Supernatural 1
+### Abishak
 Image: abishak_sm.jpg
 
-### Mystery / Supernatural 2
+### Alien
 Image: alien_sm.jpg
 
-### Mystery / Supernatural 3
+### Bigfoot
 Image: bigfoot_sm.jpg
 
-### Mystery / Supernatural 4
+### Cat Vampire
 Image: catvampire_sm.jpg
 
-### Mystery / Supernatural 5
+### Coyote-man
 Image: human4_sm.jpg
 
-### Mystery / Supernatural 6
+### Jackalope
 Image: jackalope_sm.jpg
 
-### Mystery / Supernatural 7
+### Mystery
 Image: mystery1_sm.jpg
 
-### Mystery / Supernatural 8
+### Mystery1
 Image: mystery2_sm.jpg
 
-### Mystery / Supernatural 9
+### Mystery 2
 Image: mystery3_sm.jpg
 
-### Mystery / Supernatural 10
+### Mystery 3
 Image: mystery4_sm.jpg
 
-### Mystery / Supernatural 11
+### Mystery 4
 Image: mystery5_sm.jpg
 
-### Mystery / Supernatural 12
+### Mystery 5
 Image: mystery_sm.jpg
 
-### Mystery / Supernatural 13
+### Red Eye Beast
 Image: redeyebeast_sm.jpg
 
-### Mystery / Supernatural 14
+### Sapien Confusicus
 Image: sapienconfusicus_sm.jpg
 
-### Mystery / Supernatural 15
+### Unicorn
 Image: unicorn_sm.jpg
 
-### Mystery / Supernatural 16
+### Vampire Bat Owl
 Image: vampirebatowl_sm.jpg
 
-### Mystery / Supernatural 17
+### Werewolf
 Image: werewolf1_sm.jpg
 
-### Mystery / Supernatural 18
+### Werewolf 1
 Image: werewolf_sm.jpg
 
-### Mystery / Supernatural 19
+### Wishbat
 Image: wishbat_sm.jpg
 
-### Mystery / Supernatural 20
+### Wolpertinger
 Image: wolpertinger_sm.jpg
 

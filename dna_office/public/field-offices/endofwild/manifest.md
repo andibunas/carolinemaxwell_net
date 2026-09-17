@@ -10,5 +10,5 @@ The D.N.A. opened a field office on Roosevelt Row in Phoenix, Arizona, at Modifi
 
 ## Images
 
-### The D.N.A. Office at Modified Arts
+### The D.N.A. Office at Modified Arts Gallery
 Image: modified.JPG

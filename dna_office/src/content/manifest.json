@@ -4,7 +4,7 @@
       "id": "project210",
       "name": "D.N.A. @ Project 210 Gallery",
       "synopsis": "Artworks created for the Department of Nocturnal Affairs, installed at Project 210 Gallery, 2009.",
-      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nProject 210 Gallery, 2009.\n\nReviewed by NPR's Adolfo Guzman-Lopez, *Artists document city-animal encounters*, KPCC, Aug. 23, 2009.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nProject 210 Gallery, 2009.\n\nReview of the show by NPR's Adolfo Guzman-Lopez — *Artists document city-animal encounters*, KPCC, Aug. 23, 2009.",
       "artworks": [
         {
           "id": "oenothera-field",
@@ -12,6 +12,7 @@
           "medium": "color transparency",
           "size": "5\" x 7\"",
           "image": "/gallery/project210/oenothera_field.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -20,6 +21,7 @@
           "medium": "glow in the dark photo",
           "size": "5\" x 7\" and 8\" x 16\"",
           "image": "/gallery/project210/oenothera.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -28,6 +30,7 @@
           "medium": "carved and polished animal salt-licks",
           "size": "",
           "image": "/gallery/project210/DNA020b.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -36,7 +39,8 @@
           "medium": "",
           "size": "",
           "image": "/gallery/project210/DNA210c.jpg",
-          "write_up": "Hand-crafted, each of these hues is mixed to match the color of the night sky in different Los Angeles\nneighborhoods. Currently available hues are: Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park,\nHuntington Park, Atwater Village, Pasadena, Altadena, South Pasadena, Alhambra, Hollywood."
+          "video": "",
+          "write_up": "Hand-crafted, each of these hues is mixed to match the color of the night sky in different Los Angeles\nneighborhoods.\n\nCurrently available hues are:  \n**Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park, Huntington Park, Atwater Village, Pasadena,\nAltadena, South Pasadena, Alhambra, Hollywood**"
         },
         {
           "id": "dna-color-studies",
@@ -44,6 +48,7 @@
           "medium": "oil paint on exposed photographic paper",
           "size": "5\" x 7\" and 8\" x 10\"",
           "image": "/gallery/project210/ColorStudy_all.jpg",
+          "video": "",
           "write_up": "These color studies were created using D.N.A.'s Light Pollution Spectrum Oil Paints. Each study contrasts paint\nhues from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night\nsky, which turned the paper black."
         },
         {
@@ -52,6 +57,7 @@
           "medium": "oil paint on exposed photographic paper",
           "size": "8\" x 10\"",
           "image": "/gallery/project210/DNAcolorstudy5.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -60,7 +66,8 @@
           "medium": "digital inkjet print",
           "size": "",
           "image": "/gallery/project210/siren1.jpg",
-          "write_up": "My new apartment is next to the neighborhood siren. To me, the siren is like a modern-day village bell,\nannouncing memorial days and emergencies. In other cities in Israel, sirens also announce Saturday's entrance on\nFriday evening, notifying Jewish believers to stop their everyday doings and to prepare for the coming holy day.\nThe siren in my neighborhood does not announce Saturdays, as the area's residents are mostly secular. In this\nseries I have tried to replace the siren sound's function as Saturday night notifier and identifier with color,\nby creating a palette to define the coming day. The sky changing color behind the siren functions as a litmus\npaper."
+          "video": "",
+          "write_up": "My new apartment is next to the neighborhood siren. To me, the siren is like a modern-day village bell,\nannouncing memorial days and emergencies. In other cities in Israel, sirens also announce Saturday's entrance on\nFriday evening, notifying Jewish believers to stop their everyday doings and to prepare for the coming holy day.\nThe siren in my neighborhood does not announce Saturdays, as the area's residents are mostly secular. In this\nseries I have tried to replace the siren sound's function as Saturday night notifier and identifier with color,\nby creating a palette to define the coming day. The sky changing color behind the siren therefore functions as\na litmus paper."
         },
         {
           "id": "night-bath",
@@ -68,6 +75,7 @@
           "medium": "chromogenic print",
           "size": "",
           "image": "/gallery/project210/nightbath1.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -76,6 +84,7 @@
           "medium": "chromogenic print",
           "size": "",
           "image": "/gallery/project210/3blaclkflagssmall.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -84,6 +93,7 @@
           "medium": "chromogenic print",
           "size": "",
           "image": "/gallery/project210/balcony.jpg",
+          "video": "",
           "write_up": ""
         }
       ],
@@ -101,6 +111,7 @@
           "medium": "digital inkjet print, 2009",
           "size": "",
           "image": "/gallery/24hournight/LA24hournight.jpg",
+          "video": "",
           "write_up": ""
         },
         {
@@ -109,10 +120,245 @@
           "medium": "digital inkjet print, 2009",
           "size": "",
           "image": "/gallery/24hournight/givatayimobservatory.jpg",
+          "video": "",
           "write_up": ""
         }
       ],
       "thumbnail": "/gallery/24hournight/LA24hournight.jpg"
+    },
+    {
+      "id": "behaviors",
+      "name": "Miscellaneous Studies on Nocturnal Behaviors",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell.",
+      "artworks": [
+        {
+          "id": "snails",
+          "title": "Snails",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/snails2.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "24-hour-turkey-farm",
+          "title": "24-hour turkey farm",
+          "medium": "digital inkjet print, 2009",
+          "size": "",
+          "image": "/gallery/behaviors/turkeys.jpg",
+          "video": "",
+          "write_up": "20,000 turkeys on a Minnesota farm. Bright floodlights fill the space at night. This artificial daylight keeps\nthe turkeys eating 24 hours a day. These turkeys gain weight at a much faster pace than normal, and are ready\nto send to slaughter in less than a year."
+        },
+        {
+          "id": "smamit-summit-geckos",
+          "title": "Smamit Summit (Geckos)",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/smamit_summit.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "tel-aviv-bats",
+          "title": "Tel Aviv Bats",
+          "medium": "digital inkjet print, 2011",
+          "size": "",
+          "image": "/gallery/behaviors/bat.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/behaviors/snails2.jpg"
+    },
+    {
+      "id": "drawingnocturnal",
+      "name": "Drawing Nocturnal",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
+      "artworks": [
+        {
+          "id": "table-display",
+          "title": "Table Display",
+          "medium": "",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/table.jpg",
+          "video": "",
+          "write_up": "at Row DTLA, Maiden LA Art Festival, 2018"
+        },
+        {
+          "id": "raccoon-and-shadow",
+          "title": "Raccoon and Shadow",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/raccoon-and-shadow.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "wild-boar",
+          "title": "Wild Boar",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/boar.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "tel-aviv-bats",
+          "title": "Tel Aviv Bats",
+          "medium": "digital inkjet print, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/coyote.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "hyena-tree",
+          "title": "Hyena, Tree",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/hyena-tree.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "moth-maple",
+          "title": "Moth, Maple",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/moth-maple.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "porcupine-moths",
+          "title": "Porcupine, Moths",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/porcupine-moths.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "porcupine",
+          "title": "Porcupine",
+          "medium": "ink on paper, 2018",
+          "size": "",
+          "image": "/gallery/drawingnocturnal/porcupine.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/drawingnocturnal/table.jpg"
+    },
+    {
+      "id": "sholem-asch",
+      "name": "Sholem Asch House Museum: Nocturnal Residency",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
+      "artworks": [
+        {
+          "id": "nocturnal-details-of-asch-house-objects",
+          "title": "Nocturnal Details of Asch House: Objects",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-objects.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-cabinet",
+          "title": "Nocturnal Details of Asch House: Cabinet",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-cabinet2.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-chair",
+          "title": "Nocturnal Details of Asch House: Chair",
+          "medium": "oil on paper",
+          "size": "9\" x 13\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-chair.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-desk-objects",
+          "title": "Nocturnal Details of Asch House: Desk Objects",
+          "medium": "oil on paper",
+          "size": "9\" x 13\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-desk-objects.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-fireplace",
+          "title": "Nocturnal Details of Asch House: Fireplace",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-fireplace.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "nocturnal-details-of-asch-house-books",
+          "title": "Nocturnal Details of Asch House: Books",
+          "medium": "oil on paper",
+          "size": "6\" x 9\"",
+          "image": "/gallery/sholem-asch/sm-asch-house-books.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "asch-house-dawn",
+          "title": "Asch House: Dawn",
+          "medium": "Photograph",
+          "size": "",
+          "image": "/gallery/sholem-asch/dawn.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-badger",
+          "title": "Portrait Gallery: Badger",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-badger.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-owl",
+          "title": "Portrait Gallery: Owl",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-owl.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-coyote",
+          "title": "Portrait Gallery: Coyote",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-coyote.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "portrait-gallery-rats",
+          "title": "Portrait Gallery: Rats",
+          "medium": "oil on paper",
+          "size": "12\" x 16\"",
+          "image": "/gallery/sholem-asch/sm-nocturnals-rats.jpg",
+          "video": "",
+          "write_up": ""
+        }
+      ],
+      "thumbnail": "/gallery/sholem-asch/sm-asch-house-objects.jpg"
     }
   ],
   "fieldOffices": [
@@ -135,12 +381,14 @@
         {
           "src": "/field-offices/glow/dna-caro.jpg",
           "alt": "Caroline Maxwell types a report",
-          "caption": "Caroline Maxwell types a report"
+          "caption": "Caroline Maxwell types a report",
+          "body": "Caroline Maxwell types a report by a visitor to the D.N.A. field office."
         },
         {
           "src": "/field-offices/glow/glow-animals.jpg",
           "alt": "Mapping animal sightings",
-          "caption": "Mapping animal sightings"
+          "caption": "Mapping animal sightings",
+          "body": "Visitors use color-coded pins to mark the locations of their animal sightings on a map of Los Angeles County."
         }
       ],
       "transcript": null,
@@ -154,8 +402,8 @@
       "images": [
         {
           "src": "/field-offices/chapman/DNAoffice_chapman.jpg",
-          "alt": "The D.N.A. Office at Chapman University",
-          "caption": "The D.N.A. Office at Chapman University"
+          "alt": "The D.N.A. Office in Chapman University's Guggenheim Gallery",
+          "caption": "The D.N.A. Office in Chapman University's Guggenheim Gallery"
         },
         {
           "src": "/field-offices/chapman/DNA_caro_byJoanna.jpg",
@@ -165,17 +413,20 @@
         {
           "src": "/field-offices/chapman/chapmanuniv.jpg",
           "alt": "University grounds at night",
-          "caption": "University grounds at night"
+          "caption": "University grounds at night",
+          "body": "From the D.N.A. Nocturnal Walking Tour."
         },
         {
           "src": "/field-offices/chapman/snailtrail.jpg",
           "alt": "Snail trails",
-          "caption": "Snail trails"
+          "caption": "Snail trails",
+          "body": "From the D.N.A. Nocturnal Walking Tour."
         },
         {
           "src": "/field-offices/chapman/prayingmantis.jpg",
           "alt": "Praying mantis",
-          "caption": "Praying mantis"
+          "caption": "Praying mantis",
+          "body": "From the D.N.A. Nocturnal Walking Tour."
         }
       ],
       "transcript": {
@@ -188,7 +439,7 @@
       "id": "project210",
       "name": "Project 210",
       "location": "Project 210 Gallery, Pasadena, California, 2009",
-      "write_up": "The D.N.A.'s first solo gallery show — artists Tal Yizrael and Caroline Maxwell created artworks for the\nDepartment of Nocturnal Affairs. A field office was open in the gallery for the duration of the exhibit to\nallow visitors to file reports of nocturnal animal sightings. July 30 – August 29, 2009.",
+      "write_up": "The D.N.A.'s first solo gallery show — artists Tal Yizrael and Caroline Maxwell created artworks for the\nDepartment of Nocturnal Affairs. A field office was open in the gallery for the duration of the exhibit to allow visitors to file reports of nocturnal animal sightings. \n\nJuly 30 – August 29, 2009.\n\n\n[view more artwork from the exhibit here...](?section=gallery&project=project210)",
       "images": [
         {
           "src": "/field-offices/project210/DNA210.jpg",
@@ -197,8 +448,8 @@
         },
         {
           "src": "/field-offices/project210/DNA210a.jpg",
-          "alt": "Wall display: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints",
-          "caption": "Wall display: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints"
+          "alt": "Wall, left to right: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints",
+          "caption": "Wall, left to right: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints"
         }
       ],
       "transcript": null,
@@ -228,12 +479,14 @@
         {
           "src": "/field-offices/jerusalem/dnaeyes.jpg",
           "alt": "300 pairs of glowing animal eyes",
-          "caption": "300 pairs of glowing animal eyes"
+          "caption": "300 pairs of glowing animal eyes",
+          "body": "300 pairs of glowing animal eyes greet visitors as they enter St. James Street."
         },
         {
           "src": "/field-offices/jerusalem/street.JPG",
           "alt": "St. James Street corridor",
-          "caption": "St. James Street corridor"
+          "caption": "St. James Street corridor",
+          "body": "St. James Street corridor with animal icon paintings."
         },
         {
           "src": "/field-offices/jerusalem/rat1.JPG",
@@ -255,8 +508,9 @@
       "images": [
         {
           "src": "/field-offices/telaviv/nisuykelim.jpg",
-          "alt": "The D.N.A. Office at the Nisuy Kelim Festival",
-          "caption": "The D.N.A. Office at the Nisuy Kelim Festival"
+          "alt": "Tal Yizrael interviews a visitor",
+          "caption": "Tal Yizrael interviews a visitor",
+          "body": "Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival."
         }
       ],
       "transcript": null,
@@ -270,8 +524,8 @@
       "images": [
         {
           "src": "/field-offices/endofwild/modified.JPG",
-          "alt": "The D.N.A. Office at Modified Arts",
-          "caption": "The D.N.A. Office at Modified Arts"
+          "alt": "The D.N.A. Office at Modified Arts Gallery",
+          "caption": "The D.N.A. Office at Modified Arts Gallery"
         }
       ],
       "transcript": null,
@@ -281,7 +535,7 @@
       "id": "navee",
       "name": "Navee Navee",
       "location": "Templer House, Jerusalem — Navee Navee / Prophet Prophet, Manofim Contemporary Arts Festival, 2014",
-      "write_up": "For the Manofim Contemporary Arts Festival, the D.N.A. opened a field office at the historic Templer House, as\npart of the exhibit *Navee Navee* (*Prophet Prophet*). The show explores the concept of prophecy as such:\n\n*In ancient times, the prophets were the ones who protested moral corruption and warned against catastrophes.\nThey were prepared to pay a heavy personal price and forgo being popular when their prophecies were dire. In\nmany respects, artists (like prophets) observe society from the sidelines and refuse to conform to social\nnorms. From the margins, it is \"permissible\" to utter a dissenting opinion or criticism that may be painful to\nhear.*\n\nFor this exhibit, the D.N.A. created a special animal reporting form that enquires about the prophetic\nqualities of people's animal encounters, thus opening up an awareness of animals as agents of memory and\nresistance. October, 2014.",
+      "write_up": "For the Manofim Contemporary Arts Festival, the D.N.A. opened a field office at the historic Templer House, as\npart of the exhibit *Navee Navee* or *Prophet Prophet*. The show explores the concept of prophecy as such:\n\n*In ancient times, the prophets were the ones who protested moral corruption and warned against catastrophes.\nThey were prepared to pay a heavy personal price and forgo being popular when their prophecies were dire. In\nmany respects, artists (like prophets) observe society from the sidelines and refuse to conform to social\nnorms. From the margins, it is \"permissible\" to utter a dissenting opinion or criticism that may be painful to\nhear.*\n\nFor this exhibit, the D.N.A. created a special animal reporting form that enquires about the prophetic\nqualities of people's animal encounters, thus opening up an awareness of animals as agents of memory and\nresistance.\n\nOctober, 2014.",
       "images": [
         {
           "src": "/field-offices/navee/navee_typewriter.jpg",
@@ -291,12 +545,14 @@
         {
           "src": "/field-offices/navee/tal1.jpg",
           "alt": "Tal Yizrael interviews a visitor",
-          "caption": "Tal Yizrael interviews a visitor"
+          "caption": "Tal Yizrael interviews a visitor",
+          "body": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
         },
         {
           "src": "/field-offices/navee/tal2.jpg",
           "alt": "Tal Yizrael interviews a visitor",
-          "caption": "Tal Yizrael interviews a visitor"
+          "caption": "Tal Yizrael interviews a visitor",
+          "body": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
         },
         {
           "src": "/field-offices/navee/fireflies_ronen_siman_tov.jpg",
@@ -309,19 +565,17 @@
     },
     {
       "id": "fresh-paint",
-      "name": "Fresh Paint",
-      "location": "Fresh Paint Art Fair, Special Projects — Zoological Museum, University of Tel Aviv, 2017",
-      "write_up": "For the Fresh Paint Art Fair, Special Projects, the D.N.A. opened a field office at the Zoological Museum,\nUniversity of Tel Aviv, Israel. March, 2017.",
+      "name": "Fresh Paint Art Fair, Special Projects",
+      "location": "Zoological Museum, University of Tel Aviv, 2017",
+      "write_up": "March, 2017.",
       "images": [
         {
-          "src": "/field-offices/fresh-paint/fresh-paint-office.jpg",
-          "alt": "The D.N.A. Office at Fresh Paint",
-          "caption": "The D.N.A. Office at Fresh Paint"
+          "src": "/field-offices/fresh-paint/fresh-paint-office.jpg"
         },
         {
           "src": "/field-offices/fresh-paint/students-report.jpg",
-          "alt": "Taking reports on opening day",
-          "caption": "Taking reports on opening day"
+          "alt": "The D.N.A. Office takes reports from a group of students on opening day.",
+          "caption": "The D.N.A. Office takes reports from a group of students on opening day."
         },
         {
           "src": "/field-offices/fresh-paint/map1.jpg",
@@ -330,18 +584,18 @@
         },
         {
           "src": "/field-offices/fresh-paint/map3.jpg",
-          "alt": "A previously unknown pattern",
-          "caption": "A previously unknown pattern"
+          "alt": "A previously unknown pattern of Jackal sightings peaked the interest of a local park warden.",
+          "caption": "A previously unknown pattern of Jackal sightings peaked the interest of a local park warden."
         },
         {
           "src": "/field-offices/fresh-paint/school-project.jpg",
-          "alt": "Visiting rural schools",
-          "caption": "Visiting rural schools"
+          "alt": "The D.N.A. visiting rural schools to create nocturnal artworks on the walls of the school bomb shelter.",
+          "caption": "The D.N.A. visiting rural schools to create nocturnal artworks on the walls of the school bomb shelter."
         },
         {
           "src": "/field-offices/fresh-paint/office-is-closed-sign.jpg",
-          "alt": "The office is closed",
-          "caption": "The office is closed"
+          "alt": "The D.N.A. Office is closed.",
+          "caption": "The D.N.A. Office is closed."
         }
       ],
       "transcript": null,
@@ -360,13 +614,13 @@
         },
         {
           "src": "/field-offices/row-dtla/coyote-raccoon-shadow-framed.jpg",
-          "alt": "Nocturnal Animal Studies: Coyote, Raccoon",
-          "caption": "Nocturnal Animal Studies: Coyote, Raccoon"
+          "alt": "Nocturnal Animal Studies on display: Coyote, Raccoon",
+          "caption": "Nocturnal Animal Studies on display: Coyote, Raccoon"
         },
         {
           "src": "/field-offices/row-dtla/porcupine-possum.jpg",
-          "alt": "Nocturnal Animal Studies: Porcupine, Possum",
-          "caption": "Nocturnal Animal Studies: Porcupine, Possum"
+          "alt": "Nocturnal Animal Studies on display: Porcupine, Possum",
+          "caption": "Nocturnal Animal Studies on display: Porcupine, Possum"
         }
       ],
       "transcript": null,
@@ -376,12 +630,19 @@
       "id": "sholem-asch",
       "name": "Sholem Asch House Museum",
       "location": "Bat Yam, Israel — Artist Residency, September & October 2020",
-      "write_up": "As resident artists, the D.N.A. transforms the home of Yiddish essayist and playwright Sholem Asch through\nvarious installations that explore darkness as a theme. Camera obscuras bring the outside world in, through\nghostly projections that ask us all to consider our own interior projections as we move through the darkness\nof being.\n\nA particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has\nbecome a centerpiece for the D.N.A. residency. The D.N.A. has created a set of companion portraits, of\nnocturnal animals with closed eyes, to join this woman on her journey. Additionally, the D.N.A. has presented\nanother set of paintings that capture small corners of the house at dusk or in the stillness of nighttime.\nThese are installed in the small drawers of Asch's writing cabinet, to be opened or closed away in an act that\nmirrors the openings and closings of our days, our nights, our eyes, and our memories. Words from Asch's\nwriting, in the form of personal letters, books, and notes, are displayed around the house.\n\nThe residency also includes *The Storyteller* (2020), a video work by Tal Yizrael.",
+      "write_up": "As resident artists, the D.N.A. transforms the home of Yiddish essayist and playwright Sholem Asch through\nvarious installations that explore darkness as a theme. Camera obscuras bring the outside world in, through\nghostly projections that ask us all to consider our own interior projections as we move through the darkness\nof being.\n\nA particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has\nbecome a centerpiece for the D.N.A. residency. Why is this woman closing her eyes? Where has she gone in this\ndarkened moment? She understands the uses of darkness, of closing one thing to open another. The D.N.A. has\ncreated a set of companion portraits, of nocturnal animals with closed eyes to join this woman on her journey.\nAdditionally, the D.N.A. has presented another set of paintings that capture small corners of the house at\ndusk or in the stillness of nighttime. These are installed in the small drawers of Asch's writing cabinet, to\nbe opened or closed away in an act that mirrors the openings and closings of our days, our nights, our eyes,\nand our memories. Words from Asch's writing, in the form of personal letters, books, and notes are displayed\naround the house, speaking to visitors about the elusive line between day and night, and the materiality of\nshadows and darkness.",
       "images": [
         {
+          "video": "/field-offices/sholem-asch/the-storyteller.mp4",
+          "alt": "The Storyteller",
+          "caption": "The Storyteller",
+          "body": "by Tal Yizrael (2020)"
+        },
+        {
           "src": "/field-offices/sholem-asch/dna-eyes-closed.jpg",
-          "alt": "Portrait of a woman with her eyes closed",
-          "caption": "Portrait of a woman with her eyes closed"
+          "alt": "Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed",
+          "caption": "Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed",
+          "body": "*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Portrait Companions: Woman With\nEyes Closed* by Maurycy Gottlieb (late 1800s)."
         },
         {
           "src": "/field-offices/sholem-asch/drawers.jpg",
@@ -399,110 +660,110 @@
       "name": "Bat",
       "reports": [
         {
-          "id": "bat-1",
-          "label": "Bat 1",
+          "id": "bat-10",
+          "label": "Bat 10",
           "thumbnail": "/animal-reports/bat/bat10_sm.jpg",
           "image": "/animal-reports/bat/bat10_sm.jpg"
         },
         {
-          "id": "bat-2",
-          "label": "Bat 2",
+          "id": "bat-11",
+          "label": "Bat 11",
           "thumbnail": "/animal-reports/bat/bat11_sm.jpg",
           "image": "/animal-reports/bat/bat11_sm.jpg"
         },
         {
-          "id": "bat-3",
-          "label": "Bat 3",
+          "id": "bat-12",
+          "label": "Bat 12",
           "thumbnail": "/animal-reports/bat/bat12_sm.jpg",
           "image": "/animal-reports/bat/bat12_sm.jpg"
         },
         {
-          "id": "bat-4",
-          "label": "Bat 4",
+          "id": "bat-13",
+          "label": "Bat 13",
           "thumbnail": "/animal-reports/bat/bat13_sm.jpg",
           "image": "/animal-reports/bat/bat13_sm.jpg"
         },
         {
-          "id": "bat-5",
-          "label": "Bat 5",
+          "id": "bat-14",
+          "label": "Bat 14",
           "thumbnail": "/animal-reports/bat/bat14_sm.jpg",
           "image": "/animal-reports/bat/bat14_sm.jpg"
         },
         {
-          "id": "bat-6",
-          "label": "Bat 6",
+          "id": "bat-15",
+          "label": "Bat 15",
           "thumbnail": "/animal-reports/bat/bat15_sm.jpg",
           "image": "/animal-reports/bat/bat15_sm.jpg"
         },
         {
-          "id": "bat-7",
-          "label": "Bat 7",
+          "id": "bat-16",
+          "label": "Bat 16",
           "thumbnail": "/animal-reports/bat/bat16_sm.jpg",
           "image": "/animal-reports/bat/bat16_sm.jpg"
         },
         {
-          "id": "bat-8",
-          "label": "Bat 8",
+          "id": "bat-17",
+          "label": "Bat 17",
           "thumbnail": "/animal-reports/bat/bat17_sm.jpg",
           "image": "/animal-reports/bat/bat17_sm.jpg"
         },
         {
-          "id": "bat-9",
-          "label": "Bat 9",
+          "id": "bat-1",
+          "label": "Bat 1",
           "thumbnail": "/animal-reports/bat/bat1_sm.jpg",
           "image": "/animal-reports/bat/bat1_sm.jpg"
         },
         {
-          "id": "bat-10",
-          "label": "Bat 10",
+          "id": "bat-2",
+          "label": "Bat 2",
           "thumbnail": "/animal-reports/bat/bat2_sm.jpg",
           "image": "/animal-reports/bat/bat2_sm.jpg"
         },
         {
-          "id": "bat-11",
-          "label": "Bat 11",
+          "id": "bat-3",
+          "label": "Bat 3",
           "thumbnail": "/animal-reports/bat/bat3_sm.jpg",
           "image": "/animal-reports/bat/bat3_sm.jpg"
         },
         {
-          "id": "bat-12",
-          "label": "Bat 12",
+          "id": "bat-4",
+          "label": "Bat 4",
           "thumbnail": "/animal-reports/bat/bat4_sm.jpg",
           "image": "/animal-reports/bat/bat4_sm.jpg"
         },
         {
-          "id": "bat-13",
-          "label": "Bat 13",
+          "id": "bat-5",
+          "label": "Bat 5",
           "thumbnail": "/animal-reports/bat/bat5_sm.jpg",
           "image": "/animal-reports/bat/bat5_sm.jpg"
         },
         {
-          "id": "bat-14",
-          "label": "Bat 14",
+          "id": "bat-6",
+          "label": "Bat 6",
           "thumbnail": "/animal-reports/bat/bat6_sm.jpg",
           "image": "/animal-reports/bat/bat6_sm.jpg"
         },
         {
-          "id": "bat-15",
-          "label": "Bat 15",
+          "id": "bat-7",
+          "label": "Bat 7",
           "thumbnail": "/animal-reports/bat/bat7_sm.jpg",
           "image": "/animal-reports/bat/bat7_sm.jpg"
         },
         {
-          "id": "bat-16",
-          "label": "Bat 16",
+          "id": "bat-8",
+          "label": "Bat 8",
           "thumbnail": "/animal-reports/bat/bat8_sm.jpg",
           "image": "/animal-reports/bat/bat8_sm.jpg"
         },
         {
-          "id": "bat-17",
-          "label": "Bat 17",
+          "id": "bat-9",
+          "label": "Bat 9",
           "thumbnail": "/animal-reports/bat/bat9_sm.jpg",
           "image": "/animal-reports/bat/bat9_sm.jpg"
         },
         {
-          "id": "bat-18",
-          "label": "Bat 18",
+          "id": "bat",
+          "label": "Bat",
           "thumbnail": "/animal-reports/bat/bat_sm.jpg",
           "image": "/animal-reports/bat/bat_sm.jpg"
         }
@@ -513,100 +774,100 @@
       "name": "Owl",
       "reports": [
         {
+          "id": "owl",
+          "label": "Owl",
+          "thumbnail": "/animal-reports/owl/owl_sm.jpg",
+          "image": "/animal-reports/owl/owl_sm.jpg"
+        },
+        {
           "id": "owl-1",
           "label": "Owl 1",
-          "thumbnail": "/animal-reports/owl/owl10_sm.jpg",
-          "image": "/animal-reports/owl/owl10_sm.jpg"
-        },
-        {
-          "id": "owl-2",
-          "label": "Owl 2",
-          "thumbnail": "/animal-reports/owl/owl11_sm.jpg",
-          "image": "/animal-reports/owl/owl11_sm.jpg"
-        },
-        {
-          "id": "owl-3",
-          "label": "Owl 3",
-          "thumbnail": "/animal-reports/owl/owl12_sm.jpg",
-          "image": "/animal-reports/owl/owl12_sm.jpg"
-        },
-        {
-          "id": "owl-4",
-          "label": "Owl 4",
-          "thumbnail": "/animal-reports/owl/owl13_sm.jpg",
-          "image": "/animal-reports/owl/owl13_sm.jpg"
-        },
-        {
-          "id": "owl-5",
-          "label": "Owl 5",
-          "thumbnail": "/animal-reports/owl/owl14_sm.jpg",
-          "image": "/animal-reports/owl/owl14_sm.jpg"
-        },
-        {
-          "id": "owl-6",
-          "label": "Owl 6",
-          "thumbnail": "/animal-reports/owl/owl15_sm.jpg",
-          "image": "/animal-reports/owl/owl15_sm.jpg"
-        },
-        {
-          "id": "owl-7",
-          "label": "Owl 7",
-          "thumbnail": "/animal-reports/owl/owl1_sm.jpg",
-          "image": "/animal-reports/owl/owl1_sm.jpg"
-        },
-        {
-          "id": "owl-8",
-          "label": "Owl 8",
-          "thumbnail": "/animal-reports/owl/owl2_sm.jpg",
-          "image": "/animal-reports/owl/owl2_sm.jpg"
-        },
-        {
-          "id": "owl-9",
-          "label": "Owl 9",
-          "thumbnail": "/animal-reports/owl/owl3_sm.jpg",
-          "image": "/animal-reports/owl/owl3_sm.jpg"
-        },
-        {
-          "id": "owl-10",
-          "label": "Owl 10",
-          "thumbnail": "/animal-reports/owl/owl4_sm.jpg",
-          "image": "/animal-reports/owl/owl4_sm.jpg"
-        },
-        {
-          "id": "owl-11",
-          "label": "Owl 11",
-          "thumbnail": "/animal-reports/owl/owl5_sm.jpg",
-          "image": "/animal-reports/owl/owl5_sm.jpg"
-        },
-        {
-          "id": "owl-12",
-          "label": "Owl 12",
-          "thumbnail": "/animal-reports/owl/owl6_sm.jpg",
-          "image": "/animal-reports/owl/owl6_sm.jpg"
-        },
-        {
-          "id": "owl-13",
-          "label": "Owl 13",
-          "thumbnail": "/animal-reports/owl/owl7_sm.jpg",
-          "image": "/animal-reports/owl/owl7_sm.jpg"
-        },
-        {
-          "id": "owl-14",
-          "label": "Owl 14",
-          "thumbnail": "/animal-reports/owl/owl8_sm.jpg",
-          "image": "/animal-reports/owl/owl8_sm.jpg"
-        },
-        {
-          "id": "owl-15",
-          "label": "Owl 15",
           "thumbnail": "/animal-reports/owl/owl9_sm.jpg",
           "image": "/animal-reports/owl/owl9_sm.jpg"
         },
         {
-          "id": "owl-16",
-          "label": "Owl 16",
-          "thumbnail": "/animal-reports/owl/owl_sm.jpg",
-          "image": "/animal-reports/owl/owl_sm.jpg"
+          "id": "owl-2",
+          "label": "Owl 2",
+          "thumbnail": "/animal-reports/owl/owl10_sm.jpg",
+          "image": "/animal-reports/owl/owl10_sm.jpg"
+        },
+        {
+          "id": "owl-3",
+          "label": "Owl 3",
+          "thumbnail": "/animal-reports/owl/owl11_sm.jpg",
+          "image": "/animal-reports/owl/owl11_sm.jpg"
+        },
+        {
+          "id": "owl-4",
+          "label": "Owl 4",
+          "thumbnail": "/animal-reports/owl/owl12_sm.jpg",
+          "image": "/animal-reports/owl/owl12_sm.jpg"
+        },
+        {
+          "id": "owl-5",
+          "label": "Owl 5",
+          "thumbnail": "/animal-reports/owl/owl13_sm.jpg",
+          "image": "/animal-reports/owl/owl13_sm.jpg"
+        },
+        {
+          "id": "owl-6",
+          "label": "Owl 6",
+          "thumbnail": "/animal-reports/owl/owl14_sm.jpg",
+          "image": "/animal-reports/owl/owl14_sm.jpg"
+        },
+        {
+          "id": "owl-7",
+          "label": "Owl 7",
+          "thumbnail": "/animal-reports/owl/owl15_sm.jpg",
+          "image": "/animal-reports/owl/owl15_sm.jpg"
+        },
+        {
+          "id": "owl-8",
+          "label": "Owl 8",
+          "thumbnail": "/animal-reports/owl/owl1_sm.jpg",
+          "image": "/animal-reports/owl/owl1_sm.jpg"
+        },
+        {
+          "id": "owl-9",
+          "label": "Owl 9",
+          "thumbnail": "/animal-reports/owl/owl2_sm.jpg",
+          "image": "/animal-reports/owl/owl2_sm.jpg"
+        },
+        {
+          "id": "owl-10",
+          "label": "Owl 10",
+          "thumbnail": "/animal-reports/owl/owl3_sm.jpg",
+          "image": "/animal-reports/owl/owl3_sm.jpg"
+        },
+        {
+          "id": "owl-11",
+          "label": "Owl 11",
+          "thumbnail": "/animal-reports/owl/owl4_sm.jpg",
+          "image": "/animal-reports/owl/owl4_sm.jpg"
+        },
+        {
+          "id": "owl-12",
+          "label": "Owl 12",
+          "thumbnail": "/animal-reports/owl/owl5_sm.jpg",
+          "image": "/animal-reports/owl/owl5_sm.jpg"
+        },
+        {
+          "id": "owl-13",
+          "label": "Owl 13",
+          "thumbnail": "/animal-reports/owl/owl6_sm.jpg",
+          "image": "/animal-reports/owl/owl6_sm.jpg"
+        },
+        {
+          "id": "owl-14",
+          "label": "Owl 14",
+          "thumbnail": "/animal-reports/owl/owl7_sm.jpg",
+          "image": "/animal-reports/owl/owl7_sm.jpg"
+        },
+        {
+          "id": "owl-15",
+          "label": "Owl 15",
+          "thumbnail": "/animal-reports/owl/owl8_sm.jpg",
+          "image": "/animal-reports/owl/owl8_sm.jpg"
         }
       ]
     },
@@ -614,6 +875,12 @@
       "id": "bear",
       "name": "Bear",
       "reports": [
+        {
+          "id": "bear",
+          "label": "Bear",
+          "thumbnail": "/animal-reports/bear/bear_sm.jpg",
+          "image": "/animal-reports/bear/bear_sm.jpg"
+        },
         {
           "id": "bear-1",
           "label": "Bear 1",
@@ -651,12 +918,6 @@
           "image": "/animal-reports/bear/bear6_sm.jpg"
         },
         {
-          "id": "bear-7",
-          "label": "Bear 7",
-          "thumbnail": "/animal-reports/bear/bear_sm.jpg",
-          "image": "/animal-reports/bear/bear_sm.jpg"
-        },
-        {
           "id": "bear-8",
           "label": "Bear 8",
           "thumbnail": "/animal-reports/bear/grizzly.jpg",
@@ -669,284 +930,284 @@
       "name": "Coyote / Jackal / Fox",
       "reports": [
         {
-          "id": "coyote-jackal-fox-1",
-          "label": "Coyote / Jackal / Fox 1",
+          "id": "coyote-10",
+          "label": "Coyote 10",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote10_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote10_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-2",
-          "label": "Coyote / Jackal / Fox 2",
+          "id": "coyote-11",
+          "label": "Coyote 11",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote11_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote11_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-3",
-          "label": "Coyote / Jackal / Fox 3",
+          "id": "coyote-12",
+          "label": "Coyote 12",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote12_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote12_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-4",
-          "label": "Coyote / Jackal / Fox 4",
+          "id": "coyote-13",
+          "label": "Coyote 13",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote13_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote13_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-5",
-          "label": "Coyote / Jackal / Fox 5",
+          "id": "coyote-14",
+          "label": "Coyote 14",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote14_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote14_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-6",
-          "label": "Coyote / Jackal / Fox 6",
+          "id": "coyote-15",
+          "label": "Coyote 15",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote15_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote15_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-7",
-          "label": "Coyote / Jackal / Fox 7",
+          "id": "coyote-16",
+          "label": "Coyote 16",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote16_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote16_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-8",
-          "label": "Coyote / Jackal / Fox 8",
+          "id": "coyote-17",
+          "label": "Coyote 17",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote17_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote17_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-9",
-          "label": "Coyote / Jackal / Fox 9",
+          "id": "coyote-18",
+          "label": "Coyote 18",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote18_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote18_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-10",
-          "label": "Coyote / Jackal / Fox 10",
+          "id": "coyote-19",
+          "label": "Coyote 19",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote19_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote19_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-11",
-          "label": "Coyote / Jackal / Fox 11",
+          "id": "coyote-1",
+          "label": "Coyote 1",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote1_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote1_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-12",
-          "label": "Coyote / Jackal / Fox 12",
+          "id": "coyote-20",
+          "label": "Coyote 20",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote20_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote20_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-13",
-          "label": "Coyote / Jackal / Fox 13",
+          "id": "coyote-21",
+          "label": "Coyote 21",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote21_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote21_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-14",
-          "label": "Coyote / Jackal / Fox 14",
+          "id": "coyote-22",
+          "label": "Coyote 22",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote22_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote22_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-15",
-          "label": "Coyote / Jackal / Fox 15",
+          "id": "coyote-23",
+          "label": "Coyote 23",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote23_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote23_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-16",
-          "label": "Coyote / Jackal / Fox 16",
+          "id": "coyote-24",
+          "label": "Coyote 24",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote24_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote24_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-17",
-          "label": "Coyote / Jackal / Fox 17",
+          "id": "coyote-25",
+          "label": "Coyote 25",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote25_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote25_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-18",
-          "label": "Coyote / Jackal / Fox 18",
+          "id": "coyote-26",
+          "label": "Coyote 26",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote26_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote26_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-19",
-          "label": "Coyote / Jackal / Fox 19",
+          "id": "coyote-27",
+          "label": "Coyote 27",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote27_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote27_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-20",
-          "label": "Coyote / Jackal / Fox 20",
+          "id": "coyote-28",
+          "label": "Coyote 28",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote28_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote28_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-21",
-          "label": "Coyote / Jackal / Fox 21",
+          "id": "coyote-29",
+          "label": "Coyote 29",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote29_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote29_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-22",
-          "label": "Coyote / Jackal / Fox 22",
+          "id": "coyote-2",
+          "label": "Coyote 2",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote2_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote2_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-23",
-          "label": "Coyote / Jackal / Fox 23",
+          "id": "coyote-30",
+          "label": "Coyote 30",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote30_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote30_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-24",
-          "label": "Coyote / Jackal / Fox 24",
+          "id": "coyote-31",
+          "label": "Coyote 31",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote31_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote31_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-25",
-          "label": "Coyote / Jackal / Fox 25",
+          "id": "coyote-32",
+          "label": "Coyote 32",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote32_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote32_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-26",
-          "label": "Coyote / Jackal / Fox 26",
+          "id": "coyote-33",
+          "label": "Coyote 33",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote33_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote33_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-27",
-          "label": "Coyote / Jackal / Fox 27",
+          "id": "coyote-34",
+          "label": "Coyote 34",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote34_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote34_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-28",
-          "label": "Coyote / Jackal / Fox 28",
+          "id": "coyote-35",
+          "label": "Coyote 35",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote35_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote35_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-29",
-          "label": "Coyote / Jackal / Fox 29",
+          "id": "coyote-36",
+          "label": "Coyote 36",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote36_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote36_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-30",
-          "label": "Coyote / Jackal / Fox 30",
+          "id": "coyote-37",
+          "label": "Coyote 37",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote37_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote37_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-31",
-          "label": "Coyote / Jackal / Fox 31",
+          "id": "coyote-38",
+          "label": "Coyote 38",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote38_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote38_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-32",
-          "label": "Coyote / Jackal / Fox 32",
+          "id": "coyote-39",
+          "label": "Coyote 39",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote39_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote39_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-33",
-          "label": "Coyote / Jackal / Fox 33",
+          "id": "coyote-3",
+          "label": "Coyote 3",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote3_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote3_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-34",
-          "label": "Coyote / Jackal / Fox 34",
+          "id": "coyote-4",
+          "label": "Coyote 4",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote4_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote4_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-35",
-          "label": "Coyote / Jackal / Fox 35",
+          "id": "coyote-5",
+          "label": "Coyote 5",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote5_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote5_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-36",
-          "label": "Coyote / Jackal / Fox 36",
+          "id": "coyote-6",
+          "label": "Coyote 6",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote6_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote6_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-37",
-          "label": "Coyote / Jackal / Fox 37",
+          "id": "coyote-7",
+          "label": "Coyote 7",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote7_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote7_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-38",
-          "label": "Coyote / Jackal / Fox 38",
+          "id": "coyote-8",
+          "label": "Coyote 8",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote8_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote8_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-39",
-          "label": "Coyote / Jackal / Fox 39",
+          "id": "coyote-9",
+          "label": "Coyote 9",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote9_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote9_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-40",
-          "label": "Coyote / Jackal / Fox 40",
+          "id": "coyote",
+          "label": "Coyote",
           "thumbnail": "/animal-reports/coyote-jackal-fox/coyote_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/coyote_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-41",
-          "label": "Coyote / Jackal / Fox 41",
+          "id": "fox-1",
+          "label": "Fox 1",
           "thumbnail": "/animal-reports/coyote-jackal-fox/fox1_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/fox1_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-42",
-          "label": "Coyote / Jackal / Fox 42",
+          "id": "fox-2",
+          "label": "Fox 2",
           "thumbnail": "/animal-reports/coyote-jackal-fox/fox2_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/fox2_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-43",
-          "label": "Coyote / Jackal / Fox 43",
+          "id": "fox",
+          "label": "Fox",
           "thumbnail": "/animal-reports/coyote-jackal-fox/fox_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/fox_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-44",
-          "label": "Coyote / Jackal / Fox 44",
+          "id": "jackal-1",
+          "label": "Jackal 1",
           "thumbnail": "/animal-reports/coyote-jackal-fox/jackal1_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/jackal1_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-45",
-          "label": "Coyote / Jackal / Fox 45",
+          "id": "jackal-2",
+          "label": "Jackal 2",
           "thumbnail": "/animal-reports/coyote-jackal-fox/jackal2_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/jackal2_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-46",
-          "label": "Coyote / Jackal / Fox 46",
+          "id": "jackal-3",
+          "label": "Jackal 3",
           "thumbnail": "/animal-reports/coyote-jackal-fox/jackal3_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/jackal3_sm.jpg"
         },
         {
-          "id": "coyote-jackal-fox-47",
-          "label": "Coyote / Jackal / Fox 47",
+          "id": "jackal",
+          "label": "Jackal",
           "thumbnail": "/animal-reports/coyote-jackal-fox/jackal_sm.jpg",
           "image": "/animal-reports/coyote-jackal-fox/jackal_sm.jpg"
         }
@@ -957,104 +1218,104 @@
       "name": "Feline",
       "reports": [
         {
-          "id": "feline-1",
-          "label": "Feline 1",
+          "id": "bobcat",
+          "label": "Bobcat",
           "thumbnail": "/animal-reports/feline/bobcat_sm.jpg",
           "image": "/animal-reports/feline/bobcat_sm.jpg"
         },
         {
-          "id": "feline-2",
-          "label": "Feline 2",
+          "id": "cat-1",
+          "label": "Cat 1",
           "thumbnail": "/animal-reports/feline/cat1_sm.jpg",
           "image": "/animal-reports/feline/cat1_sm.jpg"
         },
         {
-          "id": "feline-3",
-          "label": "Feline 3",
+          "id": "cat-2",
+          "label": "Cat 2",
           "thumbnail": "/animal-reports/feline/cat2_sm.jpg",
           "image": "/animal-reports/feline/cat2_sm.jpg"
         },
         {
-          "id": "feline-4",
-          "label": "Feline 4",
+          "id": "cat-3",
+          "label": "Cat 3",
           "thumbnail": "/animal-reports/feline/cat3_sm.jpg",
           "image": "/animal-reports/feline/cat3_sm.jpg"
         },
         {
-          "id": "feline-5",
-          "label": "Feline 5",
+          "id": "cat-4",
+          "label": "Cat 4",
           "thumbnail": "/animal-reports/feline/cat4_sm.jpg",
           "image": "/animal-reports/feline/cat4_sm.jpg"
         },
         {
-          "id": "feline-6",
-          "label": "Feline 6",
+          "id": "cat-5",
+          "label": "Cat 5",
           "thumbnail": "/animal-reports/feline/cat5_sm.jpg",
           "image": "/animal-reports/feline/cat5_sm.jpg"
         },
         {
-          "id": "feline-7",
-          "label": "Feline 7",
+          "id": "cat-6",
+          "label": "Cat 6",
           "thumbnail": "/animal-reports/feline/cat6_sm.jpg",
           "image": "/animal-reports/feline/cat6_sm.jpg"
         },
         {
-          "id": "feline-8",
-          "label": "Feline 8",
+          "id": "cat-7",
+          "label": "Cat 7",
           "thumbnail": "/animal-reports/feline/cat7_sm.jpg",
           "image": "/animal-reports/feline/cat7_sm.jpg"
         },
         {
-          "id": "feline-9",
-          "label": "Feline 9",
+          "id": "cat-8",
+          "label": "Cat 8",
           "thumbnail": "/animal-reports/feline/cat8_sm.jpg",
           "image": "/animal-reports/feline/cat8_sm.jpg"
         },
         {
-          "id": "feline-10",
-          "label": "Feline 10",
+          "id": "cat-9",
+          "label": "Cat 9",
           "thumbnail": "/animal-reports/feline/cat9_sm.jpg",
           "image": "/animal-reports/feline/cat9_sm.jpg"
         },
         {
-          "id": "feline-11",
-          "label": "Feline 11",
+          "id": "cat",
+          "label": "Cat",
           "thumbnail": "/animal-reports/feline/cat_sm.jpg",
           "image": "/animal-reports/feline/cat_sm.jpg"
         },
         {
-          "id": "feline-12",
-          "label": "Feline 12",
+          "id": "mountain-lion-4",
+          "label": "Mountain Lion 4",
           "thumbnail": "/animal-reports/feline/mountainlion1_sm.jpg",
           "image": "/animal-reports/feline/mountainlion1_sm.jpg"
         },
         {
-          "id": "feline-13",
-          "label": "Feline 13",
+          "id": "mountain-lion-1",
+          "label": "Mountain Lion 1",
           "thumbnail": "/animal-reports/feline/mountainlion2_sm.jpg",
           "image": "/animal-reports/feline/mountainlion2_sm.jpg"
         },
         {
-          "id": "feline-14",
-          "label": "Feline 14",
+          "id": "mountain-lion-2",
+          "label": "Mountain Lion 2",
           "thumbnail": "/animal-reports/feline/mountainlion3_sm.jpg",
           "image": "/animal-reports/feline/mountainlion3_sm.jpg"
         },
         {
-          "id": "feline-15",
-          "label": "Feline 15",
+          "id": "mountain-lion-3",
+          "label": "Mountain Lion 3",
           "thumbnail": "/animal-reports/feline/mountainlion4_sm.jpg",
           "image": "/animal-reports/feline/mountainlion4_sm.jpg"
         },
         {
-          "id": "feline-16",
-          "label": "Feline 16",
+          "id": "mountain-lion",
+          "label": "Mountain Lion",
           "thumbnail": "/animal-reports/feline/mountainlion_sm.jpg",
           "image": "/animal-reports/feline/mountainlion_sm.jpg"
         },
         {
-          "id": "feline-17",
-          "label": "Feline 17",
+          "id": "tiger",
+          "label": "Tiger",
           "thumbnail": "/animal-reports/feline/tiger_sm.jpg",
           "image": "/animal-reports/feline/tiger_sm.jpg"
         }
@@ -1065,62 +1326,62 @@
       "name": "Fish / Aquatic",
       "reports": [
         {
-          "id": "fish-aquatic-1",
-          "label": "Fish / Aquatic 1",
+          "id": "dolphin-seal",
+          "label": "Dolphin, Seal",
           "thumbnail": "/animal-reports/fish-aquatic/dolphin_seals_sm.jpg",
           "image": "/animal-reports/fish-aquatic/dolphin_seals_sm.jpg"
         },
         {
-          "id": "fish-aquatic-2",
-          "label": "Fish / Aquatic 2",
+          "id": "eel-1",
+          "label": "Eel 1",
           "thumbnail": "/animal-reports/fish-aquatic/eel1_sm.jpg",
           "image": "/animal-reports/fish-aquatic/eel1_sm.jpg"
         },
         {
-          "id": "fish-aquatic-3",
-          "label": "Fish / Aquatic 3",
+          "id": "eel",
+          "label": "Eel",
           "thumbnail": "/animal-reports/fish-aquatic/eel_sm.jpg",
           "image": "/animal-reports/fish-aquatic/eel_sm.jpg"
         },
         {
-          "id": "fish-aquatic-4",
-          "label": "Fish / Aquatic 4",
+          "id": "fish",
+          "label": "Fish",
           "thumbnail": "/animal-reports/fish-aquatic/fish_sm.jpg",
           "image": "/animal-reports/fish-aquatic/fish_sm.jpg"
         },
         {
-          "id": "fish-aquatic-5",
-          "label": "Fish / Aquatic 5",
+          "id": "grunion-1",
+          "label": "Grunion 1",
           "thumbnail": "/animal-reports/fish-aquatic/grunion1_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion1_sm.jpg"
         },
         {
-          "id": "fish-aquatic-6",
-          "label": "Fish / Aquatic 6",
+          "id": "grunion-2",
+          "label": "Grunion 2",
           "thumbnail": "/animal-reports/fish-aquatic/grunion2_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion2_sm.jpg"
         },
         {
-          "id": "fish-aquatic-7",
-          "label": "Fish / Aquatic 7",
+          "id": "grunion-3",
+          "label": "Grunion 3",
           "thumbnail": "/animal-reports/fish-aquatic/grunion3_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion3_sm.jpg"
         },
         {
-          "id": "fish-aquatic-8",
-          "label": "Fish / Aquatic 8",
+          "id": "grunion-4",
+          "label": "Grunion 4",
           "thumbnail": "/animal-reports/fish-aquatic/grunion4_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion4_sm.jpg"
         },
         {
-          "id": "fish-aquatic-9",
-          "label": "Fish / Aquatic 9",
+          "id": "grunion-5",
+          "label": "Grunion 5",
           "thumbnail": "/animal-reports/fish-aquatic/grunion5_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion5_sm.jpg"
         },
         {
-          "id": "fish-aquatic-10",
-          "label": "Fish / Aquatic 10",
+          "id": "grunion",
+          "label": "Grunion",
           "thumbnail": "/animal-reports/fish-aquatic/grunion_sm.jpg",
           "image": "/animal-reports/fish-aquatic/grunion_sm.jpg"
         }
@@ -1131,26 +1392,26 @@
       "name": "Hebrew",
       "reports": [
         {
-          "id": "hebrew-1",
-          "label": "Hebrew 1",
+          "id": "bat",
+          "label": "Bat",
           "thumbnail": "/animal-reports/hebrew/batsreport1.jpg",
           "image": "/animal-reports/hebrew/batsreport1.jpg"
         },
         {
-          "id": "hebrew-2",
-          "label": "Hebrew 2",
+          "id": "gecko",
+          "label": "Gecko",
           "thumbnail": "/animal-reports/hebrew/gecko-report.jpg",
           "image": "/animal-reports/hebrew/gecko-report.jpg"
         },
         {
-          "id": "hebrew-3",
-          "label": "Hebrew 3",
+          "id": "owl",
+          "label": "Owl",
           "thumbnail": "/animal-reports/hebrew/owel-report.jpg",
           "image": "/animal-reports/hebrew/owel-report.jpg"
         },
         {
-          "id": "hebrew-4",
-          "label": "Hebrew 4",
+          "id": "shark",
+          "label": "Shark",
           "thumbnail": "/animal-reports/hebrew/shark-report.jpg",
           "image": "/animal-reports/hebrew/shark-report.jpg"
         },
@@ -1161,8 +1422,8 @@
           "image": "/animal-reports/hebrew/snails2.jpg"
         },
         {
-          "id": "hebrew-6",
-          "label": "Hebrew 6",
+          "id": "swamp-cat",
+          "label": "Swamp Cat",
           "thumbnail": "/animal-reports/hebrew/swamp-cat-report.jpg",
           "image": "/animal-reports/hebrew/swamp-cat-report.jpg"
         }
@@ -1173,68 +1434,68 @@
       "name": "Human",
       "reports": [
         {
-          "id": "human-1",
-          "label": "Human 1",
+          "id": "human",
+          "label": "Human",
           "thumbnail": "/animal-reports/human/barfly_sm.jpg",
           "image": "/animal-reports/human/barfly_sm.jpg"
         },
         {
-          "id": "human-2",
-          "label": "Human 2",
+          "id": "bouncer",
+          "label": "Bouncer",
           "thumbnail": "/animal-reports/human/bouncer_sm.jpg",
           "image": "/animal-reports/human/bouncer_sm.jpg"
         },
         {
-          "id": "human-3",
-          "label": "Human 3",
+          "id": "drag-queen",
+          "label": "Drag Queen",
           "thumbnail": "/animal-reports/human/dragqueen_sm.jpg",
           "image": "/animal-reports/human/dragqueen_sm.jpg"
         },
         {
-          "id": "human-4",
-          "label": "Human 4",
+          "id": "elephant-human",
+          "label": "Elephant Human",
           "thumbnail": "/animal-reports/human/elephanthuman_sm.jpg",
           "image": "/animal-reports/human/elephanthuman_sm.jpg"
         },
         {
-          "id": "human-5",
-          "label": "Human 5",
+          "id": "homeless-human-1",
+          "label": "Homeless Human 1",
           "thumbnail": "/animal-reports/human/homeless1_sm.jpg",
           "image": "/animal-reports/human/homeless1_sm.jpg"
         },
         {
-          "id": "human-6",
-          "label": "Human 6",
+          "id": "homeless-human",
+          "label": "Homeless Human",
           "thumbnail": "/animal-reports/human/homeless_sm.jpg",
           "image": "/animal-reports/human/homeless_sm.jpg"
         },
         {
-          "id": "human-7",
-          "label": "Human 7",
+          "id": "human-1",
+          "label": "Human 1",
           "thumbnail": "/animal-reports/human/human1_sm.jpg",
           "image": "/animal-reports/human/human1_sm.jpg"
         },
         {
-          "id": "human-8",
-          "label": "Human 8",
+          "id": "human-2",
+          "label": "Human 2",
           "thumbnail": "/animal-reports/human/human2_sm.jpg",
           "image": "/animal-reports/human/human2_sm.jpg"
         },
         {
-          "id": "human-9",
-          "label": "Human 9",
+          "id": "human-3",
+          "label": "Human 3",
           "thumbnail": "/animal-reports/human/human3_sm.jpg",
           "image": "/animal-reports/human/human3_sm.jpg"
         },
         {
-          "id": "human-10",
-          "label": "Human 10",
+          "id": "human",
+          "label": "Human",
           "thumbnail": "/animal-reports/human/human_sm.jpg",
           "image": "/animal-reports/human/human_sm.jpg"
         },
         {
-          "id": "human-11",
-          "label": "Human 11",
+          "id": "humans-and-their-machines",
+          "label": "Humans And Their Machines",
           "thumbnail": "/animal-reports/human/humanandmachine_sm.jpg",
           "image": "/animal-reports/human/humanandmachine_sm.jpg"
         }
@@ -1245,218 +1506,218 @@
       "name": "Insect / Spider",
       "reports": [
         {
-          "id": "insect-spider-1",
-          "label": "Insect / Spider 1",
+          "id": "bedbug",
+          "label": "Bedbug",
           "thumbnail": "/animal-reports/insect-spider/bedbug_sm.jpg",
           "image": "/animal-reports/insect-spider/bedbug_sm.jpg"
         },
         {
-          "id": "insect-spider-2",
-          "label": "Insect / Spider 2",
+          "id": "beetle",
+          "label": "Beetle",
           "thumbnail": "/animal-reports/insect-spider/beetle_sm.jpg",
           "image": "/animal-reports/insect-spider/beetle_sm.jpg"
         },
         {
-          "id": "insect-spider-3",
-          "label": "Insect / Spider 3",
+          "id": "black-widow",
+          "label": "Black Widow",
           "thumbnail": "/animal-reports/insect-spider/blackwidow_sm.jpg",
           "image": "/animal-reports/insect-spider/blackwidow_sm.jpg"
         },
         {
-          "id": "insect-spider-4",
-          "label": "Insect / Spider 4",
+          "id": "butterfly-1",
+          "label": "Butterfly 1",
           "thumbnail": "/animal-reports/insect-spider/butterfly1_sm.jpg",
           "image": "/animal-reports/insect-spider/butterfly1_sm.jpg"
         },
         {
-          "id": "insect-spider-5",
-          "label": "Insect / Spider 5",
+          "id": "butterfly",
+          "label": "Butterfly",
           "thumbnail": "/animal-reports/insect-spider/butterfly_sm.jpg",
           "image": "/animal-reports/insect-spider/butterfly_sm.jpg"
         },
         {
-          "id": "insect-spider-6",
-          "label": "Insect / Spider 6",
+          "id": "centipede",
+          "label": "Centipede",
           "thumbnail": "/animal-reports/insect-spider/centipede_sm.jpg",
           "image": "/animal-reports/insect-spider/centipede_sm.jpg"
         },
         {
-          "id": "insect-spider-7",
-          "label": "Insect / Spider 7",
+          "id": "cockroach-10",
+          "label": "Cockroach 10",
           "thumbnail": "/animal-reports/insect-spider/cockroach10_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach10_sm.jpg"
         },
         {
-          "id": "insect-spider-8",
-          "label": "Insect / Spider 8",
+          "id": "cockroach-1",
+          "label": "Cockroach 1",
           "thumbnail": "/animal-reports/insect-spider/cockroach1_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach1_sm.jpg"
         },
         {
-          "id": "insect-spider-9",
-          "label": "Insect / Spider 9",
+          "id": "cockroach-2",
+          "label": "Cockroach 2",
           "thumbnail": "/animal-reports/insect-spider/cockroach2_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach2_sm.jpg"
         },
         {
-          "id": "insect-spider-10",
-          "label": "Insect / Spider 10",
+          "id": "cockroach-3",
+          "label": "Cockroach 3",
           "thumbnail": "/animal-reports/insect-spider/cockroach3_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach3_sm.jpg"
         },
         {
-          "id": "insect-spider-11",
-          "label": "Insect / Spider 11",
+          "id": "cockroach-4",
+          "label": "Cockroach 4",
           "thumbnail": "/animal-reports/insect-spider/cockroach4_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach4_sm.jpg"
         },
         {
-          "id": "insect-spider-12",
-          "label": "Insect / Spider 12",
+          "id": "cockroach-5",
+          "label": "Cockroach 5",
           "thumbnail": "/animal-reports/insect-spider/cockroach5_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach5_sm.jpg"
         },
         {
-          "id": "insect-spider-13",
-          "label": "Insect / Spider 13",
+          "id": "cockroach-6",
+          "label": "Cockroach 6",
           "thumbnail": "/animal-reports/insect-spider/cockroach6_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach6_sm.jpg"
         },
         {
-          "id": "insect-spider-14",
-          "label": "Insect / Spider 14",
+          "id": "cockroach-7",
+          "label": "Cockroach 7",
           "thumbnail": "/animal-reports/insect-spider/cockroach7_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach7_sm.jpg"
         },
         {
-          "id": "insect-spider-15",
-          "label": "Insect / Spider 15",
+          "id": "cockroach-8",
+          "label": "Cockroach 8",
           "thumbnail": "/animal-reports/insect-spider/cockroach8_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach8_sm.jpg"
         },
         {
-          "id": "insect-spider-16",
-          "label": "Insect / Spider 16",
+          "id": "cockroach-9",
+          "label": "Cockroach 9",
           "thumbnail": "/animal-reports/insect-spider/cockroach9_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach9_sm.jpg"
         },
         {
-          "id": "insect-spider-17",
-          "label": "Insect / Spider 17",
+          "id": "cockroach",
+          "label": "Cockroach",
           "thumbnail": "/animal-reports/insect-spider/cockroach_sm.jpg",
           "image": "/animal-reports/insect-spider/cockroach_sm.jpg"
         },
         {
-          "id": "insect-spider-18",
-          "label": "Insect / Spider 18",
+          "id": "firefly-1",
+          "label": "Firefly 1",
           "thumbnail": "/animal-reports/insect-spider/firefly1_sm.jpg",
           "image": "/animal-reports/insect-spider/firefly1_sm.jpg"
         },
         {
-          "id": "insect-spider-19",
-          "label": "Insect / Spider 19",
+          "id": "firefly",
+          "label": "Firefly",
           "thumbnail": "/animal-reports/insect-spider/firefly_sm.jpg",
           "image": "/animal-reports/insect-spider/firefly_sm.jpg"
         },
         {
-          "id": "insect-spider-20",
-          "label": "Insect / Spider 20",
+          "id": "insect",
+          "label": "Insect",
           "thumbnail": "/animal-reports/insect-spider/insect_sm.jpg",
           "image": "/animal-reports/insect-spider/insect_sm.jpg"
         },
         {
-          "id": "insect-spider-21",
-          "label": "Insect / Spider 21",
+          "id": "junebug-1",
+          "label": "Junebug 1",
           "thumbnail": "/animal-reports/insect-spider/junebug1_sm.jpg",
           "image": "/animal-reports/insect-spider/junebug1_sm.jpg"
         },
         {
-          "id": "insect-spider-22",
-          "label": "Insect / Spider 22",
+          "id": "junebug",
+          "label": "Junebug",
           "thumbnail": "/animal-reports/insect-spider/junebug_sm.jpg",
           "image": "/animal-reports/insect-spider/junebug_sm.jpg"
         },
         {
-          "id": "insect-spider-23",
-          "label": "Insect / Spider 23",
+          "id": "lightning-bug",
+          "label": "Lightning Bug",
           "thumbnail": "/animal-reports/insect-spider/lightningbug_sm.jpg",
           "image": "/animal-reports/insect-spider/lightningbug_sm.jpg"
         },
         {
-          "id": "insect-spider-24",
-          "label": "Insect / Spider 24",
+          "id": "mosquito",
+          "label": "Mosquito",
           "thumbnail": "/animal-reports/insect-spider/mosquito_sm.jpg",
           "image": "/animal-reports/insect-spider/mosquito_sm.jpg"
         },
         {
-          "id": "insect-spider-25",
-          "label": "Insect / Spider 25",
+          "id": "moth-1",
+          "label": "Moth 1",
           "thumbnail": "/animal-reports/insect-spider/moth1_sm.jpg",
           "image": "/animal-reports/insect-spider/moth1_sm.jpg"
         },
         {
-          "id": "insect-spider-26",
-          "label": "Insect / Spider 26",
+          "id": "moth-2",
+          "label": "Moth 2",
           "thumbnail": "/animal-reports/insect-spider/moth2_sm.jpg",
           "image": "/animal-reports/insect-spider/moth2_sm.jpg"
         },
         {
-          "id": "insect-spider-27",
-          "label": "Insect / Spider 27",
+          "id": "moth-3",
+          "label": "Moth 3",
           "thumbnail": "/animal-reports/insect-spider/moth3_sm.jpg",
           "image": "/animal-reports/insect-spider/moth3_sm.jpg"
         },
         {
-          "id": "insect-spider-28",
-          "label": "Insect / Spider 28",
+          "id": "moth-4",
+          "label": "Moth 4",
           "thumbnail": "/animal-reports/insect-spider/moth4_sm.jpg",
           "image": "/animal-reports/insect-spider/moth4_sm.jpg"
         },
         {
-          "id": "insect-spider-29",
-          "label": "Insect / Spider 29",
+          "id": "moth",
+          "label": "Moth",
           "thumbnail": "/animal-reports/insect-spider/moth_sm.jpg",
           "image": "/animal-reports/insect-spider/moth_sm.jpg"
         },
         {
-          "id": "insect-spider-30",
-          "label": "Insect / Spider 30",
+          "id": "mothra",
+          "label": "Mothra",
           "thumbnail": "/animal-reports/insect-spider/mothra_sm.jpg",
           "image": "/animal-reports/insect-spider/mothra_sm.jpg"
         },
         {
-          "id": "insect-spider-31",
-          "label": "Insect / Spider 31",
+          "id": "praying-mantis",
+          "label": "Praying Mantis",
           "thumbnail": "/animal-reports/insect-spider/prayingmantis_sm.jpg",
           "image": "/animal-reports/insect-spider/prayingmantis_sm.jpg"
         },
         {
-          "id": "insect-spider-32",
-          "label": "Insect / Spider 32",
+          "id": "silverfish",
+          "label": "Silverfish",
           "thumbnail": "/animal-reports/insect-spider/silverfish_sm.jpg",
           "image": "/animal-reports/insect-spider/silverfish_sm.jpg"
         },
         {
-          "id": "insect-spider-33",
-          "label": "Insect / Spider 33",
+          "id": "spider-1",
+          "label": "Spider 1",
           "thumbnail": "/animal-reports/insect-spider/spider1_sm.jpg",
           "image": "/animal-reports/insect-spider/spider1_sm.jpg"
         },
         {
-          "id": "insect-spider-34",
-          "label": "Insect / Spider 34",
+          "id": "spider-2",
+          "label": "Spider 2",
           "thumbnail": "/animal-reports/insect-spider/spider2_sm.jpg",
           "image": "/animal-reports/insect-spider/spider2_sm.jpg"
         },
         {
-          "id": "insect-spider-35",
-          "label": "Insect / Spider 35",
+          "id": "spider",
+          "label": "Spider",
           "thumbnail": "/animal-reports/insect-spider/spider_sm.jpg",
           "image": "/animal-reports/insect-spider/spider_sm.jpg"
         },
         {
-          "id": "insect-spider-36",
-          "label": "Insect / Spider 36",
+          "id": "tarantula",
+          "label": "Tarantula",
           "thumbnail": "/animal-reports/insect-spider/tarantula_sm.jpg",
           "image": "/animal-reports/insect-spider/tarantula_sm.jpg"
         }
@@ -1473,32 +1734,32 @@
           "image": "/animal-reports/multiple-animal/hedgehog.jpg"
         },
         {
-          "id": "multiple-animal-2",
-          "label": "Multiple Animal 2",
+          "id": "multiple-1",
+          "label": "Multiple 1",
           "thumbnail": "/animal-reports/multiple-animal/multiple1_sm.jpg",
           "image": "/animal-reports/multiple-animal/multiple1_sm.jpg"
         },
         {
-          "id": "multiple-animal-3",
-          "label": "Multiple Animal 3",
+          "id": "multiple-2",
+          "label": "Multiple 2",
           "thumbnail": "/animal-reports/multiple-animal/multiple2_sm.jpg",
           "image": "/animal-reports/multiple-animal/multiple2_sm.jpg"
         },
         {
-          "id": "multiple-animal-4",
-          "label": "Multiple Animal 4",
+          "id": "multiple-3",
+          "label": "Multiple 3",
           "thumbnail": "/animal-reports/multiple-animal/multiple3_sm.jpg",
           "image": "/animal-reports/multiple-animal/multiple3_sm.jpg"
         },
         {
-          "id": "multiple-animal-5",
-          "label": "Multiple Animal 5",
+          "id": "multiple-4",
+          "label": "Multiple 4",
           "thumbnail": "/animal-reports/multiple-animal/multiple4_sm.jpg",
           "image": "/animal-reports/multiple-animal/multiple4_sm.jpg"
         },
         {
-          "id": "multiple-animal-6",
-          "label": "Multiple Animal 6",
+          "id": "multiple",
+          "label": "Multiple",
           "thumbnail": "/animal-reports/multiple-animal/multiple_sm.jpg",
           "image": "/animal-reports/multiple-animal/multiple_sm.jpg"
         }
@@ -1509,122 +1770,122 @@
       "name": "Mystery / Supernatural",
       "reports": [
         {
-          "id": "mystery-supernatural-1",
-          "label": "Mystery / Supernatural 1",
+          "id": "abishak",
+          "label": "Abishak",
           "thumbnail": "/animal-reports/mystery-supernatural/abishak_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/abishak_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-2",
-          "label": "Mystery / Supernatural 2",
+          "id": "alien",
+          "label": "Alien",
           "thumbnail": "/animal-reports/mystery-supernatural/alien_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/alien_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-3",
-          "label": "Mystery / Supernatural 3",
+          "id": "bigfoot",
+          "label": "Bigfoot",
           "thumbnail": "/animal-reports/mystery-supernatural/bigfoot_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/bigfoot_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-4",
-          "label": "Mystery / Supernatural 4",
+          "id": "cat-vampire",
+          "label": "Cat Vampire",
           "thumbnail": "/animal-reports/mystery-supernatural/catvampire_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/catvampire_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-5",
-          "label": "Mystery / Supernatural 5",
+          "id": "coyote-man",
+          "label": "Coyote-man",
           "thumbnail": "/animal-reports/mystery-supernatural/human4_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/human4_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-6",
-          "label": "Mystery / Supernatural 6",
+          "id": "jackalope",
+          "label": "Jackalope",
           "thumbnail": "/animal-reports/mystery-supernatural/jackalope_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/jackalope_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-7",
-          "label": "Mystery / Supernatural 7",
+          "id": "mystery",
+          "label": "Mystery",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery1_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery1_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-8",
-          "label": "Mystery / Supernatural 8",
+          "id": "mystery1",
+          "label": "Mystery1",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery2_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery2_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-9",
-          "label": "Mystery / Supernatural 9",
+          "id": "mystery-2",
+          "label": "Mystery 2",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery3_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery3_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-10",
-          "label": "Mystery / Supernatural 10",
+          "id": "mystery-3",
+          "label": "Mystery 3",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery4_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery4_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-11",
-          "label": "Mystery / Supernatural 11",
+          "id": "mystery-4",
+          "label": "Mystery 4",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery5_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery5_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-12",
-          "label": "Mystery / Supernatural 12",
+          "id": "mystery-5",
+          "label": "Mystery 5",
           "thumbnail": "/animal-reports/mystery-supernatural/mystery_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/mystery_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-13",
-          "label": "Mystery / Supernatural 13",
+          "id": "red-eye-beast",
+          "label": "Red Eye Beast",
           "thumbnail": "/animal-reports/mystery-supernatural/redeyebeast_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/redeyebeast_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-14",
-          "label": "Mystery / Supernatural 14",
+          "id": "sapien-confusicus",
+          "label": "Sapien Confusicus",
           "thumbnail": "/animal-reports/mystery-supernatural/sapienconfusicus_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/sapienconfusicus_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-15",
-          "label": "Mystery / Supernatural 15",
+          "id": "unicorn",
+          "label": "Unicorn",
           "thumbnail": "/animal-reports/mystery-supernatural/unicorn_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/unicorn_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-16",
-          "label": "Mystery / Supernatural 16",
+          "id": "vampire-bat-owl",
+          "label": "Vampire Bat Owl",
           "thumbnail": "/animal-reports/mystery-supernatural/vampirebatowl_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/vampirebatowl_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-17",
-          "label": "Mystery / Supernatural 17",
+          "id": "werewolf",
+          "label": "Werewolf",
           "thumbnail": "/animal-reports/mystery-supernatural/werewolf1_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/werewolf1_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-18",
-          "label": "Mystery / Supernatural 18",
+          "id": "werewolf-1",
+          "label": "Werewolf 1",
           "thumbnail": "/animal-reports/mystery-supernatural/werewolf_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/werewolf_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-19",
-          "label": "Mystery / Supernatural 19",
+          "id": "wishbat",
+          "label": "Wishbat",
           "thumbnail": "/animal-reports/mystery-supernatural/wishbat_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/wishbat_sm.jpg"
         },
         {
-          "id": "mystery-supernatural-20",
-          "label": "Mystery / Supernatural 20",
+          "id": "wolpertinger",
+          "label": "Wolpertinger",
           "thumbnail": "/animal-reports/mystery-supernatural/wolpertinger_sm.jpg",
           "image": "/animal-reports/mystery-supernatural/wolpertinger_sm.jpg"
         }
@@ -1635,278 +1896,278 @@
       "name": "Opossum",
       "reports": [
         {
-          "id": "opossum-1",
-          "label": "Opossum 1",
+          "id": "opossum-17",
+          "label": "Opossum 17",
           "thumbnail": "/animal-reports/opossum/opossum10_sm.jpg",
           "image": "/animal-reports/opossum/opossum10_sm.jpg"
         },
         {
-          "id": "opossum-2",
-          "label": "Opossum 2",
+          "id": "opossum-18",
+          "label": "Opossum 18",
           "thumbnail": "/animal-reports/opossum/opossum11_sm.jpg",
           "image": "/animal-reports/opossum/opossum11_sm.jpg"
         },
         {
-          "id": "opossum-3",
-          "label": "Opossum 3",
+          "id": "opossum-19",
+          "label": "Opossum 19",
           "thumbnail": "/animal-reports/opossum/opossum12_sm.jpg",
           "image": "/animal-reports/opossum/opossum12_sm.jpg"
         },
         {
-          "id": "opossum-4",
-          "label": "Opossum 4",
+          "id": "opossum-20",
+          "label": "Opossum 20",
           "thumbnail": "/animal-reports/opossum/opossum13_sm.jpg",
           "image": "/animal-reports/opossum/opossum13_sm.jpg"
         },
         {
-          "id": "opossum-5",
-          "label": "Opossum 5",
+          "id": "opossum-21",
+          "label": "Opossum 21",
           "thumbnail": "/animal-reports/opossum/opossum14_sm.jpg",
           "image": "/animal-reports/opossum/opossum14_sm.jpg"
         },
         {
-          "id": "opossum-6",
-          "label": "Opossum 6",
+          "id": "opossum-22",
+          "label": "Opossum 22",
           "thumbnail": "/animal-reports/opossum/opossum15_sm.jpg",
           "image": "/animal-reports/opossum/opossum15_sm.jpg"
         },
         {
-          "id": "opossum-7",
-          "label": "Opossum 7",
+          "id": "opossum-23",
+          "label": "Opossum 23",
           "thumbnail": "/animal-reports/opossum/opossum16_sm.jpg",
           "image": "/animal-reports/opossum/opossum16_sm.jpg"
         },
         {
-          "id": "opossum-8",
-          "label": "Opossum 8",
+          "id": "opossum-24",
+          "label": "Opossum 24",
           "thumbnail": "/animal-reports/opossum/opossum17_sm.jpg",
           "image": "/animal-reports/opossum/opossum17_sm.jpg"
         },
         {
-          "id": "opossum-9",
-          "label": "Opossum 9",
+          "id": "opossum-25",
+          "label": "Opossum 25",
           "thumbnail": "/animal-reports/opossum/opossum18_sm.jpg",
           "image": "/animal-reports/opossum/opossum18_sm.jpg"
         },
         {
-          "id": "opossum-10",
-          "label": "Opossum 10",
+          "id": "opossum-26",
+          "label": "Opossum 26",
           "thumbnail": "/animal-reports/opossum/opossum19_sm.jpg",
           "image": "/animal-reports/opossum/opossum19_sm.jpg"
         },
         {
-          "id": "opossum-11",
-          "label": "Opossum 11",
+          "id": "opossum-8",
+          "label": "Opossum 8",
           "thumbnail": "/animal-reports/opossum/opossum1_sm.jpg",
           "image": "/animal-reports/opossum/opossum1_sm.jpg"
         },
         {
-          "id": "opossum-12",
-          "label": "Opossum 12",
+          "id": "opossum-27",
+          "label": "Opossum 27",
           "thumbnail": "/animal-reports/opossum/opossum20_sm.jpg",
           "image": "/animal-reports/opossum/opossum20_sm.jpg"
         },
         {
-          "id": "opossum-13",
-          "label": "Opossum 13",
+          "id": "opossum-28",
+          "label": "Opossum 28",
           "thumbnail": "/animal-reports/opossum/opossum21_sm.jpg",
           "image": "/animal-reports/opossum/opossum21_sm.jpg"
         },
         {
-          "id": "opossum-14",
-          "label": "Opossum 14",
+          "id": "opossum-29",
+          "label": "Opossum 29",
           "thumbnail": "/animal-reports/opossum/opossum22_sm.jpg",
           "image": "/animal-reports/opossum/opossum22_sm.jpg"
         },
         {
-          "id": "opossum-15",
-          "label": "Opossum 15",
+          "id": "opossum-30",
+          "label": "Opossum 30",
           "thumbnail": "/animal-reports/opossum/opossum23_sm.jpg",
           "image": "/animal-reports/opossum/opossum23_sm.jpg"
         },
         {
-          "id": "opossum-16",
-          "label": "Opossum 16",
+          "id": "opossum-31",
+          "label": "Opossum 31",
           "thumbnail": "/animal-reports/opossum/opossum24_sm.jpg",
           "image": "/animal-reports/opossum/opossum24_sm.jpg"
         },
         {
-          "id": "opossum-17",
-          "label": "Opossum 17",
+          "id": "opossum-32",
+          "label": "Opossum 32",
           "thumbnail": "/animal-reports/opossum/opossum25_sm.jpg",
           "image": "/animal-reports/opossum/opossum25_sm.jpg"
         },
         {
-          "id": "opossum-18",
-          "label": "Opossum 18",
+          "id": "opossum-33",
+          "label": "Opossum 33",
           "thumbnail": "/animal-reports/opossum/opossum26_sm.jpg",
           "image": "/animal-reports/opossum/opossum26_sm.jpg"
         },
         {
-          "id": "opossum-19",
-          "label": "Opossum 19",
+          "id": "opossum-34",
+          "label": "Opossum 34",
           "thumbnail": "/animal-reports/opossum/opossum27_sm.jpg",
           "image": "/animal-reports/opossum/opossum27_sm.jpg"
         },
         {
-          "id": "opossum-20",
-          "label": "Opossum 20",
+          "id": "opossum-35",
+          "label": "Opossum 35",
           "thumbnail": "/animal-reports/opossum/opossum28_sm.jpg",
           "image": "/animal-reports/opossum/opossum28_sm.jpg"
         },
         {
-          "id": "opossum-21",
-          "label": "Opossum 21",
+          "id": "opossum-40",
+          "label": "Opossum 40",
           "thumbnail": "/animal-reports/opossum/opossum29_sm.jpg",
           "image": "/animal-reports/opossum/opossum29_sm.jpg"
         },
         {
-          "id": "opossum-22",
-          "label": "Opossum 22",
+          "id": "opossum-9",
+          "label": "Opossum 9",
           "thumbnail": "/animal-reports/opossum/opossum2_sm.jpg",
           "image": "/animal-reports/opossum/opossum2_sm.jpg"
         },
         {
-          "id": "opossum-23",
-          "label": "Opossum 23",
+          "id": "opossum-41",
+          "label": "Opossum 41",
           "thumbnail": "/animal-reports/opossum/opossum30_sm.jpg",
           "image": "/animal-reports/opossum/opossum30_sm.jpg"
         },
         {
-          "id": "opossum-24",
-          "label": "Opossum 24",
+          "id": "opossum-42",
+          "label": "Opossum 42",
           "thumbnail": "/animal-reports/opossum/opossum31_sm.jpg",
           "image": "/animal-reports/opossum/opossum31_sm.jpg"
         },
         {
-          "id": "opossum-25",
-          "label": "Opossum 25",
+          "id": "opossum-43",
+          "label": "Opossum 43",
           "thumbnail": "/animal-reports/opossum/opossum32_sm.jpg",
           "image": "/animal-reports/opossum/opossum32_sm.jpg"
         },
         {
-          "id": "opossum-26",
-          "label": "Opossum 26",
+          "id": "opossum-44",
+          "label": "Opossum 44",
           "thumbnail": "/animal-reports/opossum/opossum33_sm.jpg",
           "image": "/animal-reports/opossum/opossum33_sm.jpg"
         },
         {
-          "id": "opossum-27",
-          "label": "Opossum 27",
+          "id": "opossum-45",
+          "label": "Opossum 45",
           "thumbnail": "/animal-reports/opossum/opossum34_sm.jpg",
           "image": "/animal-reports/opossum/opossum34_sm.jpg"
         },
         {
-          "id": "opossum-28",
-          "label": "Opossum 28",
+          "id": "opossum-39",
+          "label": "Opossum 39",
           "thumbnail": "/animal-reports/opossum/opossum35_sm.jpg",
           "image": "/animal-reports/opossum/opossum35_sm.jpg"
         },
         {
-          "id": "opossum-29",
-          "label": "Opossum 29",
+          "id": "opossum-1",
+          "label": "Opossum 1",
           "thumbnail": "/animal-reports/opossum/opossum36_sm.jpg",
           "image": "/animal-reports/opossum/opossum36_sm.jpg"
         },
         {
-          "id": "opossum-30",
-          "label": "Opossum 30",
+          "id": "opossum-2",
+          "label": "Opossum 2",
           "thumbnail": "/animal-reports/opossum/opossum37_sm.jpg",
           "image": "/animal-reports/opossum/opossum37_sm.jpg"
         },
         {
-          "id": "opossum-31",
-          "label": "Opossum 31",
+          "id": "opossum-3",
+          "label": "Opossum 3",
           "thumbnail": "/animal-reports/opossum/opossum38_sm.jpg",
           "image": "/animal-reports/opossum/opossum38_sm.jpg"
         },
         {
-          "id": "opossum-32",
-          "label": "Opossum 32",
+          "id": "opossum-4",
+          "label": "Opossum 4",
           "thumbnail": "/animal-reports/opossum/opossum39_sm.jpg",
           "image": "/animal-reports/opossum/opossum39_sm.jpg"
         },
         {
-          "id": "opossum-33",
-          "label": "Opossum 33",
+          "id": "opossum-10",
+          "label": "Opossum 10",
           "thumbnail": "/animal-reports/opossum/opossum3_sm.jpg",
           "image": "/animal-reports/opossum/opossum3_sm.jpg"
         },
         {
-          "id": "opossum-34",
-          "label": "Opossum 34",
+          "id": "opossum-5",
+          "label": "Opossum 5",
           "thumbnail": "/animal-reports/opossum/opossum40_sm.jpg",
           "image": "/animal-reports/opossum/opossum40_sm.jpg"
         },
         {
-          "id": "opossum-35",
-          "label": "Opossum 35",
+          "id": "opossum-6",
+          "label": "Opossum 6",
           "thumbnail": "/animal-reports/opossum/opossum41_sm.jpg",
           "image": "/animal-reports/opossum/opossum41_sm.jpg"
         },
         {
-          "id": "opossum-36",
-          "label": "Opossum 36",
+          "id": "opossum-7",
+          "label": "Opossum 7",
           "thumbnail": "/animal-reports/opossum/opossum42_sm.jpg",
           "image": "/animal-reports/opossum/opossum42_sm.jpg"
         },
         {
-          "id": "opossum-37",
-          "label": "Opossum 37",
+          "id": "opossum-36",
+          "label": "Opossum 36",
           "thumbnail": "/animal-reports/opossum/opossum43_sm.jpg",
           "image": "/animal-reports/opossum/opossum43_sm.jpg"
         },
         {
-          "id": "opossum-38",
-          "label": "Opossum 38",
+          "id": "opossum-37",
+          "label": "Opossum 37",
           "thumbnail": "/animal-reports/opossum/opossum44_sm.jpg",
           "image": "/animal-reports/opossum/opossum44_sm.jpg"
         },
         {
-          "id": "opossum-39",
-          "label": "Opossum 39",
+          "id": "opossum-38",
+          "label": "Opossum 38",
           "thumbnail": "/animal-reports/opossum/opossum45_sm.jpg",
           "image": "/animal-reports/opossum/opossum45_sm.jpg"
         },
         {
-          "id": "opossum-40",
-          "label": "Opossum 40",
+          "id": "opossum-11",
+          "label": "Opossum 11",
           "thumbnail": "/animal-reports/opossum/opossum4_sm.jpg",
           "image": "/animal-reports/opossum/opossum4_sm.jpg"
         },
         {
-          "id": "opossum-41",
-          "label": "Opossum 41",
+          "id": "opossum-12",
+          "label": "Opossum 12",
           "thumbnail": "/animal-reports/opossum/opossum5_sm.jpg",
           "image": "/animal-reports/opossum/opossum5_sm.jpg"
         },
         {
-          "id": "opossum-42",
-          "label": "Opossum 42",
+          "id": "opossum-13",
+          "label": "Opossum 13",
           "thumbnail": "/animal-reports/opossum/opossum6_sm.jpg",
           "image": "/animal-reports/opossum/opossum6_sm.jpg"
         },
         {
-          "id": "opossum-43",
-          "label": "Opossum 43",
+          "id": "opossum-14",
+          "label": "Opossum 14",
           "thumbnail": "/animal-reports/opossum/opossum7_sm.jpg",
           "image": "/animal-reports/opossum/opossum7_sm.jpg"
         },
         {
-          "id": "opossum-44",
-          "label": "Opossum 44",
+          "id": "opossum-15",
+          "label": "Opossum 15",
           "thumbnail": "/animal-reports/opossum/opossum8_sm.jpg",
           "image": "/animal-reports/opossum/opossum8_sm.jpg"
         },
         {
-          "id": "opossum-45",
-          "label": "Opossum 45",
+          "id": "opossum-16",
+          "label": "Opossum 16",
           "thumbnail": "/animal-reports/opossum/opossum9_sm.jpg",
           "image": "/animal-reports/opossum/opossum9_sm.jpg"
         },
         {
-          "id": "opossum-46",
-          "label": "Opossum 46",
+          "id": "opossum",
+          "label": "Opossum",
           "thumbnail": "/animal-reports/opossum/opossum_sm.jpg",
           "image": "/animal-reports/opossum/opossum_sm.jpg"
         }
@@ -1917,74 +2178,74 @@
       "name": "Other Animal",
       "reports": [
         {
-          "id": "other-animal-1",
-          "label": "Other Animal 1",
+          "id": "beaver",
+          "label": "Beaver",
           "thumbnail": "/animal-reports/other-animal/beaver_sm.jpg",
           "image": "/animal-reports/other-animal/beaver_sm.jpg"
         },
         {
-          "id": "other-animal-2",
-          "label": "Other Animal 2",
+          "id": "brown-toad",
+          "label": "Brown Toad",
           "thumbnail": "/animal-reports/other-animal/browntoad_sm.jpg",
           "image": "/animal-reports/other-animal/browntoad_sm.jpg"
         },
         {
-          "id": "other-animal-3",
-          "label": "Other Animal 3",
+          "id": "bush-baby",
+          "label": "Bush Baby",
           "thumbnail": "/animal-reports/other-animal/bushbaby1_sm.jpg",
           "image": "/animal-reports/other-animal/bushbaby1_sm.jpg"
         },
         {
-          "id": "other-animal-4",
-          "label": "Other Animal 4",
+          "id": "bush-baby-1",
+          "label": "Bush Baby 1",
           "thumbnail": "/animal-reports/other-animal/bushbaby_sm.jpg",
           "image": "/animal-reports/other-animal/bushbaby_sm.jpg"
         },
         {
-          "id": "other-animal-5",
-          "label": "Other Animal 5",
+          "id": "coatimundi",
+          "label": "Coatimundi",
           "thumbnail": "/animal-reports/other-animal/coatimundi_sm.jpg",
           "image": "/animal-reports/other-animal/coatimundi_sm.jpg"
         },
         {
-          "id": "other-animal-6",
-          "label": "Other Animal 6",
+          "id": "deer-1",
+          "label": "Deer 1",
           "thumbnail": "/animal-reports/other-animal/deer1_sm.jpg",
           "image": "/animal-reports/other-animal/deer1_sm.jpg"
         },
         {
-          "id": "other-animal-7",
-          "label": "Other Animal 7",
+          "id": "deer-2",
+          "label": "Deer 2",
           "thumbnail": "/animal-reports/other-animal/deer2_sm.jpg",
           "image": "/animal-reports/other-animal/deer2_sm.jpg"
         },
         {
-          "id": "other-animal-8",
-          "label": "Other Animal 8",
+          "id": "deer-3",
+          "label": "Deer 3",
           "thumbnail": "/animal-reports/other-animal/deer3_sm.jpg",
           "image": "/animal-reports/other-animal/deer3_sm.jpg"
         },
         {
-          "id": "other-animal-9",
-          "label": "Other Animal 9",
+          "id": "deer-4",
+          "label": "Deer 4",
           "thumbnail": "/animal-reports/other-animal/deer4_sm.jpg",
           "image": "/animal-reports/other-animal/deer4_sm.jpg"
         },
         {
-          "id": "other-animal-10",
-          "label": "Other Animal 10",
+          "id": "deer",
+          "label": "Deer",
           "thumbnail": "/animal-reports/other-animal/deer_sm.jpg",
           "image": "/animal-reports/other-animal/deer_sm.jpg"
         },
         {
-          "id": "other-animal-11",
-          "label": "Other Animal 11",
+          "id": "goat",
+          "label": "Goat",
           "thumbnail": "/animal-reports/other-animal/goat_sm.jpg",
           "image": "/animal-reports/other-animal/goat_sm.jpg"
         },
         {
-          "id": "other-animal-12",
-          "label": "Other Animal 12",
+          "id": "green-tree-frog",
+          "label": "Green Tree Frog",
           "thumbnail": "/animal-reports/other-animal/greentreefrog_sm.jpg",
           "image": "/animal-reports/other-animal/greentreefrog_sm.jpg"
         },
@@ -2007,56 +2268,56 @@
           "image": "/animal-reports/other-animal/img20101215_17271360_sm.jpg"
         },
         {
-          "id": "other-animal-16",
-          "label": "Other Animal 16",
+          "id": "monkey",
+          "label": "Monkey",
           "thumbnail": "/animal-reports/other-animal/monkey_sm.jpg",
           "image": "/animal-reports/other-animal/monkey_sm.jpg"
         },
         {
-          "id": "other-animal-17",
-          "label": "Other Animal 17",
+          "id": "mule-deer",
+          "label": "Mule Deer",
           "thumbnail": "/animal-reports/other-animal/muledeer_sm.jpg",
           "image": "/animal-reports/other-animal/muledeer_sm.jpg"
         },
         {
-          "id": "other-animal-18",
-          "label": "Other Animal 18",
+          "id": "porcupine",
+          "label": "Porcupine",
           "thumbnail": "/animal-reports/other-animal/porcupine_sm.jpg",
           "image": "/animal-reports/other-animal/porcupine_sm.jpg"
         },
         {
-          "id": "other-animal-19",
-          "label": "Other Animal 19",
+          "id": "rabbit-1",
+          "label": "Rabbit 1",
           "thumbnail": "/animal-reports/other-animal/rabbit1_sm.jpg",
           "image": "/animal-reports/other-animal/rabbit1_sm.jpg"
         },
         {
-          "id": "other-animal-20",
-          "label": "Other Animal 20",
+          "id": "rabbit-2",
+          "label": "Rabbit 2",
           "thumbnail": "/animal-reports/other-animal/rabbit2_sm.jpg",
           "image": "/animal-reports/other-animal/rabbit2_sm.jpg"
         },
         {
-          "id": "other-animal-21",
-          "label": "Other Animal 21",
+          "id": "rabbit-3",
+          "label": "Rabbit 3",
           "thumbnail": "/animal-reports/other-animal/rabbit3_sm.jpg",
           "image": "/animal-reports/other-animal/rabbit3_sm.jpg"
         },
         {
-          "id": "other-animal-22",
-          "label": "Other Animal 22",
+          "id": "rabbit-4",
+          "label": "Rabbit 4",
           "thumbnail": "/animal-reports/other-animal/rabbit4_sm.jpg",
           "image": "/animal-reports/other-animal/rabbit4_sm.jpg"
         },
         {
-          "id": "other-animal-23",
-          "label": "Other Animal 23",
+          "id": "rabbit",
+          "label": "Rabbit",
           "thumbnail": "/animal-reports/other-animal/rabbit_sm.jpg",
           "image": "/animal-reports/other-animal/rabbit_sm.jpg"
         },
         {
-          "id": "other-animal-24",
-          "label": "Other Animal 24",
+          "id": "sea-otter",
+          "label": "Sea Otter",
           "thumbnail": "/animal-reports/other-animal/seaotter_sm.jpg",
           "image": "/animal-reports/other-animal/seaotter_sm.jpg"
         },
@@ -2067,62 +2328,62 @@
           "image": "/animal-reports/other-animal/snails.jpg"
         },
         {
-          "id": "other-animal-26",
-          "label": "Other Animal 26",
+          "id": "squirrel-1",
+          "label": "Squirrel 1",
           "thumbnail": "/animal-reports/other-animal/squirrel1_sm.jpg",
           "image": "/animal-reports/other-animal/squirrel1_sm.jpg"
         },
         {
-          "id": "other-animal-27",
-          "label": "Other Animal 27",
+          "id": "squirrel-2",
+          "label": "Squirrel 2",
           "thumbnail": "/animal-reports/other-animal/squirrel2_sm.jpg",
           "image": "/animal-reports/other-animal/squirrel2_sm.jpg"
         },
         {
-          "id": "other-animal-28",
-          "label": "Other Animal 28",
+          "id": "squirrel-3",
+          "label": "Squirrel 3",
           "thumbnail": "/animal-reports/other-animal/squirrel3_sm.jpg",
           "image": "/animal-reports/other-animal/squirrel3_sm.jpg"
         },
         {
-          "id": "other-animal-29",
-          "label": "Other Animal 29",
+          "id": "squirrel",
+          "label": "Squirrel",
           "thumbnail": "/animal-reports/other-animal/squirrel_sm.jpg",
           "image": "/animal-reports/other-animal/squirrel_sm.jpg"
         },
         {
-          "id": "other-animal-30",
-          "label": "Other Animal 30",
+          "id": "turtle",
+          "label": "Turtle",
           "thumbnail": "/animal-reports/other-animal/turtle1_sm.jpg",
           "image": "/animal-reports/other-animal/turtle1_sm.jpg"
         },
         {
-          "id": "other-animal-31",
-          "label": "Other Animal 31",
+          "id": "turtle-1",
+          "label": "Turtle 1",
           "thumbnail": "/animal-reports/other-animal/turtle_sm.jpg",
           "image": "/animal-reports/other-animal/turtle_sm.jpg"
         },
         {
-          "id": "other-animal-32",
-          "label": "Other Animal 32",
+          "id": "wild-boar-1",
+          "label": "Wild Boar 1",
           "thumbnail": "/animal-reports/other-animal/wildboar1_sm.jpg",
           "image": "/animal-reports/other-animal/wildboar1_sm.jpg"
         },
         {
-          "id": "other-animal-33",
-          "label": "Other Animal 33",
+          "id": "wild-boar",
+          "label": "Wild Boar",
           "thumbnail": "/animal-reports/other-animal/wildboar_sm.jpg",
           "image": "/animal-reports/other-animal/wildboar_sm.jpg"
         },
         {
-          "id": "other-animal-34",
-          "label": "Other Animal 34",
+          "id": "wild-women",
+          "label": "Wild Women",
           "thumbnail": "/animal-reports/other-animal/wildwomen_sm.jpg",
           "image": "/animal-reports/other-animal/wildwomen_sm.jpg"
         },
         {
-          "id": "other-animal-35",
-          "label": "Other Animal 35",
+          "id": "yak",
+          "label": "Yak",
           "thumbnail": "/animal-reports/other-animal/yak_sm.jpg",
           "image": "/animal-reports/other-animal/yak_sm.jpg"
         }
@@ -2133,38 +2394,38 @@
       "name": "Other Birds",
       "reports": [
         {
-          "id": "other-birds-1",
-          "label": "Other Birds 1",
+          "id": "cockatiel",
+          "label": "Cockatiel",
           "thumbnail": "/animal-reports/other-birds/cockatiel_sm.jpg",
           "image": "/animal-reports/other-birds/cockatiel_sm.jpg"
         },
         {
-          "id": "other-birds-2",
-          "label": "Other Birds 2",
+          "id": "elephant",
+          "label": "Elephant",
           "thumbnail": "/animal-reports/other-birds/elephant_sm.jpg",
           "image": "/animal-reports/other-birds/elephant_sm.jpg"
         },
         {
-          "id": "other-birds-3",
-          "label": "Other Birds 3",
+          "id": "fighting-cocks",
+          "label": "Fighting Cocks",
           "thumbnail": "/animal-reports/other-birds/fightingcocks_sm.jpg",
           "image": "/animal-reports/other-birds/fightingcocks_sm.jpg"
         },
         {
-          "id": "other-birds-4",
-          "label": "Other Birds 4",
+          "id": "seagull",
+          "label": "Seagull",
           "thumbnail": "/animal-reports/other-birds/seagull1_sm.jpg",
           "image": "/animal-reports/other-birds/seagull1_sm.jpg"
         },
         {
-          "id": "other-birds-5",
-          "label": "Other Birds 5",
+          "id": "seagull-1",
+          "label": "Seagull 1",
           "thumbnail": "/animal-reports/other-birds/seagull_sm.jpg",
           "image": "/animal-reports/other-birds/seagull_sm.jpg"
         },
         {
-          "id": "other-birds-6",
-          "label": "Other Birds 6",
+          "id": "starling-killdeer",
+          "label": "Starling/Killdeer",
           "thumbnail": "/animal-reports/other-birds/starling_killdeer_sm.jpg",
           "image": "/animal-reports/other-birds/starling_killdeer_sm.jpg"
         }
@@ -2175,374 +2436,374 @@
       "name": "Raccoon",
       "reports": [
         {
-          "id": "raccoon-1",
-          "label": "Raccoon 1",
+          "id": "raccoon-17",
+          "label": "Raccoon 17",
           "thumbnail": "/animal-reports/raccoon/raccoon10_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon10_sm.jpg"
         },
         {
-          "id": "raccoon-2",
-          "label": "Raccoon 2",
+          "id": "raccoon-18",
+          "label": "Raccoon 18",
           "thumbnail": "/animal-reports/raccoon/raccoon11_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon11_sm.jpg"
         },
         {
-          "id": "raccoon-3",
-          "label": "Raccoon 3",
+          "id": "raccoon-19",
+          "label": "Raccoon 19",
           "thumbnail": "/animal-reports/raccoon/raccoon12_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon12_sm.jpg"
         },
         {
-          "id": "raccoon-4",
-          "label": "Raccoon 4",
+          "id": "raccoon-20",
+          "label": "Raccoon 20",
           "thumbnail": "/animal-reports/raccoon/raccoon13_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon13_sm.jpg"
         },
         {
-          "id": "raccoon-5",
-          "label": "Raccoon 5",
+          "id": "raccoon-21",
+          "label": "Raccoon 21",
           "thumbnail": "/animal-reports/raccoon/raccoon14_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon14_sm.jpg"
         },
         {
-          "id": "raccoon-6",
-          "label": "Raccoon 6",
+          "id": "raccoon-22",
+          "label": "Raccoon 22",
           "thumbnail": "/animal-reports/raccoon/raccoon15_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon15_sm.jpg"
         },
         {
-          "id": "raccoon-7",
-          "label": "Raccoon 7",
+          "id": "raccoon-23",
+          "label": "Raccoon 23",
           "thumbnail": "/animal-reports/raccoon/raccoon16_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon16_sm.jpg"
         },
         {
-          "id": "raccoon-8",
-          "label": "Raccoon 8",
+          "id": "raccoon-24",
+          "label": "Raccoon 24",
           "thumbnail": "/animal-reports/raccoon/raccoon17_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon17_sm.jpg"
         },
         {
-          "id": "raccoon-9",
-          "label": "Raccoon 9",
+          "id": "raccoon-25",
+          "label": "Raccoon 25",
           "thumbnail": "/animal-reports/raccoon/raccoon18_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon18_sm.jpg"
         },
         {
-          "id": "raccoon-10",
-          "label": "Raccoon 10",
+          "id": "raccoon-26",
+          "label": "Raccoon 26",
           "thumbnail": "/animal-reports/raccoon/raccoon19_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon19_sm.jpg"
         },
         {
-          "id": "raccoon-11",
-          "label": "Raccoon 11",
+          "id": "raccoon-8",
+          "label": "Raccoon 8",
           "thumbnail": "/animal-reports/raccoon/raccoon1_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon1_sm.jpg"
         },
         {
-          "id": "raccoon-12",
-          "label": "Raccoon 12",
+          "id": "raccoon-27",
+          "label": "Raccoon 27",
           "thumbnail": "/animal-reports/raccoon/raccoon20_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon20_sm.jpg"
         },
         {
-          "id": "raccoon-13",
-          "label": "Raccoon 13",
+          "id": "raccoon-28",
+          "label": "Raccoon 28",
           "thumbnail": "/animal-reports/raccoon/raccoon21_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon21_sm.jpg"
         },
         {
-          "id": "raccoon-14",
-          "label": "Raccoon 14",
+          "id": "raccoon-29",
+          "label": "Raccoon 29",
           "thumbnail": "/animal-reports/raccoon/raccoon22_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon22_sm.jpg"
         },
         {
-          "id": "raccoon-15",
-          "label": "Raccoon 15",
+          "id": "raccoon-30",
+          "label": "Raccoon 30",
           "thumbnail": "/animal-reports/raccoon/raccoon23_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon23_sm.jpg"
         },
         {
-          "id": "raccoon-16",
-          "label": "Raccoon 16",
+          "id": "raccoon-31",
+          "label": "Raccoon 31",
           "thumbnail": "/animal-reports/raccoon/raccoon24_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon24_sm.jpg"
         },
         {
-          "id": "raccoon-17",
-          "label": "Raccoon 17",
+          "id": "raccoon-32",
+          "label": "Raccoon 32",
           "thumbnail": "/animal-reports/raccoon/raccoon25_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon25_sm.jpg"
         },
         {
-          "id": "raccoon-18",
-          "label": "Raccoon 18",
+          "id": "raccoon-33",
+          "label": "Raccoon 33",
           "thumbnail": "/animal-reports/raccoon/raccoon26_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon26_sm.jpg"
         },
         {
-          "id": "raccoon-19",
-          "label": "Raccoon 19",
+          "id": "raccoon-34",
+          "label": "Raccoon 34",
           "thumbnail": "/animal-reports/raccoon/raccoon27_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon27_sm.jpg"
         },
         {
-          "id": "raccoon-20",
-          "label": "Raccoon 20",
+          "id": "raccoon-35",
+          "label": "Raccoon 35",
           "thumbnail": "/animal-reports/raccoon/raccoon28_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon28_sm.jpg"
         },
         {
-          "id": "raccoon-21",
-          "label": "Raccoon 21",
+          "id": "raccoon-40",
+          "label": "Raccoon 40",
           "thumbnail": "/animal-reports/raccoon/raccoon29_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon29_sm.jpg"
         },
         {
-          "id": "raccoon-22",
-          "label": "Raccoon 22",
+          "id": "raccoon-9",
+          "label": "Raccoon 9",
           "thumbnail": "/animal-reports/raccoon/raccoon2_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon2_sm.jpg"
         },
         {
-          "id": "raccoon-23",
-          "label": "Raccoon 23",
+          "id": "raccoon-41",
+          "label": "Raccoon 41",
           "thumbnail": "/animal-reports/raccoon/raccoon30_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon30_sm.jpg"
         },
         {
-          "id": "raccoon-24",
-          "label": "Raccoon 24",
+          "id": "raccoon-42",
+          "label": "Raccoon 42",
           "thumbnail": "/animal-reports/raccoon/raccoon31_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon31_sm.jpg"
         },
         {
-          "id": "raccoon-25",
-          "label": "Raccoon 25",
+          "id": "raccoon-43",
+          "label": "Raccoon 43",
           "thumbnail": "/animal-reports/raccoon/raccoon32_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon32_sm.jpg"
         },
         {
-          "id": "raccoon-26",
-          "label": "Raccoon 26",
+          "id": "raccoon-44",
+          "label": "Raccoon 44",
           "thumbnail": "/animal-reports/raccoon/raccoon33_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon33_sm.jpg"
         },
         {
-          "id": "raccoon-27",
-          "label": "Raccoon 27",
+          "id": "raccoon-45",
+          "label": "Raccoon 45",
           "thumbnail": "/animal-reports/raccoon/raccoon34_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon34_sm.jpg"
         },
         {
-          "id": "raccoon-28",
-          "label": "Raccoon 28",
+          "id": "raccoon-46",
+          "label": "Raccoon 46",
           "thumbnail": "/animal-reports/raccoon/raccoon35_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon35_sm.jpg"
         },
         {
-          "id": "raccoon-29",
-          "label": "Raccoon 29",
+          "id": "raccoon-1",
+          "label": "Raccoon 1",
           "thumbnail": "/animal-reports/raccoon/raccoon36_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon36_sm.jpg"
         },
         {
-          "id": "raccoon-30",
-          "label": "Raccoon 30",
+          "id": "raccoon-2",
+          "label": "Raccoon 2",
           "thumbnail": "/animal-reports/raccoon/raccoon37_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon37_sm.jpg"
         },
         {
-          "id": "raccoon-31",
-          "label": "Raccoon 31",
+          "id": "raccoon-3",
+          "label": "Raccoon 3",
           "thumbnail": "/animal-reports/raccoon/raccoon38_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon38_sm.jpg"
         },
         {
-          "id": "raccoon-32",
-          "label": "Raccoon 32",
+          "id": "raccoon-4",
+          "label": "Raccoon 4",
           "thumbnail": "/animal-reports/raccoon/raccoon39_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon39_sm.jpg"
         },
         {
-          "id": "raccoon-33",
-          "label": "Raccoon 33",
+          "id": "raccoon-10",
+          "label": "Raccoon 10",
           "thumbnail": "/animal-reports/raccoon/raccoon3_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon3_sm.jpg"
         },
         {
-          "id": "raccoon-34",
-          "label": "Raccoon 34",
+          "id": "raccoon-5",
+          "label": "Raccoon 5",
           "thumbnail": "/animal-reports/raccoon/raccoon40_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon40_sm.jpg"
         },
         {
-          "id": "raccoon-35",
-          "label": "Raccoon 35",
+          "id": "raccoon-6",
+          "label": "Raccoon 6",
           "thumbnail": "/animal-reports/raccoon/raccoon41_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon41_sm.jpg"
         },
         {
-          "id": "raccoon-36",
-          "label": "Raccoon 36",
+          "id": "raccoon-7",
+          "label": "Raccoon 7",
           "thumbnail": "/animal-reports/raccoon/raccoon42_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon42_sm.jpg"
         },
         {
-          "id": "raccoon-37",
-          "label": "Raccoon 37",
+          "id": "raccoon-47",
+          "label": "Raccoon 47",
           "thumbnail": "/animal-reports/raccoon/raccoon43_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon43_sm.jpg"
         },
         {
-          "id": "raccoon-38",
-          "label": "Raccoon 38",
+          "id": "raccoon-48",
+          "label": "Raccoon 48",
           "thumbnail": "/animal-reports/raccoon/raccoon44_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon44_sm.jpg"
         },
         {
-          "id": "raccoon-39",
-          "label": "Raccoon 39",
+          "id": "raccoon-49",
+          "label": "Raccoon 49",
           "thumbnail": "/animal-reports/raccoon/raccoon45_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon45_sm.jpg"
         },
         {
-          "id": "raccoon-40",
-          "label": "Raccoon 40",
+          "id": "raccoon-50",
+          "label": "Raccoon 50",
           "thumbnail": "/animal-reports/raccoon/raccoon46_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon46_sm.jpg"
         },
         {
-          "id": "raccoon-41",
-          "label": "Raccoon 41",
+          "id": "raccoon-51",
+          "label": "Raccoon 51",
           "thumbnail": "/animal-reports/raccoon/raccoon47_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon47_sm.jpg"
         },
         {
-          "id": "raccoon-42",
-          "label": "Raccoon 42",
+          "id": "raccoon-52",
+          "label": "Raccoon 52",
           "thumbnail": "/animal-reports/raccoon/raccoon48_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon48_sm.jpg"
         },
         {
-          "id": "raccoon-43",
-          "label": "Raccoon 43",
+          "id": "raccoon-53",
+          "label": "Raccoon 53",
           "thumbnail": "/animal-reports/raccoon/raccoon49_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon49_sm.jpg"
         },
         {
-          "id": "raccoon-44",
-          "label": "Raccoon 44",
+          "id": "raccoon-11",
+          "label": "Raccoon 11",
           "thumbnail": "/animal-reports/raccoon/raccoon4_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon4_sm.jpg"
         },
         {
-          "id": "raccoon-45",
-          "label": "Raccoon 45",
+          "id": "raccoon-54",
+          "label": "Raccoon 54",
           "thumbnail": "/animal-reports/raccoon/raccoon50_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon50_sm.jpg"
         },
         {
-          "id": "raccoon-46",
-          "label": "Raccoon 46",
+          "id": "raccoon-55",
+          "label": "Raccoon 55",
           "thumbnail": "/animal-reports/raccoon/raccoon51_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon51_sm.jpg"
         },
         {
-          "id": "raccoon-47",
-          "label": "Raccoon 47",
+          "id": "raccoon-56",
+          "label": "Raccoon 56",
           "thumbnail": "/animal-reports/raccoon/raccoon52_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon52_sm.jpg"
         },
         {
-          "id": "raccoon-48",
-          "label": "Raccoon 48",
+          "id": "raccoon-57",
+          "label": "Raccoon 57",
           "thumbnail": "/animal-reports/raccoon/raccoon53_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon53_sm.jpg"
         },
         {
-          "id": "raccoon-49",
-          "label": "Raccoon 49",
+          "id": "raccoon-58",
+          "label": "Raccoon 58",
           "thumbnail": "/animal-reports/raccoon/raccoon54_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon54_sm.jpg"
         },
         {
-          "id": "raccoon-50",
-          "label": "Raccoon 50",
+          "id": "raccoon-59",
+          "label": "Raccoon 59",
           "thumbnail": "/animal-reports/raccoon/raccoon55_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon55_sm.jpg"
         },
         {
-          "id": "raccoon-51",
-          "label": "Raccoon 51",
+          "id": "raccoon-60",
+          "label": "Raccoon 60",
           "thumbnail": "/animal-reports/raccoon/raccoon56_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon56_sm.jpg"
         },
         {
-          "id": "raccoon-52",
-          "label": "Raccoon 52",
+          "id": "raccoon-61",
+          "label": "Raccoon 61",
           "thumbnail": "/animal-reports/raccoon/raccoon57_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon57_sm.jpg"
         },
         {
-          "id": "raccoon-53",
-          "label": "Raccoon 53",
+          "id": "raccoon-36",
+          "label": "Raccoon 36",
           "thumbnail": "/animal-reports/raccoon/raccoon58_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon58_sm.jpg"
         },
         {
-          "id": "raccoon-54",
-          "label": "Raccoon 54",
+          "id": "raccoon-37",
+          "label": "Raccoon 37",
           "thumbnail": "/animal-reports/raccoon/raccoon59_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon59_sm.jpg"
         },
         {
-          "id": "raccoon-55",
-          "label": "Raccoon 55",
+          "id": "raccoon-12",
+          "label": "Raccoon 12",
           "thumbnail": "/animal-reports/raccoon/raccoon5_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon5_sm.jpg"
         },
         {
-          "id": "raccoon-56",
-          "label": "Raccoon 56",
+          "id": "raccoon-38",
+          "label": "Raccoon 38",
           "thumbnail": "/animal-reports/raccoon/raccoon60_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon60_sm.jpg"
         },
         {
-          "id": "raccoon-57",
-          "label": "Raccoon 57",
+          "id": "raccoon-39",
+          "label": "Raccoon 39",
           "thumbnail": "/animal-reports/raccoon/raccoon61_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon61_sm.jpg"
         },
         {
-          "id": "raccoon-58",
-          "label": "Raccoon 58",
+          "id": "raccoon-13",
+          "label": "Raccoon 13",
           "thumbnail": "/animal-reports/raccoon/raccoon6_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon6_sm.jpg"
         },
         {
-          "id": "raccoon-59",
-          "label": "Raccoon 59",
+          "id": "raccoon-14",
+          "label": "Raccoon 14",
           "thumbnail": "/animal-reports/raccoon/raccoon7_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon7_sm.jpg"
         },
         {
-          "id": "raccoon-60",
-          "label": "Raccoon 60",
+          "id": "raccoon-15",
+          "label": "Raccoon 15",
           "thumbnail": "/animal-reports/raccoon/raccoon8_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon8_sm.jpg"
         },
         {
-          "id": "raccoon-61",
-          "label": "Raccoon 61",
+          "id": "raccoon-16",
+          "label": "Raccoon 16",
           "thumbnail": "/animal-reports/raccoon/raccoon9_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon9_sm.jpg"
         },
         {
-          "id": "raccoon-62",
-          "label": "Raccoon 62",
+          "id": "raccoon",
+          "label": "Raccoon",
           "thumbnail": "/animal-reports/raccoon/raccoon_sm.jpg",
           "image": "/animal-reports/raccoon/raccoon_sm.jpg"
         }
@@ -2553,20 +2814,20 @@
       "name": "Rat / Mouse",
       "reports": [
         {
-          "id": "rat-mouse-1",
-          "label": "Rat / Mouse 1",
+          "id": "mouse-1",
+          "label": "Mouse 1",
           "thumbnail": "/animal-reports/rat-mouse/mouse1_sm.jpg",
           "image": "/animal-reports/rat-mouse/mouse1_sm.jpg"
         },
         {
-          "id": "rat-mouse-2",
-          "label": "Rat / Mouse 2",
+          "id": "mouse-2",
+          "label": "Mouse 2",
           "thumbnail": "/animal-reports/rat-mouse/mouse2_sm.jpg",
           "image": "/animal-reports/rat-mouse/mouse2_sm.jpg"
         },
         {
-          "id": "rat-mouse-3",
-          "label": "Rat / Mouse 3",
+          "id": "mouse",
+          "label": "Mouse",
           "thumbnail": "/animal-reports/rat-mouse/mouse_sm.jpg",
           "image": "/animal-reports/rat-mouse/mouse_sm.jpg"
         },
@@ -2589,62 +2850,62 @@
           "image": "/animal-reports/rat-mouse/rat11_sm.jpg"
         },
         {
-          "id": "rat-mouse-7",
-          "label": "Rat / Mouse 7",
+          "id": "rat-1",
+          "label": "Rat 1",
           "thumbnail": "/animal-reports/rat-mouse/rat1_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat1_sm.jpg"
         },
         {
-          "id": "rat-mouse-8",
-          "label": "Rat / Mouse 8",
+          "id": "rat-2",
+          "label": "Rat 2",
           "thumbnail": "/animal-reports/rat-mouse/rat2_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat2_sm.jpg"
         },
         {
-          "id": "rat-mouse-9",
-          "label": "Rat / Mouse 9",
+          "id": "rat-3",
+          "label": "Rat 3",
           "thumbnail": "/animal-reports/rat-mouse/rat3_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat3_sm.jpg"
         },
         {
-          "id": "rat-mouse-10",
-          "label": "Rat / Mouse 10",
+          "id": "rat-4",
+          "label": "Rat 4",
           "thumbnail": "/animal-reports/rat-mouse/rat4_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat4_sm.jpg"
         },
         {
-          "id": "rat-mouse-11",
-          "label": "Rat / Mouse 11",
+          "id": "rat-5",
+          "label": "Rat 5",
           "thumbnail": "/animal-reports/rat-mouse/rat5_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat5_sm.jpg"
         },
         {
-          "id": "rat-mouse-12",
-          "label": "Rat / Mouse 12",
+          "id": "rat-6",
+          "label": "Rat 6",
           "thumbnail": "/animal-reports/rat-mouse/rat6_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat6_sm.jpg"
         },
         {
-          "id": "rat-mouse-13",
-          "label": "Rat / Mouse 13",
+          "id": "rat-7",
+          "label": "Rat 7",
           "thumbnail": "/animal-reports/rat-mouse/rat7_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat7_sm.jpg"
         },
         {
-          "id": "rat-mouse-14",
-          "label": "Rat / Mouse 14",
+          "id": "rat-8",
+          "label": "Rat 8",
           "thumbnail": "/animal-reports/rat-mouse/rat8_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat8_sm.jpg"
         },
         {
-          "id": "rat-mouse-15",
-          "label": "Rat / Mouse 15",
+          "id": "rat-9",
+          "label": "Rat 9",
           "thumbnail": "/animal-reports/rat-mouse/rat9_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat9_sm.jpg"
         },
         {
-          "id": "rat-mouse-16",
-          "label": "Rat / Mouse 16",
+          "id": "rat",
+          "label": "Rat",
           "thumbnail": "/animal-reports/rat-mouse/rat_sm.jpg",
           "image": "/animal-reports/rat-mouse/rat_sm.jpg"
         }
@@ -2655,98 +2916,98 @@
       "name": "Skunk",
       "reports": [
         {
-          "id": "skunk-1",
-          "label": "Skunk 1",
+          "id": "skunk-10",
+          "label": "Skunk 10",
           "thumbnail": "/animal-reports/skunk/skunk10_sm.jpg",
           "image": "/animal-reports/skunk/skunk10_sm.jpg"
         },
         {
-          "id": "skunk-2",
-          "label": "Skunk 2",
+          "id": "skunk-11",
+          "label": "Skunk 11",
           "thumbnail": "/animal-reports/skunk/skunk11_sm.jpg",
           "image": "/animal-reports/skunk/skunk11_sm.jpg"
         },
         {
-          "id": "skunk-3",
-          "label": "Skunk 3",
+          "id": "skunk-12",
+          "label": "Skunk 12",
           "thumbnail": "/animal-reports/skunk/skunk12_sm.jpg",
           "image": "/animal-reports/skunk/skunk12_sm.jpg"
         },
         {
-          "id": "skunk-4",
-          "label": "Skunk 4",
+          "id": "skunk-13",
+          "label": "Skunk 13",
           "thumbnail": "/animal-reports/skunk/skunk13_sm.jpg",
           "image": "/animal-reports/skunk/skunk13_sm.jpg"
         },
         {
-          "id": "skunk-5",
-          "label": "Skunk 5",
+          "id": "skunk-14",
+          "label": "Skunk 14",
           "thumbnail": "/animal-reports/skunk/skunk14_sm.jpg",
           "image": "/animal-reports/skunk/skunk14_sm.jpg"
         },
         {
-          "id": "skunk-6",
-          "label": "Skunk 6",
+          "id": "skunk-15",
+          "label": "Skunk 15",
           "thumbnail": "/animal-reports/skunk/skunk15_sm.jpg",
           "image": "/animal-reports/skunk/skunk15_sm.jpg"
         },
         {
-          "id": "skunk-7",
-          "label": "Skunk 7",
+          "id": "skunk-1",
+          "label": "Skunk 1",
           "thumbnail": "/animal-reports/skunk/skunk1_sm.jpg",
           "image": "/animal-reports/skunk/skunk1_sm.jpg"
         },
         {
-          "id": "skunk-8",
-          "label": "Skunk 8",
+          "id": "skunk-2",
+          "label": "Skunk 2",
           "thumbnail": "/animal-reports/skunk/skunk2_sm.jpg",
           "image": "/animal-reports/skunk/skunk2_sm.jpg"
         },
         {
-          "id": "skunk-9",
-          "label": "Skunk 9",
+          "id": "skunk-3",
+          "label": "Skunk 3",
           "thumbnail": "/animal-reports/skunk/skunk3_sm.jpg",
           "image": "/animal-reports/skunk/skunk3_sm.jpg"
         },
         {
-          "id": "skunk-10",
-          "label": "Skunk 10",
+          "id": "skunk-4",
+          "label": "Skunk 4",
           "thumbnail": "/animal-reports/skunk/skunk4_sm.jpg",
           "image": "/animal-reports/skunk/skunk4_sm.jpg"
         },
         {
-          "id": "skunk-11",
-          "label": "Skunk 11",
+          "id": "skunk-5",
+          "label": "Skunk 5",
           "thumbnail": "/animal-reports/skunk/skunk5_sm.jpg",
           "image": "/animal-reports/skunk/skunk5_sm.jpg"
         },
         {
-          "id": "skunk-12",
-          "label": "Skunk 12",
+          "id": "skunk-6",
+          "label": "Skunk 6",
           "thumbnail": "/animal-reports/skunk/skunk6_sm.jpg",
           "image": "/animal-reports/skunk/skunk6_sm.jpg"
         },
         {
-          "id": "skunk-13",
-          "label": "Skunk 13",
+          "id": "skunk-7",
+          "label": "Skunk 7",
           "thumbnail": "/animal-reports/skunk/skunk7_sm.jpg",
           "image": "/animal-reports/skunk/skunk7_sm.jpg"
         },
         {
-          "id": "skunk-14",
-          "label": "Skunk 14",
+          "id": "skunk-8",
+          "label": "Skunk 8",
           "thumbnail": "/animal-reports/skunk/skunk8_sm.jpg",
           "image": "/animal-reports/skunk/skunk8_sm.jpg"
         },
         {
-          "id": "skunk-15",
-          "label": "Skunk 15",
+          "id": "skunk-9",
+          "label": "Skunk 9",
           "thumbnail": "/animal-reports/skunk/skunk9_sm.jpg",
           "image": "/animal-reports/skunk/skunk9_sm.jpg"
         },
         {
-          "id": "skunk-16",
-          "label": "Skunk 16",
+          "id": "skunk",
+          "label": "Skunk",
           "thumbnail": "/animal-reports/skunk/skunk_sm.jpg",
           "image": "/animal-reports/skunk/skunk_sm.jpg"
         }
