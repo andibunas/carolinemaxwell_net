@@ -2,33 +2,33 @@ Name: Fish / Aquatic
 
 ## Reports
 
-### Fish / Aquatic 1
+### Dolphin, Seal
 Image: dolphin_seals_sm.jpg
 
-### Fish / Aquatic 2
+### Eel 1
 Image: eel1_sm.jpg
 
-### Fish / Aquatic 3
+### Eel
 Image: eel_sm.jpg
 
-### Fish / Aquatic 4
+### Fish
 Image: fish_sm.jpg
 
-### Fish / Aquatic 5
+### Grunion 1
 Image: grunion1_sm.jpg
 
-### Fish / Aquatic 6
+### Grunion 2
 Image: grunion2_sm.jpg
 
-### Fish / Aquatic 7
+### Grunion 3
 Image: grunion3_sm.jpg
 
-### Fish / Aquatic 8
+### Grunion 4
 Image: grunion4_sm.jpg
 
-### Fish / Aquatic 9
+### Grunion 5
 Image: grunion5_sm.jpg
 
-### Fish / Aquatic 10
+### Grunion
 Image: grunion_sm.jpg
 

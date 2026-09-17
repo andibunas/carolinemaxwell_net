@@ -12,8 +12,8 @@ For the MaidenLA Art Event, the D.N.A. opened a field office at Row DTLA, Los An
 ### The D.N.A. Office table at Row DTLA
 Image: dna-table-above.jpg
 
-### Nocturnal Animal Studies: Coyote, Raccoon
+### Nocturnal Animal Studies on display: Coyote, Raccoon
 Image: coyote-raccoon-shadow-framed.jpg
 
-### Nocturnal Animal Studies: Porcupine, Possum
+### Nocturnal Animal Studies on display: Porcupine, Possum
 Image: porcupine-possum.jpg

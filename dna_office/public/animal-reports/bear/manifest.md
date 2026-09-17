@@ -21,7 +21,7 @@ Image: bear5_sm.jpg
 ### Bear 6
 Image: bear6_sm.jpg
 
-### Bear 7
+### Bear
 Image: bear_sm.jpg
 
 ### Bear 8

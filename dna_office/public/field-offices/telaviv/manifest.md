@@ -9,5 +9,7 @@ For the Nisuy Kelim Festival, the D.N.A. opened a field office in a downtown Tel
 
 ## Images
 
-### The D.N.A. Office at the Nisuy Kelim Festival
+### Tal Yizrael interviews a visitor
 Image: nisuykelim.jpg
+
+Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival.

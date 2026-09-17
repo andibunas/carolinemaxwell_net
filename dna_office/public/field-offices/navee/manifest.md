@@ -6,7 +6,7 @@ Thumbnail: navee_typewriter.jpg
 ## Write Up
 
 For the Manofim Contemporary Arts Festival, the D.N.A. opened a field office at the historic Templer House, as
-part of the exhibit *Navee Navee* (*Prophet Prophet*). The show explores the concept of prophecy as such:
+part of the exhibit *Navee Navee* or *Prophet Prophet*. The show explores the concept of prophecy as such:
 
 *In ancient times, the prophets were the ones who protested moral corruption and warned against catastrophes.
 They were prepared to pay a heavy personal price and forgo being popular when their prophecies were dire. In

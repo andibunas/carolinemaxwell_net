@@ -14,5 +14,5 @@ allow visitors to file reports of nocturnal animal sightings. July 30 – August
 ### The D.N.A. Office at Project 210 Gallery
 Image: DNA210.jpg
 
-### Wall display: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints
+### Wall, left to right: Saltmoons, DNA Night Sky Color Studies, DNA Light Pollution Spectrum Oil Paints
 Image: DNA210a.jpg
