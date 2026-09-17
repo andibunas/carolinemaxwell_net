@@ -21,9 +21,12 @@ and our memories. Words from Asch's writing, in the form of personal letters, bo
 around the house, speaking to visitors about the elusive line between day and night, and the materiality of
 shadows and darkness.
 
-The residency also includes *The Storyteller* (2020), a video work by Tal Yizrael.
-
 ## Images
+
+### The Storyteller
+Video: the-storyteller.mp4
+
+by Tal Yizrael (2020)
 
 ### Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed
 Image: dna-eyes-closed.jpg

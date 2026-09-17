@@ -16,7 +16,9 @@ hear.*
 
 For this exhibit, the D.N.A. created a special animal reporting form that enquires about the prophetic
 qualities of people's animal encounters, thus opening up an awareness of animals as agents of memory and
-resistance. October, 2014.
+resistance.
+
+October, 2014.
 
 ## Images
 

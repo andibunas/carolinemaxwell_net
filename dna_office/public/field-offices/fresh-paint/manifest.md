@@ -21,10 +21,12 @@ The D.N.A. Office takes reports from a group of students on opening day.
 ### Identifying animal sightings on our maps
 Image: map1.jpg
 
+Identifying animal sightings on our maps.
+
 ### A previously unknown pattern
 Image: map3.jpg
 
-A previously unknown pattern of jackal sightings peaked the interest of a local park warden.
+A previously unknown pattern of Jackal sightings peaked the interest of a local park warden.
 
 ### Visiting rural schools
 Image: school-project.jpg

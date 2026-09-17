@@ -3,6 +3,12 @@ Order: 2
 
 ## Reports
 
+### Owl
+Image: owl_sm.jpg
+
+### Owl 1
+Image: owl9_sm.jpg
+
 ### Owl 2
 Image: owl10_sm.jpg
 
@@ -44,10 +50,4 @@ Image: owl7_sm.jpg
 
 ### Owl 15
 Image: owl8_sm.jpg
-
-### Owl 1
-Image: owl9_sm.jpg
-
-### Owl
-Image: owl_sm.jpg
 

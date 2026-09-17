@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useQueryNav } from '../../hooks/useQueryNav';
 import { getFieldOffice } from '../../data/manifest';
 import MarkdownContent from '../../components/about/MarkdownContent';
+import InlineMarkdown from '../../components/about/InlineMarkdown';
 import ImageLightbox from '../../components/about/ImageLightbox';
 
 export default function FieldOfficeDetailPage() {
@@ -38,14 +39,23 @@ export default function FieldOfficeDetailPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {office.images.map((img, i) => (
           <figure key={i}>
-            <button
-              type="button"
-              onClick={() => setLightboxIndex(i)}
-              className="block w-full bg-panel overflow-hidden cursor-zoom-in"
-            >
-              <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />
-            </button>
-            {img.caption && <figcaption className="mt-2 text-ink-faint text-xs italic">{img.caption}</figcaption>}
+            {img.video ? (
+              <video src={img.video} controls className="block w-full bg-panel" />
+            ) : (
+              <button
+                type="button"
+                onClick={() => setLightboxIndex(i)}
+                className="block w-full bg-panel overflow-hidden cursor-zoom-in"
+              >
+                <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />
+              </button>
+            )}
+            {img.caption && (
+              <InlineMarkdown as="figcaption" source={img.caption} className="mt-2 text-ink-faint text-xs italic" />
+            )}
+            {img.body && (
+              <InlineMarkdown as="p" source={img.body} className="mt-1 text-ink-faint text-xs leading-relaxed" />
+            )}
           </figure>
         ))}
       </div>

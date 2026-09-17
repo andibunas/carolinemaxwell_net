@@ -3,6 +3,9 @@ Order: 3
 
 ## Reports
 
+### Bear
+Image: bear_sm.jpg
+
 ### Bear 1
 Image: bear1_sm.jpg
 
@@ -20,9 +23,6 @@ Image: bear5_sm.jpg
 
 ### Bear 6
 Image: bear6_sm.jpg
-
-### Bear
-Image: bear_sm.jpg
 
 ### Bear 8
 Image: grizzly.jpg

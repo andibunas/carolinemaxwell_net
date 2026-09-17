@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useQueryNav } from '../../hooks/useQueryNav';
 import { getGalleryProject } from '../../data/manifest';
 import MarkdownContent from '../../components/about/MarkdownContent';
+import InlineMarkdown from '../../components/about/InlineMarkdown';
 import ImageLightbox from '../../components/about/ImageLightbox';
 
 export default function GalleryProjectPage() {
@@ -43,7 +44,9 @@ export default function GalleryProjectPage() {
               {(art.medium || art.size) && (
                 <p className="text-ink-faint text-xs mt-0.5">{[art.medium, art.size].filter(Boolean).join(', ')}</p>
               )}
-              {art.write_up && <p className="text-ink-soft text-xs mt-2 leading-relaxed">{art.write_up}</p>}
+              {art.write_up && (
+                <InlineMarkdown as="p" source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
+              )}
             </figcaption>
           </figure>
         ))}

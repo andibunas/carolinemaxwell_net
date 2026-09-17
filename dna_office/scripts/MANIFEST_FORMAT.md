@@ -67,9 +67,18 @@ Description of this office shown on its own page.
 ### The D.N.A. Office on St. James Street
 Image: office.JPG
 
-### 300 pairs of glowing animal eyes
-Image: dnaeyes.jpg
+300 pairs of glowing animal eyes greet visitors as they enter St. James Street.
+
+### The Storyteller
+Video: the-storyteller.mp4
+
+by Tal Yizrael (2020)
 ```
+
+Any free-text after `Image:`/`Video:` is that entry's caption sub-text, shown
+under the title on the office page. An entry needs at least one of
+`Image:`/`Video:`; a `Video:` entry renders a `<video controls>` instead of a
+photo (and doesn't need an `Image:` too — no separate poster frame support).
 
 `Transcript:`, if present, is the title shown on the "Read the transcript"
 link and on the transcript's own page; its body comes from a sibling
