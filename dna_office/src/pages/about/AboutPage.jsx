@@ -1,3 +1,54 @@
+const EVENTS = [
+  { year: '2008', name: 'GLOW Festival', place: 'Santa Monica, California' },
+  { year: '2008', name: 'Pasadena Art Night (October)', place: 'Pasadena, California' },
+  {
+    year: '2009',
+    name: 'In Love With Night (curated by Ciara Ennis and Max King Cap)',
+    place: 'Guggenheim Gallery, Chapman University',
+  },
+  { year: '2009', name: 'D.N.A.', place: 'Project 210 Gallery, Pasadena, California' },
+  { year: '2011', name: 'Jerusalem Festival of Light and Art', place: 'Jerusalem, Israel' },
+  { year: '2011', name: 'Nisuy Kelim Festival', place: 'Tel Aviv, Israel' },
+  { year: '2012', name: 'The End of Wild', place: 'Modified Arts, Phoenix, AZ, USA' },
+  {
+    year: '2014',
+    name: 'Navee Navee - Prophet Prophet',
+    place: 'Manofim Contemporary Arts Festival, Jerusalem, Israel',
+  },
+  { year: '2015', name: 'Wandering Event (curated by Nina Schwartz)', place: 'Hansen House, Jerusalem, Israel' },
+  { year: '2016', name: "The Art Cube Artist's Studio", place: 'Tel Aviv, Israel' },
+  {
+    year: '2017',
+    name: 'Fresh Paint Art Fair, Special Project',
+    place: 'Zoological Museum, University of Tel Aviv, Israel',
+  },
+  { year: '2018', name: 'MaidenLA Festival', place: 'Row DTLA, Los Angeles' },
+  {
+    year: '2020',
+    name: "Resident Artists, Sholem Asch House Museum",
+    place: 'Bat Yam, Israel',
+  },
+];
+
+const PRESS = [
+  {
+    title: 'Santa Monica Glows All Night',
+    outlet: 'Santa Monica Mirror (Vol. 10, Issue 7)',
+    date: 'July 24-30, 2008',
+  },
+  {
+    title: 'Artists document city-animal encounters',
+    outlet: 'KPCC, by Adolfo Guzman-Lopez',
+    date: 'Aug. 23, 2008',
+  },
+  { title: 'In Love With Night', outlet: 'O.C. Art Blog', date: 'September 9, 2009' },
+  {
+    title: 'Jerusalem Festival of Light Brings Eco-Art to the Holy City',
+    outlet: 'greenprophet.com',
+    date: 'June 20, 2011',
+  },
+];
+
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-2xl px-6 sm:px-8 py-12">
@@ -20,6 +71,29 @@ export default function AboutPage() {
           Graduate University. She has exhibited her work in Israel, Los Angeles, and Taiwan, and lives and works in
           Tel Aviv.
         </p>
+      </div>
+
+      <div className="mt-12">
+        <h2 className="font-display text-lg mb-4 text-ink">The D.N.A. has participated in the following events</h2>
+        <ul className="text-ink-soft text-sm space-y-2">
+          {EVENTS.map((e, i) => (
+            <li key={i}>
+              <span className="text-ink-faint">{e.year}</span>{' '}
+              <strong className="text-ink">{e.name}</strong> - {e.place}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="mt-12">
+        <h2 className="font-display text-lg mb-4 text-ink">Press</h2>
+        <ul className="text-ink-soft text-sm space-y-3">
+          {PRESS.map((p, i) => (
+            <li key={i}>
+              <em>{p.title}</em>, <strong className="text-ink">{p.outlet}</strong>, {p.date}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
