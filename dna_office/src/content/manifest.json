@@ -565,44 +565,37 @@
     },
     {
       "id": "fresh-paint",
-      "name": "Fresh Paint",
-      "location": "Fresh Paint Art Fair, Special Projects — Zoological Museum, University of Tel Aviv, 2017",
-      "write_up": "For the Fresh Paint Art Fair, Special Projects, the D.N.A. opened a field office at the Zoological Museum,\nUniversity of Tel Aviv, Israel. March, 2017.",
+      "name": "Fresh Paint Art Fair, Special Projects",
+      "location": "Zoological Museum, University of Tel Aviv, 2017",
+      "write_up": "March, 2017.",
       "images": [
         {
-          "src": "/field-offices/fresh-paint/fresh-paint-office.jpg",
-          "alt": "The D.N.A. Office at Fresh Paint",
-          "caption": "The D.N.A. Office at Fresh Paint"
+          "src": "/field-offices/fresh-paint/fresh-paint-office.jpg"
         },
         {
           "src": "/field-offices/fresh-paint/students-report.jpg",
-          "alt": "Taking reports on opening day",
-          "caption": "Taking reports on opening day",
-          "body": "The D.N.A. Office takes reports from a group of students on opening day."
+          "alt": "The D.N.A. Office takes reports from a group of students on opening day.",
+          "caption": "The D.N.A. Office takes reports from a group of students on opening day."
         },
         {
           "src": "/field-offices/fresh-paint/map1.jpg",
           "alt": "Identifying animal sightings on our maps",
-          "caption": "Identifying animal sightings on our maps",
-          "body": "Identifying animal sightings on our maps."
+          "caption": "Identifying animal sightings on our maps"
         },
         {
           "src": "/field-offices/fresh-paint/map3.jpg",
-          "alt": "A previously unknown pattern",
-          "caption": "A previously unknown pattern",
-          "body": "A previously unknown pattern of Jackal sightings peaked the interest of a local park warden."
+          "alt": "A previously unknown pattern of Jackal sightings peaked the interest of a local park warden.",
+          "caption": "A previously unknown pattern of Jackal sightings peaked the interest of a local park warden."
         },
         {
           "src": "/field-offices/fresh-paint/school-project.jpg",
-          "alt": "Visiting rural schools",
-          "caption": "Visiting rural schools",
-          "body": "The D.N.A. visiting rural schools to create nocturnal artworks on the walls of the school bomb shelter."
+          "alt": "The D.N.A. visiting rural schools to create nocturnal artworks on the walls of the school bomb shelter.",
+          "caption": "The D.N.A. visiting rural schools to create nocturnal artworks on the walls of the school bomb shelter."
         },
         {
           "src": "/field-offices/fresh-paint/office-is-closed-sign.jpg",
-          "alt": "The office is closed",
-          "caption": "The office is closed",
-          "body": "The D.N.A. Office is closed."
+          "alt": "The D.N.A. Office is closed.",
+          "caption": "The D.N.A. Office is closed."
         }
       ],
       "transcript": null,
