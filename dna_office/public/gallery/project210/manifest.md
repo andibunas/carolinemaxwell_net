@@ -33,9 +33,9 @@ Image: DNA020b.jpg
 Image: DNA210c.jpg
 
 Hand-crafted, each of these hues is mixed to match the color of the night sky in different Los Angeles
-neighborhoods./n/n
+neighborhoods.
 
-Currently available hues are:
+Currently available hues are:  
 **Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park, Huntington Park, Atwater Village, Pasadena,
 Altadena, South Pasadena, Alhambra, Hollywood**
 

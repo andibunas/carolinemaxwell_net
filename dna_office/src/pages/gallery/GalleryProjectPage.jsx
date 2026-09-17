@@ -41,11 +41,15 @@ export default function GalleryProjectPage() {
             </button>
             <figcaption className="mt-3 text-sm">
               <p className="italic text-ink">{art.title}</p>
-              {(art.medium || art.size) && (
-                <p className="text-ink-faint text-xs mt-0.5">{[art.medium, art.size].filter(Boolean).join(', ')}</p>
+              {(art.medium) && (
+                <p className="text-ink-faint text-xs mt-0.5">{art.medium}</p>
+              )}
+              {(art.size) && (
+                <p className="text-ink-faint text-xs mt-0.5">{art.size}</p>
               )}
               {art.write_up && (
-                <InlineMarkdown as="p" source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
+                // <InlineMarkdown as="p" source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
+                <MarkdownContent source={art.write_up} className="text-ink-soft text-xs mt-2 leading-relaxed" />
               )}
             </figcaption>
           </figure>
