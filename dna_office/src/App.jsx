@@ -10,7 +10,6 @@ import FieldOfficeDetailPage from './pages/field-offices/FieldOfficeDetailPage';
 import TranscriptPage from './pages/field-offices/TranscriptPage';
 import AnimalReportsPage from './pages/animal-reports/AnimalReportsPage';
 import AboutPage from './pages/about/AboutPage';
-import ContactPage from './pages/about/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 function renderSection(section, params) {
@@ -30,9 +29,6 @@ function renderSection(section, params) {
 
     case 'about':
       return <AboutPage />;
-
-    case 'contact':
-      return <ContactPage />;
 
     default:
       return <NotFoundPage />;

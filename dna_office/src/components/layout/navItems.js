@@ -4,5 +4,4 @@ export const navItems = [
   { label: 'Animal Reports', section: 'animal-reports' },
   { label: 'Art Gallery', section: 'gallery' },
   { label: 'About', section: 'about' },
-  { label: 'Contact', section: 'contact' },
 ];
