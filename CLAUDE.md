@@ -7,6 +7,10 @@ Do not spawn child sessions.  Ask first to do that
 
 
 # Memory
+## Storage location
+Save the memmory localy in a .claude/memmory/ folder in the project instead of the global space.
+
+## When
 Make a judgement call and retain in a very consise manner info from each prompt and response for future use.
 Write one line in the response that you added notes to the memmory.
 
@@ -15,7 +19,7 @@ Write one line in the response that you added notes to the memmory.
 Whenever I tell you that you misunderstood something, made a mistake, or got
 something wrong, do the following before continuing:
 1. Write a short note describing what was misunderstood and the correct
-   version, to `~/.claude/projects/<project>/memory/feedback.md` (create the
+   version, to `.claude/memory/feedback.md` (create the
    file if it doesn't exist, append if it does).
 2. Keep entries terse: one line for what went wrong, one line for the
    correct approach, dated.
