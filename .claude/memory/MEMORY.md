@@ -1,0 +1,1 @@
+- [dna_office project basics](project_dna_office.md) — stack, manifest content pipeline, query-string routing
