@@ -7,6 +7,7 @@ const items = [
   { label: 'Galleries', view: 'galleries' },
   { label: 'Reviews', view: 'reviews' },
   { label: 'Likes', view: 'likes' },
+  { label: 'Contact', view: 'contact' },
 ];
 
 export default function AboutSubNav({ view }) {

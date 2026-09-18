@@ -6,6 +6,7 @@ import AboutPressPage from './AboutPressPage';
 import AboutGalleriesPage from './AboutGalleriesPage';
 import AboutReviewsPage from './AboutReviewsPage';
 import AboutLikesPage from './AboutLikesPage';
+import AboutContactPage from './AboutContactPage';
 
 const VIEWS = {
   bio: AboutBioPage,
@@ -14,6 +15,7 @@ const VIEWS = {
   galleries: AboutGalleriesPage,
   reviews: AboutReviewsPage,
   likes: AboutLikesPage,
+  contact: AboutContactPage,
 };
 
 export default function AboutLayout() {
