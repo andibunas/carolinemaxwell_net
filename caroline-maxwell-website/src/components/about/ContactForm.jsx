@@ -36,7 +36,7 @@ export default function ContactForm() {
         </label>
         <button
           type="submit"
-          className="self-start mt-2 px-5 py-2 border border-gold text-gold text-sm hover:bg-gold hover:text-paper transition-colors"
+          className="self-start mt-2 px-5 py-2 border border-gold text-gold-text text-sm hover:bg-gold hover:text-paper transition-colors"
         >
           Send message
         </button>

@@ -14,7 +14,7 @@ export default function ContactPage() {
       {/* <Breadcrumb trail={[{ label: 'About', to: '/about' }]} current="Contact" /> */}
       <p className="mt-6 text-ink-soft text-sm">
         For studio visits, commissions, or press inquiries, write directly to{' '}
-        <a href={`mailto:${EMAIL}`} className="text-gold border-b border-gold/40 hover:border-gold transition-colors">
+        <a href={`mailto:${EMAIL}`} className="text-gold-text border-b border-gold/40 hover:border-gold transition-colors">
           {EMAIL}
         </a>
         .
