@@ -21,7 +21,7 @@ export default function FeaturedLayout({ project, basePath }) {
             <img
               src={featuredThumbnail.src}
               alt={featuredThumbnail.alt}
-              className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-700 group-hover:scale-[1.015]"
+              className="w-full h-auto transition-transform duration-700 group-hover:scale-[1.015]"
             />
           </div>
           <div className="mt-4 flex items-baseline justify-between gap-4">

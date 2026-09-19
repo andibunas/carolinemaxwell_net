@@ -19,7 +19,7 @@ export default function LatestWork() {
                   <img
                     src={thumbnail.src}
                     alt={thumbnail.alt}
-                    className="w-full h-auto aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
               )}
