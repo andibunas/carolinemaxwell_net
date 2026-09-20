@@ -32,7 +32,7 @@ export default function FieldOfficeDetailPage() {
           {...linkTo({ section: 'field-offices', office: office.id, view: 'transcript' })}
           className="inline-block mb-10 text-sm italic underline decoration-glow text-ink hover:text-glow"
         >
-          Read the transcript &raquo;
+          Read the transcript &raquo; {office.transcript.title}
         </a>
       )}
 
