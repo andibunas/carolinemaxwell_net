@@ -4,15 +4,20 @@ Thumbnail: sm-asch-house-objects.jpg
 
 ## Synopsis
 
-Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at
-Sholem Asch House Museum, 2020.
+Artworks created for a residency at the Sholem Asch House Museum, 2020.
 
 ## Write Up
 
-Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at
-Sholem Asch House Museum, 2020.
+The D.N.A. were artists in residence at the Sholem Asch House Museum in 2020. Artworks created by Tal Yizrael and Caroline Maxwell
 
 ## Artworks
+
+### Asch House: Dawn
+Medium: Photograph
+Image: dawn.jpg
+
+### The Storyteller
+Video: the-storyteller.mp4
 
 ### Nocturnal Details of Asch House: Objects
 Medium: oil on paper
@@ -43,10 +48,6 @@ Image: sm-asch-house-fireplace.jpg
 Medium: oil on paper
 Size: 6" x 9"
 Image: sm-asch-house-books.jpg
-
-### Asch House: Dawn
-Medium: Photograph
-Image: dawn.jpg
 
 ### Portrait Gallery: Badger
 Medium: oil on paper
