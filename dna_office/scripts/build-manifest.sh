@@ -121,6 +121,7 @@ parse_leaf_entries() {
   ' "$section_file"
 
   local n=1 efile title medium size image video write_up slug
+  local slugs_seen=" "
   while [ -f "$edir/_title_$n.txt" ]; do
     title="$(cat "$edir/_title_$n.txt")"
     efile="$edir/_entry_$n.md"
@@ -152,7 +153,17 @@ parse_leaf_entries() {
       continue
     fi
 
-    slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
+    local base_slug; base_slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
+    slug="$base_slug"
+    if printf '%s' "$slugs_seen" | grep -q " ${slug} "; then
+      local suffix=2
+      while printf '%s' "$slugs_seen" | grep -q " ${base_slug}-${suffix} "; do
+        suffix=$((suffix + 1))
+      done
+      echo "warning: $dir/manifest.md has duplicate entry id '$slug' (title '$title'); disambiguating as '${base_slug}-${suffix}'" >&2
+      slug="${base_slug}-${suffix}"
+    fi
+    slugs_seen="${slugs_seen}${slug} "
     local img_src="" video_src=""
     [ -n "$image" ] && img_src="/$rel/$image"
     [ -n "$video" ] && video_src="/$rel/$video"
