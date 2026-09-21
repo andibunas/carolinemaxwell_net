@@ -2,203 +2,1055 @@
   "artworks": {
     "projects": [
       {
-        "id": "Artwork04_06",
+        "id": "engelmann",
         "type": "project",
-        "name": "Artworks (2004-2006)",
+        "name": "Engelmann",
         "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "A selection of work from 2004 through 2006, spanning oil and charcoal paintings on canvas alongside more experimental pieces made with tar, salt water, and dandelion seeds.",
-        "synopsis": "Early paintings and installations from 2004 to 2006, including the Twins and Small Series groups.",
-        "thumbnail": "/artworks/Artwork04_06/caroline_insight.jpg",
+        "date": "2019-01-01",
+        "write_up": "Engelmann Oaks and the California Black Walnut are two of the most endangered native trees in California. For this series, I took pinhole camera photos of Engelmann Oaks, and with ink created from California Black Walnuts, I created drawings on top of the pinhole camera prints.",
+        "synopsis": "Pinhole camera photographs of endangered Engelmann Oaks, drawn over in ink made from California Black Walnuts.",
+        "thumbnail": "/artworks/engelmann/Engelmann1.jpg",
         "children": [
           {
-            "id": "the-inexplicable-remainder-of-an-insight",
+            "id": "engelmann1",
             "type": "artwork",
-            "title": "The Inexplicable Remainder of an Insight",
-            "medium": "Oil, tar, and evaporated salt water on panel",
-            "size": "13 x 13 in",
-            "date": "2005",
+            "title": "Engelmann1",
+            "medium": "Gelatin silver print, walnut ink",
+            "size": "8 x 8 in",
+            "date": "2019",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/caroline_insight.jpg",
-                "alt": "The Inexplicable Remainder of an Insight",
+                "src": "/artworks/engelmann/Engelmann1.jpg",
+                "alt": "Engelmann1",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "jackal",
+            "id": "engelmann2",
             "type": "artwork",
-            "title": "Jackal",
-            "medium": "Oil on canvas",
-            "size": "48 x 60 in",
-            "date": "2006",
+            "title": "Engelmann2",
+            "medium": "Gelatin silver print, walnut ink",
+            "size": "8 x 8 in",
+            "date": "2019",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/jackal_1.jpg",
-                "alt": "Jackal",
+                "src": "/artworks/engelmann/Engelmann2.jpg",
+                "alt": "Engelmann2",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "jackal-detail",
+            "id": "engelmann5",
             "type": "artwork",
-            "title": "Jackal (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
+            "title": "Engelmann5",
+            "medium": "Gelatin silver print, walnut ink, oil paint",
+            "size": "6 x 6 in",
+            "date": "2019",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/jakal_detail.jpg",
-                "alt": "Jackal (detail)",
+                "src": "/artworks/engelmann/Engelmann5.jpg",
+                "alt": "Engelmann5",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "twins-1",
+            "id": "three-layers",
             "type": "artwork",
-            "title": "Twins 1",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 44 in",
-            "date": "2004",
+            "title": "Three Layers",
+            "medium": "Gelatin silver print, walnut ink",
+            "size": "4 x 6 in",
+            "date": "2019",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/twins1.jpg",
-                "alt": "Twins 1",
+                "src": "/artworks/engelmann/three_layers.jpg",
+                "alt": "Three Layers",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "twins-1-detail",
+            "id": "engelmann-blackframe-2",
             "type": "artwork",
-            "title": "Twins 1 (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins1detail.jpg",
-                "alt": "Twins 1 (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-2",
-            "type": "artwork",
-            "title": "Twins 2",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 48 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins2.jpg",
-                "alt": "Twins 2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-4",
-            "type": "artwork",
-            "title": "Twins 4",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 60 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/twins4_sm.jpg",
-                "alt": "Twins 4",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "the-small-series",
-            "type": "artwork",
-            "title": "The Small Series",
-            "medium": "",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Artwork04_06/littleseries.jpg",
-                "alt": "The Small Series",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "small-painting-1",
-            "type": "artwork",
-            "title": "Small Painting #1",
-            "medium": "Oil on canvas",
+            "title": "Engelmann (blackframe) 2",
+            "medium": "Gelatin silver print, walnut ink",
             "size": "8 x 10 in",
-            "date": "2004",
+            "date": "2019",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/littlepainting1-.jpg",
-                "alt": "Small Painting #1",
+                "src": "/artworks/engelmann/Engelmann_blackframe2.jpg",
+                "alt": "Engelmann (blackframe) 2",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "small-painting-2",
+            "id": "engelmann-blackframe-2-detail",
             "type": "artwork",
-            "title": "Small Painting #2",
+            "title": "Engelmann (blackframe) 2 Detail",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/engelmann/Engelmann_blackframe2det.jpg",
+                "alt": "Engelmann (blackframe) 2 Detail",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "engelmann-blackframe-1",
+            "type": "artwork",
+            "title": "Engelmann (blackframe) 1",
+            "medium": "Gelatin silver print, walnut ink",
+            "size": "8 x 10 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/engelmann/Engelmann_blackframe1.jpg",
+                "alt": "Engelmann (blackframe) 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "engelmann-in-the-darkroom",
+            "type": "artwork",
+            "title": "Engelmann - In the Darkroom",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/engelmann/darkroom.JPG",
+                "alt": "Engelmann - In the Darkroom",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "homemade-ink-california-black-walnut",
+            "type": "artwork",
+            "title": "Homemade Ink - California Black Walnut",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/engelmann/walnut_ink.jpg",
+                "alt": "Homemade Ink - California Black Walnut",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stilllives",
+        "type": "project",
+        "name": "Still Lives",
+        "layout_type": "grid",
+        "date": "2021-01-06",
+        "write_up": "Items confiscated from protesters by the Portland Police Department, July 2020; Pipe Bomb discovered by DC Metropolitan Police, January 6, 2021.\n\nFrom photos of objects (posted on Twitter by Portland and DC PD). Paintings to contemplate... the fragility of objects, of bodies, of democracies.",
+        "synopsis": "Paintings to contemplate... the fragility of objects, of bodies, of democracies.",
+        "thumbnail": "/artworks/stilllives/stilllives.jpg",
+        "children": [
+          {
+            "id": "still-lives-items-confiscated-by-portland-police-july-2020-1",
+            "type": "artwork",
+            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #1",
             "medium": "Oil on panel",
-            "size": "8 x 10 in",
-            "date": "2004",
+            "size": "9 x 12 in",
+            "date": "2020",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/littlepainting2.jpg",
-                "alt": "Small Painting #2",
+                "src": "/artworks/stilllives/stilllives.jpg",
+                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #1",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "reindeer",
+            "id": "still-lives-items-confiscated-by-portland-police-july-2020-2",
             "type": "artwork",
-            "title": "Reindeer",
-            "medium": "Dandelion seeds and fixative spray on wall",
-            "size": "approximately 4 x 6 ft",
-            "date": "2005",
+            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #2",
+            "medium": "Oil on panel",
+            "size": "9 x 12 in",
+            "date": "2020",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/reindeer.jpg",
-                "alt": "Reindeer",
+                "src": "/artworks/stilllives/stilllives1.jpg",
+                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #2",
                 "is_primary": true
               }
             ]
           },
           {
-            "id": "reindeer-detail",
+            "id": "still-lives-items-confiscated-by-portland-police-july-2020-4",
             "type": "artwork",
-            "title": "Reindeer (detail)",
+            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #4",
+            "medium": "Oil on panel",
+            "size": "9 x 12 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/stilllives/stilllives3.jpg",
+                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #4",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "still-lives-items-confiscated-by-portland-police-july-2020-5",
+            "type": "artwork",
+            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #5",
+            "medium": "Oil on panel",
+            "size": "9 x 12 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/stilllives/stilllives4.jpg",
+                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #5",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "still-lives-items-confiscated-by-portland-police-july-2020-6",
+            "type": "artwork",
+            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #6",
+            "medium": "Oil on panel",
+            "size": "9 x 12 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/stilllives/stilllives5.jpg",
+                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #6",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "still-lives-pipe-bomb-confiscated-by-dc-metro-police-january-6-2021",
+            "type": "artwork",
+            "title": "Still Lives: Pipe Bomb Confiscated by DC Metro Police, January 6, 2021",
+            "medium": "Oil on panel",
+            "size": "6 x 8 in",
+            "date": "2021",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/stilllives/pipebomb.jpg",
+                "alt": "Still Lives: Pipe Bomb Confiscated by DC Metro Police, January 6, 2021",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "silentcities",
+        "type": "project",
+        "name": "The Most Silent of Great Cities",
+        "layout_type": "grid",
+        "date": "2020-01-01",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/silentcities/SilentCities.jpg",
+        "children": [
+          {
+            "id": "the-most-silent-of-great-cities",
+            "type": "artwork",
+            "title": "The Most Silent of Great Cities",
+            "medium": "Mixed Media",
+            "size": "4 x 6 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/SilentCities.jpg",
+                "alt": "The Most Silent of Great Cities",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silent-cities-city-of-earth",
+            "type": "artwork",
+            "title": "Silent Cities: City of Earth",
+            "medium": "Charcoal on paper",
+            "size": "18 x 24 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/city of earth_sm.jpg",
+                "alt": "Silent Cities: City of Earth",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silent-cities-city-of-water",
+            "type": "artwork",
+            "title": "Silent Cities: City of Water",
+            "medium": "Charcoal and oil on paper",
+            "size": "18 x 24 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/city of water_sm.jpg",
+                "alt": "Silent Cities: City of Water",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silent-cities-soul-of-a-monument",
+            "type": "artwork",
+            "title": "Silent Cities: Soul of a Monument",
+            "medium": "Oil on paper",
+            "size": "18 x 24 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/soul of a monument.jpeg",
+                "alt": "Silent Cities: Soul of a Monument",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silent-cities-flood",
+            "type": "artwork",
+            "title": "Silent Cities: Flood",
+            "medium": "Ink on paper",
+            "size": "9 x 12 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/silentcities_flood_sm.jpg",
+                "alt": "Silent Cities: Flood",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silent-cities-entombed",
+            "type": "artwork",
+            "title": "Silent Cities: Entombed",
+            "medium": "Charcoal on paper",
+            "size": "18 x 24 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/silentcities_entombed.jpg",
+                "alt": "Silent Cities: Entombed",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "silence-suspended",
+            "type": "artwork",
+            "title": "Silence/Suspended",
+            "medium": "Oil on canvas",
+            "size": "18 x 18 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/Silence_suspended.jpg",
+                "alt": "Silence/Suspended",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "suspended",
+            "type": "artwork",
+            "title": "Suspended",
+            "medium": "Oil on canvas",
+            "size": "18 x 18 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/silentcities/Suspended.jpg",
+                "alt": "Suspended",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "all-the-great-museums",
+            "type": "artwork",
+            "title": "All the Great Museums",
+            "medium": "Oil on canvas",
+            "size": "18 x 22 in",
+            "date": "2020",
+            "write_up": "Hermitage Museum, stripped bare; setting mines in the streets of Florence.",
+            "images": [
+              {
+                "src": "/artworks/silentcities/AllTheGreatMuseums.jpg",
+                "alt": "All the Great Museums",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "measures",
+        "type": "project",
+        "name": "Measures of Our Nature: Killing, Playing",
+        "layout_type": "grid",
+        "date": "2020-01-01",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/measures/dogs_of_actaeon.jpg",
+        "children": [
+          {
+            "id": "the-dogs-of-actaeon",
+            "type": "artwork",
+            "title": "The Dogs of Actaeon",
+            "medium": "Ink and mixed media on paper",
+            "size": "18 x 24 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/dogs_of_actaeon.jpg",
+                "alt": "The Dogs of Actaeon",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measures-of-our-nature-killing",
+            "type": "artwork",
+            "title": "Measures of Our Nature: Killing",
+            "medium": "Ink and mixed media on paper",
+            "size": "18 x 22 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/Measures of our nature_killing.jpg",
+                "alt": "Measures of Our Nature: Killing",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measures-of-our-nature-killing-detail",
+            "type": "artwork",
+            "title": "Measures of Our Nature: Killing (detail)",
             "medium": "",
             "size": "",
-            "date": "2005",
+            "date": "",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Artwork04_06/reindeer1.jpg",
-                "alt": "Reindeer (detail)",
+                "src": "/artworks/measures/Measures of our nature_killing_det.jpg",
+                "alt": "Measures of Our Nature: Killing (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measures-of-our-nature-playing",
+            "type": "artwork",
+            "title": "Measures of Our Nature: Playing",
+            "medium": "Ink and mixed media on paper",
+            "size": "18 x 22 in",
+            "date": "2019",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/Measures_of_our_nature_playing.jpg",
+                "alt": "Measures of Our Nature: Playing",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measures-of-our-nature-playing-detail",
+            "type": "artwork",
+            "title": "Measures of Our Nature: Playing (detail)",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/Measures_of_our_nature_playing_det.jpg",
+                "alt": "Measures of Our Nature: Playing (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "dogs-of-war-1",
+            "type": "artwork",
+            "title": "Dogs of War 1",
+            "medium": "Oil paint on gessoed paper",
+            "size": "9 x 12 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/dogs_of_war1.jpg",
+                "alt": "Dogs of War 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "dogs-of-war-3",
+            "type": "artwork",
+            "title": "Dogs of War 3",
+            "medium": "Oil paint on gessoed paper",
+            "size": "10 x 14 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/dogs_of_war3.jpg",
+                "alt": "Dogs of War 3",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measures-of-our-nature-the-hunt",
+            "type": "artwork",
+            "title": "Measures of Our Nature: The Hunt",
+            "medium": "Oil paint on gessoed paper",
+            "size": "16 x 14 in",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/measures/Measures_of_our_nature_the hunt.jpg",
+                "alt": "Measures of Our Nature: The Hunt",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trees",
+        "type": "project",
+        "name": "Trees to Keep Time",
+        "layout_type": "grid",
+        "date": "2017-01-01",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/trees/tree6.jpg",
+        "children": [
+          {
+            "id": "fig",
+            "type": "artwork",
+            "title": "Fig",
+            "medium": "Ink on gessoed paper",
+            "size": "18 x 15 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree1.jpg",
+                "alt": "Fig",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "dark-oak",
+            "type": "artwork",
+            "title": "Dark Oak",
+            "medium": "Ink on paper",
+            "size": "14 x 20 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree2.jpg",
+                "alt": "Dark Oak",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "heavy-fig",
+            "type": "artwork",
+            "title": "Heavy Fig",
+            "medium": "Ink on paper",
+            "size": "17 x 13 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree3.jpg",
+                "alt": "Heavy Fig",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "olive",
+            "type": "artwork",
+            "title": "Olive",
+            "medium": "Ink on paper",
+            "size": "14 x 20 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree4.jpg",
+                "alt": "Olive",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "wild-grass",
+            "type": "artwork",
+            "title": "Wild Grass",
+            "medium": "Ink on paper",
+            "size": "14 x 20 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree5.jpg",
+                "alt": "Wild Grass",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "light-oak",
+            "type": "artwork",
+            "title": "Light Oak",
+            "medium": "Oil paint on gessoed paper",
+            "size": "16 x 14 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree7.jpg",
+                "alt": "Light Oak",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "oleander",
+            "type": "artwork",
+            "title": "Oleander",
+            "medium": "Oil paint on gessoed paper",
+            "size": "19 x 14 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree6.jpg",
+                "alt": "Oleander",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "ambar",
+            "type": "artwork",
+            "title": "Ambar",
+            "medium": "Ink on paper",
+            "size": "13 x 9.5 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/ambarbranch.jpg",
+                "alt": "Ambar",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "windforms",
+            "type": "artwork",
+            "title": "Windforms",
+            "medium": "Ink and charcoal on paper",
+            "size": "14 x 20 in",
+            "date": "2017",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/trees/tree8.jpg",
+                "alt": "Windforms",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SecretMountains",
+        "type": "project",
+        "name": "Secret Maps for Secret Mountains",
+        "layout_type": "grid",
+        "date": "2015-01-01",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/SecretMountains/CubeSlices.jpg",
+        "children": [
+          {
+            "id": "slices-of-a-cube-passing-through-a-plane",
+            "type": "artwork",
+            "title": "Slices of a Cube Passing Through a Plane",
+            "medium": "Mixed media (magazine page, butter; three stages)",
+            "size": "",
+            "date": "2014",
+            "write_up": "A Mountain is Revealed on the Horizon.",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/CubeSlices.jpg",
+                "alt": "Slices of a Cube Passing Through a Plane",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "secret-map-for-a-secret-mountain-1",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain 1",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2015",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/mountain1_sm.jpg",
+                "alt": "Secret Map For a Secret Mountain 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "secret-map-for-a-secret-mountain-3-professional-amateur",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain 3 (Professional / Amateur)",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2015",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/professionalamateur_sm.jpg",
+                "alt": "Secret Map For a Secret Mountain 3 (Professional / Amateur)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "secret-map-for-a-secret-mountain-4-how-to-pass-through-a-plane",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/PassingThroughPlane.JPG",
+                "alt": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "StoppageTime",
+        "type": "project",
+        "name": "Stoppage Time",
+        "layout_type": "grid",
+        "date": "2015-01-01",
+        "write_up": "",
+        "synopsis": "",
+        "thumbnail": "/artworks/StoppageTime/HorizonLineStoppageTime.jpg",
+        "children": [
+          {
+            "id": "the-blue-that-remains",
+            "type": "artwork",
+            "title": "The Blue That Remains",
+            "medium": "Oil on canvas",
+            "size": "approx. 12 x 9 in each",
+            "date": "2015",
+            "write_up": "The Blue That Remains, The Blue That Resists, The Blue That Rests, The Blue That Arrests, The Blue That Restrains, The Blue That Retains, The Blue That Returns.",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/Blue of that day _grid.jpg",
+                "alt": "The Blue That Remains",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "horizon-line-stoppage-time-arial-stoppages",
+            "type": "artwork",
+            "title": "Horizon Line Stoppage Time: Arial Stoppages",
+            "medium": "Photographs",
+            "size": "",
+            "date": "1970 - 1990",
+            "write_up": "Collection of photographs taken by my grandfather, an amateur pilot. 1970s - 1990",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/FEC_arial_stoppages copy.jpg",
+                "alt": "Horizon Line Stoppage Time: Arial Stoppages",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "horizon-line-stoppage-time-1",
+            "type": "artwork",
+            "title": "Horizon Line Stoppage Time #1",
+            "medium": "Oil on canvas",
+            "size": "",
+            "date": "2013",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/ArialStoppage_1.jpg",
+                "alt": "Horizon Line Stoppage Time #1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "horizon-line-stoppage-time-2",
+            "type": "artwork",
+            "title": "Horizon Line Stoppage Time #2",
+            "medium": "Oil on canvas",
+            "size": "",
+            "date": "2013",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/ArialStoppage_2.jpg",
+                "alt": "Horizon Line Stoppage Time #2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "horizon-line-stoppage-time-3",
+            "type": "artwork",
+            "title": "Horizon Line Stoppage Time #3",
+            "medium": "Oil on canvas",
+            "size": "",
+            "date": "2013",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/ArialStoppage_3.jpg",
+                "alt": "Horizon Line Stoppage Time #3",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "horizon-line-stoppage-time-4",
+            "type": "artwork",
+            "title": "Horizon Line Stoppage Time #4",
+            "medium": "Oil on canvas",
+            "size": "",
+            "date": "2013",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/ArialStoppage_4.jpg",
+                "alt": "Horizon Line Stoppage Time #4",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "to-extinguish-the-sun-and-other-small-things",
+            "type": "artwork",
+            "title": "To Extinguish The Sun and Other Small Things",
+            "medium": "Pinhole camera photograph, captured in a black box, eight inches square",
+            "size": "",
+            "date": "2014",
+            "write_up": "Sun, Venus, and a New Moon; Conjunct at Zero Degrees Scorpio (Partial Solar Eclipse, October 23, 2014; 2:30pm).",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/ToExtinguishTheSun.jpg",
+                "alt": "To Extinguish The Sun and Other Small Things",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "galileo-s-heartbeat",
+            "type": "artwork",
+            "title": "Galileo's Heartbeat",
+            "medium": "Watercolor and olive oil on paper, eight inches square",
+            "size": "11 x 11 in",
+            "date": "2014",
+            "write_up": "In the absence of accurate clocks and timekeeping devices, Galileo used his own heartbeat to time his experiments.",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/GalileosHeartbeat.jpg",
+                "alt": "Galileo's Heartbeat",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "leaving-space-for-the-invisible",
+            "type": "artwork",
+            "title": "Leaving Space For The Invisible",
+            "medium": "Digital photographs",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/lights.jpg",
+                "alt": "Leaving Space For The Invisible",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "black-crowned-night-heron",
+            "type": "artwork",
+            "title": "Black Crowned Night Heron",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/blackcrowned night heron2.jpg",
+                "alt": "Black Crowned Night Heron",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "in-retreat-galileo-davinci-morandi",
+            "type": "artwork",
+            "title": "In Retreat: Galileo, DaVinci, Morandi",
+            "medium": "Mixed media on paper",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/InRetreat.jpg",
+                "alt": "In Retreat: Galileo, DaVinci, Morandi",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Saltanimals",
+        "type": "project",
+        "name": "Saltanimals",
+        "layout_type": "grid",
+        "date": "2006-01-01",
+        "write_up": "Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work along with two Saltanimals panels is on display at the NANO Fetter Museum of Nanoscience and Art.",
+        "synopsis": "Constellations of tiny animals hand-painted in crystallized salt water",
+        "thumbnail": "/artworks/Saltanimals/saltanimals.jpg",
+        "children": [
+          {
+            "id": "saltanimals",
+            "type": "artwork",
+            "title": "Saltanimals",
+            "medium": "Evaporated salt water from the Great Salt Lake, Utah, and the Dead Sea, on black paper",
+            "size": "20 x 128 in",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals.jpg",
+                "alt": "Saltanimals",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "saltanimals-detail",
+            "type": "artwork",
+            "title": "Saltanimals (detail)",
+            "medium": "",
+            "size": "",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals_detail.jpg",
+                "alt": "Saltanimals (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "crystallography-lab-in-tel-aviv",
+            "type": "artwork",
+            "title": "Crystallography Lab in Tel Aviv",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/lab.JPG",
+                "alt": "Crystallography Lab in Tel Aviv",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "saltanimals-display-at-nano-joseph-fetter-museum-of-nanoscience-and-art",
+            "type": "artwork",
+            "title": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "Climate and humidity controlled environment has stabilized the salt crystals.",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals_display1.jpg",
+                "alt": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
                 "is_primary": true
               }
             ]
@@ -212,9 +1064,9 @@
         "layout_type": "grid",
         "date": "2025-11-02",
         "write_up": "This project follows the zero-degree line of the\nearth's magnetic field from the year 1590.\nIt is a work in progress.\n\nThe year 1590 is significant, as it coincides with the\ndevelopment of Galileo's first telescope, and with the\ncreation of the first compound microscope.\n\nTherefore, my project explores incidences of macro-\nand micro-scopic vision, magnetic attraction and\npolarity, and the intersection of scientific, historical,\nand artistic narratives.\n\nOn May 10, 2008 I made my first journey. I would attempt to go to Peru, Iceland, South Africa, and Australia.\n\nI started my expedition in Los Angeles, and after carefully studying my maps, I plotted my destinations. I had 24 hours to make this trip.\n\n*parallel worlds*\\\n*using the wrong map to get to the right places*\\\n*can I reach Peru through a looking glass?*",
-        "synopsis": "Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.",
+        "synopsis": "Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in five journeys.",
         "thumbnail": "/artworks/GeomagTravel/declination.jpg",
-        "header_image": "/artworks/GeomagTravel/declination-animated.gif",
+        "header_image": "/artworks/GeomagTravel/declination.jpg",
         "children": [
           {
             "id": "south-africa",
@@ -955,1030 +1807,6 @@
         ]
       },
       {
-        "id": "engelmann",
-        "type": "project",
-        "name": "Engelmann",
-        "layout_type": "grid",
-        "date": "2019-01-01",
-        "write_up": "Engelmann Oaks and the California Black Walnut are two of the most endangered native trees in California. For this series, I took pinhole camera photos of Engelmann Oaks, and with ink created from California Black Walnuts, I created drawings on top of the pinhole camera prints.",
-        "synopsis": "Pinhole camera photographs of endangered Engelmann Oaks, drawn over in ink made from California Black Walnuts.",
-        "thumbnail": "/artworks/engelmann/Engelmann1.jpg",
-        "children": [
-          {
-            "id": "engelmann1",
-            "type": "artwork",
-            "title": "Engelmann1",
-            "medium": "Gelatin silver print, walnut ink",
-            "size": "8 x 8 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann1.jpg",
-                "alt": "Engelmann1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann2",
-            "type": "artwork",
-            "title": "Engelmann2",
-            "medium": "Gelatin silver print, walnut ink",
-            "size": "8 x 8 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann2.jpg",
-                "alt": "Engelmann2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann5",
-            "type": "artwork",
-            "title": "Engelmann5",
-            "medium": "Gelatin silver print, walnut ink, oil paint",
-            "size": "6 x 6 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann5.jpg",
-                "alt": "Engelmann5",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "three-layers",
-            "type": "artwork",
-            "title": "Three Layers",
-            "medium": "Gelatin silver print, walnut ink",
-            "size": "4 x 6 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/three_layers.jpg",
-                "alt": "Three Layers",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann-blackframe-2",
-            "type": "artwork",
-            "title": "Engelmann (blackframe) 2",
-            "medium": "Gelatin silver print, walnut ink",
-            "size": "8 x 10 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann_blackframe2.jpg",
-                "alt": "Engelmann (blackframe) 2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann-blackframe-2-detail",
-            "type": "artwork",
-            "title": "Engelmann (blackframe) 2 Detail",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann_blackframe2det.jpg",
-                "alt": "Engelmann (blackframe) 2 Detail",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann-blackframe-1",
-            "type": "artwork",
-            "title": "Engelmann (blackframe) 1",
-            "medium": "Gelatin silver print, walnut ink",
-            "size": "8 x 10 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/Engelmann_blackframe1.jpg",
-                "alt": "Engelmann (blackframe) 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "engelmann-in-the-darkroom",
-            "type": "artwork",
-            "title": "Engelmann - In the Darkroom",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/darkroom.JPG",
-                "alt": "Engelmann - In the Darkroom",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "homemade-ink-california-black-walnut",
-            "type": "artwork",
-            "title": "Homemade Ink - California Black Walnut",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/engelmann/walnut_ink.jpg",
-                "alt": "Homemade Ink - California Black Walnut",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "stilllives",
-        "type": "project",
-        "name": "Still Lives",
-        "layout_type": "grid",
-        "date": "2021-01-06",
-        "write_up": "Items confiscated from protesters by the Portland Police Department, July 2020; Pipe Bomb discovered by DC Metropolitan Police, January 6, 2021.\n\nFrom photos of objects (posted on Twitter by Portland and DC PD). Paintings to contemplate — the fragility of objects, of bodies, of democracies.",
-        "synopsis": "Paintings of items confiscated from Portland protesters and a pipe bomb from the January 6, 2021 Capitol attack.",
-        "thumbnail": "/artworks/stilllives/stilllives.jpg",
-        "children": [
-          {
-            "id": "still-lives-items-confiscated-by-portland-police-july-2020-1",
-            "type": "artwork",
-            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #1",
-            "medium": "Oil on panel",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/stilllives.jpg",
-                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "still-lives-items-confiscated-by-portland-police-july-2020-2",
-            "type": "artwork",
-            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #2",
-            "medium": "Oil on panel",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/stilllives1.jpg",
-                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "still-lives-items-confiscated-by-portland-police-july-2020-4",
-            "type": "artwork",
-            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #4",
-            "medium": "Oil on panel",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/stilllives3.jpg",
-                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #4",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "still-lives-items-confiscated-by-portland-police-july-2020-5",
-            "type": "artwork",
-            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #5",
-            "medium": "Oil on panel",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/stilllives4.jpg",
-                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #5",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "still-lives-items-confiscated-by-portland-police-july-2020-6",
-            "type": "artwork",
-            "title": "Still Lives: Items Confiscated by Portland Police, July 2020 #6",
-            "medium": "Oil on panel",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/stilllives5.jpg",
-                "alt": "Still Lives: Items Confiscated by Portland Police, July 2020 #6",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "still-lives-pipe-bomb-confiscated-by-dc-metro-police-january-6-2021",
-            "type": "artwork",
-            "title": "Still Lives: Pipe Bomb Confiscated by DC Metro Police, January 6, 2021",
-            "medium": "Oil on panel",
-            "size": "6 x 8 in",
-            "date": "2021",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stilllives/pipebomb.jpg",
-                "alt": "Still Lives: Pipe Bomb Confiscated by DC Metro Police, January 6, 2021",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "silentcities",
-        "type": "project",
-        "name": "The Most Silent of Great Cities",
-        "layout_type": "grid",
-        "date": "2020-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/silentcities/SilentCities.jpg",
-        "children": [
-          {
-            "id": "silent-cities-mountain",
-            "type": "artwork",
-            "title": "Silent Cities: Mountain",
-            "medium": "Charcoal on paper",
-            "size": "18 x 24 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/silentcities/silentcities_mountain.jpg",
-                "alt": "Silent Cities: Mountain",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "silent-cities-flood",
-            "type": "artwork",
-            "title": "Silent Cities: Flood",
-            "medium": "Charcoal and oil on paper",
-            "size": "18 x 24 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/silentcities/silentcities_flood.jpg",
-                "alt": "Silent Cities: Flood",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "silent-cities-entombed",
-            "type": "artwork",
-            "title": "Silent Cities: Entombed",
-            "medium": "Charcoal on paper",
-            "size": "18 x 24 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/silentcities/silentcities_entombed.jpg",
-                "alt": "Silent Cities: Entombed",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "silence-suspended",
-            "type": "artwork",
-            "title": "Silence/Suspended",
-            "medium": "Oil on canvas",
-            "size": "18 x 18 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/silentcities/Silence_suspended.jpg",
-                "alt": "Silence/Suspended",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "suspended",
-            "type": "artwork",
-            "title": "Suspended",
-            "medium": "Oil on canvas",
-            "size": "18 x 18 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/silentcities/Suspended.jpg",
-                "alt": "Suspended",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "all-the-great-museums",
-            "type": "artwork",
-            "title": "All the Great Museums",
-            "medium": "Oil on canvas",
-            "size": "18 x 22 in",
-            "date": "2020",
-            "write_up": "Hermitage Museum, stripped bare; setting mines in the streets of Florence.",
-            "images": [
-              {
-                "src": "/artworks/silentcities/AllTheGreatMuseums.jpg",
-                "alt": "All the Great Museums",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "measures",
-        "type": "project",
-        "name": "Measures of Our Nature: Killing, Playing",
-        "layout_type": "grid",
-        "date": "2020-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/measures/dogs_of_actaeon.jpg",
-        "children": [
-          {
-            "id": "the-dogs-of-actaeon",
-            "type": "artwork",
-            "title": "The Dogs of Actaeon",
-            "medium": "Ink and mixed media on paper",
-            "size": "18 x 24 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/dogs_of_actaeon.jpg",
-                "alt": "The Dogs of Actaeon",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measures-of-our-nature-killing",
-            "type": "artwork",
-            "title": "Measures of Our Nature: Killing",
-            "medium": "Ink and mixed media on paper",
-            "size": "18 x 22 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/Measures of our nature_killing.jpg",
-                "alt": "Measures of Our Nature: Killing",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measures-of-our-nature-killing-detail",
-            "type": "artwork",
-            "title": "Measures of Our Nature: Killing (detail)",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/Measures of our nature_killing_det.jpg",
-                "alt": "Measures of Our Nature: Killing (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measures-of-our-nature-playing",
-            "type": "artwork",
-            "title": "Measures of Our Nature: Playing",
-            "medium": "Ink and mixed media on paper",
-            "size": "18 x 22 in",
-            "date": "2019",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/Measures_of_our_nature_playing.jpg",
-                "alt": "Measures of Our Nature: Playing",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measures-of-our-nature-playing-detail",
-            "type": "artwork",
-            "title": "Measures of Our Nature: Playing (detail)",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/Measures_of_our_nature_playing_det.jpg",
-                "alt": "Measures of Our Nature: Playing (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "dogs-of-war-1",
-            "type": "artwork",
-            "title": "Dogs of War 1",
-            "medium": "Oil paint on gessoed paper",
-            "size": "9 x 12 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/dogs_of_war1.jpg",
-                "alt": "Dogs of War 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "dogs-of-war-3",
-            "type": "artwork",
-            "title": "Dogs of War 3",
-            "medium": "Oil paint on gessoed paper",
-            "size": "10 x 14 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/dogs_of_war3.jpg",
-                "alt": "Dogs of War 3",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measures-of-our-nature-the-hunt",
-            "type": "artwork",
-            "title": "Measures of Our Nature: The Hunt",
-            "medium": "Oil paint on gessoed paper",
-            "size": "16 x 14 in",
-            "date": "2020",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/measures/Measures_of_our_nature_the hunt.jpg",
-                "alt": "Measures of Our Nature: The Hunt",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "trees",
-        "type": "project",
-        "name": "Trees to Keep Time",
-        "layout_type": "grid",
-        "date": "2017-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/trees/tree1.jpg",
-        "children": [
-          {
-            "id": "fig",
-            "type": "artwork",
-            "title": "Fig",
-            "medium": "Ink on gessoed paper",
-            "size": "18 x 15 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree1.jpg",
-                "alt": "Fig",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "dark-oak",
-            "type": "artwork",
-            "title": "Dark Oak",
-            "medium": "Ink on paper",
-            "size": "14 x 20 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree2.jpg",
-                "alt": "Dark Oak",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "heavy-fig",
-            "type": "artwork",
-            "title": "Heavy Fig",
-            "medium": "Ink on paper",
-            "size": "17 x 13 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree3.jpg",
-                "alt": "Heavy Fig",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "olive",
-            "type": "artwork",
-            "title": "Olive",
-            "medium": "Ink on paper",
-            "size": "14 x 20 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree4.jpg",
-                "alt": "Olive",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "wild-grass",
-            "type": "artwork",
-            "title": "Wild Grass",
-            "medium": "Ink on paper",
-            "size": "14 x 20 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree5.jpg",
-                "alt": "Wild Grass",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "light-oak",
-            "type": "artwork",
-            "title": "Light Oak",
-            "medium": "Oil paint on gessoed paper",
-            "size": "16 x 14 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree7.jpg",
-                "alt": "Light Oak",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "oleander",
-            "type": "artwork",
-            "title": "Oleander",
-            "medium": "Oil paint on gessoed paper",
-            "size": "19 x 14 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree6.jpg",
-                "alt": "Oleander",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "ambar",
-            "type": "artwork",
-            "title": "Ambar",
-            "medium": "Ink on paper",
-            "size": "13 x 9.5 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/ambarbranch.jpg",
-                "alt": "Ambar",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "windforms",
-            "type": "artwork",
-            "title": "Windforms",
-            "medium": "Ink and charcoal on paper",
-            "size": "14 x 20 in",
-            "date": "2017",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/trees/tree8.jpg",
-                "alt": "Windforms",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "SecretMountains",
-        "type": "project",
-        "name": "Secret Maps for Secret Mountains",
-        "layout_type": "grid",
-        "date": "2015-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/SecretMountains/CubeSlices.jpg",
-        "children": [
-          {
-            "id": "slices-of-a-cube-passing-through-a-plane",
-            "type": "artwork",
-            "title": "Slices of a Cube Passing Through a Plane",
-            "medium": "Mixed media (magazine page, butter; three stages)",
-            "size": "",
-            "date": "2014",
-            "write_up": "A Mountain is Revealed on the Horizon.",
-            "images": [
-              {
-                "src": "/artworks/SecretMountains/CubeSlices.jpg",
-                "alt": "Slices of a Cube Passing Through a Plane",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "secret-map-for-a-secret-mountain-1",
-            "type": "artwork",
-            "title": "Secret Map For a Secret Mountain 1",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2015",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SecretMountains/mountain1_sm.jpg",
-                "alt": "Secret Map For a Secret Mountain 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "secret-map-for-a-secret-mountain-3-professional-amateur",
-            "type": "artwork",
-            "title": "Secret Map For a Secret Mountain 3 (Professional / Amateur)",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2015",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SecretMountains/professionalamateur_sm.jpg",
-                "alt": "Secret Map For a Secret Mountain 3 (Professional / Amateur)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "secret-map-for-a-secret-mountain-4-how-to-pass-through-a-plane",
-            "type": "artwork",
-            "title": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SecretMountains/PassingThroughPlane.JPG",
-                "alt": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "StoppageTime",
-        "type": "project",
-        "name": "Stoppage Time",
-        "layout_type": "grid",
-        "date": "2015-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/StoppageTime/StoppageTime1.jpg",
-        "children": [
-          {
-            "id": "the-blue-that-remains",
-            "type": "artwork",
-            "title": "The Blue That Remains",
-            "medium": "Oil on canvas",
-            "size": "approx. 12 x 9 in each",
-            "date": "2015",
-            "write_up": "The Blue That Remains, The Blue That Resists, The Blue That Rests, The Blue That Arrests, The Blue That Restrains, The Blue That Retains, The Blue That Returns.",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/Blue of that day All_sm.jpg",
-                "alt": "The Blue That Remains",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "to-extinguish-the-sun-and-other-small-things",
-            "type": "artwork",
-            "title": "To Extinguish The Sun and Other Small Things",
-            "medium": "Pinhole camera photograph, captured in a black box, eight inches square",
-            "size": "",
-            "date": "2014",
-            "write_up": "Sun, Venus, and a New Moon; Conjunct at Zero Degrees Scorpio (Partial Solar Eclipse, October 23, 2014; 2:30pm).",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/ToExtinguishTheSun.jpg",
-                "alt": "To Extinguish The Sun and Other Small Things",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "to-extinguish-the-sun-and-other-small-things-camera",
-            "type": "artwork",
-            "title": "To Extinguish The Sun and Other Small Things (camera)",
-            "medium": "Pinhole camera and photograph, eight inches square",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/pinholebox.JPG",
-                "alt": "To Extinguish The Sun and Other Small Things (camera)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "galileo-s-heartbeat",
-            "type": "artwork",
-            "title": "Galileo's Heartbeat",
-            "medium": "Watercolor and olive oil on paper, eight inches square",
-            "size": "11 x 11 in",
-            "date": "2014",
-            "write_up": "In the absence of accurate clocks and timekeeping devices, Galileo used his own heartbeat to time his experiments.",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/GalileosHeartbeat.jpg",
-                "alt": "Galileo's Heartbeat",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "leaving-space-for-the-invisible",
-            "type": "artwork",
-            "title": "Leaving Space For The Invisible",
-            "medium": "Digital photographs",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/lights.jpg",
-                "alt": "Leaving Space For The Invisible",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "black-crowned-night-heron",
-            "type": "artwork",
-            "title": "Black Crowned Night Heron",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/blackcrowned night heron2.jpg",
-                "alt": "Black Crowned Night Heron",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "horizon-line-stoppage-time-1",
-            "type": "artwork",
-            "title": "Horizon Line Stoppage Time #1",
-            "medium": "Oil on canvas",
-            "size": "",
-            "date": "2013",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/ArialStoppage_no1.jpg",
-                "alt": "Horizon Line Stoppage Time #1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "horizon-line-stoppage-time-4",
-            "type": "artwork",
-            "title": "Horizon Line Stoppage Time #4",
-            "medium": "Oil on canvas",
-            "size": "",
-            "date": "2013",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/ArialStoppage_no4.jpg",
-                "alt": "Horizon Line Stoppage Time #4",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "horizon-line-stoppage-time-3",
-            "type": "artwork",
-            "title": "Horizon Line Stoppage Time #3",
-            "medium": "Oil on canvas",
-            "size": "",
-            "date": "2013",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/ArialStoppage_no3.jpg",
-                "alt": "Horizon Line Stoppage Time #3",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "stoppage-time-1",
-            "type": "artwork",
-            "title": "Stoppage Time #1",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/StoppageTime1.jpg",
-                "alt": "Stoppage Time #1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "stoppage-time-2",
-            "type": "artwork",
-            "title": "Stoppage Time #2",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/StoppageTime2.jpg",
-                "alt": "Stoppage Time #2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "in-retreat-galileo-davinci-morandi",
-            "type": "artwork",
-            "title": "In Retreat: Galileo, DaVinci, Morandi",
-            "medium": "Mixed media on paper",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/InRetreat.jpg",
-                "alt": "In Retreat: Galileo, DaVinci, Morandi",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Saltanimals",
-        "type": "project",
-        "name": "Saltanimals",
-        "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work as well as a Saltanimals panel is on display at the NANO Fetter Museum of Nanoscience and Art.",
-        "synopsis": "A multi-paneled work of tiny animals hand-painted in salt water, whose crystalline structure keeps changing over the years.",
-        "thumbnail": "/artworks/Saltanimals/saltanimals.jpg",
-        "children": [
-          {
-            "id": "saltanimals",
-            "type": "artwork",
-            "title": "Saltanimals",
-            "medium": "Evaporated salt water from the Great Salt Lake, Utah, and the Dead Sea, on black paper",
-            "size": "20 x 128 in",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals.jpg",
-                "alt": "Saltanimals",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals-detail",
-            "type": "artwork",
-            "title": "Saltanimals (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals_detail.jpg",
-                "alt": "Saltanimals (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "crystallography-lab-in-tel-aviv",
-            "type": "artwork",
-            "title": "Crystallography Lab in Tel Aviv",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/lab.JPG",
-                "alt": "Crystallography Lab in Tel Aviv",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals-display-at-nano-joseph-fetter-museum-of-nanoscience-and-art",
-            "type": "artwork",
-            "title": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "Climate and humidity controlled environment has stabilized the salt crystals.",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals_display1.jpg",
-                "alt": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "Physics",
         "type": "project",
         "name": "The Intimacy of Physics",
@@ -2125,7 +1953,7 @@
         "layout_type": "grid",
         "date": "",
         "write_up": "Blackboard presents a series of photos taken in an abandoned school building in Berkeley, California. In one of the classrooms, I discovered that the blackboard had a tiny crack down the middle of it. If you stood close enough, you could see a tiny line of light shining through from the other side.\n\nIf you put your eye right up to the crack, you could see right through the crack, all the way across the next room, to an open window with sun streaming through its white curtains.\n\nMy camera was set up on a tripod, right in front of this crack. With each photo, I adjust the focus slightly, which pushes the image from a crisp view of the flat blackboard, gradually passing through the crack, across the next room behind the board, and finally ending at the open window in the distance.",
-        "synopsis": "A photo series following a hairline crack across an abandoned schoolroom blackboard in Berkeley, California.",
+        "synopsis": "A still camera in an abandoned classroom: A cracked blackboard becomes a tiny aperture, a passage between spaces and scales.",
         "thumbnail": "/artworks/Blackboard/blackboard_line.jpg",
         "children": [
           {
@@ -2152,26 +1980,9 @@
         "name": "Department of Nocturnal Affairs (DNA)",
         "layout_type": "grid",
         "date": "2009-01-01",
-        "write_up": "The DNA is a creative project by artists Tal Yizrael and Caroline Maxwell. Envisioned as both a work of installation and performance art, the DNA has opened field offices in various public spaces around the Los Angeles area to collect reports of nocturnal wildlife sightings.\n\nCurrently, the DNA is expanding its research into issues such as light pollution, deviant behavior in nocturnal animals, and the incarceration and rehabilitation of nocturnal animals.",
-        "synopsis": "A collaborative installation and performance project collecting reports of nocturnal wildlife sightings around Los Angeles.",
-        "thumbnail": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
+        "write_up": "The D.N.A. is a creative project by artists Caroline Maxwell and Tal Yizrael. Envisioned as both a work of installation and performance art, the DNA functions as a speculative bureaucracy and a precarious archive. The DNA has opened field offices in various public spaces around Los Angeles and the world to collect reports of nocturnal wildlife encounters.\n\nIn addition to the ongoing collection of reports, the DNA creates artworks that respond to the issues of light pollution and the important presence of darkness in our worlds and lives.",
+        "synopsis": "A collaborative installation and performance project, collecting reports of nocturnal wildlife encounters, and investigating darkness as a fertile ground for knowledge and memory.",
         "children": [
-          {
-            "id": "dna-color-studies",
-            "type": "artwork",
-            "title": "DNA Color Studies",
-            "medium": "Custom-blended oil paint on exposed photographic paper",
-            "size": "",
-            "date": "2009",
-            "write_up": "These color studies were created using DNA's \"Light Pollution Spectrum Oil Paints.\" Each painting contrasts sky colors from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night sky and then developed, turning the paper black.",
-            "images": [
-              {
-                "src": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
-                "alt": "DNA Color Studies",
-                "is_primary": true
-              }
-            ]
-          },
           {
             "id": "dna-light-pollution-spectrum-oil-paints",
             "type": "artwork",
@@ -2189,6 +2000,22 @@
             ]
           },
           {
+            "id": "dna-color-studies",
+            "type": "artwork",
+            "title": "DNA Color Studies",
+            "medium": "Custom-blended oil paint on exposed photographic paper",
+            "size": "",
+            "date": "2009",
+            "write_up": "These color studies were created using DNA's \"Light Pollution Spectrum Oil Paints.\" Each painting contrasts sky colors from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night sky and then developed, turning the paper black.",
+            "images": [
+              {
+                "src": "/artworks/DNA/ColorStudy_allFLAT.jpg",
+                "alt": "DNA Color Studies",
+                "is_primary": true
+              }
+            ]
+          },
+          {
             "id": "saltmoons",
             "type": "artwork",
             "title": "Saltmoons",
@@ -2198,8 +2025,136 @@
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/DNA/saltmoons-gallery1.jpg",
+                "src": "/artworks/DNA/saltmoons-gallery.jpg",
                 "alt": "Saltmoons",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "table-display",
+            "type": "artwork",
+            "title": "Table Display",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "at Row DTLA, Maiden LA Art Festival, 2018",
+            "images": [
+              {
+                "src": "/artworks/DNA/table.jpg",
+                "alt": "Table Display",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "raccoon-and-shadow",
+            "type": "artwork",
+            "title": "Raccoon and Shadow",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/raccoon-and-shadow.jpg",
+                "alt": "Raccoon and Shadow",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "wild-boar",
+            "type": "artwork",
+            "title": "Wild Boar",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/boar.jpg",
+                "alt": "Wild Boar",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "coyote",
+            "type": "artwork",
+            "title": "Coyote",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/coyote.jpg",
+                "alt": "Coyote",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "hyena-tree",
+            "type": "artwork",
+            "title": "Hyena, Tree",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/hyena-tree.jpg",
+                "alt": "Hyena, Tree",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "moth-maple",
+            "type": "artwork",
+            "title": "Moth, Maple",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/moth-maple.jpg",
+                "alt": "Moth, Maple",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "porcupine-moths",
+            "type": "artwork",
+            "title": "Porcupine, Moths",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/porcupine-moths.jpg",
+                "alt": "Porcupine, Moths",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "porcupine",
+            "type": "artwork",
+            "title": "Porcupine",
+            "medium": "ink on paper, 2018",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/porcupine.jpg",
+                "alt": "Porcupine",
                 "is_primary": true
               }
             ]
@@ -2213,8 +2168,8 @@
         "layout_type": "grid",
         "date": "2007-01-01",
         "write_up": "Mount Vesuvius, Roman fertility cults, and the Belgian conceptual artist Marcel Broodthaers are among the cast members of this series of work. These delicate studies are an attempt to merge the bold sensuality of ancient Roman art with the more cerebral language of late 20th Century Conceptual Art. Proposed as a series of lessons, these works present a fertility ritual for the dry, impotent climes of contemporary art.\n\nGouache, ink, and charcoal on paper, 9\" x 12\", 2007.\n\nJan Baum Gallery, September 2007.",
-        "synopsis": "Delicate studies merging the bold sensuality of ancient Roman art with the cerebral language of late 20th century Conceptual Art.",
-        "thumbnail": "/artworks/Villa_Mysteries/1_intro_to_eagles_sm.jpg",
+        "synopsis": "Ancient Roman art meets Marcel Broodthaers in this small series of paintings.",
+        "thumbnail": "/artworks/Villa_Mysteries/4_bacchus_to_broodthaers_sm.jpg",
         "children": [
           {
             "id": "lesson-1-introduction-to-eagles",
@@ -2324,22 +2279,6 @@
               {
                 "src": "/artworks/Villa_Mysteries/aphrodite_sm.jpg",
                 "alt": "Aphrodite Adjusting Her Sandal to Carefully Tread the Basaltic Beeswax",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "presentation-of-the-birds-and-the-bees",
-            "type": "artwork",
-            "title": "Presentation of the Birds and the Bees",
-            "medium": "Ink, graphite, and smoke on paper",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/presBirdsBees_sm.jpg",
-                "alt": "Presentation of the Birds and the Bees",
                 "is_primary": true
               }
             ]
@@ -2528,830 +2467,6 @@
               {
                 "src": "/artworks/SanAndreas/sandreas_dig.jpg",
                 "alt": "Dig",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "painting_2005_2011",
-        "type": "project",
-        "name": "Painting 2005 - 2011",
-        "layout_type": "grid",
-        "date": "2009-01-01",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/painting_2005_2011/caroline_insight.jpg",
-        "children": [
-          {
-            "id": "the-inexplicable-remainder-of-an-insight",
-            "type": "artwork",
-            "title": "The Inexplicable Remainder of an Insight",
-            "medium": "Oil, tar, and evaporated salt water on panel",
-            "size": "13 x 13 in",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/caroline_insight.jpg",
-                "alt": "The Inexplicable Remainder of an Insight",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "jackal",
-            "type": "artwork",
-            "title": "Jackal",
-            "medium": "Oil on canvas",
-            "size": "48 x 60 in",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/jackal_1.jpg",
-                "alt": "Jackal",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "jackal-detail",
-            "type": "artwork",
-            "title": "Jackal (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/jakal_detail.jpg",
-                "alt": "Jackal (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-1",
-            "type": "artwork",
-            "title": "Twins 1",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 44 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/twins1.jpg",
-                "alt": "Twins 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-1-detail",
-            "type": "artwork",
-            "title": "Twins 1 (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/twins1detail.jpg",
-                "alt": "Twins 1 (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "twins-2",
-            "type": "artwork",
-            "title": "Twins 2",
-            "medium": "Oil and charcoal on canvas",
-            "size": "48 x 48 in",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/twins2.jpg",
-                "alt": "Twins 2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "farallon",
-            "type": "artwork",
-            "title": "Farallon",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/farallon_sm.jpg",
-                "alt": "Farallon",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "vesuviana",
-            "type": "artwork",
-            "title": "Vesuviana",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/vesuviana_sm.jpg",
-                "alt": "Vesuviana",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "moules",
-            "type": "artwork",
-            "title": "Moules",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/moules_sm.jpg",
-                "alt": "Moules",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot",
-            "type": "artwork",
-            "title": "Double Cypriot",
-            "medium": "Oil and charcoal on canvas",
-            "size": "60 x 96 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/double_cypriot_sm.jpg",
-                "alt": "Double Cypriot",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot-detail-1",
-            "type": "artwork",
-            "title": "Double Cypriot (detail 1)",
-            "medium": "",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/cypriot1_det_sm.jpg",
-                "alt": "Double Cypriot (detail 1)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot-detail-2",
-            "type": "artwork",
-            "title": "Double Cypriot (detail 2)",
-            "medium": "",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/cypriot2_det_sm.jpg",
-                "alt": "Double Cypriot (detail 2)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "if-light-can-bend",
-            "type": "artwork",
-            "title": "If Light Can Bend",
-            "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
-            "size": "",
-            "date": "2009",
-            "write_up": "Installation for the exhibit \"The Studio as Laboratory\" at California Institute of Technology.",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/ifLightCanBend.jpg",
-                "alt": "If Light Can Bend",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "if-light-can-bend-detail",
-            "type": "artwork",
-            "title": "If Light Can Bend (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2009",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/painting_2005_2011/caroline1.jpg",
-                "alt": "If Light Can Bend (detail)",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "navee",
-        "type": "project",
-        "name": "Jerusalem Field Office: Prophecy Desk",
-        "layout_type": "grid",
-        "date": "2014-10-01",
-        "write_up": "For the Manofim Contemporary Arts Festival, the D.N.A. opened a field office at the historic Templer House, as part of the exhibit Navee Navee or Prophet Prophet. The show explores the concept of prophecy as such:\n\nIn ancient times, the prophets were the ones who protested moral corruption and warned against catastrophes. They were prepared to pay a heavy personal price and forgo being popular when their prophecies were dire. In many respects, artists (like prophets) observe society from the sidelines and refuse to conform to social norms. From the margins, it is 'permissible' to utter a dissenting opinion or criticism that may be painful to hear.\n\nFor this exhibit, the D.N.A. created a special animal reporting form that enquires about the prophetic qualities of people's animal encounters, thus opening up an awareness of animals as agents of memory and resistance.\n\nOctober, 2014",
-        "synopsis": "A DNA field office opened at the historic Templer House for the Manofim Contemporary Arts Festival exhibit Navee Navee (Prophet Prophet).",
-        "thumbnail": "/artworks/navee/navee_typewriter.jpg",
-        "children": [
-          {
-            "id": "navee-navee-field-office",
-            "type": "artwork",
-            "title": "Navee Navee Field Office",
-            "medium": "",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/navee/navee_typewriter.jpg",
-                "alt": "Navee Navee Field Office",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "tal-yizrael-interviewing-visitors-1",
-            "type": "artwork",
-            "title": "Tal Yizrael Interviewing Visitors 1",
-            "medium": "",
-            "size": "",
-            "date": "2014",
-            "write_up": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee Exhibit.",
-            "images": [
-              {
-                "src": "/artworks/navee/tal1.jpg",
-                "alt": "Tal Yizrael Interviewing Visitors 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "tal-yizrael-interviewing-visitors-2",
-            "type": "artwork",
-            "title": "Tal Yizrael Interviewing Visitors 2",
-            "medium": "",
-            "size": "",
-            "date": "2014",
-            "write_up": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee Exhibit.",
-            "images": [
-              {
-                "src": "/artworks/navee/tal2.jpg",
-                "alt": "Tal Yizrael Interviewing Visitors 2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "report-on-fireflies",
-            "type": "artwork",
-            "title": "Report on Fireflies",
-            "medium": "",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/navee/fireflies_ronen_siman_tov.jpg",
-                "alt": "Report on Fireflies",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Paintings07_10",
-        "type": "project",
-        "name": "Painting 2007 - 2013",
-        "layout_type": "grid",
-        "date": "2013-01-01",
-        "write_up": "",
-        "synopsis": "Oil paintings and installation work from 2006 through 2013, including the Double Cypriot and Hive series.",
-        "thumbnail": "/artworks/Paintings07_10/farallon_sm.jpg",
-        "children": [
-          {
-            "id": "farallon",
-            "type": "artwork",
-            "title": "Farallon",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/farallon_sm.jpg",
-                "alt": "Farallon",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "vesuviana",
-            "type": "artwork",
-            "title": "Vesuviana",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/vesuviana_sm.jpg",
-                "alt": "Vesuviana",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "moules",
-            "type": "artwork",
-            "title": "Moules",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/moules_sm.jpg",
-                "alt": "Moules",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "beekeeper",
-            "type": "artwork",
-            "title": "Beekeeper",
-            "medium": "Oil on linen",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/beekeeper_sm.jpg",
-                "alt": "Beekeeper",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot",
-            "type": "artwork",
-            "title": "Double Cypriot",
-            "medium": "Oil and charcoal on canvas",
-            "size": "60 x 96 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/double_cypriot_sm.jpg",
-                "alt": "Double Cypriot",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot-detail-1",
-            "type": "artwork",
-            "title": "Double Cypriot (detail 1)",
-            "medium": "",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/cypriot1_det_sm.jpg",
-                "alt": "Double Cypriot (detail 1)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "double-cypriot-detail-2",
-            "type": "artwork",
-            "title": "Double Cypriot (detail 2)",
-            "medium": "",
-            "size": "",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/cypriot2_det_sm.jpg",
-                "alt": "Double Cypriot (detail 2)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "syrtos",
-            "type": "artwork",
-            "title": "Syrtos",
-            "medium": "Plaster, graphite, on wall",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/syrtos1.jpg",
-                "alt": "Syrtos",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "if-light-can-bend",
-            "type": "artwork",
-            "title": "If Light Can Bend",
-            "medium": "Oil, charcoal, and paper on panel; chalk on chalkboard",
-            "size": "",
-            "date": "2009",
-            "write_up": "Installation for the exhibit \"The Studio as Laboratory\" at California Institute of Technology.",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/ifLightCanBend.jpg",
-                "alt": "If Light Can Bend",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "if-light-can-bend-detail",
-            "type": "artwork",
-            "title": "If Light Can Bend (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2009",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/caroline1.jpg",
-                "alt": "If Light Can Bend (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "hive",
-            "type": "artwork",
-            "title": "Hive",
-            "medium": "White ink on black paper",
-            "size": "24 x 30 in",
-            "date": "2013",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/hive1.jpg",
-                "alt": "Hive",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "hive-detail",
-            "type": "artwork",
-            "title": "Hive (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2013",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Paintings07_10/hive2.jpg",
-                "alt": "Hive (detail)",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "SouthAfrica",
-        "type": "project",
-        "name": "South Africa Works",
-        "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "2001 - 2006\n\nWorks created during and in response to artist residencies in Cape Town, Johannesburg, Lesheba.",
-        "synopsis": "Works created 2001-2006 during and in response to artist residencies in Cape Town, Johannesburg, and Lesheba.",
-        "thumbnail": "/artworks/SouthAfrica/tents.jpg",
-        "children": [
-          {
-            "id": "untitled-tents",
-            "type": "artwork",
-            "title": "Untitled (tents)",
-            "medium": "Ink, gouache, graphite, and thread",
-            "size": "",
-            "date": "2001",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/tents.jpg",
-                "alt": "Untitled (tents)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "untitled-monoprint",
-            "type": "artwork",
-            "title": "Untitled (monoprint)",
-            "medium": "Monotype",
-            "size": "",
-            "date": "2001",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/monoprint2.jpg",
-                "alt": "Untitled (monoprint)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "untitled-collapse",
-            "type": "artwork",
-            "title": "Untitled (collapse)",
-            "medium": "Collage, ink, thread on paper",
-            "size": "",
-            "date": "2001",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/untitled_collapse.jpg",
-                "alt": "Untitled (collapse)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "three-deer",
-            "type": "artwork",
-            "title": "Three Deer",
-            "medium": "Gouache on paper",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/3deer.jpg",
-                "alt": "Three Deer",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "three-deer-flip",
-            "type": "artwork",
-            "title": "Three Deer Flip",
-            "medium": "Ink on paper",
-            "size": "",
-            "date": "2004",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/3deerflip.jpg",
-                "alt": "Three Deer Flip",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "white-bones-on-black",
-            "type": "artwork",
-            "title": "White Bones on Black",
-            "medium": "Gouache on paper",
-            "size": "",
-            "date": "2003",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/whitebonesonblack.jpg",
-                "alt": "White Bones on Black",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals",
-            "type": "artwork",
-            "title": "Saltanimals",
-            "medium": "Evaporated salt water from the Great Salt Lake, Utah, and the Dead Sea, on black paper",
-            "size": "20 x 128 in",
-            "date": "2006",
-            "write_up": "Tiny animals are hand-painted in salt water on black paper. As the water dries the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible.",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/saltanimals.jpg",
-                "alt": "Saltanimals",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals-detail",
-            "type": "artwork",
-            "title": "Saltanimals (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/saltanimals_detail.jpg",
-                "alt": "Saltanimals (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "termitary-1",
-            "type": "artwork",
-            "title": "Termitary 1",
-            "medium": "Ink on paper",
-            "size": "16 x 20 in",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/termitary_1.jpg",
-                "alt": "Termitary 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "termitary-2",
-            "type": "artwork",
-            "title": "Termitary 2",
-            "medium": "Ink on paper",
-            "size": "16 x 20 in",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/SouthAfrica/termitary_2.jpg",
-                "alt": "Termitary 2",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "TechPlates",
-        "type": "project",
-        "name": "Plate Tectonics",
-        "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "",
-        "synopsis": "Mixed-media panels, dimensions variable (3 x 5 in to 12 x 18 in), 2006.",
-        "thumbnail": "/artworks/TechPlates/techtonic_plates1.jpg",
-        "children": [
-          {
-            "id": "plate-tectonics-1",
-            "type": "artwork",
-            "title": "Plate Tectonics 1",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates1.jpg",
-                "alt": "Plate Tectonics 1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "plate-tectonics-3",
-            "type": "artwork",
-            "title": "Plate Tectonics 3",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates3.jpg",
-                "alt": "Plate Tectonics 3",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "plate-tectonics-4",
-            "type": "artwork",
-            "title": "Plate Tectonics 4",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates4.jpg",
-                "alt": "Plate Tectonics 4",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "plate-tectonics-5",
-            "type": "artwork",
-            "title": "Plate Tectonics 5",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates5.jpg",
-                "alt": "Plate Tectonics 5",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "plate-tectonics-6",
-            "type": "artwork",
-            "title": "Plate Tectonics 6",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates6.jpg",
-                "alt": "Plate Tectonics 6",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "plate-tectonics-7",
-            "type": "artwork",
-            "title": "Plate Tectonics 7",
-            "medium": "Mixed media",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/TechPlates/techtonic_plates7.jpg",
-                "alt": "Plate Tectonics 7",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "stereoscopes",
-        "type": "project",
-        "name": "Stereoscopes",
-        "layout_type": "grid",
-        "date": "",
-        "write_up": "",
-        "synopsis": "",
-        "thumbnail": "/artworks/stereoscopes/stereo_goddess.jpg",
-        "children": [
-          {
-            "id": "stereo-goddess",
-            "type": "artwork",
-            "title": "Stereo Goddess",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/stereoscopes/stereo_goddess.jpg",
-                "alt": "Stereo Goddess",
                 "is_primary": true
               }
             ]

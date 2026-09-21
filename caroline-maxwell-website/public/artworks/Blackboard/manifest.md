@@ -7,7 +7,8 @@ Layout: grid
 
 ## Synopsis
 
-A photo series following a hairline crack across an abandoned schoolroom blackboard in Berkeley, California.
+A still camera in an abandoned classroom: A cracked blackboard becomes a tiny aperture, a passage between spaces and scales.
+
 
 ## Write Up
 
