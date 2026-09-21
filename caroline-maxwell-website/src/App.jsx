@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import SiteHeader from './components/layout/SiteHeader';
+import SiteFooter from './components/layout/SiteFooter';
 import ScrollToTop from './components/layout/ScrollToTop';
 
 import HomePage from './pages/home/HomePage';
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
+      <SiteFooter />
     </div>
   );
 }
