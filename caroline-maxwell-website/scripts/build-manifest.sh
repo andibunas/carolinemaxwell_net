@@ -141,10 +141,10 @@ parse_artwork_entries() {
   local edir; edir="$(mktemp -d "$WORKDIR/artentry.XXXXXX")"
   awk -v outdir="$edir" '
     BEGIN { n = 0; out = outdir "/_pre.md" }
-    /^### / {
+    /^###([[:space:]]|$)/ {
       n++
       title = $0
-      sub(/^### /, "", title)
+      sub(/^###[[:space:]]*/, "", title)
       print title > (outdir "/_title_" n ".txt")
       out = outdir "/_entry_" n ".md"
       next
