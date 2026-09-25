@@ -3,7 +3,8 @@ Type: artworks
 Date: 
 Thumbnail: blackboard_line.jpg
 Header Image: 
-Layout: grid
+Layout: carousel
+Carousel Speed: 4
 
 ## Synopsis
 
@@ -19,5 +20,28 @@ My camera was set up on a tripod, right in front of this crack. With each photo,
 
 ## Artworks
 
+### Test 1
+Image: test-01.svg
+Carousel: focus
+
+### Test 2
+Image: test-02.svg
+Carousel: focus
+
+### Test 3
+Image: test-03.svg
+Carousel: focus
+
+### Test 4
+Image: test-04.svg
+Carousel: window
+
+### Test 5
+Image: test-05.svg
+Carousel: window
+
 ### Blackboard
 Image: blackboard_line.jpg
+
+### Test 6
+Image: test-06.svg
