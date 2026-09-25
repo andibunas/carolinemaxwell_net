@@ -1353,552 +1353,21 @@
                 ]
               },
               {
-
-                "src": "/artworks/StoppageTime/StoppageTime2.jpg",
-                "alt": "Stoppage Time #2",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "in-retreat-galileo-davinci-morandi",
-            "type": "artwork",
-            "title": "In Retreat: Galileo, DaVinci, Morandi",
-            "medium": "Mixed media on paper",
-            "size": "",
-            "date": "2014",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/StoppageTime/InRetreat.jpg",
-                "alt": "In Retreat: Galileo, DaVinci, Morandi",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Saltanimals",
-        "type": "project",
-        "name": "Saltanimals",
-        "layout_type": "grid",
-        "date": "2006-01-01",
-        "write_up": "Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work as well as a Saltanimals panel is on display at the NANO Fetter Museum of Nanoscience and Art.",
-        "synopsis": "A multi-paneled work of tiny animals hand-painted in salt water, whose crystalline structure keeps changing over the years.",
-        "thumbnail": "/artworks/Saltanimals/saltanimals.jpg",
-        "children": [
-          {
-            "id": "saltanimals",
-            "type": "artwork",
-            "title": "Saltanimals",
-            "medium": "Evaporated salt water from the Great Salt Lake, Utah, and the Dead Sea, on black paper",
-            "size": "20 x 128 in",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals.jpg",
-                "alt": "Saltanimals",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals-detail",
-            "type": "artwork",
-            "title": "Saltanimals (detail)",
-            "medium": "",
-            "size": "",
-            "date": "2006",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals_detail.jpg",
-                "alt": "Saltanimals (detail)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "crystallography-lab-in-tel-aviv",
-            "type": "artwork",
-            "title": "Crystallography Lab in Tel Aviv",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/lab.JPG",
-                "alt": "Crystallography Lab in Tel Aviv",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltanimals-display-at-nano-joseph-fetter-museum-of-nanoscience-and-art",
-            "type": "artwork",
-            "title": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "Climate and humidity controlled environment has stabilized the salt crystals.",
-            "images": [
-              {
-                "src": "/artworks/Saltanimals/saltanimals_display1.jpg",
-                "alt": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Physics",
-        "type": "project",
-        "name": "The Intimacy of Physics",
-        "layout_type": "grid",
-        "date": "2019-01-01",
-        "write_up": "This series of work began with a handful of texts and images from the history of science: Galileo's experiments in physics, Captain James Cook's observations of the Transit of Venus, and various documents from the U.S. Geological Survey. I have layered these stories with my own, re-presenting and even re-enacting them in order to understand them on a more personal and direct level. This work could be seen as a desperate attempt to find hope, not in the rational certainty of science, but in its intuitive and transformative capacities.\n\nI begin with a simple shift in the language of science, to reveal it for what it truly is: a poetry of intimacy, of falling bodies and celestial visions passing before the eyes of history.",
-        "synopsis": "Photographs, paintings, and objects that layer episodes from the history of science with personal narrative.",
-        "thumbnail": "/artworks/Physics/transit3.jpg",
-        "children": [
-          {
-            "id": "transit-of-venus",
-            "type": "artwork",
-            "title": "Transit of Venus",
-            "medium": "Digital inkjet prints",
-            "size": "",
-            "date": "2008",
-            "write_up": "Between you and me something becomes visible; you are the backdrop that brings Venus into view. The \"Transit of Venus\" refers to the path that the planet Venus makes across the face of the Sun. When this event was observed by scientists in 1761, it became one of the earliest examples of international collaboration in the field of science. My photographs re-enact this astronomical phenomenon, but as an intimate gesture between two human beings.",
-            "images": [
-              {
-                "src": "/artworks/Physics/transit3.jpg",
-                "alt": "Transit of Venus",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "measuring-the-distance-at-which-we-can-no-longer-hear-each-other",
-            "type": "artwork",
-            "title": "Measuring the Distance at Which We Can No Longer Hear Each Other",
-            "medium": "Digital inkjet prints",
-            "size": "",
-            "date": "2007",
-            "write_up": "When Tony and I collaborated on this art piece back in 2007, we thought we were measuring the acoustics of the desert. I asked him to hold one end of a piece of twine, and then walk into the landscape until we could no longer hear each other. Today I realize there are many distances at which people can no longer hear each other. There are voluntary distances, theoretical distances... the distances of ignorance and forgetfulness. There are geo-political distances that separate families and loved ones on each side of national boundaries; and for Tony and I, there remains the unfathomable distance of death, at which we will no longer be able to hear each other.",
-            "images": [
-              {
-                "src": "/artworks/Physics/earshot.jpg",
-                "alt": "Measuring the Distance at Which We Can No Longer Hear Each Other",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "three-timepieces-human-animal-geological",
-            "type": "artwork",
-            "title": "Three Timepieces (Human, Animal, Geological)",
-            "medium": "Digital inkjet prints",
-            "size": "",
-            "date": "2008",
-            "write_up": "From Lesheba, South Africa.",
-            "images": [
-              {
-                "src": "/artworks/Physics/timepieces.jpg",
-                "alt": "Three Timepieces (Human, Animal, Geological)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "four-timepieces-human-animal-geological-and-human-again",
-            "type": "artwork",
-            "title": "Four Timepieces (Human, Animal, Geological, and Human Again)",
-            "medium": "Digital inkjet prints",
-            "size": "",
-            "date": "2008-2019",
-            "write_up": "South Africa 2008, Alaska 2019.",
-            "images": [
-              {
-                "src": "/artworks/Physics/FourTimepieces.jpg",
-                "alt": "Four Timepieces (Human, Animal, Geological, and Human Again)",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "to-extinguish-the-sun-and-other-small-things",
-            "type": "artwork",
-            "title": "To Extinguish The Sun and Other Small Things",
-            "medium": "Pinhole camera photograph, captured in a black box, eight inches square",
-            "size": "",
-            "date": "2014",
-            "write_up": "Sun, Venus, and a New Moon; Conjunct at Zero Degrees Scorpio (Partial Solar Eclipse, October 23, 2014; 2:30pm).",
-            "images": [
-              {
-                "src": "/artworks/Physics/ToExtinguishTheSun.jpg",
-                "alt": "To Extinguish The Sun and Other Small Things",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "galileo-s-heartbeat",
-            "type": "artwork",
-            "title": "Galileo's Heartbeat",
-            "medium": "Watercolor and olive oil on paper, eight inches square",
-            "size": "11 x 11 in",
-            "date": "2014",
-            "write_up": "In the absence of accurate clocks and timekeeping devices, Galileo used his own heartbeat to time his experiments.",
-            "images": [
-              {
-                "src": "/artworks/Physics/GalileosHeartbeat.jpg",
-                "alt": "Galileo's Heartbeat",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "wires-for-connection-1",
-            "type": "artwork",
-            "title": "Wires for Connection #1",
-            "medium": "Digital inkjet print",
-            "size": "",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Physics/58wires2.jpg",
-                "alt": "Wires for Connection #1",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "wires-for-connection-2",
-            "type": "artwork",
-            "title": "Wires for Connection #2",
-            "medium": "Digital inkjet print",
-            "size": "",
-            "date": "2005",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Physics/wires3.jpg",
-                "alt": "Wires for Connection #2",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Blackboard",
-        "type": "project",
-        "name": "Blackboard",
-        "layout_type": "carousel",
-        "date": "",
-        "write_up": "Blackboard presents a series of photos taken in an abandoned school building in Berkeley, California. In one of the classrooms, I discovered that the blackboard had a tiny crack down the middle of it. If you stood close enough, you could see a tiny line of light shining through from the other side.\n\nIf you put your eye right up to the crack, you could see right through the crack, all the way across the next room, to an open window with sun streaming through its white curtains.\n\nMy camera was set up on a tripod, right in front of this crack. With each photo, I adjust the focus slightly, which pushes the image from a crisp view of the flat blackboard, gradually passing through the crack, across the next room behind the board, and finally ending at the open window in the distance.",
-        "synopsis": "A photo series following a hairline crack across an abandoned schoolroom blackboard in Berkeley, California.",
-        "carousel_speed": 4,
-        "thumbnail": "/artworks/Blackboard/blackboard_line.jpg",
-        "children": [
-          {
-            "id": "test-1",
-            "type": "artwork",
-            "title": "Test 1",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-01.svg",
-                "alt": "Test 1",
-                "is_primary": true
-              }
-            ],
-            "carousel": "focus"
-          },
-          {
-            "id": "test-2",
-            "type": "artwork",
-            "title": "Test 2",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-02.svg",
-                "alt": "Test 2",
-                "is_primary": true
-              }
-            ],
-            "carousel": "focus"
-          },
-          {
-            "id": "test-3",
-            "type": "artwork",
-            "title": "Test 3",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-03.svg",
-                "alt": "Test 3",
-                "is_primary": true
-              }
-            ],
-            "carousel": "focus"
-          },
-          {
-            "id": "test-4",
-            "type": "artwork",
-            "title": "Test 4",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-04.svg",
-                "alt": "Test 4",
-                "is_primary": true
-              }
-            ],
-            "carousel": "window"
-          },
-          {
-            "id": "test-5",
-            "type": "artwork",
-            "title": "Test 5",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-05.svg",
-                "alt": "Test 5",
-                "is_primary": true
-              }
-            ],
-            "carousel": "window"
-          },
-          {
-            "id": "blackboard",
-            "type": "artwork",
-            "title": "Blackboard",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/blackboard_line.jpg",
-                "alt": "Blackboard",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "test-6",
-            "type": "artwork",
-            "title": "Test 6",
-            "medium": "",
-            "size": "",
-            "date": "",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Blackboard/test-06.svg",
-                "alt": "Test 6",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "DNA",
-        "type": "project",
-        "name": "Department of Nocturnal Affairs (DNA)",
-        "layout_type": "grid",
-        "date": "2009-01-01",
-        "write_up": "The DNA is a creative project by artists Tal Yizrael and Caroline Maxwell. Envisioned as both a work of installation and performance art, the DNA has opened field offices in various public spaces around the Los Angeles area to collect reports of nocturnal wildlife sightings.\n\nCurrently, the DNA is expanding its research into issues such as light pollution, deviant behavior in nocturnal animals, and the incarceration and rehabilitation of nocturnal animals.",
-        "synopsis": "A collaborative installation and performance project collecting reports of nocturnal wildlife sightings around Los Angeles.",
-        "thumbnail": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
-        "children": [
-          {
-            "id": "dna-color-studies",
-            "type": "artwork",
-            "title": "DNA Color Studies",
-            "medium": "Custom-blended oil paint on exposed photographic paper",
-            "size": "",
-            "date": "2009",
-            "write_up": "These color studies were created using DNA's \"Light Pollution Spectrum Oil Paints.\" Each painting contrasts sky colors from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night sky and then developed, turning the paper black.",
-            "images": [
-              {
-                "src": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
-                "alt": "DNA Color Studies",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "dna-light-pollution-spectrum-oil-paints",
-            "type": "artwork",
-            "title": "DNA Light Pollution Spectrum Oil Paints",
-            "medium": "",
-            "size": "",
-            "date": "2009",
-            "write_up": "Hand-crafted, each of these hues are mixed to match the color of the night sky in various Los Angeles neighborhoods. Currently available hues are: Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park, Huntington Park, Atwater Village, Pasadena, Altadena, South Pasadena, Alhambra, Hollywood.",
-            "images": [
-              {
-                "src": "/artworks/DNA/DNApaint.jpg",
-                "alt": "DNA Light Pollution Spectrum Oil Paints",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "saltmoons",
-            "type": "artwork",
-            "title": "Saltmoons",
-            "medium": "Carved and polished animal salt-licks",
-            "size": "",
-            "date": "2009",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/DNA/saltmoons-gallery1.jpg",
-                "alt": "Saltmoons",
-                "is_primary": true
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Villa_Mysteries",
-        "type": "project",
-        "name": "Villa of the Mysteries: Department of Eagles",
-        "layout_type": "grid",
-        "date": "2007-01-01",
-        "write_up": "Mount Vesuvius, Roman fertility cults, and the Belgian conceptual artist Marcel Broodthaers are among the cast members of this series of work. These delicate studies are an attempt to merge the bold sensuality of ancient Roman art with the more cerebral language of late 20th Century Conceptual Art. Proposed as a series of lessons, these works present a fertility ritual for the dry, impotent climes of contemporary art.\n\nGouache, ink, and charcoal on paper, 9\" x 12\", 2007.\n\nJan Baum Gallery, September 2007.",
-        "synopsis": "Delicate studies merging the bold sensuality of ancient Roman art with the cerebral language of late 20th century Conceptual Art.",
-        "thumbnail": "/artworks/Villa_Mysteries/1_intro_to_eagles_sm.jpg",
-        "children": [
-          {
-            "id": "lesson-1-introduction-to-eagles",
-            "type": "artwork",
-            "title": "Lesson #1 - Introduction to Eagles",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/1_intro_to_eagles_sm.jpg",
-                "alt": "Lesson #1 - Introduction to Eagles",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "lesson-2-how-to-fly",
-            "type": "artwork",
-            "title": "Lesson #2 - How to Fly",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/2_how_to_fly_sm.jpg",
-                "alt": "Lesson #2 - How to Fly",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "lesson-3-triomphe-de-moules",
-            "type": "artwork",
-            "title": "Lesson #3 - Triomphe de Moules",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/3_triomphe_de_moules_sm.jpg",
-                "alt": "Lesson #3 - Triomphe de Moules",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "lesson-4-bacchus-to-broodthaers",
-            "type": "artwork",
-            "title": "Lesson #4 - Bacchus to Broodthaers",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/4_bacchus_to_broodthaers_sm.jpg",
-                "alt": "Lesson #4 - Bacchus to Broodthaers",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "lesson-5-the-origins-of-bees-and-eagles",
-            "type": "artwork",
-            "title": "Lesson #5 - The Origins of Bees and Eagles",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/5_origins_of_bees_and_eagles_sm.jpg",
-                "alt": "Lesson #5 - The Origins of Bees and Eagles",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "lesson-6-paternity",
-            "type": "artwork",
-            "title": "Lesson #6 - Paternity",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
-              {
-                "src": "/artworks/Villa_Mysteries/6_paternity_sm.jpg",
-                "alt": "Lesson #6 - Paternity",
-                "is_primary": true
-              }
-            ]
-          },
-          {
-            "id": "aphrodite-adjusting-her-sandal-to-carefully-tread-the-basaltic-beeswax",
-            "type": "artwork",
-            "title": "Aphrodite Adjusting Her Sandal to Carefully Tread the Basaltic Beeswax",
-            "medium": "Gouache, ink, and charcoal on paper",
-            "size": "9 x 12 in",
-            "date": "2007",
-            "write_up": "",
-            "images": [
+                "id": "syrtos",
+                "type": "artwork",
+                "title": "Syrtos",
+                "medium": "Plaster and graphite on wall",
+                "size": "",
+                "date": "2006",
+                "write_up": "",
+                "images": [
+                  {
+                    "src": "/artworks/GeomagTravel/cyprus/syrtos1.jpg",
+                    "alt": "Syrtos",
+                    "is_primary": true
+                  }
+                ]
+              },
               {
                 "id": "stereoscopic-love-goddess",
                 "type": "artwork",
@@ -2481,24 +1950,1289 @@
         "id": "Blackboard",
         "type": "project",
         "name": "Blackboard",
-        "layout_type": "grid",
+        "layout_type": "carousel",
         "date": "",
         "write_up": "Blackboard presents a series of photos taken in an abandoned school building in Berkeley, California. In one of the classrooms, I discovered that the blackboard had a tiny crack down the middle of it. If you stood close enough, you could see a tiny line of light shining through from the other side.\n\nIf you put your eye right up to the crack, you could see right through the crack, all the way across the next room, to an open window with sun streaming through its white curtains.\n\nMy camera was set up on a tripod, right in front of this crack. With each photo, I adjust the focus slightly, which pushes the image from a crisp view of the flat blackboard, gradually passing through the crack, across the next room behind the board, and finally ending at the open window in the distance.",
         "synopsis": "A still camera in an abandoned classroom: A cracked blackboard becomes a tiny aperture, a passage between spaces and scales.",
-        "thumbnail": "/artworks/Blackboard/blackboard_line.jpg",
+        "carousel_speed": 1,
+        "thumbnail": "/artworks/Blackboard/Blackboard_Thumbnail.jpg",
         "children": [
           {
-            "id": "blackboard",
+            "id": "0003",
             "type": "artwork",
-            "title": "Blackboard",
+            "title": "0003",
             "medium": "",
             "size": "",
             "date": "",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/Blackboard/blackboard_line.jpg",
-                "alt": "Blackboard",
+                "src": "/artworks/Blackboard/DSC_0003.jpg",
+                "alt": "0003",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0010",
+            "type": "artwork",
+            "title": "0010",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0010.jpg",
+                "alt": "0010",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0011",
+            "type": "artwork",
+            "title": "0011",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0011.jpg",
+                "alt": "0011",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0012",
+            "type": "artwork",
+            "title": "0012",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0012.jpg",
+                "alt": "0012",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0013",
+            "type": "artwork",
+            "title": "0013",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0013.jpg",
+                "alt": "0013",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0014",
+            "type": "artwork",
+            "title": "0014",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0014.jpg",
+                "alt": "0014",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0015",
+            "type": "artwork",
+            "title": "0015",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0015.jpg",
+                "alt": "0015",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0016",
+            "type": "artwork",
+            "title": "0016",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0016.jpg",
+                "alt": "0016",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0017",
+            "type": "artwork",
+            "title": "0017",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0017.jpg",
+                "alt": "0017",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0018",
+            "type": "artwork",
+            "title": "0018",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0018.jpg",
+                "alt": "0018",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0019",
+            "type": "artwork",
+            "title": "0019",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0019.jpg",
+                "alt": "0019",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0020",
+            "type": "artwork",
+            "title": "0020",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0020.jpg",
+                "alt": "0020",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0021",
+            "type": "artwork",
+            "title": "0021",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0021.jpg",
+                "alt": "0021",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0022",
+            "type": "artwork",
+            "title": "0022",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0022.jpg",
+                "alt": "0022",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0023",
+            "type": "artwork",
+            "title": "0023",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0023.jpg",
+                "alt": "0023",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0024",
+            "type": "artwork",
+            "title": "0024",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0024.jpg",
+                "alt": "0024",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0025",
+            "type": "artwork",
+            "title": "0025",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0025.jpg",
+                "alt": "0025",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0026",
+            "type": "artwork",
+            "title": "0026",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0026.jpg",
+                "alt": "0026",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0027",
+            "type": "artwork",
+            "title": "0027",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0027.jpg",
+                "alt": "0027",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0028",
+            "type": "artwork",
+            "title": "0028",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0028.jpg",
+                "alt": "0028",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0029",
+            "type": "artwork",
+            "title": "0029",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0029.jpg",
+                "alt": "0029",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0030",
+            "type": "artwork",
+            "title": "0030",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0030.jpg",
+                "alt": "0030",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0031",
+            "type": "artwork",
+            "title": "0031",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0031.jpg",
+                "alt": "0031",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0032",
+            "type": "artwork",
+            "title": "0032",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0032.jpg",
+                "alt": "0032",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0033",
+            "type": "artwork",
+            "title": "0033",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0033.jpg",
+                "alt": "0033",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0034",
+            "type": "artwork",
+            "title": "0034",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0034.jpg",
+                "alt": "0034",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0035",
+            "type": "artwork",
+            "title": "0035",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0035.jpg",
+                "alt": "0035",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0036",
+            "type": "artwork",
+            "title": "0036",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0036.jpg",
+                "alt": "0036",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0037",
+            "type": "artwork",
+            "title": "0037",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0037.jpg",
+                "alt": "0037",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0038",
+            "type": "artwork",
+            "title": "0038",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0038.jpg",
+                "alt": "0038",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0039",
+            "type": "artwork",
+            "title": "0039",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0039.jpg",
+                "alt": "0039",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0040",
+            "type": "artwork",
+            "title": "0040",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0040.jpg",
+                "alt": "0040",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0041",
+            "type": "artwork",
+            "title": "0041",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0041.jpg",
+                "alt": "0041",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0042",
+            "type": "artwork",
+            "title": "0042",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0042.jpg",
+                "alt": "0042",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0043",
+            "type": "artwork",
+            "title": "0043",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0043.jpg",
+                "alt": "0043",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0044",
+            "type": "artwork",
+            "title": "0044",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0044.jpg",
+                "alt": "0044",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0045",
+            "type": "artwork",
+            "title": "0045",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0045.jpg",
+                "alt": "0045",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0046",
+            "type": "artwork",
+            "title": "0046",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0046.jpg",
+                "alt": "0046",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0047",
+            "type": "artwork",
+            "title": "0047",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0047.jpg",
+                "alt": "0047",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0048",
+            "type": "artwork",
+            "title": "0048",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0048.jpg",
+                "alt": "0048",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0049",
+            "type": "artwork",
+            "title": "0049",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0049.jpg",
+                "alt": "0049",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0050",
+            "type": "artwork",
+            "title": "0050",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0050.jpg",
+                "alt": "0050",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0051",
+            "type": "artwork",
+            "title": "0051",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0051.jpg",
+                "alt": "0051",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0052",
+            "type": "artwork",
+            "title": "0052",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0052.jpg",
+                "alt": "0052",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0053",
+            "type": "artwork",
+            "title": "0053",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0053.jpg",
+                "alt": "0053",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0054",
+            "type": "artwork",
+            "title": "0054",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0054.jpg",
+                "alt": "0054",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0055",
+            "type": "artwork",
+            "title": "0055",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0055.jpg",
+                "alt": "0055",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0056",
+            "type": "artwork",
+            "title": "0056",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0056.jpg",
+                "alt": "0056",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0057",
+            "type": "artwork",
+            "title": "0057",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0057.jpg",
+                "alt": "0057",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0058",
+            "type": "artwork",
+            "title": "0058",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0058.jpg",
+                "alt": "0058",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0059",
+            "type": "artwork",
+            "title": "0059",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0059.jpg",
+                "alt": "0059",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0060",
+            "type": "artwork",
+            "title": "0060",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0060.jpg",
+                "alt": "0060",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0061",
+            "type": "artwork",
+            "title": "0061",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0061.jpg",
+                "alt": "0061",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0062",
+            "type": "artwork",
+            "title": "0062",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0062.jpg",
+                "alt": "0062",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0063",
+            "type": "artwork",
+            "title": "0063",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0063.jpg",
+                "alt": "0063",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0064",
+            "type": "artwork",
+            "title": "0064",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0064.jpg",
+                "alt": "0064",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0065",
+            "type": "artwork",
+            "title": "0065",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0065.jpg",
+                "alt": "0065",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0066",
+            "type": "artwork",
+            "title": "0066",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0066.jpg",
+                "alt": "0066",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0067",
+            "type": "artwork",
+            "title": "0067",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0067.jpg",
+                "alt": "0067",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0068",
+            "type": "artwork",
+            "title": "0068",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0068.jpg",
+                "alt": "0068",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0069",
+            "type": "artwork",
+            "title": "0069",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0069.jpg",
+                "alt": "0069",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0070",
+            "type": "artwork",
+            "title": "0070",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0070.jpg",
+                "alt": "0070",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0071",
+            "type": "artwork",
+            "title": "0071",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0071.jpg",
+                "alt": "0071",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0072",
+            "type": "artwork",
+            "title": "0072",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0072.jpg",
+                "alt": "0072",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0073",
+            "type": "artwork",
+            "title": "0073",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0073.jpg",
+                "alt": "0073",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0074",
+            "type": "artwork",
+            "title": "0074",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0074.jpg",
+                "alt": "0074",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0075",
+            "type": "artwork",
+            "title": "0075",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0075.jpg",
+                "alt": "0075",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0076",
+            "type": "artwork",
+            "title": "0076",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0076.jpg",
+                "alt": "0076",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0077",
+            "type": "artwork",
+            "title": "0077",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0077.jpg",
+                "alt": "0077",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0078",
+            "type": "artwork",
+            "title": "0078",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0078.jpg",
+                "alt": "0078",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0079",
+            "type": "artwork",
+            "title": "0079",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0079.jpg",
+                "alt": "0079",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0080",
+            "type": "artwork",
+            "title": "0080",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0080.jpg",
+                "alt": "0080",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0081",
+            "type": "artwork",
+            "title": "0081",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0081.jpg",
+                "alt": "0081",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0082",
+            "type": "artwork",
+            "title": "0082",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0082.jpg",
+                "alt": "0082",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0083",
+            "type": "artwork",
+            "title": "0083",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0083.jpg",
+                "alt": "0083",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0084",
+            "type": "artwork",
+            "title": "0084",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0084.jpg",
+                "alt": "0084",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0085",
+            "type": "artwork",
+            "title": "0085",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0085.jpg",
+                "alt": "0085",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0086",
+            "type": "artwork",
+            "title": "0086",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0086.jpg",
+                "alt": "0086",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0087",
+            "type": "artwork",
+            "title": "0087",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0087.jpg",
+                "alt": "0087",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "0088",
+            "type": "artwork",
+            "title": "0088",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/DSC_0088.jpg",
+                "alt": "0088",
                 "is_primary": true
               }
             ]

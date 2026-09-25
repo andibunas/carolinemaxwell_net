@@ -51,13 +51,15 @@ the manifest tree via `resolveArtworkPath`/equivalent — so a project, sub-proj
 or leaf artwork/writing is a bookmarkable URL, not client-only state.
 
 ### Layout types are pluggable per project node
-A project's `layout_type` field (`grid`, `featured`, `stacked`, …) selects
-which layout component renders its children. The mapping lives in
+A project's `layout_type` field (`grid`, `featured`, `stacked`, `carousel`, …)
+selects which layout component renders its children. The mapping lives in
 `src/components/artworks/layoutRegistry.js`, where each layout is
-`React.lazy`-loaded for code-splitting. `resolveArtworkLayout()` overrides
-`layout_type` and forces the `stacked` layout whenever a project's children
-are leaf artworks rather than sub-projects (stacked shows image/medium/size/
-date/write-up inline, with no click-through). To add a new layout: create the
+`React.lazy`-loaded for code-splitting. `resolveArtworkLayout()` forces the
+`stacked` layout whenever a project's children are leaf artworks rather than
+sub-projects (stacked shows image/medium/size/date/write-up inline, with no
+click-through), unless `layout_type` is `carousel` (auto-rotating image
+carousels grouped by each artwork's `carousel` field, delay from
+`carousel_speed`, default 5s). To add a new layout: create the
 component in `src/components/artworks/layouts/`, register it in
 `layoutRegistry.js`, and reference its key from a project's `layout_type`.
 

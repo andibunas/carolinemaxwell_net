@@ -1,3 +1,28 @@
+# worktrees
+There are two ways to do it: with plain git, or by letting Claude Code manage the worktree for you.
+
+**Plain git**
+```sh
+# From the repo root: new branch in a sibling folder
+git worktree add ../carolinemaxwell_net-feature -b my-feature main
+
+cd ../carolinemaxwell_net-feature/caroline-maxwell-website
+npm install          # each worktree needs its own node_modules
+
+git worktree list    # show all worktrees
+git worktree remove ../carolinemaxwell_net-feature
+```
+
+**Claude Code**
+- Run `claude --worktree <name>` (or `-w <name>`) to start a session in a fresh worktree under `.claude/worktrees/<name>`, on its own branch.
+- In a session like this one, ask me to "work in a worktree" and I'll switch into one. When we're done, you can keep it or remove it.
+- Add `.claude/worktrees/` to `.gitignore` so those folders don't show up as untracked files.
+
+**Watch out for this in your repo:**
+- A new worktree only gets committed files. Your untracked Blackboard images and the edited `manifest.md` stay in this checkout. Commit them first if you want them in the new worktree.
+- Git won't check out the same branch in two worktrees at once, so give each worktree its own branch.
+- Run `npm install` separately in each project folder you work on (`caroline-maxwell-website/` or `dna_office/`) inside the worktree.
+
 
 
 # how are any other md files read
