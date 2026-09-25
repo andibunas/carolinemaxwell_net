@@ -44,7 +44,7 @@ export default function ImageCarousel({ slides, speed }) {
 
   return (
     <div ref={rootRef} className="max-w-4xl">
-      <div className="group relative h-[50vh] md:h-[75vh] bg-panel select-none">
+      <div className="group relative h-[50vh] md:h-[75vh] select-none">
         {slides.map((slide, i) => (
           <img
             key={slide.src}
@@ -52,7 +52,7 @@ export default function ImageCarousel({ slides, speed }) {
             alt={slide.alt}
             loading={i === 0 ? 'eager' : 'lazy'}
             aria-hidden={i !== index}
-            className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-700 ${
+            className={`absolute inset-0 w-full h-full object-contain ${
               i === index ? 'opacity-100' : 'opacity-0'
             }`}
           />
