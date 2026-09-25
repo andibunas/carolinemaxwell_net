@@ -1,13 +1,13 @@
 Name: Villa of the Mysteries: Department of Eagles
 Type: artworks
 Date: 2007-01-01
-Thumbnail: 1_intro_to_eagles_sm.jpg
+Thumbnail: 4_bacchus_to_broodthaers_sm.jpg
 Header Image: 
 Layout: grid
 
 ## Synopsis
 
-Delicate studies merging the bold sensuality of ancient Roman art with the cerebral language of late 20th century Conceptual Art.
+Ancient Roman art meets Marcel Broodthaers in this small series of paintings.
 
 ## Write Up
 
@@ -60,11 +60,6 @@ Medium: Gouache, ink, and charcoal on paper
 Size: 9 x 12 in
 Date: 2007
 Image: aphrodite_sm.jpg
-
-### Presentation of the Birds and the Bees
-Medium: Ink, graphite, and smoke on paper
-Date: 2007
-Image: presBirdsBees_sm.jpg
 
 ### Vesuvius
 Medium: Ink, graphite, and smoke on paper

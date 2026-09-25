@@ -32,13 +32,17 @@ export default function GalleryProjectPage() {
             key={art.id}
             className={i > 0 ? 'sm:[&:nth-child(-n+2)]:border-t-0 sm:[&:nth-child(-n+2)]:pt-0 border-t border-ink-faint/20 pt-10' : ''}
           >
-            <button
-              type="button"
-              onClick={() => setLightboxIndex(i)}
-              className="block w-full bg-panel overflow-hidden cursor-zoom-in"
-            >
-              <img src={art.image} alt={art.title} className="w-full h-auto object-cover" />
-            </button>
+            {art.video ? (
+              <video src={art.video} controls className="block w-full bg-panel" />
+            ) : (
+              <button
+                type="button"
+                onClick={() => setLightboxIndex(i)}
+                className="block w-full bg-panel overflow-hidden cursor-zoom-in"
+              >
+                <img src={art.image} alt={art.title} className="w-full h-auto object-cover" />
+              </button>
+            )}
             <figcaption className="mt-3 text-sm">
               <p className="italic text-ink">{art.title}</p>
               {(art.medium) && (
@@ -57,7 +61,7 @@ export default function GalleryProjectPage() {
       </div>
 
       <ImageLightbox
-        images={project.artworks.map((art) => ({ src: art.image, alt: art.title, caption: art.title }))}
+        images={project.artworks.map((art) => ({ src: art.image, video: art.video, alt: art.title, caption: art.title }))}
         index={lightboxIndex}
         onClose={() => setLightboxIndex(null)}
         onNavigate={setLightboxIndex}
