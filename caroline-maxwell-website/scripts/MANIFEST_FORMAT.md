@@ -74,7 +74,14 @@ A series of small interiors painted over one January...
   this project's own folder. `Thumbnail` is the small preview shown wherever
   this project appears among siblings; `Header Image` is the banner at the
   top of this project's own page. Both optional.
-- `Layout` is passed through as-is (e.g. `grid`, `featured`).
+- `Layout` is passed through as-is (e.g. `grid`, `featured`, `carousel`).
+  `carousel` applies to `Type: artworks` projects: the artworks are shown as
+  auto-rotating image carousels instead of a stacked list (see
+  `Carousel` under `## Artworks` below for grouping).
+- `Carousel Speed` (optional number, seconds, decimals allowed) is the delay
+  between images in a `carousel` layout's auto-rotation. Defaults to 5 when
+  omitted. Written to the manifest as `carousel_speed`; ignored by other
+  layouts.
 - `Synopsis` is the short teaser shown next to the thumbnail in listings;
   `Write Up` is the longer text on the project's own page. Both can be
   plain text or Markdown.
@@ -115,12 +122,19 @@ Image: frost-line-1.svg
 ### Frost Line, detail
 Medium: Oil on panel
 Image: frost-line-2.svg
+Carousel: details
 ```
 
 - One `### Title` subsection per image. `Image` names a file sitting
   directly in this project's folder. `Medium`, `Size`, and `Date` are plain
   text/optional. Any text after the `Key: value` lines (down to the next
   `### `) is that artwork's write-up — optional, can be Markdown.
+- `Carousel` (optional) names the carousel group this artwork belongs to in
+  a `Layout: carousel` project. Artworks sharing a value are shown in one
+  carousel; groups render top to bottom in the order each group first
+  appears. Artworks with no `Carousel` value form one final ungrouped
+  carousel at the bottom (or the only carousel, if none set it). Ignored by
+  other layouts.
 - List order is display order.
 - A folder with `Type: artworks` has no subfolders — only its manifest.md
   and image files.

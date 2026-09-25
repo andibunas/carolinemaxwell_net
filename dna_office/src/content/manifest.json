@@ -174,8 +174,8 @@
     {
       "id": "drawingnocturnal",
       "name": "Drawing Nocturnal",
-      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
-      "write_up": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.",
+      "synopsis": "Artworks created for the Department of Nocturnal Affairs at Row DTLA, Maiden LA Art Festival, 2018.",
+      "write_up": "Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.\nat Row DTLA, Maiden LA Art Festival, 2018",
       "artworks": [
         {
           "id": "table-display",
@@ -205,9 +205,9 @@
           "write_up": ""
         },
         {
-          "id": "tel-aviv-bats",
-          "title": "Tel Aviv Bats",
-          "medium": "digital inkjet print, 2018",
+          "id": "coyote",
+          "title": "Coyote",
+          "medium": "ink on paper, 2018",
           "size": "",
           "image": "/gallery/drawingnocturnal/coyote.jpg",
           "video": "",
@@ -255,9 +255,27 @@
     {
       "id": "sholem-asch",
       "name": "Sholem Asch House Museum: Nocturnal Residency",
-      "synopsis": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
-      "write_up": "Artworks created for the Department of Nocturnal Affairs by Tal Yizrael and Caroline Maxwell, installed at\nSholem Asch House Museum, 2020.",
+      "synopsis": "Artworks created for a residency at the Sholem Asch House Museum, 2020.",
+      "write_up": "The D.N.A. were artists in residence at the Sholem Asch House Museum in 2020. Artworks created by Tal Yizrael and Caroline Maxwell",
       "artworks": [
+        {
+          "id": "asch-house-dawn",
+          "title": "Asch House: Dawn",
+          "medium": "Photograph",
+          "size": "",
+          "image": "/gallery/sholem-asch/dawn.jpg",
+          "video": "",
+          "write_up": ""
+        },
+        {
+          "id": "the-storyteller",
+          "title": "The Storyteller",
+          "medium": "",
+          "size": "",
+          "image": "",
+          "video": "/gallery/sholem-asch/the-storyteller.mp4",
+          "write_up": ""
+        },
         {
           "id": "nocturnal-details-of-asch-house-objects",
           "title": "Nocturnal Details of Asch House: Objects",
@@ -309,15 +327,6 @@
           "medium": "oil on paper",
           "size": "6\" x 9\"",
           "image": "/gallery/sholem-asch/sm-asch-house-books.jpg",
-          "video": "",
-          "write_up": ""
-        },
-        {
-          "id": "asch-house-dawn",
-          "title": "Asch House: Dawn",
-          "medium": "Photograph",
-          "size": "",
-          "image": "/gallery/sholem-asch/dawn.jpg",
           "video": "",
           "write_up": ""
         },
@@ -380,9 +389,8 @@
         },
         {
           "src": "/field-offices/glow/dna-caro.jpg",
-          "alt": "Caroline Maxwell types a report",
-          "caption": "Caroline Maxwell types a report",
-          "body": "Caroline Maxwell types a report by a visitor to the D.N.A. field office."
+          "alt": "Caroline Maxwell types a report by a visitor to the D.N.A. field office.",
+          "caption": "Caroline Maxwell types a report by a visitor to the D.N.A. field office."
         },
         {
           "src": "/field-offices/glow/glow-animals.jpg",
@@ -398,7 +406,7 @@
       "id": "chapman",
       "name": "Chapman University",
       "location": "In Love With Night, Guggenheim Gallery, Chapman University, 2009",
-      "write_up": "The D.N.A. opened a field office in Chapman University's Guggenheim Gallery during the exhibit *In Love With\nNight*, curated by Ciara Ennis and Max King Cap, August 31 – October 2, 2009.\n\nOn September 15, 2009, the D.N.A. led a \"Nocturnal Walking Tour\" of the Chapman University campus, along with\nOrange County naturalist Joel Robinson.",
+      "write_up": "The D.N.A. opened a field office in Chapman University's Guggenheim Gallery during the exhibit *In Love With\nNight*, curated by Ciara Ennis and Max King Cap, August 31 – October 2, 2009.\n\nOn September 15, 2009, the D.N.A. led a Nocturnal Walking Tour of the Chapman University campus, along with\nOrange County naturalist Joel Robinson.",
       "images": [
         {
           "src": "/field-offices/chapman/DNAoffice_chapman.jpg",
@@ -407,8 +415,8 @@
         },
         {
           "src": "/field-offices/chapman/DNA_caro_byJoanna.jpg",
-          "alt": "Caroline Maxwell, photographed by Joanna",
-          "caption": "Caroline Maxwell, photographed by Joanna"
+          "alt": "Caroline Maxwell, photograph by Joanna Grasso",
+          "caption": "Caroline Maxwell, photograph by Joanna Grasso"
         },
         {
           "src": "/field-offices/chapman/chapmanuniv.jpg",
@@ -430,7 +438,7 @@
         }
       ],
       "transcript": {
-        "title": "Nocturnal Walking Tour transcript",
+        "title": "Nocturnal Walking Tour",
         "body": "*Guggenheim Gallery, Chapman University — 15 September, 2009*\n\n6:59 p.m.   official time of sunset in Orange, CA.\n\n**7:00 p.m.\t-  tour begins **\n\nVisitors gather in the gallery in front of the DNA office.  A laptop computer is open on the desk.  As the sun sets and night\n\nbegins in Orange County, California, the Nocturnal Walking Tour has already begun, 9 hours earlier in Tel Aviv, Israel.\n\nTal Yizrael, one of the DNA artists has been living and working in Tel Aviv since January 2009, and she is live via Skype\n\non the laptop in the gallery.\n\nWhile the sun is setting in California, the sun is rising in Tel Aviv.  Tal has just returned from a walk about the city,\n\nphotographing nocturnal life in Tel Aviv, and she narrates a live slideshow over the computer for gallery visitors.\n\n“Feral cats scavenge outside of a synagogue, humans are spotted walking in couples on the beach, late night club-hoppers\n\nare still drinking and dancing near the seaside.”\n\n**7:25 p.m. **\n\nDNA tour leaves the gallery and ventures out onto the Chapman University Campus.  The sky is now dark.  We walk out into an\n\nopen plaza to observe the night sky.\n\nThe following Sky Report is read to the group:\n\n\"The brilliant planet Jupiter, in Capricornus the Sea Goat, is the brightest object in the southeast as the sky darkens.\n\nIt climbs to 42 degrees high in the south at 11:00 p.m. and sets in the west-southwest 4.5 hours later.  It is accompanied by\n\nfour bright lights that slowly re-arrange themselves around the planet.  These are the four Galilean satellites, seen by\n\nGalileo nearly 400 years ago.  Two mutual events occur tonight between Jupiter’s moons Io and Europa.  From 8:41 to\n\n8:51 p.m. EDT, Io occults Europa partially.  Then from 10:12 to 10:19 EDT, Io’s shadow eclipses Europa partially, dimming\n\nit by 86%.\n\n-The Moon appears in waning crescent phase, although it will begin to rise after 4:14 a.m.  The moon was 2 degrees from the\n\nplanet Mars on Sunday morning, the 13th, and is close to Venus and Leo the Lion’s bright star Regulus on Wednesday morning.\n\nBefore and during dawn on Wednesday morning, look low in the east for Venus near the thin waning crescent Moon.\n\n-Mars is in Gemini the Twins, appearing as a bright orange star.  The planet rises in the east-northeast at 1:00 a.m. and is\n\n48 degrees high in the east when the dawn starts.  The planet will appear to double in size over the next four months.\n\n-Bright planet Venus rises in the east-northeast at 4:17a.m. and is still visible to the eye at sunrise, 28 degrees above the\n\neastern horizon.\n\n-Southern California residents had one more chance to see the International Space Station and the departing Space Shuttle\n\nDiscovery, on Wednesday evening September 9.  Both crossed below the Big Dipper, only 17 degrees high in the north northwest\n\nsky, moving from left to right.  Discovery should be highest at about 8:10p.m. followed by the International Space Station\n\nabout one minute later.\n\n-Also before dawn Wednesday, Vesta (magnitude 8.4) is skimming the southern edge of the Beehive Cluster.\n\n-And, if you’re out before dawn, look for the Zodiacal Light (the “false dawn”) towering up at an angle in the east.\"\n\n(A sky report is available on a weekly basis from Tony Cook at the Griffith Observatory, griffithobserver@gmail.com or in\n\na recorded phone message 213.473.0880)\n\n**7:50 p.m. ** The group is introduced to Joel Robinson, a local Orange County Naturalist.\n\nOne of the stated goals of this walking tour is to discover what forms of nocturnal animal life can be observed around the\n\nChapman University campus.  Armed with a flashlight and a camera, Joel will be leading the group on a wildlife hunt.\n\nJoel begins describing the likely places that animals will be observed, such as in dark corners, and places with an\n\nabundance of bushes for hiding and nesting.  The campus is noticeably pruned, landscaped, and well lit, with hardly a\n\ndark bushy corner to be found.\n\nWe spot a cricket on the sidewalk, the first animal sighting of the night.  We stop and listen, noticing the loud chirping\n\nall around us.  We walk into a corridor between two buildings, with vines covering both walls.  This spot is an acoustically\n\nperfect place for listening to the crickets.\n\nJoel suddenly crouches down and begins pawing through some vines growing close to the ground, pointing out that most insect\n\nlife would be hiding beneath these plants.  He turns over a medium-sized rock, a pincher bug is found underneath.\n\nBy now, we all have moved closer to the ground, closer to the plants and walls.  This is not your usual animal-spotting safari,\n\nwhere animals are seen from a comfortable walking position.  We must get down on our hands and knees, and more importantly, use\n\nour hands and our ears to locate the animal life.  They will be small, quiet, and invisible to most passers-by.\n\nJoel lifts up a metal drain cover in the middle of a grassy area.  The inside of the drain is full of grass clippings; this area\n\nis regularly mowed, and probably fertilized, pesticided, and herbicided Joel reminds us.  Inside the drain cover a few small spiders\n\nand a roly-poly are spotted.  By now, we are getting strange looks from people walking by.\n\nWe notice a fibrous tree trunk that is blanketed with spider webs.  We move close to the tree and watch the spiders retreat deeper\n\ninto their funnel-shaped webs.\n\nWe decide to look for bats over the football stadium, as the flood-lights are lit for a game.  Unfortunately, their brightness is\n\nblinding, and we are completely unable to see anything flying near or around the flood-lights.  A University employee is shampooing\n\nand scrubbing the sidewalk with a mini street-cleaner.\n\nOur next location is a café near the Business building.  Dumpsters are out back, and there are significant amounts of food crumbs\n\nand wrappers on the ground near the tables.  A search of the dumpster area turns up nothing, very little food appears to be thrown\n\naway, and there is hardly a noticeable smell in the garbage area.  We spot a black widow in a corner along a fence.\n\nAs we walk along a landscaped path, constantly scanning and combing through the bushes, a group of young male students ask us what\n\nwe’re doing.  We reply, “We’re looking for nocturnal wildlife.” They ask us if we’ve found any and we say, “No mammals, just insects.\n\nThere’s a black widow over by the café.”  One of the guys tells us that he’s afraid of spiders, especially black widows.  He asks Joel\n\nif you can die if you get bitten.  They acknowledge that the campus is indeed very tidy and this would keep most wild animals away.\n\nWe finally arrive at a large open plaza in the oldest part of the campus.  The area is circled by a number of lampposts topped\n\nwith enormous glowing glass bulbs.  Around each lamp appears a halo of swarming insects.  Tiny gnats and mosquitoes, a praying mantis,\n\na grasshopper, and a seemingly confused bee were found crawling and flying near these moon-like lanterns.  We begin inspecting the\n\nplants surrounding the plaza, and we notice tall red lilies, tiger lilies, and some ornamental lavender look-alike flowers.  Joel\n\nmentions that we might see a hummingbird moth, and that they often can be found feeding on lilies at night.\n\nAs we walk under a morton bay fig tree Joel stops to listen to a different sort of chirp, unlike the common crickets we’ve been\n\nlistening to all night.  He says that this single shrill peep sound is coming from a tree cricket, and that it’s unusual to hear them\n\nin this environment.  Apparently they prefer oak groves.  At that moment, I decide that I must visit an oak grove some night, because\n\nthe sound of the tree cricket is exceptionally beautiful.\n\nA few large orange and brown spiders are spotted on large net-like webs around the plaza, we marvel at how they manage to build these\n\nextraordinary webs in just one evening.  One web was suspended between a lamppost and the second story of a building at least 20 feet away.\n\nWe start to walk towards the edge of the campus and we notice that the immaculate landscaping, pruning and mulching is somewhat reduced.\n\nWe find an old trashcan full of water under some overgrown trees, and we spot a rat-trapping box beside an auditorium.  There is a plastic\n\nbaggie half-filled with a sugary cereal (Fruit Loops it seems) that has been left on a low marble pedestal beneath a bronze sculpture.\n\nJoel mentions that he saw this baggie the night before, and though it’s been moved around and the cereal has spilled out around it, most\n\nof it hasn’t been eaten.  This either points to a serious lack of animal life around there, OR it is simply the Fruit Loops that are so\n\nrepulsive and unhealthy that even the rats, raccoons and birds won’t touch them.\n\nWe approach another planted area with a large tree at the opposite end, and while we’ve been wading through vines and ground cover for\n\na while, we notice an increased crunching sound and sensation under our feet.  As we walk towards the tree, we begin spotting snails\n\nEVERYWHERE.  Snails on the wall, snails on the sidewalk, snails in the plants, snails crunching under our feet, and ESPECIALLY, snails\n\ngathering en-masse inside a large open scar down the tree’s trunk.  Apparently, this part of the tree had been chewed out by termites,\n\nand the strange corrugated mass that was left behind has become a major pilgrimage site for all the local snails.  We had no idea what\n\nthey were attracted to in this tree trunk, but I was really starting to wonder where the local opossums were, because this would certainly\n\nbe a feast for them.\n\n**8:45 p.m.**\n\nAs the tour heads back towards the art gallery, we stop by the dumpsters behind the science building.  Nothing is found here, the bins\n\nare mostly full of recyclables.  Next to this is the largest cafeteria on campus, so we go to inspect their dumpsters.  Again, very little\n\nfood garbage is present, and there’s no sign of animal life.  Beneath the windows of the cafeteria kitchen another rat-trapping box is\n\ndiscovered.  A large steel drum filled with used cooking oil is leaking a tiny stream of shiny grease down the sidewalk.  Empty milk crates\n\nare stacked near a stairway.\n\nWhile we walk back towards the street we notice whole walnuts, still in their skins and shells, littering the street.  Earlier that day,\n\nthe ravens were dropping them from the telephone wires above to break them open.  I wondered if there were any owls nesting in the enormous\n\n(and not recently pruned) walnut tree in a neighboring yard.\n\n**9:00 p.m.**\n\nTour ends back at the gallery.  Piano playing and opera singing can be heard from the music rehearsal rooms across the walkway.  At 9:30 p.m.\n\na fireworks show will begin at Disneyland and will be visible from any 2nd story building on campus.  The football game continues, and the sky\n\nis completely beige if you look north."
       },
       "thumbnail": "/field-offices/chapman/DNAoffice_chapman.jpg"
@@ -478,15 +486,13 @@
         },
         {
           "src": "/field-offices/jerusalem/dnaeyes.jpg",
-          "alt": "300 pairs of glowing animal eyes",
-          "caption": "300 pairs of glowing animal eyes",
-          "body": "300 pairs of glowing animal eyes greet visitors as they enter St. James Street."
+          "alt": "300 pairs of glowing animal eyes greet visitors as they enter St. James Street.",
+          "caption": "300 pairs of glowing animal eyes greet visitors as they enter St. James Street."
         },
         {
           "src": "/field-offices/jerusalem/street.JPG",
-          "alt": "St. James Street corridor",
-          "caption": "St. James Street corridor",
-          "body": "St. James Street corridor with animal icon paintings."
+          "alt": "St. James Street corridor with animal icon paintings.",
+          "caption": "St. James Street corridor with animal icon paintings."
         },
         {
           "src": "/field-offices/jerusalem/rat1.JPG",
@@ -508,9 +514,8 @@
       "images": [
         {
           "src": "/field-offices/telaviv/nisuykelim.jpg",
-          "alt": "Tal Yizrael interviews a visitor",
-          "caption": "Tal Yizrael interviews a visitor",
-          "body": "Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival."
+          "alt": "Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival.",
+          "caption": "Tal Yizrael interviews a visitor to the D.N.A. office at the Nisuy Kelim Festival."
         }
       ],
       "transcript": null,
@@ -544,15 +549,13 @@
         },
         {
           "src": "/field-offices/navee/tal1.jpg",
-          "alt": "Tal Yizrael interviews a visitor",
-          "caption": "Tal Yizrael interviews a visitor",
-          "body": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
+          "alt": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.",
+          "caption": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
         },
         {
           "src": "/field-offices/navee/tal2.jpg",
-          "alt": "Tal Yizrael interviews a visitor",
-          "caption": "Tal Yizrael interviews a visitor",
-          "body": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
+          "alt": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.",
+          "caption": "Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit."
         },
         {
           "src": "/field-offices/navee/fireflies_ronen_siman_tov.jpg",
@@ -567,7 +570,7 @@
       "id": "fresh-paint",
       "name": "Fresh Paint Art Fair, Special Projects",
       "location": "Zoological Museum, University of Tel Aviv, 2017",
-      "write_up": "March, 2017.",
+      "write_up": "",
       "images": [
         {
           "src": "/field-offices/fresh-paint/fresh-paint-office.jpg"
@@ -630,7 +633,7 @@
       "id": "sholem-asch",
       "name": "Sholem Asch House Museum",
       "location": "Bat Yam, Israel — Artist Residency, September & October 2020",
-      "write_up": "As resident artists, the D.N.A. transforms the home of Yiddish essayist and playwright Sholem Asch through\nvarious installations that explore darkness as a theme. Camera obscuras bring the outside world in, through\nghostly projections that ask us all to consider our own interior projections as we move through the darkness\nof being.\n\nA particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has\nbecome a centerpiece for the D.N.A. residency. Why is this woman closing her eyes? Where has she gone in this\ndarkened moment? She understands the uses of darkness, of closing one thing to open another. The D.N.A. has\ncreated a set of companion portraits, of nocturnal animals with closed eyes to join this woman on her journey.\nAdditionally, the D.N.A. has presented another set of paintings that capture small corners of the house at\ndusk or in the stillness of nighttime. These are installed in the small drawers of Asch's writing cabinet, to\nbe opened or closed away in an act that mirrors the openings and closings of our days, our nights, our eyes,\nand our memories. Words from Asch's writing, in the form of personal letters, books, and notes are displayed\naround the house, speaking to visitors about the elusive line between day and night, and the materiality of\nshadows and darkness.",
+      "write_up": "As resident artists, the D.N.A. transforms the home of Yiddish essayist and playwright Sholem Asch through\nvarious installations that explore darkness as a theme. Camera obscuras bring the outside world in, through\nghostly projections that ask us all to consider our own interior projections as we move through the darkness\nof being.\n\nA particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has\nbecome a centerpiece for the D.N.A. residency. Why is this woman closing her eyes? Where has she gone in this\ndarkened moment? She understands the uses of darkness, of closing one thing to open another. The D.N.A. has\ncreated a set of companion portraits, of nocturnal animals with closed eyes to join this woman on her journey.\nAdditionally, the D.N.A. has presented another set of paintings that capture small corners of the house at\ndusk or in the stillness of nighttime. These are installed in the small drawers of Asch's writing cabinet, to\nbe opened or closed away in an act that mirrors the openings and closings of our days, our nights, our eyes,\nand our memories. \n\nWords from Asch's writing, in the form of personal letters, books, and notes are displayed\naround the house, speaking to visitors about the elusive line between day and night, and the materiality of\nshadows and darkness.\n\n[(View additional artworks from this show on the Art Gallery page)](?section=gallery&project=sholem-asch)",
       "images": [
         {
           "video": "/field-offices/sholem-asch/the-storyteller.mp4",
@@ -640,9 +643,9 @@
         },
         {
           "src": "/field-offices/sholem-asch/dna-eyes-closed.jpg",
-          "alt": "Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed",
-          "caption": "Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed",
-          "body": "*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Portrait Companions: Woman With\nEyes Closed* by Maurycy Gottlieb (late 1800s)."
+          "alt": "Portrait Companions",
+          "caption": "Portrait Companions",
+          "body": "*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Woman With\nEyes Closed* by Maurycy Gottlieb (late 1800s)."
         },
         {
           "src": "/field-offices/sholem-asch/drawers.jpg",
@@ -1488,7 +1491,7 @@
           "image": "/animal-reports/human/human3_sm.jpg"
         },
         {
-          "id": "human",
+          "id": "human-4",
           "label": "Human",
           "thumbnail": "/animal-reports/human/human_sm.jpg",
           "image": "/animal-reports/human/human_sm.jpg"

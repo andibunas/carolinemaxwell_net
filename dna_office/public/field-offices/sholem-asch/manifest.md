@@ -17,9 +17,14 @@ created a set of companion portraits, of nocturnal animals with closed eyes to j
 Additionally, the D.N.A. has presented another set of paintings that capture small corners of the house at
 dusk or in the stillness of nighttime. These are installed in the small drawers of Asch's writing cabinet, to
 be opened or closed away in an act that mirrors the openings and closings of our days, our nights, our eyes,
-and our memories. Words from Asch's writing, in the form of personal letters, books, and notes are displayed
+and our memories. 
+
+Words from Asch's writing, in the form of personal letters, books, and notes are displayed
 around the house, speaking to visitors about the elusive line between day and night, and the materiality of
 shadows and darkness.
+
+[(View additional artworks from this show on the Art Gallery page)](?section=gallery&project=sholem-asch)
+
 
 ## Images
 
@@ -28,10 +33,10 @@ Video: the-storyteller.mp4
 
 by Tal Yizrael (2020)
 
-### Portrait Companions: Badger With Eyes Closed / Woman With Eyes Closed
+### Portrait Companions
 Image: dna-eyes-closed.jpg
 
-*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Portrait Companions: Woman With
+*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Woman With
 Eyes Closed* by Maurycy Gottlieb (late 1800s).
 
 ### Nocturnal Details: Writing Cabinet

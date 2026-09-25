@@ -1,7 +1,7 @@
 ## Child Projects
 
-- Artwork04_06
-- GeomagTravel
+
+
 - engelmann
 - stilllives
 - silentcities
@@ -10,14 +10,10 @@
 - SecretMountains
 - StoppageTime
 - Saltanimals
+- GeomagTravel
 - Physics
 - Blackboard
 - DNA
 - Villa_Mysteries
 - SanAndreas
-- painting_2005_2011
-- navee
-- Paintings07_10
-- SouthAfrica
-- TechPlates
-- stereoscopes
+

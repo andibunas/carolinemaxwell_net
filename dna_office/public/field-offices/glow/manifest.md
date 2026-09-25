@@ -16,10 +16,9 @@ Image: dna-sign.jpg
 ### The D.N.A. Office in Palisades Park, Santa Monica
 Image: glow-dna.jpg
 
-### Caroline Maxwell types a report
+### Caroline Maxwell types a report by a visitor to the D.N.A. field office.
 Image: dna-caro.jpg
 
-Caroline Maxwell types a report by a visitor to the D.N.A. field office.
 
 ### Mapping animal sightings
 Image: glow-animals.jpg

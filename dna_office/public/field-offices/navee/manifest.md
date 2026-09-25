@@ -25,15 +25,11 @@ October, 2014.
 ### The D.N.A. Office at Templer House
 Image: navee_typewriter.jpg
 
-### Tal Yizrael interviews a visitor
+### Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.
 Image: tal1.jpg
 
-Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.
-
-### Tal Yizrael interviews a visitor
+### Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.
 Image: tal2.jpg
-
-Tal Yizrael interviews visitors to the D.N.A. office at the Navee Navee exhibit.
 
 ### Report on fireflies
 Image: fireflies_ronen_siman_tov.jpg

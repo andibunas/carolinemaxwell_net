@@ -1,0 +1,61 @@
+# worktrees
+There are two ways to do it: with plain git, or by letting Claude Code manage the worktree for you.
+
+**Plain git**
+```sh
+# From the repo root: new branch in a sibling folder
+git worktree add ../carolinemaxwell_net-feature -b my-feature main
+
+cd ../carolinemaxwell_net-feature/caroline-maxwell-website
+npm install          # each worktree needs its own node_modules
+
+git worktree list    # show all worktrees
+git worktree remove ../carolinemaxwell_net-feature
+```
+
+**Claude Code**
+- Run `claude --worktree <name>` (or `-w <name>`) to start a session in a fresh worktree under `.claude/worktrees/<name>`, on its own branch.
+- In a session like this one, ask me to "work in a worktree" and I'll switch into one. When we're done, you can keep it or remove it.
+- Add `.claude/worktrees/` to `.gitignore` so those folders don't show up as untracked files.
+
+**Watch out for this in your repo:**
+- A new worktree only gets committed files. Your untracked Blackboard images and the edited `manifest.md` stay in this checkout. Commit them first if you want them in the new worktree.
+- Git won't check out the same branch in two worktrees at once, so give each worktree its own branch.
+- Run `npm install` separately in each project folder you work on (`caroline-maxwell-website/` or `dna_office/`) inside the worktree.
+
+
+
+# how are any other md files read
+
+Good specific questions — here's how it actually works.
+
+**Other .md files do get pulled in, via an import syntax.** CLAUDE.md supports `@path/to/file.md` references anywhere in the file (outside of code blocks/backticks, which are treated as literal text rather than an import). So you can write something like:
+
+```markdown
+See @docs/architecture.md for the system design.
+@docs/git-conventions.md
+```
+
+and both files get expanded inline into context at session start. Imports can be relative or absolute paths, they can chain recursively (an imported file can itself import others), up to a max depth of 4 hops, and an import pointing outside the project directory triggers a one-time approval prompt (except your own `~/.claude/CLAUDE.md`, which is always trusted). Note this doesn't save tokens — it's purely organizational, since the content still gets loaded, just split across files instead of one giant CLAUDE.md.
+
+**So to answer directly: yes, a random .md file needs to be referenced somewhere** to be automatically included — either imported from CLAUDE.md (or from a file CLAUDE.md imports, etc.), or it needs to live in one of the special recognized locations below. Otherwise it only gets read if the model decides to open it itself during normal exploration (e.g., it greps the repo, notices `ARCHITECTURE.md`, and reads it because it seems relevant) — that's a judgment call by the model each session, not something guaranteed.
+
+**Files/locations Claude Code auto-discovers by convention, no reference needed:**
+
+| Location | What it is | When it loads |
+|---|---|---|
+| `CLAUDE.md` (project root + nested dirs) | Project instructions | Session start (nested ones lazily as Claude works in that subdirectory) |
+| `CLAUDE.local.md` | Personal project instructions | Session start |
+| `~/.claude/CLAUDE.md` | Global instructions across all projects | Session start |
+| `.claude/rules/*.md` | Rule files, optionally scoped to matching file paths via frontmatter | Session start, or on-demand if path-scoped |
+| `.claude/skills/*/SKILL.md`, `~/.claude/skills/`, plugin skills | Skill definitions | Descriptions loaded at startup; full body only when a skill is actually invoked |
+| `.claude/commands/*.md` | Slash command definitions | Descriptions loaded at startup; full body when the command is invoked |
+| `.claude/agents/*.md` | Subagent definitions | Loaded when that subagent is invoked |
+| `.claude/settings.json`, `settings.local.json`, `~/.claude/settings.json` | Config/permissions | Session start |
+| `.mcp.json` | MCP server definitions | Session start |
+
+Everything else — a loose `NOTES.md`, a `README.md` you never mentioned, a design doc sitting in a subfolder — is invisible to Claude Code unless it's imported from CLAUDE.md or the model happens to open it while exploring the repo.
+
+Sources: [Claude Code memory docs](https://code.claude.com/docs/en/memory), [context window docs](https://code.claude.com/docs/en/context-window), [skills docs](https://code.claude.com/docs/en/skills)
+
+
