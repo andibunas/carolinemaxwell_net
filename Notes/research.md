@@ -1,9 +1,35 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [I want to send answers to google forms via an api call instead of the browser form](#i-want-to-send-answers-to-google-forms-via-an-api-call-instead-of-the-browser-form)
+  - [🔍 How It Works: Finding the API URL and Field Names](#-how-it-works-finding-the-api-url-and-field-names)
+  - [💻 Constructing the API Request](#-constructing-the-api-request)
+  - [Code Example (cURL)](#code-example-curl)
+  - [Code Example (Node.js Fetch)](#code-example-nodejs-fetch)
+  - [⚠️ Important Rules & Limitations](#-important-rules--limitations)
+- [FTP](#ftp)
+  - [Method 1: Using curl (Pre-installed on your Mac)](#method-1-using-curl-pre-installed-on-your-mac)
+  - [Method 2: Using lftp (Most Powerful & Easiest)](#method-2-using-lftp-most-powerful--easiest)
+  - [other](#other)
+  - [The Best No-Homebrew Solution: Native curl Loop](#the-best-no-homebrew-solution-native-curl-loop)
+  - [How to fill out this command:](#how-to-fill-out-this-command)
+  - [Why this works natively:](#why-this-works-natively)
+- [GitHub Actions deploy](#github-actions-deploy)
+  - [Step-by-Step Setup## 1. Add your FTP credentials to GitHub Secrets](#step-by-step-setup-1-add-your-ftp-credentials-to-github-secrets)
+  - [2. Create your Workflow File](#2-create-your-workflow-file)
+  - [Key Customizations for the Action:](#key-customizations-for-the-action)
+  - [How it runs:](#how-it-runs)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 
 # I want to send answers to google forms via an api call instead of the browser form
 
 Yes, you can absolutely submit answers to a Google Form programmatically via an API call without ever opening a web browser.
 You can achieve this by sending a standard HTTP POST request to Google's public form-response endpoint. Google Forms natively accepts these submissions just like a regular web page would.
+
 ------------------------------
 ## 🔍 How It Works: Finding the API URL and Field Names
 To send data via an API, you must find the Form ID and the Entry ID for each specific question.
@@ -15,6 +41,7 @@ To send data via an API, you must find the Form ID and the Entry ID for each spe
       * Look at the HTML code for an attribute named name="entry.123456789". The number after entry. is the unique ID for that specific question. Repeat this for all questions.
    
 ------------------------------
+
 ## 💻 Constructing the API Request
 Once you have gathered those details, your API endpoint URL becomes:
 https://google.com[FORM_ID]/formResponse
@@ -85,7 +112,7 @@ The absolute best tool for syncing whole folders over pure FTP is lftp using its
     lftp -u username,password -e "mirror -R /path/to/local/folder /path/to/remote/destination; quit" ftp://example.com
    
    * mirror -R takes your entire local folder structure and mirrors (uploads) it directly to the FTP server.
-   
+
 ------------------------------
 
 ## other
@@ -119,6 +146,7 @@ If you run into any connection timeouts or permission errors while running it, l
 
 To upload a folder to an FTP server inside a GitHub Action, you do not need to install Homebrew or write complex curl loops. Instead, you can use a pre-built, community-verified GitHub Action Marketplace workflow step.
 The most popular and reliable option for this is the FTP-Deploy Action by SamKirkland. It automatically tracks changes and only uploads new or modified files.
+
 ------------------------------
 ## Step-by-Step Setup## 1. Add your FTP credentials to GitHub Secrets
 Never paste your raw password directly into your GitHub code.

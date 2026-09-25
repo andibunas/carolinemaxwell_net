@@ -7,17 +7,36 @@ Layout: grid
 
 ## Artworks
 
-### Silent Cities: Mountain
+
+### The Most Silent of Great Cities
+Medium: Mixed Media
+Size: 4 x 6 in
+Date: 2019
+Image: SilentCities.jpg
+
+### Silent Cities: City of Earth
 Medium: Charcoal on paper
 Size: 18 x 24 in
 Date: 2019
-Image: silentcities_mountain.jpg
+Image: city of earth_sm.jpg
 
-### Silent Cities: Flood
+### Silent Cities: City of Water
 Medium: Charcoal and oil on paper
 Size: 18 x 24 in
 Date: 2019
-Image: silentcities_flood.jpg
+Image: city of water_sm.jpg
+
+### Silent Cities: Soul of a Monument
+Medium: Oil on paper
+Size: 18 x 24 in
+Date: 2017
+Image: soul of a monument.jpeg
+
+### Silent Cities: Flood
+Medium: Ink on paper
+Size: 9 x 12 in
+Date: 2019
+Image: silentcities_flood_sm.jpg
 
 ### Silent Cities: Entombed
 Medium: Charcoal on paper

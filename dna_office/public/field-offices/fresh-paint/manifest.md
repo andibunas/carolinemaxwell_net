@@ -4,7 +4,6 @@ Order: 8
 Thumbnail: fresh-paint-office.jpg
 
 ## Write Up
-March, 2017.
 
 ## Images
 

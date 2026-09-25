@@ -1,7 +1,7 @@
 Name: Stoppage Time
 Type: artworks
 Date: 2015-01-01
-Thumbnail: StoppageTime1.jpg
+Thumbnail: HorizonLineStoppageTime.jpg
 Header Image: 
 Layout: grid
 
@@ -11,18 +11,40 @@ Layout: grid
 Medium: Oil on canvas
 Size: approx. 12 x 9 in each
 Date: 2015
-Image: Blue of that day All_sm.jpg
+Image: Blue of that day _grid.jpg
 The Blue That Remains, The Blue That Resists, The Blue That Rests, The Blue That Arrests, The Blue That Restrains, The Blue That Retains, The Blue That Returns.
+
+### Horizon Line Stoppage Time: Arial Stoppages
+Medium: Photographs
+Date: 1970 - 1990
+Image: FEC_arial_stoppages copy.jpg
+Collection of photographs taken by my grandfather, an amateur pilot. 1970s - 1990
+
+### Horizon Line Stoppage Time #1
+Medium: Oil on canvas
+Date: 2013
+Image: ArialStoppage_1.jpg
+
+### Horizon Line Stoppage Time #2
+Medium: Oil on canvas
+Date: 2013
+Image: ArialStoppage_2.jpg
+
+### Horizon Line Stoppage Time #3
+Medium: Oil on canvas
+Date: 2013
+Image: ArialStoppage_3.jpg
+
+### Horizon Line Stoppage Time #4
+Medium: Oil on canvas
+Date: 2013
+Image: ArialStoppage_4.jpg
 
 ### To Extinguish The Sun and Other Small Things
 Medium: Pinhole camera photograph, captured in a black box, eight inches square
 Date: 2014
 Image: ToExtinguishTheSun.jpg
 Sun, Venus, and a New Moon; Conjunct at Zero Degrees Scorpio (Partial Solar Eclipse, October 23, 2014; 2:30pm).
-
-### To Extinguish The Sun and Other Small Things (camera)
-Medium: Pinhole camera and photograph, eight inches square
-Image: pinholebox.JPG
 
 ### Galileo's Heartbeat
 Medium: Watercolor and olive oil on paper, eight inches square
@@ -41,30 +63,6 @@ Medium: Mixed media
 Date: 2014
 Image: blackcrowned night heron2.jpg
 
-### Horizon Line Stoppage Time #1
-Medium: Oil on canvas
-Date: 2013
-Image: ArialStoppage_no1.jpg
-
-### Horizon Line Stoppage Time #4
-Medium: Oil on canvas
-Date: 2013
-Image: ArialStoppage_no4.jpg
-
-### Horizon Line Stoppage Time #3
-Medium: Oil on canvas
-Date: 2013
-Image: ArialStoppage_no3.jpg
-
-### Stoppage Time #1
-Medium: Mixed media
-Date: 2014
-Image: StoppageTime1.jpg
-
-### Stoppage Time #2
-Medium: Mixed media
-Date: 2014
-Image: StoppageTime2.jpg
 
 ### In Retreat: Galileo, DaVinci, Morandi
 Medium: Mixed media on paper

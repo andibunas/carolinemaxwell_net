@@ -1,7 +1,7 @@
 Name: Trees to Keep Time
 Type: artworks
 Date: 2017-01-01
-Thumbnail: tree1.jpg
+Thumbnail: tree6.jpg
 Header Image: 
 Layout: grid
 

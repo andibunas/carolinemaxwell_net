@@ -4,11 +4,12 @@ Thumbnail: table.jpg
 
 ## Synopsis
 
-Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.
+Artworks created for the Department of Nocturnal Affairs at Row DTLA, Maiden LA Art Festival, 2018.
 
 ## Write Up
 
 Artworks created for the Department of Nocturnal Affairs by Caroline Maxwell.
+at Row DTLA, Maiden LA Art Festival, 2018
 
 ## Artworks
 
@@ -25,8 +26,8 @@ Image: raccoon-and-shadow.jpg
 Medium: ink on paper, 2018
 Image: boar.jpg
 
-### Tel Aviv Bats
-Medium: digital inkjet print, 2018
+### Coyote
+Medium: ink on paper, 2018
 Image: coyote.jpg
 
 ### Hyena, Tree

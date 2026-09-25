@@ -10,7 +10,7 @@ import FieldOfficesIndexPage from './pages/field-offices/FieldOfficesIndexPage';
 import FieldOfficeDetailPage from './pages/field-offices/FieldOfficeDetailPage';
 import TranscriptPage from './pages/field-offices/TranscriptPage';
 import AnimalReportsPage from './pages/animal-reports/AnimalReportsPage';
-import AboutPage from './pages/about/AboutPage';
+import AboutLayout from './pages/about/AboutLayout';
 import NotFoundPage from './pages/NotFoundPage';
 
 function renderSection(section, params) {
@@ -29,7 +29,7 @@ function renderSection(section, params) {
       return <AnimalReportsPage />;
 
     case 'about':
-      return <AboutPage />;
+      return <AboutLayout />;
 
     default:
       return <NotFoundPage />;

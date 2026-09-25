@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import SiteHeader from './components/layout/SiteHeader';
 import SiteFooter from './components/layout/SiteFooter';
+import ScrollToTop from './components/layout/ScrollToTop';
 
 import HomePage from './pages/home/HomePage';
 import ArtworksIndexPage from './pages/artworks/ArtworksIndexPage';
@@ -16,6 +17,7 @@ import NotFoundPage from './pages/NotFoundPage';
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
       <SiteHeader />
       <main className="flex-1">
         <Routes>

@@ -2,12 +2,12 @@ Name: Geomagnetic Travellogue
 Type: projects
 Date: 2025-11-02
 Thumbnail: declination.jpg
-Header Image: declination-animated.gif
+Header Image: declination.jpg
 Layout: grid
 
 ## Synopsis
 
-Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in four journeys.
+Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in five journeys.
 
 ## Write Up
 

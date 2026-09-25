@@ -9,7 +9,7 @@ export default function BioTeaser() {
       </p>
       <Link
         to="/about/bio"
-        className="inline-block mt-4 text-sm text-gold border-b border-gold/40 hover:border-gold transition-colors"
+        className="inline-block mt-4 text-sm text-gold-text border-b border-gold/40 hover:border-gold transition-colors"
       >
         {homeContent.bio_link_label}
       </Link>

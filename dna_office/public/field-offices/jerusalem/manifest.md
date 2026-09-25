@@ -20,15 +20,11 @@ Image: DNAjerusalem_titleimg.jpg
 ### The D.N.A. Office on St. James Street
 Image: office.JPG
 
-### 300 pairs of glowing animal eyes
+### 300 pairs of glowing animal eyes greet visitors as they enter St. James Street.
 Image: dnaeyes.jpg
 
-300 pairs of glowing animal eyes greet visitors as they enter St. James Street.
-
-### St. James Street corridor
+### St. James Street corridor with animal icon paintings.
 Image: street.JPG
-
-St. James Street corridor with animal icon paintings.
 
 ### Nocturnal animal icon painting — rat
 Image: rat1.JPG

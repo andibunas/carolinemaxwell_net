@@ -7,13 +7,13 @@ Layout: grid
 
 ## Synopsis
 
-Paintings of items confiscated from Portland protesters and a pipe bomb from the January 6, 2021 Capitol attack.
+Paintings to contemplate... the fragility of objects, of bodies, of democracies.
 
 ## Write Up
 
 Items confiscated from protesters by the Portland Police Department, July 2020; Pipe Bomb discovered by DC Metropolitan Police, January 6, 2021.
 
-From photos of objects (posted on Twitter by Portland and DC PD). Paintings to contemplate — the fragility of objects, of bodies, of democracies.
+From photos of objects (posted on Twitter by Portland and DC PD). Paintings to contemplate... the fragility of objects, of bodies, of democracies.
 
 ## Artworks
 
