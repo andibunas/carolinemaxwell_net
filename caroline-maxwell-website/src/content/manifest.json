@@ -1353,21 +1353,552 @@
                 ]
               },
               {
-                "id": "syrtos",
-                "type": "artwork",
-                "title": "Syrtos",
-                "medium": "Plaster and graphite on wall",
-                "size": "",
-                "date": "2006",
-                "write_up": "",
-                "images": [
-                  {
-                    "src": "/artworks/GeomagTravel/cyprus/syrtos1.jpg",
-                    "alt": "Syrtos",
-                    "is_primary": true
-                  }
-                ]
-              },
+
+                "src": "/artworks/StoppageTime/StoppageTime2.jpg",
+                "alt": "Stoppage Time #2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "in-retreat-galileo-davinci-morandi",
+            "type": "artwork",
+            "title": "In Retreat: Galileo, DaVinci, Morandi",
+            "medium": "Mixed media on paper",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/StoppageTime/InRetreat.jpg",
+                "alt": "In Retreat: Galileo, DaVinci, Morandi",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Saltanimals",
+        "type": "project",
+        "name": "Saltanimals",
+        "layout_type": "grid",
+        "date": "2006-01-01",
+        "write_up": "Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work as well as a Saltanimals panel is on display at the NANO Fetter Museum of Nanoscience and Art.",
+        "synopsis": "A multi-paneled work of tiny animals hand-painted in salt water, whose crystalline structure keeps changing over the years.",
+        "thumbnail": "/artworks/Saltanimals/saltanimals.jpg",
+        "children": [
+          {
+            "id": "saltanimals",
+            "type": "artwork",
+            "title": "Saltanimals",
+            "medium": "Evaporated salt water from the Great Salt Lake, Utah, and the Dead Sea, on black paper",
+            "size": "20 x 128 in",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals.jpg",
+                "alt": "Saltanimals",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "saltanimals-detail",
+            "type": "artwork",
+            "title": "Saltanimals (detail)",
+            "medium": "",
+            "size": "",
+            "date": "2006",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals_detail.jpg",
+                "alt": "Saltanimals (detail)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "crystallography-lab-in-tel-aviv",
+            "type": "artwork",
+            "title": "Crystallography Lab in Tel Aviv",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/lab.JPG",
+                "alt": "Crystallography Lab in Tel Aviv",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "saltanimals-display-at-nano-joseph-fetter-museum-of-nanoscience-and-art",
+            "type": "artwork",
+            "title": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "Climate and humidity controlled environment has stabilized the salt crystals.",
+            "images": [
+              {
+                "src": "/artworks/Saltanimals/saltanimals_display1.jpg",
+                "alt": "Saltanimals Display at NANO Joseph Fetter Museum of Nanoscience and Art",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Physics",
+        "type": "project",
+        "name": "The Intimacy of Physics",
+        "layout_type": "grid",
+        "date": "2019-01-01",
+        "write_up": "This series of work began with a handful of texts and images from the history of science: Galileo's experiments in physics, Captain James Cook's observations of the Transit of Venus, and various documents from the U.S. Geological Survey. I have layered these stories with my own, re-presenting and even re-enacting them in order to understand them on a more personal and direct level. This work could be seen as a desperate attempt to find hope, not in the rational certainty of science, but in its intuitive and transformative capacities.\n\nI begin with a simple shift in the language of science, to reveal it for what it truly is: a poetry of intimacy, of falling bodies and celestial visions passing before the eyes of history.",
+        "synopsis": "Photographs, paintings, and objects that layer episodes from the history of science with personal narrative.",
+        "thumbnail": "/artworks/Physics/transit3.jpg",
+        "children": [
+          {
+            "id": "transit-of-venus",
+            "type": "artwork",
+            "title": "Transit of Venus",
+            "medium": "Digital inkjet prints",
+            "size": "",
+            "date": "2008",
+            "write_up": "Between you and me something becomes visible; you are the backdrop that brings Venus into view. The \"Transit of Venus\" refers to the path that the planet Venus makes across the face of the Sun. When this event was observed by scientists in 1761, it became one of the earliest examples of international collaboration in the field of science. My photographs re-enact this astronomical phenomenon, but as an intimate gesture between two human beings.",
+            "images": [
+              {
+                "src": "/artworks/Physics/transit3.jpg",
+                "alt": "Transit of Venus",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "measuring-the-distance-at-which-we-can-no-longer-hear-each-other",
+            "type": "artwork",
+            "title": "Measuring the Distance at Which We Can No Longer Hear Each Other",
+            "medium": "Digital inkjet prints",
+            "size": "",
+            "date": "2007",
+            "write_up": "When Tony and I collaborated on this art piece back in 2007, we thought we were measuring the acoustics of the desert. I asked him to hold one end of a piece of twine, and then walk into the landscape until we could no longer hear each other. Today I realize there are many distances at which people can no longer hear each other. There are voluntary distances, theoretical distances... the distances of ignorance and forgetfulness. There are geo-political distances that separate families and loved ones on each side of national boundaries; and for Tony and I, there remains the unfathomable distance of death, at which we will no longer be able to hear each other.",
+            "images": [
+              {
+                "src": "/artworks/Physics/earshot.jpg",
+                "alt": "Measuring the Distance at Which We Can No Longer Hear Each Other",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "three-timepieces-human-animal-geological",
+            "type": "artwork",
+            "title": "Three Timepieces (Human, Animal, Geological)",
+            "medium": "Digital inkjet prints",
+            "size": "",
+            "date": "2008",
+            "write_up": "From Lesheba, South Africa.",
+            "images": [
+              {
+                "src": "/artworks/Physics/timepieces.jpg",
+                "alt": "Three Timepieces (Human, Animal, Geological)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "four-timepieces-human-animal-geological-and-human-again",
+            "type": "artwork",
+            "title": "Four Timepieces (Human, Animal, Geological, and Human Again)",
+            "medium": "Digital inkjet prints",
+            "size": "",
+            "date": "2008-2019",
+            "write_up": "South Africa 2008, Alaska 2019.",
+            "images": [
+              {
+                "src": "/artworks/Physics/FourTimepieces.jpg",
+                "alt": "Four Timepieces (Human, Animal, Geological, and Human Again)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "to-extinguish-the-sun-and-other-small-things",
+            "type": "artwork",
+            "title": "To Extinguish The Sun and Other Small Things",
+            "medium": "Pinhole camera photograph, captured in a black box, eight inches square",
+            "size": "",
+            "date": "2014",
+            "write_up": "Sun, Venus, and a New Moon; Conjunct at Zero Degrees Scorpio (Partial Solar Eclipse, October 23, 2014; 2:30pm).",
+            "images": [
+              {
+                "src": "/artworks/Physics/ToExtinguishTheSun.jpg",
+                "alt": "To Extinguish The Sun and Other Small Things",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "galileo-s-heartbeat",
+            "type": "artwork",
+            "title": "Galileo's Heartbeat",
+            "medium": "Watercolor and olive oil on paper, eight inches square",
+            "size": "11 x 11 in",
+            "date": "2014",
+            "write_up": "In the absence of accurate clocks and timekeeping devices, Galileo used his own heartbeat to time his experiments.",
+            "images": [
+              {
+                "src": "/artworks/Physics/GalileosHeartbeat.jpg",
+                "alt": "Galileo's Heartbeat",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "wires-for-connection-1",
+            "type": "artwork",
+            "title": "Wires for Connection #1",
+            "medium": "Digital inkjet print",
+            "size": "",
+            "date": "2005",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Physics/58wires2.jpg",
+                "alt": "Wires for Connection #1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "wires-for-connection-2",
+            "type": "artwork",
+            "title": "Wires for Connection #2",
+            "medium": "Digital inkjet print",
+            "size": "",
+            "date": "2005",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Physics/wires3.jpg",
+                "alt": "Wires for Connection #2",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Blackboard",
+        "type": "project",
+        "name": "Blackboard",
+        "layout_type": "carousel",
+        "date": "",
+        "write_up": "Blackboard presents a series of photos taken in an abandoned school building in Berkeley, California. In one of the classrooms, I discovered that the blackboard had a tiny crack down the middle of it. If you stood close enough, you could see a tiny line of light shining through from the other side.\n\nIf you put your eye right up to the crack, you could see right through the crack, all the way across the next room, to an open window with sun streaming through its white curtains.\n\nMy camera was set up on a tripod, right in front of this crack. With each photo, I adjust the focus slightly, which pushes the image from a crisp view of the flat blackboard, gradually passing through the crack, across the next room behind the board, and finally ending at the open window in the distance.",
+        "synopsis": "A photo series following a hairline crack across an abandoned schoolroom blackboard in Berkeley, California.",
+        "carousel_speed": 4,
+        "thumbnail": "/artworks/Blackboard/blackboard_line.jpg",
+        "children": [
+          {
+            "id": "test-1",
+            "type": "artwork",
+            "title": "Test 1",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-01.svg",
+                "alt": "Test 1",
+                "is_primary": true
+              }
+            ],
+            "carousel": "focus"
+          },
+          {
+            "id": "test-2",
+            "type": "artwork",
+            "title": "Test 2",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-02.svg",
+                "alt": "Test 2",
+                "is_primary": true
+              }
+            ],
+            "carousel": "focus"
+          },
+          {
+            "id": "test-3",
+            "type": "artwork",
+            "title": "Test 3",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-03.svg",
+                "alt": "Test 3",
+                "is_primary": true
+              }
+            ],
+            "carousel": "focus"
+          },
+          {
+            "id": "test-4",
+            "type": "artwork",
+            "title": "Test 4",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-04.svg",
+                "alt": "Test 4",
+                "is_primary": true
+              }
+            ],
+            "carousel": "window"
+          },
+          {
+            "id": "test-5",
+            "type": "artwork",
+            "title": "Test 5",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-05.svg",
+                "alt": "Test 5",
+                "is_primary": true
+              }
+            ],
+            "carousel": "window"
+          },
+          {
+            "id": "blackboard",
+            "type": "artwork",
+            "title": "Blackboard",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/blackboard_line.jpg",
+                "alt": "Blackboard",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "test-6",
+            "type": "artwork",
+            "title": "Test 6",
+            "medium": "",
+            "size": "",
+            "date": "",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Blackboard/test-06.svg",
+                "alt": "Test 6",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DNA",
+        "type": "project",
+        "name": "Department of Nocturnal Affairs (DNA)",
+        "layout_type": "grid",
+        "date": "2009-01-01",
+        "write_up": "The DNA is a creative project by artists Tal Yizrael and Caroline Maxwell. Envisioned as both a work of installation and performance art, the DNA has opened field offices in various public spaces around the Los Angeles area to collect reports of nocturnal wildlife sightings.\n\nCurrently, the DNA is expanding its research into issues such as light pollution, deviant behavior in nocturnal animals, and the incarceration and rehabilitation of nocturnal animals.",
+        "synopsis": "A collaborative installation and performance project collecting reports of nocturnal wildlife sightings around Los Angeles.",
+        "thumbnail": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
+        "children": [
+          {
+            "id": "dna-color-studies",
+            "type": "artwork",
+            "title": "DNA Color Studies",
+            "medium": "Custom-blended oil paint on exposed photographic paper",
+            "size": "",
+            "date": "2009",
+            "write_up": "These color studies were created using DNA's \"Light Pollution Spectrum Oil Paints.\" Each painting contrasts sky colors from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night sky and then developed, turning the paper black.",
+            "images": [
+              {
+                "src": "/artworks/DNA/ColorStudy_allFLAT1.jpg",
+                "alt": "DNA Color Studies",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "dna-light-pollution-spectrum-oil-paints",
+            "type": "artwork",
+            "title": "DNA Light Pollution Spectrum Oil Paints",
+            "medium": "",
+            "size": "",
+            "date": "2009",
+            "write_up": "Hand-crafted, each of these hues are mixed to match the color of the night sky in various Los Angeles neighborhoods. Currently available hues are: Downtown L.A., Boyle Heights, Vernon, Silverlake, Echo Park, Huntington Park, Atwater Village, Pasadena, Altadena, South Pasadena, Alhambra, Hollywood.",
+            "images": [
+              {
+                "src": "/artworks/DNA/DNApaint.jpg",
+                "alt": "DNA Light Pollution Spectrum Oil Paints",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "saltmoons",
+            "type": "artwork",
+            "title": "Saltmoons",
+            "medium": "Carved and polished animal salt-licks",
+            "size": "",
+            "date": "2009",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/DNA/saltmoons-gallery1.jpg",
+                "alt": "Saltmoons",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Villa_Mysteries",
+        "type": "project",
+        "name": "Villa of the Mysteries: Department of Eagles",
+        "layout_type": "grid",
+        "date": "2007-01-01",
+        "write_up": "Mount Vesuvius, Roman fertility cults, and the Belgian conceptual artist Marcel Broodthaers are among the cast members of this series of work. These delicate studies are an attempt to merge the bold sensuality of ancient Roman art with the more cerebral language of late 20th Century Conceptual Art. Proposed as a series of lessons, these works present a fertility ritual for the dry, impotent climes of contemporary art.\n\nGouache, ink, and charcoal on paper, 9\" x 12\", 2007.\n\nJan Baum Gallery, September 2007.",
+        "synopsis": "Delicate studies merging the bold sensuality of ancient Roman art with the cerebral language of late 20th century Conceptual Art.",
+        "thumbnail": "/artworks/Villa_Mysteries/1_intro_to_eagles_sm.jpg",
+        "children": [
+          {
+            "id": "lesson-1-introduction-to-eagles",
+            "type": "artwork",
+            "title": "Lesson #1 - Introduction to Eagles",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/1_intro_to_eagles_sm.jpg",
+                "alt": "Lesson #1 - Introduction to Eagles",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "lesson-2-how-to-fly",
+            "type": "artwork",
+            "title": "Lesson #2 - How to Fly",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/2_how_to_fly_sm.jpg",
+                "alt": "Lesson #2 - How to Fly",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "lesson-3-triomphe-de-moules",
+            "type": "artwork",
+            "title": "Lesson #3 - Triomphe de Moules",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/3_triomphe_de_moules_sm.jpg",
+                "alt": "Lesson #3 - Triomphe de Moules",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "lesson-4-bacchus-to-broodthaers",
+            "type": "artwork",
+            "title": "Lesson #4 - Bacchus to Broodthaers",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/4_bacchus_to_broodthaers_sm.jpg",
+                "alt": "Lesson #4 - Bacchus to Broodthaers",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "lesson-5-the-origins-of-bees-and-eagles",
+            "type": "artwork",
+            "title": "Lesson #5 - The Origins of Bees and Eagles",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/5_origins_of_bees_and_eagles_sm.jpg",
+                "alt": "Lesson #5 - The Origins of Bees and Eagles",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "lesson-6-paternity",
+            "type": "artwork",
+            "title": "Lesson #6 - Paternity",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Villa_Mysteries/6_paternity_sm.jpg",
+                "alt": "Lesson #6 - Paternity",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "aphrodite-adjusting-her-sandal-to-carefully-tread-the-basaltic-beeswax",
+            "type": "artwork",
+            "title": "Aphrodite Adjusting Her Sandal to Carefully Tread the Basaltic Beeswax",
+            "medium": "Gouache, ink, and charcoal on paper",
+            "size": "9 x 12 in",
+            "date": "2007",
+            "write_up": "",
+            "images": [
               {
                 "id": "stereoscopic-love-goddess",
                 "type": "artwork",
