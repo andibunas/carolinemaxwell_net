@@ -1,7 +1,7 @@
 Name: Saltanimals
 Type: artworks
 Date: 2006-01-01
-Thumbnail: saltanimals.jpg
+Thumbnail: saltanimals_detail.jpg
 Header Image: 
 Layout: grid
 
@@ -11,7 +11,7 @@ Constellations of tiny animals hand-painted in crystallized salt water
 
 ## Write Up
 
-Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work along with two Saltanimals panels is on display at the NANO Fetter Museum of Nanoscience and Art.
+Saltanimals is a multi-paneled work featuring tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and is featured in a display at the NANO Fetter Museum of Nanoscience and Art.
 
 ## Artworks
 

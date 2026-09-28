@@ -52,7 +52,7 @@ Image: Silence_suspended.jpg
 
 ### Suspended
 Medium: Oil on canvas
-Size: 18 x 18 in
+Size: 8 x 8 in
 Date: 2020
 Image: Suspended.jpg
 

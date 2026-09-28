@@ -5,6 +5,14 @@ Thumbnail: HorizonLineStoppageTime.jpg
 Header Image: 
 Layout: grid
 
+## Synopsis
+
+Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.
+
+## Write Up
+
+Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.
+
 ## Artworks
 
 ### The Blue That Remains
@@ -24,21 +32,25 @@ Collection of photographs taken by my grandfather, an amateur pilot. 1970s - 199
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_1.jpg
+Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #2
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_2.jpg
+Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #3
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_3.jpg
+Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #4
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_4.jpg
+Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### To Extinguish The Sun and Other Small Things
 Medium: Pinhole camera photograph, captured in a black box, eight inches square
