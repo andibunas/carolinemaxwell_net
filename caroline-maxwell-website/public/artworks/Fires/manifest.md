@@ -1,8 +1,8 @@
 Name: Fires
 Type: artworks
 Date: 2015-01-01
-Thumbnail: 
-Header Image: AfterEaton_GatheringGiving2.jpeg
+Thumbnail: AfterEaton_GatheringGiving2.jpeg
+Header Image: 
 Layout: grid
 
 ## Synopsis

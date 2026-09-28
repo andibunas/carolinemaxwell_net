@@ -1,7 +1,7 @@
 Name: Department of Nocturnal Affairs (DNA)
 Type: artworks
 Date: 2009-01-01
-Thumbnail: ColorStudy_allFLAT1.jpg
+Thumbnail: ColorStudy_allFLAT.jpg
 Header Image: 
 Layout: grid
 

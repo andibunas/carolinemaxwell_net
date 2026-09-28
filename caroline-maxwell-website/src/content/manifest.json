@@ -2,6 +2,178 @@
   "artworks": {
     "projects": [
       {
+        "id": "Fires",
+        "type": "project",
+        "name": "Fires",
+        "layout_type": "grid",
+        "date": "2015-01-01",
+        "write_up": "After The Eaton Fire:  Works created in response to the 2025 Los Angeles wildfires. The Eaton wildfire hit very close to home, as I've lived in and around this community for my entire life.  The experience of seeing our neighborhoods, mountains, and a lifetime of memories tied to a place, go up in flames overnight was one I will never forget.  Finding ways to work with this subject has been a challenge.  Some images and memories are too difficult to face. Yet, I keep returning to images and memories of people gathering and helping, showing kindness, solidarity, and overwhelming generosity.",
+        "synopsis": "Works created in response to the 2025 Eaton Wildfire",
+        "thumbnail": "/artworks/Fires/AfterEaton_GatheringGiving2.jpeg",
+        "children": [
+          {
+            "id": "after-the-eaton-wildfire-gathering-giving-1",
+            "type": "artwork",
+            "title": "After The Eaton Wildfire: Gathering, Giving 1",
+            "medium": "Oil on Paper ",
+            "size": "13.5 x 19.5 in.",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterEaton_GatheringGiving.jpeg",
+                "alt": "After The Eaton Wildfire: Gathering, Giving 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "after-the-eaton-wildfire-gathering-giving-2",
+            "type": "artwork",
+            "title": "After The Eaton Wildfire: Gathering, Giving 2",
+            "medium": "Oil on Paper",
+            "size": "14 x 17 in.",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterEaton_GatheringGiving2.jpeg",
+                "alt": "After The Eaton Wildfire: Gathering, Giving 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "after-fire-1",
+            "type": "artwork",
+            "title": "After Fire 1",
+            "medium": "Oil on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterFire1.jpeg",
+                "alt": "After Fire 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "after-fire-2",
+            "type": "artwork",
+            "title": "After Fire 2",
+            "medium": "Oil on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterFire2.jpeg",
+                "alt": "After Fire 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "after-eaton-1",
+            "type": "artwork",
+            "title": "After Eaton 1",
+            "medium": "Oil on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterEaton1.jpeg",
+                "alt": "After Eaton 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "after-eaton-2",
+            "type": "artwork",
+            "title": "After Eaton 2",
+            "medium": "Oil on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/AfterEaton2.jpeg",
+                "alt": "After Eaton 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-fires-1",
+            "type": "artwork",
+            "title": "Small Fires 1",
+            "medium": "Ink on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/smallfires1.jpg",
+                "alt": "Small Fires 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-fires-2",
+            "type": "artwork",
+            "title": "Small Fires 2",
+            "medium": "Ink on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/smallfires2.jpg",
+                "alt": "Small Fires 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-fires-3",
+            "type": "artwork",
+            "title": "Small Fires 3",
+            "medium": "Ink on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/smallfires3.jpg",
+                "alt": "Small Fires 3",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "small-fires-4",
+            "type": "artwork",
+            "title": "Small Fires 4",
+            "medium": "Ink on Paper",
+            "size": "",
+            "date": "2026",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Fires/smallfires4.jpg",
+                "alt": "Small Fires 4",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "engelmann",
         "type": "project",
         "name": "Engelmann",
@@ -392,7 +564,7 @@
             "type": "artwork",
             "title": "Suspended",
             "medium": "Oil on canvas",
-            "size": "18 x 18 in",
+            "size": "8 x 8 in",
             "date": "2020",
             "write_up": "",
             "images": [
@@ -725,20 +897,20 @@
         "date": "2015-01-01",
         "write_up": "",
         "synopsis": "",
-        "thumbnail": "/artworks/SecretMountains/CubeSlices.jpg",
+        "thumbnail": "/artworks/SecretMountains/SecretMountain_detail.jpg",
         "children": [
           {
-            "id": "slices-of-a-cube-passing-through-a-plane",
+            "id": "slices-of-a-cube-passing-through-a-plane-a-mountain-is-revealed-on-the-horizon",
             "type": "artwork",
-            "title": "Slices of a Cube Passing Through a Plane",
+            "title": "Slices of a Cube Passing Through a Plane: A Mountain is Revealed on the Horizon.",
             "medium": "Mixed media (magazine page, butter; three stages)",
             "size": "",
             "date": "2014",
-            "write_up": "A Mountain is Revealed on the Horizon.",
+            "write_up": "",
             "images": [
               {
                 "src": "/artworks/SecretMountains/CubeSlices.jpg",
-                "alt": "Slices of a Cube Passing Through a Plane",
+                "alt": "Slices of a Cube Passing Through a Plane: A Mountain is Revealed on the Horizon.",
                 "is_primary": true
               }
             ]
@@ -760,6 +932,22 @@
             ]
           },
           {
+            "id": "secret-map-for-a-secret-mountain-4-how-to-pass-through-a-plane",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2014",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/PassingThroughPlane.JPG",
+                "alt": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
             "id": "secret-map-for-a-secret-mountain-3-professional-amateur",
             "type": "artwork",
             "title": "Secret Map For a Secret Mountain 3 (Professional / Amateur)",
@@ -776,17 +964,49 @@
             ]
           },
           {
-            "id": "secret-map-for-a-secret-mountain-4-how-to-pass-through-a-plane",
+            "id": "secret-map-for-a-secret-mountain-2",
             "type": "artwork",
-            "title": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+            "title": "Secret Map For a Secret Mountain 2",
             "medium": "Mixed media",
             "size": "",
-            "date": "2014",
+            "date": "2015",
             "write_up": "",
             "images": [
               {
-                "src": "/artworks/SecretMountains/PassingThroughPlane.JPG",
-                "alt": "Secret Map For a Secret Mountain 4 (How to Pass Through a Plane)",
+                "src": "/artworks/SecretMountains/SecretMapToSecretMountain2.jpg",
+                "alt": "Secret Map For a Secret Mountain 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "secret-map-for-a-secret-mountain-north",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain: North",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/North.jpg",
+                "alt": "Secret Map For a Secret Mountain: North",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "secret-map-for-a-secret-mountain-south",
+            "type": "artwork",
+            "title": "Secret Map For a Secret Mountain: South",
+            "medium": "Mixed media",
+            "size": "",
+            "date": "2020",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/SecretMountains/South.jpg",
+                "alt": "Secret Map For a Secret Mountain: South",
                 "is_primary": true
               }
             ]
@@ -799,8 +1019,8 @@
         "name": "Stoppage Time",
         "layout_type": "grid",
         "date": "2015-01-01",
-        "write_up": "",
-        "synopsis": "",
+        "write_up": "Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.",
+        "synopsis": "Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.",
         "thumbnail": "/artworks/StoppageTime/HorizonLineStoppageTime.jpg",
         "children": [
           {
@@ -842,7 +1062,7 @@
             "medium": "Oil on canvas",
             "size": "",
             "date": "2013",
-            "write_up": "",
+            "write_up": "Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.",
             "images": [
               {
                 "src": "/artworks/StoppageTime/ArialStoppage_1.jpg",
@@ -858,7 +1078,7 @@
             "medium": "Oil on canvas",
             "size": "",
             "date": "2013",
-            "write_up": "",
+            "write_up": "Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.",
             "images": [
               {
                 "src": "/artworks/StoppageTime/ArialStoppage_2.jpg",
@@ -874,7 +1094,7 @@
             "medium": "Oil on canvas",
             "size": "",
             "date": "2013",
-            "write_up": "",
+            "write_up": "Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.",
             "images": [
               {
                 "src": "/artworks/StoppageTime/ArialStoppage_3.jpg",
@@ -890,7 +1110,7 @@
             "medium": "Oil on canvas",
             "size": "",
             "date": "2013",
-            "write_up": "",
+            "write_up": "Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.",
             "images": [
               {
                 "src": "/artworks/StoppageTime/ArialStoppage_4.jpg",
@@ -982,14 +1202,25 @@
         ]
       },
       {
+        "id": "TheStoryteller",
+        "type": "project",
+        "name": "The Storyteller",
+        "layout_type": "grid",
+        "date": "2020-01-01",
+        "write_up": "The Storyteller is a series of video slideshows constructed from photographs found in my grandparents’ collections, dating from the 1950s through the 1980s. The photographs at times recall memorable moments from family history, and at other times are blurry, accidental photographs that my grandparents kept nonetheless. Most of the images’ original circumstances, meanings, and stories are only partly known, becoming the starting points for stories about strange and sometimes improbable encounters with animals. \n\nIn the space between image and text, fact and fiction, memory and invention, the photographs become something other than evidence: they become witnesses, clues, and openings through which another story can emerge, invoking a world in which humans are no longer the only storytellers.",
+        "synopsis": "A series of video slideshows made from found photographs. Images become clues for strange and sometimes improbable animal encounters, inhabiting the uncertain space between fact and fiction, memory and invention, and human and nonhuman ways of seeing.",
+        "thumbnail": "/artworks/TheStoryteller/Slideshows_title.jpg",
+        "children": []
+      },
+      {
         "id": "Saltanimals",
         "type": "project",
         "name": "Saltanimals",
         "layout_type": "grid",
         "date": "2006-01-01",
-        "write_up": "Saltanimals is a multi-paneled work where tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and really taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and our collaborative work along with two Saltanimals panels is on display at the NANO Fetter Museum of Nanoscience and Art.",
+        "write_up": "Saltanimals is a multi-paneled work featuring tiny animals are hand-painted in salt water on black paper. As the water dries, the unique crystalline structure of the Dead Sea water and the Great Salt Lake water becomes visible. The properties of these salt water sources have continued to change and respond to the work's environment over the years, at times, re-liquifying, changing color, and taking on a life of their own. Saltanimals has become the subject of a collaborative study by crystallographer Dr. Gili Cohen-Taguri and paper conservator Noa Cahaner-McManus, and is featured in a display at the NANO Fetter Museum of Nanoscience and Art.",
         "synopsis": "Constellations of tiny animals hand-painted in crystallized salt water",
-        "thumbnail": "/artworks/Saltanimals/saltanimals.jpg",
+        "thumbnail": "/artworks/Saltanimals/saltanimals_detail.jpg",
         "children": [
           {
             "id": "saltanimals",
@@ -3247,6 +3478,7 @@
         "date": "2009-01-01",
         "write_up": "The D.N.A. is a creative project by artists Caroline Maxwell and Tal Yizrael. Envisioned as both a work of installation and performance art, the DNA functions as a speculative bureaucracy and a precarious archive. The DNA has opened field offices in various public spaces around Los Angeles and the world to collect reports of nocturnal wildlife encounters.\n\nIn addition to the ongoing collection of reports, the DNA creates artworks that respond to the issues of light pollution and the important presence of darkness in our worlds and lives.",
         "synopsis": "A collaborative installation and performance project, collecting reports of nocturnal wildlife encounters, and investigating darkness as a fertile ground for knowledge and memory.",
+        "thumbnail": "/artworks/DNA/ColorStudy_allFLAT.jpg",
         "children": [
           {
             "id": "dna-light-pollution-spectrum-oil-paints",
