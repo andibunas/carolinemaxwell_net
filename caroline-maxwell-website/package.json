@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:static": "vite build && node scripts/generate-static.mjs",
-    "build:package": "rm -rf dist.zip && cd dist-static && zip -r ../dist.zip . && cd ..",
+    "build:package": "cd dist-static && rm -rf dist.zip && zip -r ../dist.zip . && cd .. && mv dist.zip dist-static/dist.zip",
     "lint": "oxlint",
     "preview": "vite preview",
     "clean": "rm -rf dist dist-static",
