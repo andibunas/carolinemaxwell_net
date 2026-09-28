@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:static": "vite build && node scripts/generate-static.mjs",
-    "build:package": "cd dist-static && rm -rf dist.zip && zip -r ../dist.zip . && cd .. && mv dist.zip dist-static/dist.zip",
+    "build:static": "npm run clean && vite build && node scripts/generate-static.mjs",
+    "build:package": "npm run build:static && cd dist-static && zip -r dist.zip . && cd ..",
     "lint": "oxlint",
     "preview": "vite preview",
     "clean": "rm -rf dist dist-static",
