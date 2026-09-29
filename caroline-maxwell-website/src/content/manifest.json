@@ -174,6 +174,338 @@
         ]
       },
       {
+        "id": "Daciarama",
+        "type": "project",
+        "name": "Daciaramă-Panorama",
+        "layout_type": "grid",
+        "date": "2006-01-01",
+        "write_up": "This series of photographic artworks are created through a unique and complex process.  They originate with a digital i-phone panorama photograph, taken through the window of a moving car, with all of its visual glitches and distortions.  This image is printed out on paper, transferred by hand to a plastic adhesive transparency, and then chemically printed in the darkroom onto black-and-white photographic paper.  These works are part of a larger series of digital-to-analogue photographs.\n\nThe name Daciaramă plays with the words \"Dacia\" and \"ramă.\" Dacia is both the ancient name for the geographic region of Romania, as well as a make of popular Romanian automobile; and ramă, means window frame in Romanian.  These photos were taken while driving throughout the roads and small towns in western Romania, a region where the traditional analogue world collides with, sometimes resists, and exists in spite of, the modern digital world.",
+        "synopsis": "A series of analogue photographs made through the window of a moving car, capturing the landscapes and small towns of western Romania as a shifting, dreamlike collision between the old and the new.",
+        "thumbnail": "/artworks/Daciarama/RomaniaPan_5.jpg",
+        "children": [
+          {
+            "id": "daciaram-panorama-orthagonals",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama (orthagonals)",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "8x10 inches",
+            "date": "2023",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/Caroline1_Land-Scape1.jpg",
+                "alt": "Daciaramă-Panorama (orthagonals)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-1",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 1",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_1.jpg",
+                "alt": "Daciaramă-Panorama 1",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-2",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 2",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_2a.jpg",
+                "alt": "Daciaramă-Panorama 2",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-3",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 3",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_3.jpg",
+                "alt": "Daciaramă-Panorama 3",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-4",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 4",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_4.jpg",
+                "alt": "Daciaramă-Panorama 4",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-5",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 5",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_5.jpg",
+                "alt": "Daciaramă-Panorama 5",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-6",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 6",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_6.jpg",
+                "alt": "Daciaramă-Panorama 6",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-7",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 7",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_7.jpg",
+                "alt": "Daciaramă-Panorama 7",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-8",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 8",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_8.jpg",
+                "alt": "Daciaramă-Panorama 8",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-9",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 9",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_9.jpg",
+                "alt": "Daciaramă-Panorama 9",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-10",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 10",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_10.jpg",
+                "alt": "Daciaramă-Panorama 10",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-11",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 11",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_11.jpg",
+                "alt": "Daciaramă-Panorama 11",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-12",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 12",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_12.jpg",
+                "alt": "Daciaramă-Panorama 12",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-13",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 13",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_13.jpg",
+                "alt": "Daciaramă-Panorama 13",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-14",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 14",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_14.jpg",
+                "alt": "Daciaramă-Panorama 14",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-15",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 15",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_15.jpg",
+                "alt": "Daciaramă-Panorama 15",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-16",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 16",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_16.jpg",
+                "alt": "Daciaramă-Panorama 16",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-17",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 17",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_17.jpg",
+                "alt": "Daciaramă-Panorama 17",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-18",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 18",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_18.jpg",
+                "alt": "Daciaramă-Panorama 18",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "daciaram-panorama-19",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama 19",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "11x14 inches",
+            "date": "2025",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/RomaniaPan_19.jpg",
+                "alt": "Daciaramă-Panorama 19",
+                "is_primary": true
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "engelmann",
         "type": "project",
         "name": "Engelmann",
