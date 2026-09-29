@@ -27,11 +27,35 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-521TT1Y3PB"></script>
 <script>
+
+  // extract section, category, office from URL query parameters
+  const urlParams = new URLSearchParams(window.location.search);
+  const section = urlParams.get('section');
+  const category = urlParams.get('category');
+  const office = urlParams.get('office');
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-521TT1Y3PB');
+
+  // call event for section if it exists
+  // if (section) {
+  //   gtag('event', 'section_view', {
+  //     'section': section
+  //   });
+  // }
+
+  // call event for page view with section if it exists
+  gtag('event', 'page_view', {
+    'page_path': window.location.pathname,
+    'section': section || '',
+    'category': category || '',
+    'office': office || ''
+  });   
+
+
 </script>
   </body>
 </html>
