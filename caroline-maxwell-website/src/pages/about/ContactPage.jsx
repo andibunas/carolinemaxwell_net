@@ -15,9 +15,9 @@ export default function ContactPage() {
         <a href={`mailto:${EMAIL}`} className="text-gold-text border-b border-gold/40 hover:border-gold transition-colors">
           {EMAIL}
         </a>
-        .
+        
       </p>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 }
