@@ -131,7 +131,7 @@ json_push() {
 # ---------------------------------------------------------------------------
 
 # Splits a `## Artworks` section file into one artwork object per `### Title`
-# subsection. Each subsection is `Key: value` lines (Medium/Size/Date/Image/Carousel)
+# subsection. Each subsection is `Key: value` lines (Medium/Size/Date/Image/Carousel/Video)
 # followed by optional free-text write-up. Returns a JSON array.
 parse_artwork_entries() {
   local section_file="$1" dir="$2"
@@ -153,7 +153,7 @@ parse_artwork_entries() {
   ' "$section_file"
 
   local rel; rel="${dir#"$PUBLIC_DIR"/}"
-  local n=1 efile title medium size date image carousel write_up slug
+  local n=1 efile title medium size date image carousel video write_up slug
   while [ -f "$edir/_title_$n.txt" ]; do
     title="$(cat "$edir/_title_$n.txt")"
     efile="$edir/_entry_$n.md"
@@ -162,15 +162,27 @@ parse_artwork_entries() {
     date="$(grep -m1 '^Date:' "$efile" 2>/dev/null | sed -E 's/^Date:[[:space:]]*//')"
     image="$(grep -m1 '^Image:' "$efile" 2>/dev/null | sed -E 's/^Image:[[:space:]]*//')"
     carousel="$(grep -m1 '^Carousel:' "$efile" 2>/dev/null | sed -E 's/^Carousel:[[:space:]]*//; s/[[:space:]]+$//')"
+    video="$(grep -m1 '^Video:' "$efile" 2>/dev/null | sed -E 's/^Video:[[:space:]]*//; s/[[:space:]]+$//')"
     write_up="$(awk '
       BEGIN { skipping = 1 }
-      /^(Medium|Size|Date|Image|Carousel):/ { next }
+      /^(Medium|Size|Date|Image|Carousel|Video):/ { next }
       skipping && /^[[:space:]]*$/ { next }
       { skipping = 0; lines[++n] = $0 }
       END { last = n; while (last > 0 && lines[last] == "") last--; for (i = 1; i <= last; i++) print lines[i] }
     ' "$efile")"
 
-    if [ -z "$image" ] || [ ! -f "$dir/$image" ]; then
+    # A `Video:` entry needs no Image; if one is given it becomes the poster.
+    if [ -n "$video" ]; then
+      if [ ! -f "$dir/$video" ]; then
+        echo "warning: $dir/manifest.md artwork '$title' has missing/invalid Video '$video'" >&2
+        n=$((n + 1))
+        continue
+      fi
+      if [ -n "$image" ] && [ ! -f "$dir/$image" ]; then
+        echo "warning: $dir/manifest.md artwork '$title' has missing poster Image '$image' (ignored)" >&2
+        image=""
+      fi
+    elif [ -z "$image" ] || [ ! -f "$dir/$image" ]; then
       echo "warning: $dir/manifest.md artwork '$title' has missing/invalid Image '$image'" >&2
       n=$((n + 1))
       continue
@@ -179,10 +191,14 @@ parse_artwork_entries() {
     slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
     entries_json="$(json_push "$entries_json" "$(jq -n \
       --arg id "$slug" --arg title "$title" --arg medium "${medium:-}" --arg size "${size:-}" \
-      --arg date "${date:-}" --arg src "/$rel/$image" --arg write_up "${write_up:-}" \
-      --arg carousel "${carousel:-}" \
-      '{id:$id, type:"artwork", title:$title, medium:$medium, size:$size, date:$date, write_up:$write_up,
-        images:[{src:$src, alt:$title, is_primary:true}]}
+      --arg date "${date:-}" --arg src "${image:+/$rel/$image}" --arg write_up "${write_up:-}" \
+      --arg carousel "${carousel:-}" --arg video "${video:+/$rel/$video}" \
+      '{id:$id, type:"artwork", title:$title, medium:$medium, size:$size, date:$date, write_up:$write_up}
+       + (if $video != "" then
+            {images:[], video:({src:$video} + (if $src != "" then {poster:$src} else {} end))}
+          else
+            {images:[{src:$src, alt:$title, is_primary:true}]}
+          end)
        + (if $carousel != "" then {carousel:$carousel} else {} end)')")"
     n=$((n + 1))
   done

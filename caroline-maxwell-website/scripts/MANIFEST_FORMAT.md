@@ -129,6 +129,11 @@ Carousel: details
   directly in this project's folder. `Medium`, `Size`, and `Date` are plain
   text/optional. Any text after the `Key: value` lines (down to the next
   `### `) is that artwork's write-up — optional, can be Markdown.
+- `Video` (optional) names a video file (`.mp4`, H.264/AAC for browser
+  support) sitting directly in this project's folder. An entry with `Video`
+  needs no `Image`; if it has one, that image is used as the video's poster
+  frame. Videos play inline with controls in the stacked and detail views;
+  the carousel layout ignores them.
 - `Carousel` (optional) names the carousel group this artwork belongs to in
   a `Layout: carousel` project. Artworks sharing a value are shown in one
   carousel; groups render top to bottom in the order each group first
