@@ -20,7 +20,7 @@ In the space between image and text, fact and fiction, memory and invention, the
 
 
 ### Greyhounds
-Video: Greyhounds.mov
+Video: Greyhounds.mp4
 
 ### Odd Birds
-Video: odd_birds.mov
+Video: odd_birds.mp4

@@ -5,6 +5,19 @@ export default function ArtworkDetail({ artwork }) {
   return (
     <div className="mt-10">
       <div className="flex flex-col gap-8 max-w-3xl">
+        {artwork.video && (
+          <div className="bg-panel overflow-hidden">
+            <video
+              src={artwork.video.src}
+              poster={artwork.video.poster}
+              controls
+              playsInline
+              preload="metadata"
+              aria-label={artwork.title}
+              className="w-full h-auto"
+            />
+          </div>
+        )}
         {images.map((img, i) => (
           <div key={i} className="bg-panel overflow-hidden">
             <img src={img.src} alt={img.alt} className="w-full h-auto object-cover" />

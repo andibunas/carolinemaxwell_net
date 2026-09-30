@@ -27,6 +27,17 @@ export default function StackedLayout({ project }) {
             className={`max-w-3xl ${index > 0 ? 'pt-6 border-t border-ink/10' : ''}`}
           >
             <div className="flex flex-col gap-8">
+              {artwork.video && (
+                <video
+                  src={artwork.video.src}
+                  poster={artwork.video.poster}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  aria-label={artwork.title}
+                  className="max-w-full max-h-[75vh] w-auto h-auto"
+                />
+              )}
               {images.map((img, i) => (
                 <button
                   key={i}

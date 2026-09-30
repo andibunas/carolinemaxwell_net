@@ -27,7 +27,7 @@ Image: Caroline1_Land-Scape1.jpg
 Medium: Multigrade RC Print and Oil Paint
 Size: 8x10 inches
 Date: 2023
-Image: Caroline1_Land-Scape2.jpg
+Image: Caroline2_Land-Scape2.jpg
 
 ### Daciaramă-Panorama 1
 Medium: Multigrade RC Print and Oil Paint
