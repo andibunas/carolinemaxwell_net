@@ -24,7 +24,7 @@ export default function WritingsNodePage() {
 
   useEffect(() => {
     if (resolved) {
-      document.title = `${resolved.node.name} — Caroline Maxwell`;
+      document.title = `Caroline Maxwell — Writings - ${resolved.node.name}`;
     }
   }, [resolved]);
 

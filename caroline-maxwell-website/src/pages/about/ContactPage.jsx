@@ -5,7 +5,7 @@ const EMAIL = 'mail@carolinemaxwell.net';
 
 export default function ContactPage() {
   useEffect(() => {
-    document.title = 'Contact — Caroline Maxwell';
+    document.title = 'Caroline Maxwell — Contact';
   }, []);
 
   return (

@@ -25,7 +25,7 @@ export default function ArtworksProjectPage() {
   useEffect(() => {
     if (resolved) {
       const name = resolved.kind === 'artwork' ? resolved.node.title : resolved.node.name;
-      document.title = `${name} — Caroline Maxwell`;
+      document.title = `Caroline Maxwell — Artworks — ${name}`;
     }
   }, [resolved]);
 

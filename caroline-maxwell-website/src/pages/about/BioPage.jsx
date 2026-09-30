@@ -4,7 +4,7 @@ import bioSource from '../../content/bio.md?raw';
 
 export default function BioPage() {
   useEffect(() => {
-    document.title = 'Bio — Caroline Maxwell';
+    document.title = 'Caroline Maxwell — Bio';
   }, []);
 
   return (

@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function NotFoundPage() {
+  useEffect(() => {
+    document.title = 'Caroline Maxwell — Page not found';
+  }, []);
+
   return (
     <div className="mx-auto max-w-3xl px-6 sm:px-8 py-24 text-center">
       <h1 className="font-display text-3xl text-ink mb-4">Page not found</h1>

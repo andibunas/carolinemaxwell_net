@@ -4,7 +4,7 @@ import { getArtworkProjects, getNodeThumbnail } from '../../data/manifest';
 
 export default function ArtworksIndexPage() {
   useEffect(() => {
-    document.title = 'Artworks — Caroline Maxwell';
+    document.title = 'Caroline Maxwell — Artworks';
   }, []);
 
   const projects = getArtworkProjects();

@@ -4,7 +4,7 @@ import cvSource from '../../content/cv.md?raw';
 
 export default function CVPage() {
   useEffect(() => {
-    document.title = 'CV — Caroline Maxwell';
+    document.title = 'Caroline Maxwell — CV';
   }, []);
 
   return (

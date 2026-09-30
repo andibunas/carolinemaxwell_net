@@ -4,7 +4,7 @@ import { getWritingItems, getNodeThumbnail } from '../../data/manifest';
 
 export default function WritingsIndexPage() {
   useEffect(() => {
-    document.title = 'Writings — Caroline Maxwell';
+    document.title = 'Caroline Maxwell — Writings';
   }, []);
 
   const items = getWritingItems();
