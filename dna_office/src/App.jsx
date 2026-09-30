@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import SiteHeader from './components/layout/SiteHeader';
 import SiteFooter from './components/layout/SiteFooter';
 import { useQueryNav } from './hooks/useQueryNav';
+import { getGalleryProject, getFieldOffice, getAnimalCategory, getAnimalCategories } from './data/manifest';
 
 import HomePage from './pages/home/HomePage';
 import GalleryIndexPage from './pages/gallery/GalleryIndexPage';
@@ -36,6 +37,50 @@ function renderSection(section, params) {
   }
 }
 
+const SITE_TITLE = 'Department of Nocturnal Affairs';
+
+const SECTION_TITLES = {
+  gallery: 'Gallery',
+  'field-offices': 'Field Offices',
+  'animal-reports': 'Animal Reports',
+  about: 'About',
+};
+
+const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+// Builds "Site · Section · Subsection" from the current query params.
+function pageTitle(section, params) {
+  const parts = [SITE_TITLE];
+  if (SECTION_TITLES[section]) parts.push(SECTION_TITLES[section]);
+
+  switch (section) {
+    case 'gallery': {
+      const project = params.get('project');
+      if (project) parts.push(getGalleryProject(project)?.name || project);
+      break;
+    }
+    case 'field-offices': {
+      const office = params.get('office');
+      if (office) {
+        parts.push(getFieldOffice(office)?.name || office);
+        if (params.get('view') === 'transcript') parts.push('Transcript');
+      }
+      break;
+    }
+    case 'animal-reports': {
+      const slug = params.get('category') || getAnimalCategories()[0]?.id;
+      const category = slug && getAnimalCategory(slug);
+      if (category) parts.push(category.name);
+      break;
+    }
+    case 'about':
+      parts.push(capitalize(params.get('view') || 'bio'));
+      break;
+  }
+
+  return parts.join(' · ');
+}
+
 export default function App() {
   const { section, params } = useQueryNav();
   const paramsKey = params.toString();
@@ -43,6 +88,10 @@ export default function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [paramsKey]);
+
+  useEffect(() => {
+    document.title = pageTitle(section, params);
+  }, [section, params]);
 
   return (
     <div className="min-h-screen flex flex-col">
