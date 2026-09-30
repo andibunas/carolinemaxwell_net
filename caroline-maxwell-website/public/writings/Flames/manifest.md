@@ -30,19 +30,18 @@ While tormenting fires existed in Dante’s Inferno, they were small and individ
 
  In Paradiso he is greeted again by flames, but now they are pure light, living spirits, dancing, animated by love itself.  Looking back, all earthly existence seems as “strange as a flame that never moves.”  (Canto 1 - Paradiso)
 
-[Botticelli.jpg]
-
 The year before the Covid pandemic, I had painted a page of these heavenly fires, after Botticelli. I was staying in a small town in Italy, not far from where Dante and Botticelli had envisioned their own flaming stars.  As I walked down the local streets, past the cafes and bars with their ads for ice creams and mobile phones, I imagined my page of Botticelli’s fires printed onto large sheets of wallpaper, covering the walls and billboard signs that filled the countryside with their commercial signals.  One day, I printed twenty-five sheets of my flame drawings and pasted them onto a small, vacant billboard that stood along a narrow road by an olive grove.  It felt like a message, a signal fire sent out into the world.
 
-On my walks through Hahahmonga park in the summer of 2020, I began to notice a number of old trail signs and markers, many of which were empty or so weathered that their markings had disappeared under the sun of passing years.  I gathered my pages of Botticelli’s flames, and posted them onto these guideposts around the park.  There, in the shadow of NASA, stood these guideposts to the stars, like small beacons against the darkness, hope in a pandemic.
+[Botticelli.jpg]
 
-[BurnPage.jpg]
+On my walks through Hahahmonga park in the summer of 2020, I began to notice a number of old trail signs and markers, many of which were empty or so weathered that their markings had disappeared under the sun of passing years.  I gathered my pages of Botticelli’s flames, and posted them onto these guideposts around the park.  There, in the shadow of NASA, stood these guideposts to the stars, like small beacons against the darkness, hope in a pandemic.
 
 My connection with Botticelli’s fires didn’t begin with my stay in Italy. It was actually a few years earlier, when a friend had traveled to London, and visited the Courtauld Gallery to see Botticelli’s illustrations for the Divine Comedy.  Upon return, she had given me a gift, a small print of Dante and Beatrice rising through the Second Planetary Sphere of Paradise.  Here, the two beloved reach towards each other, encircled by concentric rings of flaming stars.  This print has hung on my wall since 2016, always quietly in the background of life. 
 
 Just a few months ago, this same friend rushed back to Los Angeles on a flight from Miami.  Her family’s home in Altadena was in the path of the Eaton Wildfire.  Countless homes and businesses in the community had already been lost.  On January 8, I walked over to my friend’s house to check on her parents, who had remained home throughout the wildfires.  Fortunately, their home was spared much damage, but their yard was littered with ash and debris that was still blowing in with the high winds and surrounding fires.  As I was leaving, a burned page from a book drifted down from the wind above me, and landed at my feet in the driveway.  A small illustration graced this page from a fairy tale, showing a young woman– who looked strikingly like my friend, or was it Beatrice?  The edges of the page were neatly burned, almost too perfectly, by this monstrosity of a fire that delivered so many endings in such a short amount of time. This strange arrival seemed to remark that the mythic is always close at hand in times of crisis. 
 
-[GatewayTrees.jpg]
+[BurnPage.jpg]
 
 After these devastating wildfires, many of us have found ourselves in darkness, like Dante, exiled from our homes.  We can return, but never in the same way.  How can one be haunted by fire? These are not the cold ghosts that shimmer in the darkness– here we are haunted by raging, incendiary specters, burning with the heat of exploding stars. This story begins with an ending, when seemingly all has been lost.  Or perhaps, caught between beginnings and endings, learning that the only path ahead is through fire and grief.  As I write this on Good Friday, I’m aware that this is also the day that Dante’s story begins. And so we shall begin, in the darkness, at the doorway to the Inferno, Devil’s Gate Dam.
 
+[GatewayTrees.jpg]
