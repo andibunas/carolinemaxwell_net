@@ -1,14 +1,17 @@
 Name: Iceland
 Type: artworks
 Date: 2008
+Thumbnail: Iceland.jpg
+Header Image: 
+Layout: grid
 
 ## Artworks
 
 ### Red Hill
-Medium: Digital inkjet prints
 Image: redhill.png
 
-a 10,000-year-old cinder cone in the Owens River Valley, California
+Owens River Valley, California. 
+Red Hill, a 10,000 year old cinder cone sits amid a landscape shaped by volcanic and geothermal activity.
 
 ### Cindercone
 Medium: Digital inkjet prints

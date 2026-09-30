@@ -1,6 +1,9 @@
 Name: First Aid
 Type: artworks
 Date: 2008
+Thumbnail: iceonPeru.jpg
+Header Image: 
+Layout: grid
 
 ## Artworks
 

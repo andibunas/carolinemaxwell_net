@@ -34,11 +34,11 @@ I started my expedition in Los Angeles, and after carefully studying my maps, I 
 
 ## Child Projects
 
-- south-africa
 - LosAngeles
+- peru
 - iceland
 - cyprus
-- peru
+- south-africa
 - australia
 - flora-fauna
 - first-aid

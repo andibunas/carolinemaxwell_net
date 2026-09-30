@@ -1,17 +1,21 @@
 Name: South Africa
 Type: artworks
 Date: 2008
+Thumbnail: JoburgMine.jpg
+Header Image: 
+Layout: grid
 
 ## Artworks
 
 ### Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California
-Medium: Digital inkjet prints
 Image: joburg_map.jpg
 
-abandoned mines, mine dumps, and a combined population of 253
+Western Mojave Desert, California, two small mining towns-- Johannesburg and Randsburg. 
+Abandoned mines, mine dumps, and a combined population of 253.
+92 degrees Farenheit by 9:30 a.m.
 
 ### Joburg
-Medium: Digital inkjet prints
+Medium: Digital inkjet print
 Image: Joburg.jpg
 
 ### Mine, Split Two Ways

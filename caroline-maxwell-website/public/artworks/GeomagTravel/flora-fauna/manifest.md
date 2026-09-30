@@ -1,6 +1,9 @@
 Name: Flora and Fauna
 Type: artworks
 Date: 2008
+Thumbnail: florafauna.jpg
+Header Image: 
+Layout: grid
 
 ## Artworks
 

@@ -1,11 +1,26 @@
 Name: Tools
 Type: artworks
 Date: 2008
+Thumbnail: geomag_tools.jpg
+Header Image: 
 
 ## Artworks
 
 ### Field kit for the journey
-Medium: Digital inkjet prints
 Image: geomag_tools.jpg
 
-lenses and mirrors of various shapes and sizes, copper plates, copper wire, lead weights, electrical tape, athletic tape, Icelandic wool, Peruvian Highland wool, eucalyptus-dyed Australian wool, a shovel, and a broom
+The following is a list of all the tools and materials I brought with me. These would be used for conducting experiments, collecting data, and most importantly-- as a vehicle and conduit through which to travel to my desired destinations.
+
+Lenses of various shapes and sizes  
+Mirrors of various shapes and sizes  
+Copper plates  
+Copper wire  
+Lead weights  
+Electrical tape  
+Athletic tape  
+Icelandic wool  
+Peruvian Highland wool  
+Eucalyptus dyed Australian wool  
+Shovel  
+Broom  
+
