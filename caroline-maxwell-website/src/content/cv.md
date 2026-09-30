@@ -17,17 +17,30 @@
 - 2014 — *Navee Navee (Prophet Prophet)*, Manofim Contemporary Arts Festival, Jerusalem, Israel
 - 2011 — *The End of Wild*, curated by Jeff Chabot, Modified Arts Projects, Phoenix, AZ
 - 2011 — *Department of Nocturnal Affairs*, Jerusalem Festival of Art and Light, Jerusalem, Israel
+- 2011 — *Open Storage*, curated by Jeff Chabot and Ed Gomez, D-Block Projects, Long Beach, CA
 - 2011 — *S.O.S. (Save Our State)*, curated by Ed Gomez, D-Block Projects, Long Beach, CA
 - 2011 — *S.O.S. (Save Our State)*, curated by Ed Gomez, MonOrchid Art Space, Phoenix, AZ
 - 2009 — *In Love With Night*, curated by Ciara Ennis and Max King Cap, Guggenheim Gallery, Chapman University
 - 2009 — *The Studio as Laboratory*, curated by Tal Yizrael, California Institute of Technology, Department of Physics, Mathematics and Astronomy, Pasadena, CA
+- 2008 — *Mash Up*, curated by Ivan Limas, Arena 1 Gallery, Santa Monica, CA
 - 2008 — *The Department of Nocturnal Affairs*, Pasadena Art Night, Armory Center for the Arts, Pasadena, CA
+- 2008 — *Admirans*, Upstairs at the Market Gallery, Los Angeles, CA
 - 2008 — *The Department of Nocturnal Affairs*, commission for GLOW Festival, Santa Monica, CA
+- 2008 — *Signs of Life*, @Space Project Gallery, Costa Mesa, CA
+- 2007 — *Through The Eyes of Strangers*, curated by Laura Mack, A.N. Bush Gallery, Salem, OR
+- 2007 — *E-Ticket Ride*, curated by Joanna Grasso, JFlynn Gallery, Costa Mesa, CA
 - 2007 — *30th Anniversary Exhibition*, Jan Baum Gallery, Los Angeles, CA
 - 2006 — *Dynamic Essence*, Jan Baum Gallery, Los Angeles, CA
 - 2006 — *SUPER/SONIC 2006*, L.A. Municipal Art Gallery, Los Angeles, CA
+- 2006 — *W/E Trade*, Plant Zero Art Center, Richmond, VA
+- 2005 — *Fantastic Amnesia*, Playspace Gallery, California College of Art, San Francisco, CA
+- 2005 — *Around: An Installation Show*, Claremont Graduate University, Claremont, CA
+- 2005 — *Ladies With Figures*, Jan Baum Gallery, Los Angeles, CA
+- 2005 — *INsight*, East Gallery, Claremont Graduate University, Claremont, CA
 - 2003 — *BINOscapes*, curated by David Adamo, Berlin Kunst Projekt, Berlin, Germany
 - 2003 — *Contemporary Visions: Southern California Artists*, curated by Louise Lewis, Kroměříž, Czech Republic
+- 2003 — *Via Romita 40 – 4 Artists*, Black Cat Gallery, Culver City, CA
+- 2001 — *EmergeNcY Art Show*, Crane Street Studios, New York, NY
 
 ## Grants, Awards & Fellowships
 - 2017 — U.S. State Department Grant + Fresh Paint Art Fair, Tel Aviv commission
