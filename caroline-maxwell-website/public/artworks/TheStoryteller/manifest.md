@@ -23,4 +23,4 @@ In the space between image and text, fact and fiction, memory and invention, the
 Video: Greyhounds.mov
 
 ### Odd Birds
-Video: odd_birds.mov
+Video: odd_birds.mp4

@@ -200,6 +200,22 @@
             ]
           },
           {
+            "id": "daciaram-panorama-arcs",
+            "type": "artwork",
+            "title": "Daciaramă-Panorama (arcs)",
+            "medium": "Multigrade RC Print and Oil Paint",
+            "size": "8x10 inches",
+            "date": "2023",
+            "write_up": "",
+            "images": [
+              {
+                "src": "/artworks/Daciarama/Caroline2_Land-Scape2.jpg",
+                "alt": "Daciaramă-Panorama (arcs)",
+                "is_primary": true
+              }
+            ]
+          },
+          {
             "id": "daciaram-panorama-1",
             "type": "artwork",
             "title": "Daciaramă-Panorama 1",
