@@ -1,7 +1,7 @@
 Name: The Most Silent of Great Cities
 Type: artworks
 Date: 2020-01-01
-Thumbnail: SilentCities.jpg
+Thumbnail: city of earth_sm.jpg
 Header Image: 
 Layout: grid
 
@@ -28,7 +28,7 @@ Image: city of water_sm.jpg
 
 ### Silent Cities: Soul of a Monument
 Medium: Oil on paper
-Size: 18 x 24 in
+Size: 22 x 30 in
 Date: 2017
 Image: soul of a monument.jpeg
 
@@ -37,6 +37,12 @@ Medium: Ink on paper
 Size: 9 x 12 in
 Date: 2019
 Image: silentcities_flood_sm.jpg
+
+### Silent Cities: City of Air
+Medium: Ink on paper
+Size: 9 x 12 in
+Date: 2019
+Image: city of air.jpg
 
 ### Silent Cities: Entombed
 Medium: Charcoal on paper

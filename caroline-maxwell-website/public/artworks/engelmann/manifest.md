@@ -33,6 +33,18 @@ Size: 6 x 6 in
 Date: 2019
 Image: Engelmann5.jpg
 
+### Engelmann6
+Medium: Gelatin silver print, walnut ink, oil paint
+Size: 9 x 12 in
+Date: 2019
+Image: Engelmann6.jpg
+
+### Engelmann7
+Medium: Gelatin silver print, walnut ink, oil paint
+Size: 8 x 10 in
+Date: 2019
+Image: Engelmann7.jpg
+
 ### Three Layers
 Medium: Gelatin silver print, walnut ink
 Size: 4 x 6 in

@@ -7,6 +7,8 @@ Layout: grid
 
 ## Synopsis
 
+>> Works for Australia
+
 ## Artworks
 
 ### Tea Kettle Junction, Death Valley National Park, California

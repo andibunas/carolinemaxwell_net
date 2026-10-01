@@ -7,11 +7,11 @@ Layout: grid
 
 ## Synopsis
 
-Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.
+Stoppage Time: Assorted works about time: suspending, expanding, repeating, extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
 
 ## Write Up
 
-Horizon Line Stoppage Time: Assorted works about time: suspending, expanding, repeating, and extinguishing. That at the end of time, we might just be able to prop the door open for one final play.
+Stoppage Time: Assorted works about time: suspending, expanding, repeating, extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
 
 ## Artworks
 
@@ -26,31 +26,31 @@ The Blue That Remains, The Blue That Resists, The Blue That Rests, The Blue That
 Medium: Photographs
 Date: 1970 - 1990
 Image: FEC_arial_stoppages copy.jpg
-Collection of photographs taken by my grandfather, an amateur pilot. 1970s - 1990
+Collection of photographs taken by my grandfather, an amateur pilot. 1970s - 1990s
 
 ### Horizon Line Stoppage Time #1
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_1.jpg
-Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
+Not a landscape painting, but a painting of a photograph-- a small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #2
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_2.jpg
-Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
+Not a landscape painting, but a painting of a photograph-- a small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #3
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_3.jpg
-Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
+Not a landscape painting, but a painting of a photograph-- a small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### Horizon Line Stoppage Time #4
 Medium: Oil on canvas
 Date: 2013
 Image: ArialStoppage_4.jpg
-Not a landscape painting, but a painting of a photograph. A small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
+Not a landscape painting, but a painting of a photograph-- a small, found photograph taken by my grandfather in the 1980s, painted in the year of his 100th birthday.
 
 ### To Extinguish The Sun and Other Small Things
 Medium: Pinhole camera photograph, captured in a black box, eight inches square
@@ -74,7 +74,6 @@ Image: lights.jpg
 Medium: Mixed media
 Date: 2014
 Image: blackcrowned night heron2.jpg
-
 
 ### In Retreat: Galileo, DaVinci, Morandi
 Medium: Mixed media on paper

@@ -5,6 +5,10 @@ Thumbnail: purse_bandg_hill.jpg
 Header Image: 
 Layout: grid
 
+## Synopsis
+
+>> Works for the Studio
+
 ## Write Up
 
 Returning to the studio--

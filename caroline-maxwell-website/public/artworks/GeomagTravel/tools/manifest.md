@@ -3,6 +3,11 @@ Type: artworks
 Date: 2008
 Thumbnail: geomag_tools.jpg
 Header Image: 
+Layout: grid
+
+## Synopsis
+
+>> Field Kit for the Journey
 
 ## Artworks
 

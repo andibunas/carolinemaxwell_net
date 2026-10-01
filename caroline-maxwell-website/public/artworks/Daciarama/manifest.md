@@ -30,115 +30,115 @@ Date: 2023
 Image: Caroline2_Land-Scape2.jpg
 
 ### Daciaramă-Panorama 1
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_1.jpg
 
 ### Daciaramă-Panorama 2
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_2a.jpg
 
 ### Daciaramă-Panorama 3
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_3.jpg
 
 ### Daciaramă-Panorama 4
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_4.jpg
 
 ### Daciaramă-Panorama 5
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_5.jpg
 
 ### Daciaramă-Panorama 6
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_6.jpg
 
 ### Daciaramă-Panorama 7
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_7.jpg
 
 ### Daciaramă-Panorama 8
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_8.jpg
 
 ### Daciaramă-Panorama 9
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_9.jpg
 
 ### Daciaramă-Panorama 10
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_10.jpg
 
 ### Daciaramă-Panorama 11
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_11.jpg
 
 ### Daciaramă-Panorama 12
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_12.jpg
 
 ### Daciaramă-Panorama 13
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_13.jpg
 
 ### Daciaramă-Panorama 14
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_14.jpg
 
 ### Daciaramă-Panorama 15
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_15.jpg
 
 ### Daciaramă-Panorama 16
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_16.jpg
 
 ### Daciaramă-Panorama 17
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_17.jpg
 
 ### Daciaramă-Panorama 18
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_18.jpg
 
 ### Daciaramă-Panorama 19
-Medium: Multigrade RC Print and Oil Paint
+Medium: Multigrade RC Print
 Size: 11x14 inches
 Date: 2025
 Image: RomaniaPan_19.jpg

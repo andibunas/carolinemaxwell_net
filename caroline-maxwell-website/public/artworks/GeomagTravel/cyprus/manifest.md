@@ -1,11 +1,12 @@
 Name: Cyprus
 Type: artworks
-Thumbnail: syrtos1.jpg
+Thumbnail: Cypriot_thumbnail.jpg
 Header Image: 
 Layout: grid
 
 ## Synopsis
 
+>> Works for Cyprus
 
 ## Write Up
 
@@ -36,10 +37,8 @@ This painting, like Cyprus is divided in two. Yet, it attempts to bring two stro
 
 ### Double Cypriot, detail 1
 Medium: Oil and charcoal on canvas
-Image: cypriot1_det_sm.jpg
+Image: Cypriot_det_sm1.jpeg
 
-### Double Cypriot, detail 2
-Medium: Oil and charcoal on canvas
-Image: cypriot2_det_sm.jpg
+
 
 
