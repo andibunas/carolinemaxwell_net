@@ -4,7 +4,8 @@ Thumbnail:Botticelli.jpg
 
 ## Synopsis
 
-Flames, After Botticelli
+Originally appeared in the 2026 anthology Burned: Stories about Fire, Real and Imagined. This essay follows an arc of fire through time, layering Dante, Botticelli, astrophysics, pandemic isolation, and the landscape of Altadena, connecting historical imagery and literature with personal experience of the 2025 Los Angeles wildfires. Like much of my visual work, it is an attempt to follow a series of seemingly disparate clues to discover what they reveal when brought into relation with one another.
+
 
 ## Write Up
 
