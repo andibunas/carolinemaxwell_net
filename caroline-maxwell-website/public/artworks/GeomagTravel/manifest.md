@@ -1,7 +1,7 @@
 Name: Geomagnetic Travellogue
 Type: projects
 Date: 2025-11-02
-Thumbnail: declination.jpg
+Thumbnail: GeomagneticMap.jpeg
 Header Image: declination.jpg
 Layout: grid
 

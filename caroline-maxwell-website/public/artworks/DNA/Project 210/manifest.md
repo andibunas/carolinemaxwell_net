@@ -2,18 +2,16 @@ Name: Project 210 Gallery
 Type: artworks
 Date: 2009-01-01
 Thumbnail: ColorStudy_allFLAT.jpg
-Header Image: 
+Header Image: DNA210_desk.jpg
 Layout: grid
 
 ## Synopsis
 
-A collaborative installation and performance project, collecting reports of nocturnal wildlife encounters, and investigating darkness as a fertile ground for knowledge and memory.
+Artworks created for the Department of Nocturnal Affairs, installed at Project 210 Gallery,
 
 ## Write Up
 
-The D.N.A. is a creative project by artists Caroline Maxwell and Tal Yizrael. Envisioned as both a work of installation and performance art, the DNA functions as a speculative bureaucracy and a precarious archive. The DNA has opened field offices in various public spaces around Los Angeles and the world to collect reports of nocturnal wildlife encounters.
-
-In addition to the ongoing collection of reports, the DNA creates artworks that respond to the issues of light pollution and the important presence of darkness in our worlds and lives.
+Artworks created for the Department of Nocturnal Affairs, installed at Project 210 Gallery,
 
 ## Artworks
 
@@ -33,36 +31,5 @@ Medium: Carved and polished animal salt-licks
 Date: 2009
 Image: saltmoons-gallery.jpg
 
-### Table Display
-Image: table.jpg
-
-at Row DTLA, Maiden LA Art Festival, 2018
-
-### Raccoon and Shadow
-Medium: ink on paper, 2018
-Image: raccoon-and-shadow.jpg
-
-### Wild Boar
-Medium: ink on paper, 2018
-Image: boar.jpg
-
-### Coyote
-Medium: ink on paper, 2018
-Image: coyote.jpg
-
-### Hyena, Tree
-Medium: ink on paper, 2018
-Image: hyena-tree.jpg
-
-### Moth, Maple
-Medium: ink on paper, 2018
-Image: moth-maple.jpg
-
-### Porcupine, Moths
-Medium: ink on paper, 2018
-Image: porcupine-moths.jpg
-
-### Porcupine
-Medium: ink on paper, 2018
-Image: porcupine.jpg
-
+### Gallery View
+Image: DNA210d.jpg
