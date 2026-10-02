@@ -16,9 +16,8 @@ Because of the covid pandemic, the residency had to be attended remotely. Photog
 
 ## Artworks
 
-### dna-eyes-closed.jpg
-
-*Portrait Companions: Badger With Eyes Closed* by Caroline Maxwell (2020); *Woman With Eyes Closed* by Maurycy Gottlieb (late 1800s).
+### Portrait Companions: Badger With Eyes Closed by Caroline Maxwell (2020); Woman With Eyes Closed by Maurycy Gottlieb (late 1800s).
+Image: dna-eyes-closed.jpg
 
 A particular portrait that hangs on the wall of Asch's house, a portrait of a woman with her eyes closed, has become a centerpiece for the D.N.A. residency. Why is this woman closing her eyes? Where has she gone in this darkened moment? She understands the uses of darkness, of closing one thing to open another. Part of a set of companion portraits, depicting nocturnal animals with closed eyes to join this woman on her journey.
 
