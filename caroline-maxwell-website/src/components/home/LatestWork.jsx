@@ -27,9 +27,9 @@ export default function LatestWork() {
                 <p className="font-display text-xl text-ink group-hover:text-gold transition-colors">
                   {project.name}
                 </p>
-                <p className="text-ink-faint text-sm whitespace-nowrap">
+                {/* <p className="text-ink-faint text-sm whitespace-nowrap">
                   {dateFormatter.format(new Date(project.date))}
-                </p>
+                </p> */}
               </div>
               {project.synopsis && (
                 <p className="text-ink-soft text-sm mt-1 max-w-md">{project.synopsis}</p>
