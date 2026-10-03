@@ -3,7 +3,7 @@ import homeContent from '../../content/home.json';
 
 // Recent projects are curated in content/home.json. Each entry links either
 // internally (`to`) or to an external site (`href`).
-function ProjectCard({ project }) {
+function ProjectCard({ project, className }) {
   const body = (
     <>
       <div className="overflow-hidden aspect-[4/3]">
@@ -24,13 +24,13 @@ function ProjectCard({ project }) {
 
   if (project.href) {
     return (
-      <a href={project.href} target="_blank" rel="noopener noreferrer" className="group block">
+      <a href={project.href} target="_blank" rel="noopener noreferrer" className={`group block ${className}`}>
         {body}
       </a>
     );
   }
   return (
-    <Link to={project.to} className="group block">
+    <Link to={project.to} className={`group block ${className}`}>
       {body}
     </Link>
   );
@@ -41,8 +41,12 @@ export default function LatestWork() {
     <section className="mt-20">
       <h2 className="font-display text-2xl text-ink mb-8">{homeContent.recent_projects_heading}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
-        {homeContent.recent_projects.map((project) => (
-          <ProjectCard key={project.title} project={project} />
+        {homeContent.recent_projects.map((project, index) => (
+          <ProjectCard
+            key={project.title}
+            project={project}
+            className={index > 0 ? 'pt-10 border-t border-ink/10 sm:pt-0 sm:border-t-0' : ''}
+          />
         ))}
       </div>
     </section>
