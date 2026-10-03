@@ -7,7 +7,7 @@ Layout: grid
 
 ## Synopsis
 
-Photographs, paintings, and objects that layer episodes from the history of science with personal narrative.
+Scientific texts are re-presented and re-enacted, shifting the language of science towards a poetry of intimacy.
 
 ## Write Up
 

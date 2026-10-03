@@ -5,8 +5,11 @@ Thumbnail: city of earth_sm.jpg
 Header Image: 
 Layout: grid
 
-## Artworks
+## Synopsis
 
+Images of a city in states of uncertainty. About cultural memory, vulnerability, and what remains after catastrophe.
+
+## Artworks
 
 ### The Most Silent of Great Cities
 Medium: Mixed Media

@@ -7,11 +7,11 @@ Layout: grid
 
 ## Synopsis
 
-Stoppage Time: Assorted works about time: suspending, expanding, repeating, extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
+Assorted works about time: suspending, expanding, repeating, and extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
 
 ## Write Up
 
-Stoppage Time: Assorted works about time: suspending, expanding, repeating, extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
+Assorted works about time: suspending, expanding, repeating, and extinguishing. Because at the end of time, we might just be able to prop the door open for one final play.
 
 ## Artworks
 

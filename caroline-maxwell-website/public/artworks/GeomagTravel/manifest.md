@@ -7,7 +7,7 @@ Layout: grid
 
 ## Synopsis
 
-Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, in five journeys.
+Tracing the zero-degree line of the earth's magnetic field from 1590 to the present, multiple journeys explore incidences of macro- and micro-scopic vision, magnetic attraction and polarity, and the intersection of scientific, historical, and artistic narratives.
 
 ## Write Up
 

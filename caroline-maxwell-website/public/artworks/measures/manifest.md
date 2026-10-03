@@ -5,6 +5,10 @@ Thumbnail: dogs_of_actaeon.jpg
 Header Image: 
 Layout: grid
 
+## Synopsis
+
+Dogs are the protagonists of this series of works, appearing as deliberately unstable measures of human behavior. These pieces trouble the boundary between human and animal, and point to what our relationships with other species reveal about ourselves. 
+
 ## Artworks
 
 ### The Dogs of Actaeon

@@ -7,7 +7,7 @@ Layout: grid
 
 ## Synopsis
 
-A series of analogue photographs made through the window of a moving car, capturing the landscapes and small towns of western Romania as a shifting, dreamlike collision between the old and the new.
+A series of analogue photographs made through the window of a moving car. Capturing the landscapes and small towns of western Romania as a shifting, dreamlike collision between the old and the new.
 
 ## Write Up
 

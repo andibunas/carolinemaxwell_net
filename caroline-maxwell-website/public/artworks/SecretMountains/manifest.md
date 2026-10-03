@@ -5,6 +5,10 @@ Thumbnail: SecretMountain_detail.jpg
 Header Image: 
 Layout: grid
 
+## Synopsis
+
+Cartography, as a system of knowledge, is upended in this series of works. Chance, mystery, absurdity, and unruly materials reveal clues to places unforeseen. 
+
 ## Artworks
 
 ### Slices of a Cube Passing Through a Plane: A Mountain is Revealed on the Horizon.

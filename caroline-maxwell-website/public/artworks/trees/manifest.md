@@ -5,6 +5,10 @@ Thumbnail: Tree_thumbnail.jpg
 Header Image: 
 Layout: grid
 
+## Synopsis
+
+Trees as embodied time: part of a recurring investigation into alternative measures of time and ways of knowing that decenter the human perspective.
+
 ## Artworks
 
 ### Fig
