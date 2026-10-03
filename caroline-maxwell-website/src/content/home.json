@@ -1,4 +1,20 @@
 {
-  "bio_teaser": "Caroline Maxwell is a painter working in oil, gouache, and graphite, most often from the quiet corners of domestic rooms and the light that moves through them. She lives and works in the Hudson Valley.",
-  "bio_link_label": "More about Caroline"
+  "bio_teaser": "Caroline Maxwell is a multidisciplinary artist based in Los Angeles. Her work explores systems of knowledge, and how we measure, classify, explain, record, map, observe, or preserve our worlds... and asks, “what happens if I enter that system as an artist?” Chance, coincidence, and curiosity become ways of moving between the known and the mysterious, where facts become questions, measurement becomes poetry, and ordinary things reveal the unexpected.",
+  "recent_projects_heading": "Recent Projects",
+  "recent_projects": [
+    {
+      "title": "Flames",
+      "to": "/artworks/Fires",
+      "image": "/artworks/Fires/AfterEaton_GatheringGiving2.jpeg",
+      "image_alt": "After The Eaton Wildfire: Gathering, Giving 2",
+      "synopsis": "Works created in response to the 2025 Eaton Wildfire"
+    },
+    {
+      "title": "Burned: Stories about Fire, Real and Imagined",
+      "href": "https://www.burnedproject.com/",
+      "image": "/burnedbook.jpeg",
+      "image_alt": "Cover of Burned: Stories about Fire, Real and Imagined",
+      "synopsis": "Features the essay “Flames, After Botticelli” by Caroline Maxwell. Published a year after the 2025 Los Angeles wildfires, this anthology collects short stories, poems, essays, and artwork about fire and fire’s impacts on the human and more-than-human worlds."
+    }
+  ]
 }
