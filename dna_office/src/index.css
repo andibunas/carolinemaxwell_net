@@ -15,6 +15,20 @@
   --font-body: "Courier Prime", ui-monospace, "Courier New", monospace;
 }
 
+/* Night mode -- dark carbon paper, warm cream ink, olive accent lifted for contrast.
+   Set on <html> by the inline script in index.html and by ThemeToggle. */
+:root[data-theme="dark"] {
+  --color-paper: #17150F;
+  --color-panel: #221F17;
+  --color-ink: #ECE5D0;
+  --color-ink-soft: #BDB49A;
+  --color-ink-faint: #8C846A;
+  --color-line: #38342A;
+  --color-line-strong: #4F493A;
+  --color-glow: #9DB070;
+  color-scheme: dark;
+}
+
 @layer base {
   html {
     background-color: var(--color-paper);
