@@ -6,7 +6,7 @@ export default function SiteBrand() {
   return (
     <Link
       to="/"
-      className="font-display text-lg sm:text-xl tracking-tight text-ink hover:text-gold transition-colors"
+      className="font-display text-xl sm:text-2xl tracking-tight text-ink hover:text-gold transition-colors"
     >
       Caroline Maxwell
     </Link>
