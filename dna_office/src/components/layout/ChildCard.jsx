@@ -13,6 +13,7 @@ export default function ChildCard({ linkProps, thumbnail, title, subtitle, class
       )}
       <div className="mt-3">
         <p className="text-ink text-sm">{title}</p>
+        <p className="mt-0.5 text-xs text-ink-soft underline underline-offset-2">View collection</p>
         {subtitle && <p className="text-ink-faint text-xs mt-0.5">{subtitle}</p>}
       </div>
     </a>
