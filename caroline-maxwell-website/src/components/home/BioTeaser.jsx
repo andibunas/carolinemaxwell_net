@@ -9,7 +9,7 @@ export default function BioTeaser() {
       </p>
       <Link
         to="/artworks"
-        className="inline-block mt-4 text-sm text-ink-soft hover:text-gold transition-colors"
+        className="inline-block mt-4 text-sm text-ink-soft underline underline-offset-2 hover:text-gold transition-colors"
       >
         View all collections
       </Link>

@@ -17,7 +17,7 @@ function ProjectCard({ project, className }) {
         <span className="font-display font-bold text-xl text-ink group-hover:text-gold transition-colors">
           {project.title}
         </span>
-        <span className="text-sm text-ink-soft">View collection</span>
+        <span className="text-sm text-ink-soft underline underline-offset-2">View collection</span>
       </p>
       {project.synopsis && (
         <p className="text-ink-soft text-sm mt-1 max-w-md">{project.synopsis}</p>

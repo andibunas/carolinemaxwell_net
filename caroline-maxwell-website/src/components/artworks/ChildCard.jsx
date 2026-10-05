@@ -26,7 +26,7 @@ export default function ChildCard({ node, to, indexStyle = false, className = ''
           <span className="font-display text-xl text-ink group-hover:text-gold transition-colors">
             {title}
           </span>
-          {!isArtwork && <span className="text-sm text-ink-soft">View collection</span>}
+          {!isArtwork && <span className="text-sm text-ink-soft underline underline-offset-2">View collection</span>}
         </p>
         {subtitle && <p className="text-ink-soft text-sm mt-1 max-w-md">{subtitle}</p>}
       </Link>
@@ -48,7 +48,7 @@ export default function ChildCard({ node, to, indexStyle = false, className = ''
       <div className="mt-3">
         <p className="flex items-baseline gap-2">
           <span className="text-ink text-sm">{title}</span>
-          {!isArtwork && <span className="text-xs text-ink-soft">View collection</span>}
+          {!isArtwork && <span className="text-xs text-ink-soft underline underline-offset-2">View collection</span>}
         </p>
         {subtitle && <p className="text-ink-faint text-xs mt-0.5">{subtitle}</p>}
       </div>
