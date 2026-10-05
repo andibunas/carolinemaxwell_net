@@ -22,12 +22,12 @@ export default function ChildCard({ node, to, indexStyle = false, className = ''
             />
           </div>
         )}
-        <p className="mt-4 flex items-baseline gap-3">
-          <span className="font-display text-xl text-ink group-hover:text-gold transition-colors">
-            {title}
-          </span>
-          {!isArtwork && <span className="text-sm text-ink-soft underline underline-offset-2">View collection</span>}
+        <p className="font-display text-xl text-ink mt-4 group-hover:text-gold transition-colors">
+          {title}
         </p>
+        {!isArtwork && (
+          <p className="mt-1 text-sm text-ink-soft underline underline-offset-2">View collection</p>
+        )}
         {subtitle && <p className="text-ink-soft text-sm mt-1 max-w-md">{subtitle}</p>}
       </Link>
     );
@@ -46,10 +46,10 @@ export default function ChildCard({ node, to, indexStyle = false, className = ''
         </div>
       )}
       <div className="mt-3">
-        <p className="flex items-baseline gap-2">
-          <span className="text-ink text-sm">{title}</span>
-          {!isArtwork && <span className="text-xs text-ink-soft underline underline-offset-2">View collection</span>}
-        </p>
+        <p className="text-ink text-sm">{title}</p>
+        {!isArtwork && (
+          <p className="mt-0.5 text-xs text-ink-soft underline underline-offset-2">View collection</p>
+        )}
         {subtitle && <p className="text-ink-faint text-xs mt-0.5">{subtitle}</p>}
       </div>
     </Link>

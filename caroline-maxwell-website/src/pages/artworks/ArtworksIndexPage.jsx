@@ -39,12 +39,10 @@ export default function ArtworksIndexPage() {
                   />
                 </div>
               )}
-              <p className="mt-4 flex items-baseline gap-3">
-                <span className="font-display text-xl text-ink group-hover:text-gold transition-colors">
-                  {project.name}
-                </span>
-                <span className="text-sm text-ink-soft underline underline-offset-2">View collection</span>
+              <p className="font-display text-xl text-ink mt-4 group-hover:text-gold transition-colors">
+                {project.name}
               </p>
+              <p className="mt-1 text-sm text-ink-soft underline underline-offset-2">View collection</p>
               {project.synopsis && (
                 <p className="text-ink-soft text-sm mt-1 max-w-md">{project.synopsis}</p>
               )}
