@@ -5,10 +5,6 @@ Thumbnail: Peru_sm.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for Peru
-
 ## Artworks
 
 ### The Racetrack, Death Valley National Park, California

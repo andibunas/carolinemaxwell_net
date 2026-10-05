@@ -4,10 +4,6 @@ Thumbnail: Cypriot_thumbnail.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for Cyprus
-
 ## Write Up
 
 The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have had conflict over the island for thousands of years. It is also the legendary birthplace of the Greek goddess of love, Aphrodite. The name "Cyprus" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.

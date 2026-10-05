@@ -5,10 +5,6 @@ Thumbnail: iceonPeru.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for First Aid
-
 ## Artworks
 
 ### Icepack — Johannesburg

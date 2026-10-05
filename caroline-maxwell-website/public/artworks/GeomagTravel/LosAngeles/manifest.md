@@ -5,10 +5,6 @@ Thumbnail: caroline1.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for Los Angeles
-
 ## Write Up
 
 I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for most of my life. 

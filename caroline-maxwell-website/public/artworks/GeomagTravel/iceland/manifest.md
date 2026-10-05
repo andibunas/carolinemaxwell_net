@@ -5,10 +5,6 @@ Thumbnail: Iceland.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for Iceland
-
 ## Artworks
 
 ### Red Hill

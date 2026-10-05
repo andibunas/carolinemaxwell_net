@@ -5,10 +5,6 @@ Thumbnail: JoburgMine.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for South Africa
-
 ## Artworks
 
 ### Map of the Western Mojave Desert mining towns of Johannesburg and Randsburg, California

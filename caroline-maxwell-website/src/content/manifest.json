@@ -1729,7 +1729,7 @@
             "layout_type": "grid",
             "date": "2009-01-01",
             "write_up": "I consider Los Angeles to be the starting and ending point for this journey. It is my birthplace, and I have lived here for most of my life. \n\nCalifornia is known for its earthquakes, and Los Angeles sits upon the San Andreas Fault. This important fault-line is where the Pacific tectonic plate slides past the North American tectonic plate. Half of Los Angeles is moving slowly towards Anchorage, Alaska. The other half is traveling south.\n\nLos Angeles is home to Caltech, one of the foremost institutions in the study of seismic and geomagnetic activity, as well as astronomy and physics. Los Angeles is also home to the historical Mount Wilson Observatory, which is situated directly above my childhood home in Pasadena. The Mt. Wilson Observatory is where my grandfather accidentally met Edwin Hubble, and where Hubble made many of his notable observations with the now antiquated 100-inch Hooker Telescope.",
-            "synopsis": ">> Works for Los Angeles",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/LosAngeles/caroline1.jpg",
             "children": [
               {
@@ -1789,7 +1789,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for Peru",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/peru/Peru_sm.jpg",
             "children": [
               {
@@ -1881,7 +1881,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for Iceland",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/iceland/Iceland.jpg",
             "children": [
               {
@@ -1957,7 +1957,7 @@
             "layout_type": "grid",
             "date": "",
             "write_up": "The Mediterranean island of Cyprus has been inhabited since Neolithic times. The Greeks and the Turks have had conflict over the island for thousands of years. It is also the legendary birthplace of the Greek goddess of love, Aphrodite. The name \"Cyprus\" is probably a derivative of the Greek word for copper, which has been mined on the island since ancient times. This is probably the reason why Aphrodite/Venus is associated with the element copper.\n\nIt was not until November 1, 1974 (the exact day and year I was born) that a delicate peace agreement was reached for Cyprus. On this date, the U.N. drew a \"green line\" down the middle of the island, dividing it between the Greeks and the Turks.",
-            "synopsis": ">> Works for Cyprus",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/cyprus/Cypriot_thumbnail.jpg",
             "children": [
               {
@@ -2033,7 +2033,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for South Africa",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/south-africa/JoburgMine.jpg",
             "children": [
               {
@@ -2109,7 +2109,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for Australia",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/australia/australia_wool.jpg",
             "children": [
               {
@@ -2169,7 +2169,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for Flora and Fauna",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/flora-fauna/florafauna.jpg",
             "children": [
               {
@@ -2229,7 +2229,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Works for First Aid",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/first-aid/iceonPeru.jpg",
             "children": [
               {
@@ -2289,7 +2289,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "",
-            "synopsis": ">> Field Kit for the Journey",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/tools/geomag_tools.jpg",
             "children": [
               {
@@ -2317,7 +2317,7 @@
             "layout_type": "grid",
             "date": "2008",
             "write_up": "Returning to the studio--\n\nReflections on travel, searching, and the illusiveness of a destination.\n\nI began working with a square-ruled composition book. The idea of \"the grid\" as the surface and the history that I was treading on top of seemed a necessary starting point.\n\nThe page numbers, seemingly hand-stamped by some worker in the book factory interested me. The analogue \"one number after another\" sequence felt like a familiar companion through the long hours of travel. \n\nOnce I unraveled the binding and separated the pages of the book, new relationships between the page numbers began to form. Page number one shared the same piece of paper as page number 152. The doldrums were found where page 126 leads to page 27.\n\nThis work is still in progress.",
-            "synopsis": ">> Works for the Studio",
+            "synopsis": "",
             "thumbnail": "/artworks/GeomagTravel/studio/purse_bandg_hill.jpg",
             "children": [
               {
@@ -4628,10 +4628,6 @@
         "layout": "simple",
         "images": [
           {
-            "src": "/writings/Flames/birds.jpg",
-            "alt": "Flames, After Botticelli"
-          },
-          {
             "src": "/writings/Flames/Botticelli.jpg",
             "alt": "Flames, After Botticelli"
           },
@@ -4649,6 +4645,10 @@
           },
           {
             "src": "/writings/Flames/Leader.jpg",
+            "alt": "Flames, After Botticelli"
+          },
+          {
+            "src": "/writings/Flames/birds.jpg",
             "alt": "Flames, After Botticelli"
           },
           {

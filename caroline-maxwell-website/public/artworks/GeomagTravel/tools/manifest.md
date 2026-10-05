@@ -5,10 +5,6 @@ Thumbnail: geomag_tools.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Field Kit for the Journey
-
 ## Artworks
 
 ### Field kit for the journey

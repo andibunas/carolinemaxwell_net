@@ -5,10 +5,6 @@ Thumbnail: florafauna.jpg
 Header Image: 
 Layout: grid
 
-## Synopsis
-
->> Works for Flora and Fauna
-
 ## Artworks
 
 ### Datura (divide)
