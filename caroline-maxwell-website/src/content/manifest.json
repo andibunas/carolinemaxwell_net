@@ -4628,6 +4628,10 @@
         "layout": "simple",
         "images": [
           {
+            "src": "/writings/Flames/birds.jpg",
+            "alt": "Flames, After Botticelli"
+          },
+          {
             "src": "/writings/Flames/Botticelli.jpg",
             "alt": "Flames, After Botticelli"
           },
@@ -4645,10 +4649,6 @@
           },
           {
             "src": "/writings/Flames/Leader.jpg",
-            "alt": "Flames, After Botticelli"
-          },
-          {
-            "src": "/writings/Flames/birds.jpg",
             "alt": "Flames, After Botticelli"
           },
           {
