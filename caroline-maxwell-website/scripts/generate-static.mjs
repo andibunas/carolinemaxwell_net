@@ -102,7 +102,10 @@ async function main() {
     for (const route of [...routes, '/__404__']) {
       try {
         await page.goto(`${BASE_URL}${route}`, { waitUntil: 'load', timeout: 45000 });
-        const html = await page.content();
+        // Strip the preview-server origin so asset and link URLs are
+        // root-relative (/assets/...) and don't point at localhost, which
+        // visitors' browsers would try to reach (Local Network Access prompt).
+        const html = (await page.content()).replaceAll(BASE_URL, '');
         const outFile = route === '/__404__' ? path.join(OUT_DIR, '404.html') : outputPathFor(route);
         fs.mkdirSync(path.dirname(outFile), { recursive: true });
         fs.writeFileSync(outFile, html);
