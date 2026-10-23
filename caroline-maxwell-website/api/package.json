@@ -1,0 +1,13 @@
+{
+  "name": "caroline-maxwell-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "check": "node --check src/functions/todos.js"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.7.0"
+  }
+}
