@@ -1,21 +1,21 @@
-name: Azure Static DNA Office Web Apps CI/CD
+name: Azure Static Caroline Site Web Apps CI/CD
 
 on:
   push:
     branches:
       - release_to_azure
     paths:
-      - dna_office/**
-      - netapi/**
-      - .github/workflows/your-workflow-file.yml
+      - caroline-maxwell-website/**
+      - caroline-maxwell-website/netapi/**
+      - .github/workflows/azure-static-web-apps-delightful-grass-0d409251e.yml
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - release_to_azure
     paths:
-      - dna_office/**
-      - netapi/**
-      - .github/workflows/your-workflow-file.yml
+      - caroline-maxwell-website/**
+      - caroline-maxwell-website/netapi/**
+      - .github/workflows/azure-static-web-apps-delightful-grass-0d409251e.yml
 
 jobs:
   build_and_deploy_job:
