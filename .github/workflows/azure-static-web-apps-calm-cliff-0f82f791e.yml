@@ -1,13 +1,21 @@
-name: Azure Static Web Apps CI/CD
+name: Azure Static DNA Office Web Apps CI/CD
 
 on:
   push:
     branches:
       - release_to_azure
+    paths:
+      - dna_office/**
+      - caroline-maxwell-website/netapi/**
+      - .github/workflows/azure-static-web-apps-calm-cliff-0f82f791e.yml
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - release_to_azure
+    paths:
+      - dna_office/**
+      - caroline-maxwell-website/netapi/**
+      - .github/workflows/azure-static-web-apps-calm-cliff-0f82f791e.yml
 
 jobs:
   build_and_deploy_job:
