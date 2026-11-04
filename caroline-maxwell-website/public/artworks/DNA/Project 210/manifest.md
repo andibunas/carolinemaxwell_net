@@ -26,6 +26,13 @@ Date: 2009
 Image: ColorStudy_allFLAT.jpg
 These color studies were created using DNA's "Light Pollution Spectrum Oil Paints." Each painting contrasts sky colors from different Los Angeles neighborhoods. The photographic paper used was exposed to the light of the night sky and then developed, turning the paper black.
 
+### DNA Los Angeles Light Pollution Spectrum
+Medium: Oil on canvas
+Size: 48 x 48 in
+Date: 2009
+Image: Night Sky Spectrum.jpg
+Studies of the night sky colors in various Los Angeles neighborhoods. 
+
 ### Saltmoons
 Medium: Carved and polished animal salt-licks
 Date: 2009

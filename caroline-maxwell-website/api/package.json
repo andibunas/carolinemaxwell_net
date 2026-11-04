@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/functions/*.js",
   "scripts": {
-    "check": "node --check src/functions/todos.js"
+    "check": "node --check src/todos-core.js && node --check src/functions/todos.js && node --check local-server.js",
+    "start:local": "node local-server.js"
   },
   "dependencies": {
     "@azure/functions": "^4.7.0"

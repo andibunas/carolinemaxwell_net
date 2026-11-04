@@ -2443,7 +2443,7 @@
         "layout_type": "grid",
         "date": "2019-01-01",
         "write_up": "This series of work began with a handful of texts and images from the history of science: Galileo's experiments in physics, Captain James Cook's observations of the Transit of Venus, and various documents from the U.S. Geological Survey. I have layered these stories with my own, re-presenting and even re-enacting them in order to understand them on a more personal and direct level. This work could be seen as a desperate attempt to find hope, not in the rational certainty of science, but in its intuitive and transformative capacities.\n\nI begin with a simple shift in the language of science, to reveal it for what it truly is: a poetry of intimacy, of falling bodies and celestial visions passing before the eyes of history.",
-        "synopsis": "Scientific texts are re-presented and re-enacted, shifting the language of science towards a poetry of intimacy.",
+        "synopsis": "Scientific concepts are re-presented and re-enacted, shifting the language of science towards a poetry of intimacy.",
         "thumbnail": "/artworks/Physics/transit3.jpg",
         "children": [
           {
@@ -2538,6 +2538,22 @@
               {
                 "src": "/artworks/Physics/GalileosHeartbeat.jpg",
                 "alt": "Galileo's Heartbeat",
+                "is_primary": true
+              }
+            ]
+          },
+          {
+            "id": "darwin-s-room",
+            "type": "artwork",
+            "title": "Darwin's Room",
+            "medium": "Ink on paper",
+            "size": "9 x 12 in",
+            "date": "2020",
+            "write_up": "Small details of Charles Darwin's private room.  Created during the 2020 pandemic shutdown, studying the intimate spaces where scientists lived and worked, especially during times of illness and isolation.  ",
+            "images": [
+              {
+                "src": "/artworks/Physics/Darwins Room.jpg",
+                "alt": "Darwin's Room",
                 "is_primary": true
               }
             ]
@@ -3919,6 +3935,22 @@
                   {
                     "src": "/artworks/DNA/Project 210/ColorStudy_allFLAT.jpg",
                     "alt": "DNA Color Studies",
+                    "is_primary": true
+                  }
+                ]
+              },
+              {
+                "id": "dna-los-angeles-light-pollution-spectrum",
+                "type": "artwork",
+                "title": "DNA Los Angeles Light Pollution Spectrum",
+                "medium": "Oil on canvas",
+                "size": "48 x 48 in",
+                "date": "2009",
+                "write_up": "Studies of the night sky colors in various Los Angeles neighborhoods. ",
+                "images": [
+                  {
+                    "src": "/artworks/DNA/Project 210/Night Sky Spectrum.jpg",
+                    "alt": "DNA Los Angeles Light Pollution Spectrum",
                     "is_primary": true
                   }
                 ]
