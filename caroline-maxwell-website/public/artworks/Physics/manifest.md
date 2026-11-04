@@ -7,7 +7,7 @@ Layout: grid
 
 ## Synopsis
 
-Scientific texts are re-presented and re-enacted, shifting the language of science towards a poetry of intimacy.
+Scientific concepts are re-presented and re-enacted, shifting the language of science towards a poetry of intimacy.
 
 ## Write Up
 
@@ -53,6 +53,13 @@ Size: 11 x 11 in
 Date: 2014
 Image: GalileosHeartbeat.jpg
 In the absence of accurate clocks and timekeeping devices, Galileo used his own heartbeat to time his experiments.
+
+### Darwin's Room
+Medium: Ink on paper
+Size: 9 x 12 in
+Date: 2020
+Image: Darwins Room.jpg
+Small details of Charles Darwin's private room.  Created during the 2020 pandemic shutdown, studying the intimate spaces where scientists lived and worked, especially during times of illness and isolation.  
 
 ### Wires for Connection #1
 Medium: Digital inkjet print
