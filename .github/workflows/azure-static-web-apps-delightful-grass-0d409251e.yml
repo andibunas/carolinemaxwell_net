@@ -4,10 +4,18 @@ on:
   push:
     branches:
       - release_to_azure
+    paths:
+      - dna_office/**
+      - netapi/**
+      - .github/workflows/your-workflow-file.yml
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - release_to_azure
+    paths:
+      - dna_office/**
+      - netapi/**
+      - .github/workflows/your-workflow-file.yml
 
 jobs:
   build_and_deploy_job:
