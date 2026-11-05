@@ -20,7 +20,9 @@ import directly into `public/artworks/`.
 
 ## Use on claude.ai
 
-1. Zip this folder so `SKILL.md` is at the top of the zip.
+1. Build the zip from the *contents* of this folder, so `SKILL.md` is at the archive root (not inside a sub-folder):
+   `cd artwork-contributor && zip -r ../artwork-contributor.zip . -x "*/__pycache__/*"`
+   Claude.ai rejects the archive unless it has a top-level `SKILL.md` (or `.claude-plugin/plugin.json`).
 2. Upload it as a custom skill.
 3. Contributors attach their folders in the chat. Claude asks questions, shows
    every manifest for confirmation, and returns the zip as a download.
