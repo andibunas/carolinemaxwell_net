@@ -43,7 +43,7 @@ python3 -I scripts/scan_folder.py <upload_root>
 
 Read the JSON. `folders` gives the tree: each folder's own files and subfolders.
 Note `duplicate_image_filenames` and `text_files`. If there are duplicates, ask
-the user to rename them, one question at a time, with a default. Do not rename silently.
+the user to rename them, with AskUserQuestion, one question at a time, with a default. Do not rename silently.
 
 Read every text file in full before drafting any synopsis or write-up.
 
@@ -90,13 +90,11 @@ Inference rules:
 
   If the artifact tools or the database are not available, fall back to the CSV template instead: `python3 -I scripts/make_template.py <upload_root> <outputs_folder>/template.csv`, delivered as a download and read back once it is filled in.
 
-When you must ask, ask **one question at a time**, wait for the answer, and give a
-**default** that Enter accepts, for example `Default: Enter for "grid"`.
-Say what the default means when it is not obvious.
-
-Always use the AskUserQuestion tool for every question. Do not ask in the chat text.
-Make the default the first option, labelled "(Default)", with the other likely answers
-after it. Send only one question per tool call. Ask in chat only if the tool is missing.
+Every question, in every step, uses the AskUserQuestion tool. Never ask a question in the
+chat text, and never ask the contributor to reply with a number or a word. Ask one question
+per tool call, and wait for the answer before the next. Make the default the first option,
+labelled "(Default)", and say what the default means when it is not obvious. Ask in chat
+only if the tool is missing.
 
 When asking about the synopsis or write-up, explain the difference in one line: the
 synopsis is a one-sentence string for the folder image, and the write-up is for inside the folder.
@@ -119,7 +117,7 @@ python3 -I scripts/build_package.py <plan.json> <upload_root> <outputs_folder>
 ```
 
 The script writes the zip and prints a summary. Read each `manifest.md` out of
-that zip and show its full text in the chat. List every warning. Then ask one question at a time: first "Confirm these manifests?" (Default: Enter to confirm), then ask about each correction the user raises, one at a time. This step is required.
+that zip and show its full text in the chat. List every warning. Then ask with AskUserQuestion, one question at a time: first "Confirm these manifests?" (default: confirm), then ask about each correction the user raises, one at a time. This step is required.
 
 ## 4. Build the final zip
 
@@ -144,4 +142,4 @@ After confirmation, run the packager again with the corrected plan. Give the use
 - Never write a manifest by hand. Always generate it with the scripts, so the format stays current.
 - Never edit `manifest.json` by hand. Rebuild it with `npm run build-manifest`.
 - Keep the upload's own file names. Only the size of the files changes, and only for images above 2000px.
-- Ask one question at a time. Wait for the answer. Every question shows its default, and an empty reply (Enter) accepts it.
+- Ask every question with AskUserQuestion, one per call, with the default as the first option.
