@@ -1,127 +1,103 @@
 ---
 name: get_artwork
-description: Import a new artwork/project into the site — point it at a folder of images and an optional writeup text file, and it copies the images into public/artworks and generates a manifest.md from whatever info is available. Use when the user says "add this artwork", "import these images", or names a folder of source images/writeup to bring into the portfolio.
+description: Import one or more artwork folders (with or without subfolders) and an optional writeup into caroline-maxwell-website/public/artworks, write the manifest.md files in the current site format, and rebuild the site manifest. Use when the user says "add this artwork", "import these images", or names source folders or a writeup to bring into the portfolio.
 ---
 
 # get_artwork
 
-Imports a new artwork or project into `caroline-maxwell-website/public/artworks/` by
-copying source images and generating a `manifest.md` in the format the site already
-uses (see e.g. `public/artworks/DNA/manifest.md` or `public/artworks/GeomagTravel/manifest.md`).
+Imports artwork or projects into `caroline-maxwell-website/public/artworks/` by
+copying media and writing `manifest.md` files in the format the live site uses
+(see `public/artworks/GeomagTravel/manifest.md` for a project with children,
+`public/artworks/GeomagTravel/peru/manifest.md` for a child,
+`public/artworks/Blackboard/manifest.md` for a carousel, and
+`public/artworks/TheStoryteller/manifest.md` for videos).
 
-This skill requires direct filesystem access to the repo (Bash/Read/Write/Edit tools).
-It writes files directly into `public/artworks/` as described below.
+Requires filesystem access to the repo (Bash, Read, Write, Edit).
+
+## Current site format
+
+Do not use `Order:`. No current manifest has it.
+
+Header fields, in this order, one per line:
+
+```
+Name: <title>
+Type: <artworks|projects>
+Date: <YYYY-MM-DD, YYYY, or blank>
+Thumbnail: <file in this folder>
+Header Image: <file in this folder, or blank>
+Layout: <grid|carousel>
+Carousel Speed: <seconds>        (only when Layout is carousel)
+```
+
+Then a blank line, then these sections, each included only when it has content, in this order:
+
+- `## Synopsis`: one or two sentences.
+- `## Write Up`: the longer text.
+- `## Child Projects`: one `- <folder name>` per child, in display order. Used when Type is `projects`.
+- `## Artworks`: one block per piece:
+
+```
+### <piece title>
+Medium: <only when known>
+Size: <only when known>
+Date: <only when known>
+Image: <file>          (or Video: <file> for a video)
+
+<optional description paragraph, no heading>
+```
+
+Rules:
+
+- `Type: projects` for a folder with child folders. `Type: artworks` for a single work or a flat set of pieces.
+- Date: `YYYY-MM-DD` when known. A year alone is written as `YYYY-01-01`. Blank when unknown.
+- Thumbnail must be an image file in the same folder, never a video.
+- Images are web-sized: longest side 2000px maximum, 72 DPI, JPEG quality about 85. Never upscale. Use Pillow if it is installed; if not, tell the user the sizes were not checked.
+- A project's child folders sit inside its folder, and each child has its own `manifest.md`.
+
+## Never edit by hand
+
+- Never edit `src/content/manifest.json`. Only `npm run build-manifest` updates it.
+- After any change under `public/artworks/`, run `npm run build-manifest` in `caroline-maxwell-website/`. Report any error verbatim.
 
 ## Inputs
 
-Ask the user for (or infer from their message):
+1. **Source folder(s):** one or more folders of media, with or without subfolders. Optional writeup text or markdown.
+2. **Placement:** a new top-level project, or a child of an existing project (for example `GeomagTravel`). Check existing names in `public/artworks/manifest.md`.
+3. **Names:** folder names with letters, digits, `_` and `-` only, matching existing folders (for example `Villa_Mysteries`). Confirm when unclear.
 
-1. **Source folder** — a folder of images, and optionally a text/markdown file with a
-   writeup (synopsis, description, medium, dates, per-piece notes, etc.).
-2. **Target name** — the artwork/project folder name under `public/artworks/`
-   (e.g. `Blackboard`, `GeomagTravel`). If not given, derive a reasonable
-   PascalCase/CamelCase or short name from the source folder name or writeup title,
-   but confirm with the user before creating it if it's ambiguous.
-3. **Parent** — whether this is a top-level artwork/project, or a child of an
-   existing project (e.g. `GeomagTravel/peru`). If a child, the target path nests
-   under the parent's folder.
-
-If any of this isn't clear from the request, ask a short clarifying question rather
-than guessing silently.
+If anything here is unclear, ask one short question before writing.
 
 ## Steps
 
-1. **Locate the repo**. The site lives in `caroline-maxwell-website/` at the repo
-   root; artworks live in `caroline-maxwell-website/public/artworks/`.
+1. **Inventory.** List every folder and file under the source, including subfolders. Note duplicate image filenames and resolve them with the user before copying.
 
-2. **Create/stage the target folder.** Create `public/artworks/<Name>/` (or nested
-   under the parent for a child project). Don't overwrite an existing manifest.md
-   without confirming with the user first — if the folder already exists, treat
-   this as an update and merge rather than clobber.
+2. **Read every writeup in full** before drafting any text.
 
-3. **Handle the images.** Copy every image file (jpg/jpeg/png/gif/webp/svg) from
-   the source folder into the target folder, preserving original filenames. Skip
-   non-image files other than the writeup text file. If there are many images
-   or subfolders of images (e.g. per-series folders), preserve that
-   substructure only if it mirrors how existing multi-part projects are
-   organized (see `GeomagTravel/` for an example of a project with image
-   subfolders per child).
-
-4. **Read the writeup**, if one was provided, and extract whatever is available:
-   - Title/Name
-   - Date (use the most specific date mentioned; format `YYYY-MM-DD` if a full date
-     is known, otherwise `YYYY-01-01` for year-only — match the pattern seen in
-     existing manifests)
-   - Synopsis (a one-to-two sentence summary — write one if the source doesn't have
-     a short version but has a longer writeup)
-   - Full write-up text
-   - Medium, size, and any per-image/per-piece breakdowns (title, medium, size,
-     date, short description) if the writeup describes individual pieces — these
-     become `## Artworks` sub-entries like in `DNA/manifest.md`
-
-   If no writeup is provided, leave text fields blank rather than inventing content,
-   and tell the user what's missing.
-
-5. **Pick a Thumbnail and Header Image**: default Thumbnail to the first copied
-   image (or one the writeup calls out as representative); Header Image can be
-   left blank unless the writeup specifies a hero/banner image or animated image.
-
-6. **Write `manifest.md`** in the target folder using this exact field format
-   (every field present, fields first, blank line, then `##` sections — copy the
-   structure precisely, and leave any field blank if there's no value for it rather
-   than omitting it):
+3. **Propose the structure.** Show a tree with each item's type, its pieces, and where it will go. For example:
 
    ```
-   Name: <Title>
-   Type: <artworks|projects>
-   Order:
-   Date: <YYYY-MM-DD>
-   Thumbnail: <filename>
-   Header Image: <filename or blank>
-   Layout: grid
-
-   ## Synopsis
-
-   <one-to-two sentence summary>
-
-   ## Write Up
-
-   <full writeup text, in markdown>
+   Trip/          projects   (Write Up from notes.md)
+     peru/        artworks   4 images
+     iceland/     artworks   carousel, 2 images
+   Solo/          artworks   1 video
    ```
 
-   If the writeup breaks down into individual pieces, append:
+   Confirm it before writing anything.
 
-   ```
-   ## Artworks
+4. **Ask only what matters**, grouped by item, in one message: title, date, synopsis, write-up, layout (grid, or carousel with a speed in seconds), per-piece title/medium/size/date/description when there are several pieces, and thumbnail or header preferences. Never invent biographical, medium, size, date or descriptive content. Leave blanks and say what is missing.
 
-   ### <Piece title>
-   Medium:
-   Size:
-   Date:
-   Image: <filename>
+5. **Copy the media** into each item's folder with original filenames. Resize images over 2000px per the rules above.
 
-   <short description>
-   ```
-   repeated per piece, with each field left blank when unknown.
+6. **Write each `manifest.md`** following the format above. Write child folders' manifests inside their parent's folder. Show every manifest's full text to the user and get confirmation before going further.
 
-   `Type` is `projects` if this is a multi-part/ongoing body of work (has child
-   projects or reads like a long-form project), `artworks` if it's a single work or
-   flat collection of related pieces — infer from the writeup, default to
-   `artworks` if unclear, and flag the choice to the user.
+7. **Update parent lists.** For a new top-level item, add its folder name under `## Child Projects` in `public/artworks/manifest.md`. For a new child of an existing project, add it under that project's `## Child Projects`. Create the heading if the file has none. These list lines are the only manual edits allowed in existing manifests.
 
-7. **Update parent listings.** If this is a child project, add its folder name to
-   the parent's `## Child Projects` list (see `GeomagTravel/manifest.md`), and add
-   the new top-level name to `public/artworks/manifest.md`'s `## Child Projects`
-   list if this is a new top-level artwork/project.
+8. **Rebuild.** In `caroline-maxwell-website/`, run `npm run build-manifest`. Report any errors verbatim.
 
-8. **Report back.** List what was copied, the manifest.md path, and call out any
-   fields left blank or guessed (Type, Date, Order, Thumbnail, Layout) so the user
-   can correct them.
+9. **Report.** List the folders and manifests created, the lists changed, the fields left blank, and every guessed value (Type, Date, Thumbnail, Layout), so the user can correct them.
 
 ## Notes
 
-- Don't invent biographical or descriptive content not present in the source
-  material — leave fields blank rather than fabricating detail.
-- `Layout: grid` is the only layout value seen in the current site; keep it unless
-  the user specifies otherwise.
-- This only writes/produces files for `public/artworks/`; it never touches site code.
+- Do not touch site code (`src/`) or any file outside `public/artworks/`, apart from the list edits in step 7.
+- Do not commit. Commit only when the user asks, and confirm the message first.
