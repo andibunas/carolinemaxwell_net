@@ -1,0 +1,8 @@
+{
+  "name": "artwork-contributor",
+  "version": "1.0.0",
+  "description": "Turn artwork folders uploaded in chat into a download package for the Caroline Maxwell portfolio site: current manifest format, multi-folder structure, and a manifest delta for merging.",
+  "author": {
+    "name": "bunasa"
+  }
+}

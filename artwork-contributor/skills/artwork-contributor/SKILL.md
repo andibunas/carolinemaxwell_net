@@ -91,9 +91,7 @@ python3 -I scripts/build_package.py <plan.json> <upload_root> <outputs_folder>
 ```
 
 The script writes the zip and prints a summary. Read each `manifest.md` out of
-that zip and show its full text in the chat. Optionally, the MCP tool
-`build_manifest` shows the same text when the `caroline-artwork-manifest` server
-is connected. List every warning. Ask the user to confirm or correct. This step is required.
+that zip and show its full text in the chat. List every warning. Ask the user to confirm or correct. This step is required.
 
 ## 4. Build the final zip
 
