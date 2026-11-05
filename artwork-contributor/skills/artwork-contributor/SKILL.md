@@ -59,26 +59,39 @@ Trip/            projects   (Write Up from Trip/notes.md)
 Solo/            artworks   1 video
 ```
 
-Ask **one question at a time** and wait for the answer before asking the next.
-Never send a list of questions. Work through the items and fields in the order below.
+Infer as much as possible and ask as little as possible. Only ask when a value
+cannot be worked out from the upload.
 
-Every question must:
+Inference rules:
 
-- State the question in one line.
-- Give a **default** answer in brackets, for example `Default: Enter for "grid"`.
-  The contributor presses Enter (sends an empty reply) to accept it, or types a different answer.
-- Say what the default means in a few words, when it is not obvious.
+- **Title:** from a document in the folder (writeup, notes) if one names the work, otherwise from the folder name.
+- **Folder names:** use the folder names as uploaded. Do not rename them.
+- **Missing info:** leave the field blank in the generated manifest. Do not ask for it.
+- **Synopsis and write-up:** infer which is which. The synopsis is a one-sentence string shown on the folder's image. The write-up is the text shown inside the full folder. If the synopsis would be longer than one sentence, shorten it to one sentence, or ask the user (see below).
+- **Layout:** always `grid`, unless the user explicitly asks for `carousel`.
+- **Image titles:** if no title is given anywhere, take the file name without its extension, replace special characters with spaces, and use that as the title.
+- **Image fields (medium, size, date):** if none are given anywhere, ask once, for all images together. Say that the answer applies to every image. Offer a more specific setup: the user can fill in the template below instead. Then generate the template:
 
-Question order:
+  ```
+  python3 -I scripts/make_template.py <upload_root> <outputs_folder>/template.csv
+  ```
 
-1. Where each top-level item goes. Default: a new top-level project. Otherwise a child of an existing project. Give existing site projects by name from `public/artworks/manifest.md` only if the user asks, and read that file only then.
-2. Title, then folder name (letters, digits, `_`, `-`). Default for the folder name: the folder's current name.
-3. Date (year or full date). Default: blank.
-4. Synopsis, one or two sentences. Offer a draft from any writeup as the default, and wait for approval.
-5. Write-up, only if there is text beyond the synopsis. Default: the text from the writeup file.
-6. Layout. Default: `grid`. Otherwise `carousel`, then ask the speed in seconds (default: `5`).
-7. For each piece, one field at a time: title, medium, size, date, description. Only ask when the item has several pieces. Default for each: blank. Never invent these values.
-8. Thumbnail and header image. Default: the script's choice (first image in the folder). Ask only if the user has a preference.
+  The CSV lists every image and video in the upload, one row each, with the columns
+  already set up (`title`, `medium`, `size`, `date`). Titles are prefilled. Do not ask
+  about folders in the template: folder fields are asked in chat, not here. The contributor
+  only fills in the blanks.
+  Give the template to the contributor as a download, and read it back once it is filled in.
+
+When you must ask, ask **one question at a time**, wait for the answer, and give a
+**default** that Enter accepts, for example `Default: Enter for "grid"`.
+Say what the default means when it is not obvious.
+
+Always use the AskUserQuestion tool for every question. Do not ask in the chat text.
+Make the default the first option, labelled "(Default)", with the other likely answers
+after it. Send only one question per tool call. Ask in chat only if the tool is missing.
+
+When asking about the synopsis or write-up, explain the difference in one line: the
+synopsis is a one-sentence string for the folder image, and the write-up is for inside the folder.
 
 Do not invent biographical, medium, size, or descriptive content. Leave it blank and say what is missing.
 

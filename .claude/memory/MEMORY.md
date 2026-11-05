@@ -11,3 +11,7 @@
 ## 2026-10-02
 - **Note:** dna_office has day/night mode: all colors are `--color-*` tokens in `src/index.css`; night values override them under `:root[data-theme="dark"]`. Use tokens (never raw hex) so new UI works in both modes. Choice stored in localStorage `dna-theme`, defaults to OS preference.
 - **Context:** Added ThemeToggle in the header, left of Home / next to hamburger.
+
+## 2026-11-05
+- **Note:** Build outputs (artwork-contributor zips, and any other generated target) go in the repo root unless the user explicitly names a different folder.
+- **Context:** User asked that the target folder default to root for artwork-contributor/build.sh.

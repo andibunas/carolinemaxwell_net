@@ -19,6 +19,7 @@ skills/artwork-contributor/SKILL.md              the workflow Claude follows
 skills/artwork-contributor/scripts/manifest_core.py   manifest format and plan validation (stdlib only)
 skills/artwork-contributor/scripts/scan_folder.py     inventory of the uploaded folders
 skills/artwork-contributor/scripts/build_package.py   plan.json + uploads -> zip (resizes when Pillow is present)
+skills/artwork-contributor/scripts/make_template.py    upload -> fill-in CSV listing every image and video (medium, size, date)
 skills/artwork-contributor/mcp/server.py              MCP tools: build_manifest, build_manifest_delta
 ```
 
