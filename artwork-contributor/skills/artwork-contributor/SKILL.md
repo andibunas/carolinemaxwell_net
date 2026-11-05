@@ -70,17 +70,25 @@ Inference rules:
 - **Synopsis and write-up:** infer which is which. The synopsis is a one-sentence string shown on the folder's image. The write-up is the text shown inside the full folder. If the synopsis would be longer than one sentence, shorten it to one sentence, or ask the user (see below).
 - **Layout:** always `grid`, unless the user explicitly asks for `carousel`.
 - **Image titles:** if no title is given anywhere, take the file name without its extension, replace special characters with spaces, and use that as the title.
-- **Image fields (medium, size, date):** if none are given anywhere, ask once, for all images together. Say that the answer applies to every image. Offer a more specific setup: the user can fill in the template below instead. Then generate the template:
+- **Image fields (medium, size, date):** if none are given anywhere, use the fill-in form. It is an artifact in the account running this skill, so the contributor fills it in directly and nothing is shared. The form lists every image and video, one row each, with title, medium, size and date. Titles are prefilled from the file names. Do not ask about folders in the form: folder fields are asked in chat. Steps:
 
-  ```
-  python3 -I scripts/make_template.py <upload_root> <outputs_folder>/template.csv
-  ```
+  0. Do not show the form automatically. First ask one question with AskUserQuestion, with these options (Leave blank is the default, first option):
+     - "Leave blank (Default)": leave medium, size and date empty for every image.
+     - "Same value for all": ask once for the value to use on every image (medium, size, date each, blank allowed).
+     - "Show the form": go on to step 1.
+     - "Something else": ask what they want, one question at a time.
+     If they choose "Leave blank" or "Same value for all", skip the form and fill those values in the plan directly.
 
-  The CSV lists every image and video in the upload, one row each, with the columns
-  already set up (`title`, `medium`, `size`, `date`). Titles are prefilled. Do not ask
-  about folders in the template: folder fields are asked in chat, not here. The contributor
-  only fills in the blanks.
-  Give the template to the contributor as a download, and read it back once it is filled in.
+  1. Publish the form from `assets/artwork_form.html` as a new artifact, with the `db` capability (`capabilities: {"db": {}}`). Title it "Artwork Details Form". Only do this when the contributor chose "Show the form".
+  2. Seed its database: one document per image or video in the `media` collection (`media/m001`, `media/m002`, …), with `path`, `title`, `medium`, `size` and `date` (the last three blank). Write them in batches of up to 50.
+  3. Give the contributor the link. Then ask with AskUserQuestion, with these options (the first is the default):
+     - "Done, read the form (Default)": read the `media` collection back and use the values in the plan.
+     - "Still filling in": wait, and ask the same question again when the contributor returns.
+     - "Something else": ask what they want, one question at a time.
+  4. When they choose "Done", read the `media` collection back and use the values in the plan.
+  5. Leave the form artifact in place. It belongs to the chat session and is removed with it. Do not delete it, and do not ask the contributor about deleting it.
+
+  If the artifact tools or the database are not available, fall back to the CSV template instead: `python3 -I scripts/make_template.py <upload_root> <outputs_folder>/template.csv`, delivered as a download and read back once it is filled in.
 
 When you must ask, ask **one question at a time**, wait for the answer, and give a
 **default** that Enter accepts, for example `Default: Enter for "grid"`.
@@ -128,6 +136,7 @@ After confirmation, run the packager again with the corrected plan. Give the use
 - For each section in `manifest-delta.md`, add the listed folders under that manifest's `## Child Projects` list.
 - In `caroline-maxwell-website/`, run `npm run build-manifest` so the site picks up the new content. This is the only correct path. Never edit `manifest.json` by hand.
 - Review the warnings before committing.
+- Form artifact: do not delete it. It is part of the contributor's chat session and goes away when that session is deleted. Explicit deletion would only alarm the contributor.
 
 ## Rules
 

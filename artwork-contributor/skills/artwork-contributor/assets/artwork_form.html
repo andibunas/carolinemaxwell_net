@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Artwork Details Form</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root {
+  --bg: #f6f5f2; --fg: #1d1c1a; --muted: #6b6862; --card: #ffffff;
+  --line: #dcd9d2; --accent: #2f5d50; --ok: #2f6b3a;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171716; --fg: #ecebe7; --muted: #9a978f; --card: #222220;
+    --line: #3a3935; --accent: #7fb8a4; --ok: #8fd0a0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171716; --fg: #ecebe7; --muted: #9a978f; --card: #222220;
+  --line: #3a3935; --accent: #7fb8a4; --ok: #8fd0a0; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); margin: 0;
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+}
+h1 { font-size: 22px; margin: 0 0 4px; text-wrap: balance; }
+.hint { color: var(--muted); margin: 0 0 12px; }
+#status { min-height: 1.5em; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+#status.ok { color: var(--ok); }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px; margin-bottom: 12px; min-width: 0;
+}
+.file { font: 13px/1.4 ui-monospace, Menlo, monospace; color: var(--muted);
+  overflow-wrap: anywhere; margin-bottom: 10px; }
+.grid { display: grid; gap: 10px; grid-template-columns: 1fr; }
+@media (min-width: 560px) { .grid { grid-template-columns: 1fr 1fr; } .grid .wide { grid-column: 1 / -1; } }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); min-width: 0; }
+input {
+  font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 8px 10px; width: 100%; box-sizing: border-box; min-width: 0;
+}
+input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+input::placeholder { color: var(--muted); opacity: .7; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+.copy-btn {
+  font: inherit; font-size: 13px; color: var(--accent); background: transparent;
+  border: 1px solid var(--accent); border-radius: 6px; padding: 6px 10px;
+  margin-bottom: 10px; cursor: pointer;
+}
+.copy-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<h1>Artwork details</h1>
+<p class="hint">Fill in any fields you know. Leave the rest blank. Changes save automatically.</p>
+<div id="status" role="status"></div>
+<div id="unavailable" class="empty" hidden>This form can only save when opened in Claude.</div>
+<div id="empty" class="empty">Loading the image list…</div>
+<div id="list"></div>
+
+<script>
+(() => {
+  const FIELDS = ["title", "medium", "size", "date"];
+  const LABELS = { title: "Title", medium: "Medium", size: "Size", date: "Date (YYYY-MM-DD or YYYY)" };
+  const cards = new Map();   // doc id -> { el, inputs }
+  const chains = new Map();  // doc id -> promise, so writes to one doc run in order
+  const timers = new Map();  // doc id -> debounce timer
+  const statusEl = document.getElementById("status");
+  const listEl = document.getElementById("list");
+  const emptyEl = document.getElementById("empty");
+  let db = null;
+
+  function setStatus(text, ok) {
+    statusEl.textContent = text;
+    statusEl.className = ok ? "ok" : "";
+  }
+
+  function buildCard(id) {
+    const el = document.createElement("div");
+    el.className = "card";
+    const file = document.createElement("div");
+    file.className = "file";
+    el.appendChild(file);
+    const grid = document.createElement("div");
+    grid.className = "grid";
+    const inputs = {};
+    for (const f of FIELDS) {
+      const label = document.createElement("label");
+      if (f === "title") label.className = "wide";
+      label.textContent = LABELS[f];
+      const input = document.createElement("input");
+      input.name = f;
+      input.autocomplete = "off";
+      input.addEventListener("input", () => scheduleSave(id));
+      input.addEventListener("change", () => scheduleSave(id, 0));
+      label.appendChild(input);
+      grid.appendChild(label);
+      inputs[f] = input;
+    }
+    el.appendChild(grid);
+    listEl.appendChild(el);
+    return { el, file, inputs };
+  }
+
+  function scheduleSave(id, delay = 600) {
+    clearTimeout(timers.get(id));
+    timers.set(id, setTimeout(() => save(id), delay));
+  }
+
+  function save(id) {
+    const card = cards.get(id);
+    if (!card || !db) return;
+    const data = {};
+    for (const f of FIELDS) data[f] = card.inputs[f].value.trim();
+    const prev = chains.get(id) || Promise.resolve();
+    const next = prev.then(() => db.doc("media/" + id).update(data))
+      .then(() => setStatus("Saved", true))
+      .catch(() => setStatus("Could not save. Check your connection and edit again.", false));
+    chains.set(id, next);
+  }
+
+  // Copy medium, size and date from the first row to every other row.
+  function copyToAll(fromId) {
+    const from = cards.get(fromId);
+    if (!from) return;
+    let count = 0;
+    for (const [id, card] of cards) {
+      if (id === fromId) continue;
+      for (const f of ["medium", "size", "date"]) card.inputs[f].value = from.inputs[f].value;
+      scheduleSave(id, 0);
+      count++;
+    }
+    setStatus(`Copied to ${count} other row${count === 1 ? "" : "s"}. Saving…`, true);
+  }
+
+  function addCopyButton(id, card) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "copy-btn copy-all";
+    btn.textContent = "Copy medium, size and date to all rows";
+    btn.addEventListener("click", () => copyToAll(id));
+    card.el.insertBefore(btn, card.el.firstChild);
+  }
+
+  function render(snap) {
+    const docs = snap.docs.filter((d) => d.exists).sort((a, b) => a.id.localeCompare(b.id));
+    emptyEl.hidden = docs.length > 0;
+    emptyEl.textContent = "No images to fill in yet.";
+    for (const d of docs) {
+      const data = d.data() || {};
+      let card = cards.get(d.id);
+      if (!card) {
+        card = buildCard(d.id);
+        cards.set(d.id, card);
+      }
+      card.file.textContent = data.path || d.id;
+      for (const f of FIELDS) {
+        const input = card.inputs[f];
+        // Do not overwrite text the contributor is typing right now.
+        if (document.activeElement !== input && !timers.has(d.id)) {
+          input.value = data[f] ?? "";
+        }
+      }
+    }
+    // The copy button lives only on the first row, and only when there is more than one row.
+    const firstId = docs.length ? docs[0].id : null;
+    for (const [id, card] of cards) {
+      const btn = card.el.querySelector(".copy-all");
+      if (id === firstId && docs.length > 1) {
+        if (!btn) addCopyButton(id, card);
+      } else if (btn) {
+        btn.remove();
+      }
+    }
+  }
+
+  async function start() {
+    try {
+      db = await window.claude?.use?.("db");
+    } catch (_) {
+      db = null;
+    }
+    if (!db) {
+      document.getElementById("unavailable").hidden = false;
+      emptyEl.hidden = true;
+      return;
+    }
+    db.collection("media").onSnapshot(render, () => {
+      emptyEl.textContent = "The image list could not be loaded. Reload to try again.";
+      emptyEl.hidden = false;
+    });
+  }
+
+  start();
+})();
+</script>
+</body>
+</html>
