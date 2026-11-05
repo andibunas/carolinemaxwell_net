@@ -43,7 +43,7 @@ python3 -I scripts/scan_folder.py <upload_root>
 
 Read the JSON. `folders` gives the tree: each folder's own files and subfolders.
 Note `duplicate_image_filenames` and `text_files`. If there are duplicates, ask
-the user to rename them. Do not rename silently.
+the user to rename them, one question at a time, with a default. Do not rename silently.
 
 Read every text file in full before drafting any synopsis or write-up.
 
@@ -59,19 +59,26 @@ Trip/            projects   (Write Up from Trip/notes.md)
 Solo/            artworks   1 video
 ```
 
-Ask where each top-level item goes. Options: a new top-level project, or a
-child of an existing project such as `GeomagTravel`. Give the existing site
-projects by name from `public/artworks/manifest.md` if the user asks, and read that file only if they do.
+Ask **one question at a time** and wait for the answer before asking the next.
+Never send a list of questions. Work through the items and fields in the order below.
 
-Ask only what matters, in one message, grouped by item:
+Every question must:
 
-1. Title, and folder name (letters, digits, `_`, `-`).
-2. Date (year or full date, or blank).
-3. Synopsis: one or two sentences. Offer a draft from any writeup and wait for approval.
-4. Write-up, if there is text beyond the synopsis.
-5. Layout: grid, or carousel with a speed in seconds.
-6. For each piece: title, medium, size, date, description. Only ask when the item has several pieces. Never invent these values.
-7. Thumbnail and header image, if the user has a preference.
+- State the question in one line.
+- Give a **default** answer in brackets, for example `Default: Enter for "grid"`.
+  The contributor presses Enter (sends an empty reply) to accept it, or types a different answer.
+- Say what the default means in a few words, when it is not obvious.
+
+Question order:
+
+1. Where each top-level item goes. Default: a new top-level project. Otherwise a child of an existing project. Give existing site projects by name from `public/artworks/manifest.md` only if the user asks, and read that file only then.
+2. Title, then folder name (letters, digits, `_`, `-`). Default for the folder name: the folder's current name.
+3. Date (year or full date). Default: blank.
+4. Synopsis, one or two sentences. Offer a draft from any writeup as the default, and wait for approval.
+5. Write-up, only if there is text beyond the synopsis. Default: the text from the writeup file.
+6. Layout. Default: `grid`. Otherwise `carousel`, then ask the speed in seconds (default: `5`).
+7. For each piece, one field at a time: title, medium, size, date, description. Only ask when the item has several pieces. Default for each: blank. Never invent these values.
+8. Thumbnail and header image. Default: the script's choice (first image in the folder). Ask only if the user has a preference.
 
 Do not invent biographical, medium, size, or descriptive content. Leave it blank and say what is missing.
 
@@ -91,7 +98,7 @@ python3 -I scripts/build_package.py <plan.json> <upload_root> <outputs_folder>
 ```
 
 The script writes the zip and prints a summary. Read each `manifest.md` out of
-that zip and show its full text in the chat. List every warning. Ask the user to confirm or correct. This step is required.
+that zip and show its full text in the chat. List every warning. Then ask one question at a time: first "Confirm these manifests?" (Default: Enter to confirm), then ask about each correction the user raises, one at a time. This step is required.
 
 ## 4. Build the final zip
 
@@ -115,3 +122,4 @@ After confirmation, run the packager again with the corrected plan. Give the use
 - Never write a manifest by hand. Always generate it with the scripts, so the format stays current.
 - Never edit `manifest.json` by hand. Rebuild it with `npm run build-manifest`.
 - Keep the upload's own file names. Only the size of the files changes, and only for images above 2000px.
+- Ask one question at a time. Wait for the answer. Every question shows its default, and an empty reply (Enter) accepts it.

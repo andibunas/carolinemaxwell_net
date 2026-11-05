@@ -27,7 +27,17 @@ It does not use these scripts.
 
 ## Build the packages
 
-Run from the repo root.
+Run from the repo root:
+
+```
+./artwork-contributor/build.sh          # build both zips
+./artwork-contributor/build.sh plugin   # plugin zip only
+./artwork-contributor/build.sh skill    # skill zip only
+./artwork-contributor/build.sh clean    # delete both zips
+```
+
+The script checks that each zip has its required file at the root and fails if not.
+The manual commands it runs are below.
 
 ```
 # plugin package: plugin root contents, with .claude-plugin/plugin.json at the archive root
